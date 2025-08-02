@@ -84,6 +84,7 @@
                     this.combo = 1;
                     this.bricksBrokenSinceMultiBall = 0;
                     this.lastTime = 0;
+                    this.levelCleared = false;
                     
                     this.menuButtons = [];
                     this.particles = [];
@@ -233,6 +234,11 @@
                         const speedMultiplier = ball.speedBoostTimer > 0 ? 2 : 1;
                         ball.x += ball.dx * speedMultiplier * deltaTime;
                         ball.y += ball.dy * speedMultiplier * deltaTime;
+                    }
+
+                    if(this.levelCleared) {
+                        this.nextLevel();
+                        this.levelCleared = false;
                     }
                 }
 
@@ -471,7 +477,7 @@
                             this.bricksBrokenSinceMultiBall = 0;
                         }
                         if (this.isLevelClear()) {
-                            this.nextLevel();
+                            this.levelCleared = true;
                         }
                     }
                 }
@@ -482,7 +488,7 @@
                     this.bricksBrokenSinceMultiBall = 0;
                     this.resetAllPowerups();
                     this.createBricks();
-                    this.resizeGameElements(); // This is crucial to set sizes for the new level
+                    this.resizeGameElements();
                     this.resetElementsPosition();
                     this.startCountdown();
                 }
@@ -505,6 +511,11 @@
                                 ball.y = this.canvas.height - this.paddle.height - ball.radius;
                                 this.sound.playHit();
                                 this.combo = 1;
+
+                                const collidePoint = (ball.x - (this.paddle.x + this.paddle.width / 2)) / (this.paddle.width / 2);
+                                const angleRad = (Math.PI / 3) * collidePoint;
+                                const totalSpeed = Math.sqrt(ball.dx * ball.dx + ball.dy * ball.dy);
+                                ball.dx = totalSpeed * Math.sin(angleRad);
                             }
                         } else if (ball.y > this.canvas.height) {
                             this.balls.splice(ballIndex, 1);
