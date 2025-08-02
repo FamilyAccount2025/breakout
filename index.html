@@ -75,7 +75,7 @@
                     this.ctx = this.canvas.getContext('2d');
                     this.instructions = document.getElementById('game-instructions');
                     
-                    this.state = 'MENU'; // MENU, COUNTDOWN, PLAYING, PAUSED, GAMEOVER
+                    this.state = 'MENU';
                     this.score = 0;
                     this.lives = 3;
                     this.bricksBrokenSinceMultiBall = 0;
@@ -105,12 +105,19 @@
                     this.countdownTimer = 0;
                     
                     this.endGameMessage = "";
+
+                    // Bind 'this' context for all methods used as callbacks
+                    this.loop = this.loop.bind(this);
+                    this.resize = this.resize.bind(this);
+                    this.handlePointerMove = this.handlePointerMove.bind(this);
+                    this.handlePointerClick = this.handlePointerClick.bind(this);
+                    this.handleKeyDown = this.handleKeyDown.bind(this);
                 }
 
                 init() {
                     this.resize();
                     this.setupEventListeners();
-                    requestAnimationFrame(this.loop.bind(this));
+                    requestAnimationFrame(this.loop);
                 }
 
                 start(difficulty) {
@@ -140,7 +147,7 @@
                     this.update(deltaTime);
                     this.draw();
 
-                    requestAnimationFrame(this.loop.bind(this));
+                    requestAnimationFrame(this.loop);
                 }
 
                 update(deltaTime) {
@@ -165,18 +172,14 @@
                 }
 
                 updatePlaying(deltaTime) {
-                    // Update paddle powerup timer
                     if (this.paddle.powerupTimer > 0) {
                         this.paddle.powerupTimer -= deltaTime;
-                        if (this.paddle.powerupTimer <= 0) {
-                            this.resetPaddleSize();
-                        }
+                        if (this.paddle.powerupTimer <= 0) this.resetPaddleSize();
                     }
 
                     for (let i = this.balls.length - 1; i >= 0; i--) {
                         const ball = this.balls[i];
                         
-                        // Update ball-specific powerup timers
                         if (ball.speedBoostTimer > 0) {
                             ball.speedBoostTimer -= deltaTime;
                             if (ball.speedBoostTimer <= 0) this.deactivateSpeedBoost(ball);
@@ -337,20 +340,10 @@
                                 this.bricksBrokenSinceMultiBall++;
                                 
                                 switch(b.type) {
-                                    case 'paddle':
-                                        this.activatePaddleEnlarge();
-                                        this.createConfetti(ball.x, ball.y, this.brickInfo.paddleColor);
-                                        break;
-                                    case 'speed':
-                                        this.activateSpeedBoostForAllBalls();
-                                        this.createConfetti(ball.x, ball.y, this.brickInfo.speedColor);
-                                        break;
-                                    case 'ballSize':
-                                        this.activateBallShrinkForAllBalls();
-                                        this.createConfetti(ball.x, ball.y, this.brickInfo.ballSizeColor);
-                                        break;
-                                    default:
-                                        this.createConfetti(ball.x, ball.y, this.brickInfo.color);
+                                    case 'paddle': this.activatePaddleEnlarge(); this.createConfetti(ball.x, ball.y, this.brickInfo.paddleColor); break;
+                                    case 'speed': this.activateSpeedBoostForAllBalls(); this.createConfetti(ball.x, ball.y, this.brickInfo.speedColor); break;
+                                    case 'ballSize': this.activateBallShrinkForAllBalls(); this.createConfetti(ball.x, ball.y, this.brickInfo.ballSizeColor); break;
+                                    default: this.createConfetti(ball.x, ball.y, this.brickInfo.color);
                                 }
 
                                 if (this.bricksBrokenSinceMultiBall >= 10) {
@@ -429,43 +422,51 @@
                 }
 
                 setupEventListeners() {
-                    const handlePointerMove = (e) => {
-                        if(this.state !== 'PLAYING' && this.state !== 'COUNTDOWN') return;
+                    document.addEventListener('mousemove', this.handlePointerMove);
+                    this.canvas.addEventListener('touchmove', (e) => { e.preventDefault(); this.handlePointerMove(e); }, { passive: false });
+                    this.canvas.addEventListener('click', this.handlePointerClick);
+                    document.addEventListener('keydown', this.handleKeyDown);
+                    window.addEventListener('resize', this.resize);
+                }
+
+                handlePointerMove(e) {
+                    if(this.state !== 'PLAYING' && this.state !== 'COUNTDOWN') return;
+                    const rect = this.canvas.getBoundingClientRect();
+                    const clientX = e.clientX ?? e.touches[0].clientX;
+                    const scaleX = this.canvas.width / rect.width;
+                    const relativeX = (clientX - rect.left) * scaleX;
+                    this.paddle.x = relativeX - this.paddle.width / 2;
+                    if (this.paddle.x < 0) this.paddle.x = 0;
+                    if (this.paddle.x + this.paddle.width > this.canvas.width) this.paddle.x = this.canvas.width - this.paddle.width;
+                }
+
+                handlePointerClick(e) {
+                    if (this.state === 'MENU') {
                         const rect = this.canvas.getBoundingClientRect();
-                        const clientX = e.clientX ?? e.touches[0].clientX;
                         const scaleX = this.canvas.width / rect.width;
-                        const relativeX = (clientX - rect.left) * scaleX;
-                        this.paddle.x = relativeX - this.paddle.width / 2;
-                        if (this.paddle.x < 0) this.paddle.x = 0;
-                        if (this.paddle.x + this.paddle.width > this.canvas.width) this.paddle.x = this.canvas.width - this.paddle.width;
-                    };
-                    document.addEventListener('mousemove', handlePointerMove);
-                    this.canvas.addEventListener('touchmove', (e) => { e.preventDefault(); handlePointerMove(e); }, { passive: false });
+                        const scaleY = this.canvas.height / rect.height;
+                        const clickX = (e.clientX - rect.left) * scaleX;
+                        const clickY = (e.clientY - rect.top) * scaleY;
+                        this.menuButtons.forEach(button => {
+                            if (clickX > button.x && clickX < button.x + button.w && clickY > button.y && clickY < button.y + button.h) {
+                                this.start(button.difficulty);
+                            }
+                        });
+                    } else if (this.state === 'PLAYING') {
+                        this.state = 'PAUSED';
+                    } else if (this.state === 'PAUSED') {
+                        this.state = 'PLAYING';
+                    } else if (this.state === 'GAMEOVER') {
+                        document.location.reload();
+                    }
+                }
 
-                    const handlePointerClick = (e) => {
-                        if (this.state === 'MENU') {
-                            const rect = this.canvas.getBoundingClientRect();
-                            const scaleX = this.canvas.width / rect.width;
-                            const scaleY = this.canvas.height / rect.height;
-                            const clickX = (e.clientX - rect.left) * scaleX;
-                            const clickY = (e.clientY - rect.top) * scaleY;
-                            this.menuButtons.forEach(button => {
-                                if (clickX > button.x && clickX < button.x + button.w && clickY > button.y && clickY < button.y + button.h) {
-                                    this.start(button.difficulty);
-                                }
-                            });
-                        } else if (this.state === 'PLAYING') {
-                            this.state = 'PAUSED';
-                        } else if (this.state === 'PAUSED') {
-                            this.state = 'PLAYING';
-                        } else if (this.state === 'GAMEOVER') {
-                            document.location.reload();
-                        }
-                    };
-                    this.canvas.addEventListener('click', handlePointerClick);
-
-                    document.addEventListener('keydown', (e) => { if (e.code === 'Space') { e.preventDefault(); if(this.state === 'PLAYING') this.state = 'PAUSED'; else if(this.state === 'PAUSED') this.state = 'PLAYING'; }});
-                    window.addEventListener('resize', this.resize.bind(this));
+                handleKeyDown(e) {
+                    if (e.code === 'Space') {
+                        e.preventDefault();
+                        if(this.state === 'PLAYING') this.state = 'PAUSED';
+                        else if(this.state === 'PAUSED') this.state = 'PLAYING';
+                    }
                 }
 
                 resize() {
