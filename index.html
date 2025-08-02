@@ -19,6 +19,25 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0,0,0,0.4);
         }
+        /* Added for modal animation */
+        .modal-enter {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+        .modal-enter-active {
+            opacity: 1;
+            transform: scale(1);
+            transition: all 0.2s ease-out;
+        }
+        .modal-leave {
+            opacity: 1;
+            transform: scale(1);
+        }
+        .modal-leave-active {
+            opacity: 0;
+            transform: scale(0.95);
+            transition: all 0.2s ease-in;
+        }
     </style>
 </head>
 <body class="bg-gray-900 text-white">
@@ -51,9 +70,9 @@
                     <div class="p-6">
                         <h2 class="text-2xl font-bold mb-2">Podcast</h2>
                         <p class="text-gray-400 mb-4">An AI-generated podcast discussing the development of the Breakout game. Listen to an exploration of the art of the possible with generative AI.</p>
-                        <a href="/podcast.m4a" class="inline-block bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full text-center" target="_blank">
+                        <button id="open-podcast-button" class="inline-block bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full text-center">
                             Listen Now
-                        </a>
+                        </button>
                     </div>
                 </div>
 
@@ -73,6 +92,57 @@
         </main>
 
     </div>
+
+    <!-- NEW: Podcast Modal -->
+    <div id="podcast-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden">
+        <div id="modal-content" class="bg-gray-800 rounded-lg p-6 w-full max-w-md text-center border-2 border-gray-700 modal-enter">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-2xl font-bold">AI Development Podcast</h3>
+                <button id="close-podcast-button" class="text-gray-400 hover:text-white text-3xl">&times;</button>
+            </div>
+            <audio id="podcast-audio" controls class="w-full">
+                <source src="/podcast.m4a" type="audio/mp4">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <script>
+        // NEW: JavaScript for Modal Functionality
+        const openButton = document.getElementById('open-podcast-button');
+        const closeButton = document.getElementById('close-podcast-button');
+        const modal = document.getElementById('podcast-modal');
+        const modalContent = document.getElementById('modal-content');
+        const audioPlayer = document.getElementById('podcast-audio');
+
+        function openModal() {
+            modal.classList.remove('hidden');
+            // We use a timeout to allow the CSS transition to work correctly
+            setTimeout(() => {
+                modalContent.classList.add('modal-enter-active');
+            }, 10);
+        }
+
+        function closeModal() {
+            modalContent.classList.remove('modal-enter-active');
+            modalContent.classList.add('modal-leave-active');
+            audioPlayer.pause(); // Stop audio when closing
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modalContent.classList.remove('modal-leave-active');
+            }, 200); // Match transition duration
+        }
+
+        openButton.addEventListener('click', openModal);
+        closeButton.addEventListener('click', closeModal);
+
+        // Close modal if user clicks on the background overlay
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+    </script>
 
 </body>
 </html>
