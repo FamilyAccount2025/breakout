@@ -471,14 +471,22 @@
                             this.bricksBrokenSinceMultiBall = 0;
                         }
                         if (this.isLevelClear()) {
-                            this.level++;
-                            this.startCountdown();
-                            this.createBricks();
-                            this.resetElementsPosition();
+                            this.nextLevel();
                         }
                     }
                 }
                 
+                nextLevel() {
+                    this.level++;
+                    this.combo = 1;
+                    this.bricksBrokenSinceMultiBall = 0;
+                    this.resetAllPowerups();
+                    this.createBricks();
+                    this.resizeGameElements(); // This is crucial to set sizes for the new level
+                    this.resetElementsPosition();
+                    this.startCountdown();
+                }
+
                 ballWallCollision(ball, dt) {
                     const speedMultiplier = ball.speedBoostTimer > 0 ? 2 : 1;
                     const nextX = ball.x + ball.dx * speedMultiplier * dt;
@@ -623,7 +631,7 @@
                 
                 getLevelLayout() {
                     const layouts = [
-                        [ // Level 1: Simple with one of each powerup
+                        [ // Level 1
                             [1,1,1,1,1,1,1,1,1],
                             [1,1,4,1,1,1,3,1,1],
                             [1,1,1,1,5,1,1,1,1],
