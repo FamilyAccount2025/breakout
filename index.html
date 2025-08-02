@@ -98,8 +98,12 @@
                         speedMultiplier: 1.0,
                         paddleMultiplier: 1.0,
                         laserCooldown: 0.2,
-                        mobileControlAreaHeight: 0, // Will be set on mobile
-                        gameHeight: this.canvas.height, // Play area height
+                        mobileControlAreaHeight: 0,
+                        gameHeight: this.canvas.height,
+                    };
+
+                    this.ui = {
+                        font: "20px 'Inter', sans-serif"
                     };
 
                     this.paddle = { height: 15, width: 100, x: 0, y: 0, color: '#660000', powerupTimer: 0, powerupType: 'none', laserCooldownTimer: 0 };
@@ -315,7 +319,7 @@
                         this.ctx.fillStyle = '#FFFFFF';
                         this.ctx.fillText(button.text, button.x + button.w / 2, button.y + button.h / 2);
                     });
-                    this.ctx.font = `${this.canvas.height * 0.04}px 'Inter', sans-serif`;
+                    this.ctx.font = this.ui.font;
                     this.ctx.fillText(`High Score: ${this.highScore}`, this.canvas.width / 2, this.canvas.height - 30);
                 }
 
@@ -355,9 +359,9 @@
                         }
                     }
                 }
-                drawScore() { this.ctx.font = `${this.canvas.height * 0.04}px 'Inter', sans-serif`; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "left"; this.ctx.fillText("Score: " + this.score, 8, this.canvas.height * 0.05); }
-                drawLives() { this.ctx.font = `${this.canvas.height * 0.04}px 'Inter', sans-serif`; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "right"; this.ctx.fillText("❤️ " + this.lives, this.canvas.width - 8, this.canvas.height * 0.05); }
-                drawLevel() { this.ctx.font = `${this.canvas.height * 0.04}px 'Inter', sans-serif`; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "center"; this.ctx.fillText("Level: " + this.level, this.canvas.width / 2, this.canvas.height * 0.05); }
+                drawScore() { this.ctx.font = this.ui.font; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "left"; this.ctx.fillText("Score: " + this.score, this.canvas.width * 0.02, this.canvas.height * 0.05); }
+                drawLives() { this.ctx.font = this.ui.font; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "right"; this.ctx.fillText("❤️ " + this.lives, this.canvas.width * 0.98, this.canvas.height * 0.05); }
+                drawLevel() { this.ctx.font = this.ui.font; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "center"; this.ctx.fillText("Level: " + this.level, this.canvas.width / 2, this.canvas.height * 0.05); }
                 drawOverlayMessage(primary, secondary = "") {
                     this.ctx.fillStyle = "rgba(0, 0, 0, 0.7)"; this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
                     this.ctx.font = `bold ${this.canvas.height * 0.1}px 'Inter', sans-serif`; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "center";
@@ -663,6 +667,10 @@
 
                     this.brickInfo.width = (this.canvas.width - this.brickInfo.offsetLeft * 2 - this.brickInfo.padding * (this.brickInfo.columnCount - 1)) / this.brickInfo.columnCount;
                     this.brickInfo.height = this.canvas.height * 0.035;
+                    
+                    // MOBILE UI FIX: Adjust font size on mobile.
+                    const baseFontSize = this.canvas.height * (this.isMobileDevice() ? 0.035 : 0.04);
+                    this.ui.font = `${baseFontSize}px 'Inter', sans-serif`;
                 }
                 
                 getLevelLayout() {
