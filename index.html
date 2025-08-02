@@ -98,9 +98,11 @@
                         speedMultiplier: 1.0,
                         paddleMultiplier: 1.0,
                         laserCooldown: 0.2,
+                        mobileControlAreaHeight: 0, // Will be set on mobile
+                        gameHeight: this.canvas.height, // Play area height
                     };
 
-                    this.paddle = { height: 15, width: 100, x: 0, color: '#660000', powerupTimer: 0, powerupType: 'none', laserCooldownTimer: 0 };
+                    this.paddle = { height: 15, width: 100, x: 0, y: 0, color: '#660000', powerupTimer: 0, powerupType: 'none', laserCooldownTimer: 0 };
                     this.brickInfo = { 
                         rowCount: 5, columnCount: 9, width: 75, height: 20, padding: 10, 
                         offsetTop: 40, offsetLeft: 30, color: '#660000', 
@@ -286,6 +288,7 @@
                     
                     this.drawParticles();
                     this.drawLasers();
+                    this.drawMobileControlArea();
                     
                     this.ctx.restore();
                 }
@@ -317,7 +320,7 @@
                 }
 
                 drawGameElements() { this.drawBricks(); this.drawBalls(); this.drawPaddle(); this.drawScore(); this.drawLives(); this.drawLevel(); }
-                drawPaddle() { this.ctx.fillStyle = this.paddle.color; this.ctx.fillRect(this.paddle.x, this.canvas.height - this.paddle.height, this.paddle.width, this.paddle.height); }
+                drawPaddle() { this.ctx.fillStyle = this.paddle.color; this.ctx.fillRect(this.paddle.x, this.paddle.y, this.paddle.width, this.paddle.height); }
                 drawBalls() { 
                     this.balls.forEach(ball => { 
                         if (ball.speedBoostTimer > 0) {
@@ -373,6 +376,18 @@
                     this.ctx.fillStyle = '#FF00FF';
                     for (const laser of this.lasers) {
                         this.ctx.fillRect(laser.x, laser.y, 4, 15);
+                    }
+                }
+                drawMobileControlArea() {
+                    if (this.settings.mobileControlAreaHeight > 0) {
+                        this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+                        this.ctx.fillRect(0, this.settings.gameHeight, this.canvas.width, this.settings.mobileControlAreaHeight);
+                        this.ctx.strokeStyle = '#660000';
+                        this.ctx.lineWidth = 2;
+                        this.ctx.beginPath();
+                        this.ctx.moveTo(0, this.settings.gameHeight);
+                        this.ctx.lineTo(this.canvas.width, this.settings.gameHeight);
+                        this.ctx.stroke();
                     }
                 }
 
@@ -504,11 +519,11 @@
                 ballPaddleCollision(ball, ballIndex, dt) {
                     const speedMultiplier = ball.speedBoostTimer > 0 ? 2 : 1;
                     const nextY = ball.y + ball.dy * speedMultiplier * dt;
-                    if (nextY > this.canvas.height - this.paddle.height - ball.radius) {
+                    if (nextY > this.paddle.y - ball.radius) {
                         if (ball.x > this.paddle.x && ball.x < this.paddle.x + this.paddle.width) {
                             if (ball.dy > 0) {
                                 ball.dy = -ball.dy;
-                                ball.y = this.canvas.height - this.paddle.height - ball.radius;
+                                ball.y = this.paddle.y - ball.radius;
                                 this.sound.playHit();
                                 this.combo = 1;
 
@@ -517,7 +532,7 @@
                                 const totalSpeed = Math.sqrt(ball.dx * ball.dx + ball.dy * ball.dy);
                                 ball.dx = totalSpeed * Math.sin(angleRad);
                             }
-                        } else if (ball.y > this.canvas.height) {
+                        } else if (ball.y > this.settings.gameHeight) {
                             this.balls.splice(ballIndex, 1);
                             if (this.balls.length === 0) {
                                 this.lives--;
@@ -542,14 +557,14 @@
                 resetElementsPosition() { 
                     this.paddle.x = (this.canvas.width - this.paddle.width) / 2;
                     const baseRadius = this.canvas.width * 0.015;
-                    const firstBall = { x: this.canvas.width / 2, y: this.canvas.height - this.paddle.height - 30, radius: baseRadius, baseRadius: baseRadius, speed: 0, dx: 0, dy: 0, color: '#FFFFFF', speedBoostTimer: 0, shrinkTimer: 0 };
+                    const firstBall = { x: this.canvas.width / 2, y: this.paddle.y - 30, radius: baseRadius, baseRadius: baseRadius, speed: 0, dx: 0, dy: 0, color: '#FFFFFF', speedBoostTimer: 0, shrinkTimer: 0 };
                     this.balls = [firstBall];
                 }
                 startCountdown() { this.state = 'COUNTDOWN'; this.countdownValue = 3; this.countdownTimer = 1; }
 
                 activatePaddleEnlarge() { this.paddle.powerupTimer = 5; this.paddle.powerupType = 'paddle'; this.resizeGameElements(); }
                 activateLaser() { this.paddle.powerupTimer = 5; this.paddle.powerupType = 'laser'; }
-                fireLaser() { this.lasers.push({ x: this.paddle.x + this.paddle.width / 2 - 2, y: this.canvas.height - this.paddle.height }); this.sound.playLaser(); }
+                fireLaser() { this.lasers.push({ x: this.paddle.x + this.paddle.width / 2 - 2, y: this.paddle.y }); this.sound.playLaser(); }
 
                 resetPaddlePowerup() { this.paddle.powerupTimer = 0; this.paddle.powerupType = 'none'; this.resizeGameElements(); }
                 
@@ -627,6 +642,16 @@
                 }
 
                 resizeGameElements() {
+                    if (this.isMobileDevice()) {
+                        this.settings.mobileControlAreaHeight = this.canvas.height * 0.15;
+                        this.settings.gameHeight = this.canvas.height - this.settings.mobileControlAreaHeight;
+                    } else {
+                        this.settings.mobileControlAreaHeight = 0;
+                        this.settings.gameHeight = this.canvas.height;
+                    }
+
+                    this.paddle.y = this.settings.gameHeight - this.paddle.height;
+                    
                     const powerupActive = this.paddle.powerupType === 'paddle';
                     this.paddle.width = (this.canvas.width * this.settings.paddleWidthPercent) * this.settings.paddleMultiplier * (powerupActive ? 2 : 1);
                     
