@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /*
+         * By making the body a flex container that fills the full height of the html tag,
+         * we create a more stable layout for mobile devices, especially when the
+         * on-screen keyboard appears.
+        */
         body {
             font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
         .aurora-background {
             position: fixed;
@@ -49,17 +57,25 @@
 <body class="bg-gray-900 text-white">
     <div class="aurora-background"></div>
 
-    <div class="container mx-auto h-screen flex flex-col p-4 relative z-10">
-        <header class="text-center py-4">
+    <!-- This main container now grows to fill the body, rather than using a fixed screen height -->
+    <div class="container mx-auto flex flex-col flex-grow p-4 relative z-10">
+        <!-- Header is set to not shrink -->
+        <header class="text-center py-4 flex-shrink-0">
             <h1 class="text-4xl font-bold mb-1" style="color: #FFD700;">AI Project Chatbot</h1>
             <p class="text-md text-gray-400">Ask me anything about the Breakout game project!</p>
         </header>
 
-        <div class="flex-grow bg-gray-800/50 backdrop-blur-sm rounded-lg border-2 border-gray-700 flex flex-col">
+        <!-- 
+          The chat area now uses min-h-0, a key fix that allows a scrolling element (the chat window) 
+          to work correctly inside a flex container on small screens.
+        -->
+        <div class="flex-grow bg-gray-800/50 backdrop-blur-sm rounded-lg border-2 border-gray-700 flex flex-col min-h-0">
+            <!-- The chat window itself grows to fill the space and scrolls as needed -->
             <div id="chat-window" class="flex-grow p-4 space-y-4 overflow-y-auto">
                 <!-- Chat messages will be appended here -->
             </div>
-            <div class="p-4 border-t-2 border-gray-700">
+            <!-- The input area is set to not shrink, keeping its size -->
+            <div class="p-4 border-t-2 border-gray-700 flex-shrink-0">
                 <div class="flex items-center bg-gray-900 rounded-lg">
                     <input type="text" id="chat-input" placeholder="Ask a question..." class="flex-grow bg-transparent p-3 text-white focus:outline-none">
                     <button id="send-button" class="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-3 px-5 m-1 rounded-lg transition-colors">
@@ -68,7 +84,8 @@
                 </div>
             </div>
         </div>
-        <div class="text-center mt-4">
+        <!-- The footer link is also set to not shrink -->
+        <div class="text-center mt-4 flex-shrink-0">
             <a href="/index.html" class="text-gray-400 hover:text-yellow-400 transition-colors">← Back to Home</a>
         </div>
     </div>
@@ -113,8 +130,8 @@
             const getAIResponse = async (userMessage) => {
                 showTypingIndicator();
 
-                // The 'KNOWLEDGE_BASE' constant is now loaded from the external knowledge.js file
-                const context = KNOWLEDGE_BASE;
+                // Check that KNOWLEDGE_BASE is available before using it.
+                const context = typeof KNOWLEDGE_BASE !== 'undefined' ? KNOWLEDGE_BASE : '';
 
                 try {
                     const response = await fetch('/api/chat', {
