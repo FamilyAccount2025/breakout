@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Making of Breakout: An AI Collaboration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .pixel-font {
+            font-family: 'Press Start 2P', cursive;
+        }
+        .faq-item {
+            transition: background-color 0.2s ease-in-out;
+        }
+        .faq-question {
+            cursor: pointer;
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 500px; /* Adjust as needed for content length */
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .faq-item.open .arrow {
+            transform: rotate(180deg);
+        }
+        .arrow {
+            transition: transform 0.3s ease-in-out;
+        }
+        .powerup-color {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <div class="container mx-auto px-4 py-12 max-w-4xl">
+        
+        <header class="text-center mb-12">
+            <h1 class="pixel-font text-3xl md:text-5xl font-bold mb-4 text-red-500" style="text-shadow: 0 0 10px #660000;">BEHIND THE BRICKS</h1>
+            <p class="text-lg text-gray-400">An FAQ on the AI-Powered Development of Breakout</p>
+        </header>
+
+        <main class="bg-gray-800 rounded-lg border-2 border-gray-700 p-4 md:p-8">
+            <div id="faq-container" class="space-y-4">
+                
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">How was the game developed?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>The Breakout game was developed through an iterative, conversational process, initially pivoting from a request for "Pong" to "Breakout." This highlights a flexible development method where a large language model (LLM) acted as an AI development partner. The process involved continuous refinement, starting with core gameplay, adding strategic depth (difficulty levels), improving game feel (countdown), optimizing for mobile, and integrating advanced features like multi-ball and power-ups. This approach demonstrates how generative AI can accelerate the transformation of an idea into a tangible, interactive product through natural language requests and continuous iteration.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">What was the role of Generative AI?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>Generative AI, specifically a large language model, played the role of an AI development partner. It translated natural language requests into production-ready HTML, CSS, and JavaScript code. The AI was responsible for code generation based on high-level concepts, debugging and refinement by analyzing error messages and re-generating corrected code, making senior-level architectural decisions (like rewriting the game to a canvas-based application for stability), and handling optimization for both desktop and mobile platforms. This showcases the AI's ability to manage complex development tasks through conversational prompts.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">What are the core gameplay mechanics?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>The objective of the game is to clear all bricks on the screen by hitting them with a ball. Players have 3 lives, and clearing all bricks advances them to the next level. Scoring is based on 10 points per brick, with a combo multiplier that increases for each consecutive brick broken, resetting when the ball hits the paddle. The game saves the highest score in the browser and features progressive levels with unique brick layouts that loop once completed.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">How do difficulty modes work?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>Breakout: Enhanced Edition offers three difficulty modes to cater to different skill levels:</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1">
+                            <li><strong>Easy:</strong> Features a slower ball speed and a larger paddle, making the game more forgiving.</li>
+                            <li><strong>Normal:</strong> Provides a standard ball speed and paddle size, offering a balanced experience.</li>
+                            <li><strong>Pro:</strong> Increases the ball speed and shrinks the paddle, presenting a more challenging experience for advanced players.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">What are the special bricks and power-ups?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>The game includes various special colored bricks that, when broken, activate temporary power-ups:</p>
+                        <ul class="list-none mt-2 space-y-2">
+                            <li><span class="powerup-color" style="background-color: #C0C0C0;"></span><strong>Silver (Armored Brick):</strong> Requires two hits to destroy, appearing cracked after the first hit.</li>
+                            <li><span class="powerup-color" style="background-color: #00FF00;"></span><strong>Green (Speed Boost):</strong> Doubles the speed of all active balls for 5 seconds, increasing challenge and pace.</li>
+                            <li><span class="powerup-color" style="background-color: #FFD700;"></span><strong>Yellow (Paddle Enlarge):</strong> Doubles the size of the paddle for 5 seconds, offering a brief advantage.</li>
+                            <li><span class="powerup-color" style="background-color: #0000FF;"></span><strong>Blue (Ball Shrink):</strong> Shrinks all active balls by 50% for 5 seconds, making them harder to hit.</li>
+                            <li><span class="powerup-color" style="background-color: #FF00FF;"></span><strong>Purple (Auto-Laser):</strong> Equips the paddle with auto-firing lasers for 5 seconds, providing an offensive boost.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <!-- FAQ Item 6 -->
+                 <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">What other features enhance the game?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>To enhance engagement and visual appeal, the game incorporates several advanced features:</p>
+                         <ul class="list-disc list-inside mt-2 space-y-1">
+                            <li><strong>Multi-Ball System:</strong> A new ball spawns after every 10 bricks are broken.</li>
+                            <li><strong>Confetti Explosion:</strong> Every time a brick is destroyed, it bursts into a shower of confetti.</li>
+                            <li><strong>Screen Shake:</strong> Hitting a special power-up brick causes the screen to shake.</li>
+                            <li><strong>Persistent High Score:</strong> The game saves the player's highest score to encourage replayability.</li>
+                            <li><strong>"3, 2, 1" Countdown:</strong> A countdown before each level provides players with time to prepare.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <!-- FAQ Item 7 -->
+                 <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">What challenges were faced during development?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>Numerous debugging cycles were required. Common issues included crashes on mobile devices, non-functional buttons, and physics bugs. These problems were addressed by re-engineering and optimizing the code, often from scratch, to ensure stability. A significant architectural decision made by the AI was to rewrite the game into a single, canvas-based application, which is a standard professional game development pattern that solved numerous UI-related bugs.</p>
+                    </div>
+                </div>
+
+                 <!-- FAQ Item 8 -->
+                 <div class="faq-item bg-gray-900 border border-gray-700 rounded-lg px-6 py-4">
+                    <div class="faq-question flex justify-between items-center">
+                        <h2 class="text-lg md:text-xl font-bold">How was the game optimized for mobile?</h2>
+                        <span class="arrow text-2xl text-red-500">▼</span>
+                    </div>
+                    <div class="faq-answer text-gray-300">
+                        <p>Mobile optimization was a critical phase. Issues related to game speed, controls, and UI text layout were identified and fixed. A dedicated "control area" was added at the bottom of the screen to prevent the player's finger from obscuring the paddle. Additionally, the AI implemented a `deltaTime`-based game loop to ensure consistent game speed across different devices, contributing to a smoother mobile experience.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Call to Action -->
+            <div class="mt-12 text-center">
+                <a href="/breakout.html" class="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-transform transform hover:scale-105">
+                    Play the Game!
+                </a>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const faqContainer = document.getElementById('faq-container');
+        faqContainer.addEventListener('click', (e) => {
+            const question = e.target.closest('.faq-question');
+            if (question) {
+                const item = question.parentElement;
+                item.classList.toggle('open');
+            }
+        });
+    </script>
+
+</body>
+</html>
