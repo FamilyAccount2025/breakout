@@ -86,8 +86,7 @@
                     this.lastTime = 0;
                     this.levelCleared = false;
                     
-                    this.menuButtons = [];
-                    this.homeButton = {};
+                    this.activeMenuButtons = [];
                     this.particles = [];
                     this.balls = [];
                     this.lasers = [];
@@ -286,9 +285,9 @@
                         this.drawMenu();
                     } else {
                         this.drawGameElements();
-                        if (this.state === 'COUNTDOWN') this.drawOverlayMessage(this.countdownValue);
-                        else if (this.state === 'PAUSED') this.drawOverlayMessage("Game Paused", "Tap or Hit Space Bar to Unpause");
-                        else if (this.state === 'GAMEOVER') this.drawOverlayMessage(this.endGameMessage, `High Score: ${this.highScore}`);
+                        if (this.state === 'COUNTDOWN') this.drawOverlayMessage("Level " + this.level, this.countdownValue);
+                        else if (this.state === 'PAUSED') this.drawPauseMenu();
+                        else if (this.state === 'GAMEOVER') this.drawGameOverMenu();
                     }
                     
                     this.drawParticles();
@@ -304,27 +303,58 @@
                     const gap = 15;
                     const startY = (this.canvas.height - (buttonHeight * 3 + gap * 2)) / 2;
                     
-                    this.menuButtons = [
-                        { text: 'Easy', difficulty: 'easy', x: (this.canvas.width - buttonWidth) / 2, y: startY, w: buttonWidth, h: buttonHeight },
-                        { text: 'Normal', difficulty: 'normal', x: (this.canvas.width - buttonWidth) / 2, y: startY + buttonHeight + gap, w: buttonWidth, h: buttonHeight },
-                        { text: 'Pro', difficulty: 'pro', x: (this.canvas.width - buttonWidth) / 2, y: startY + (buttonHeight + gap) * 2, w: buttonWidth, h: buttonHeight }
+                    this.activeMenuButtons = [
+                        { text: 'Easy', action: 'start_easy', x: (this.canvas.width - buttonWidth) / 2, y: startY, w: buttonWidth, h: buttonHeight },
+                        { text: 'Normal', action: 'start_normal', x: (this.canvas.width - buttonWidth) / 2, y: startY + buttonHeight + gap, w: buttonWidth, h: buttonHeight },
+                        { text: 'Pro', action: 'start_pro', x: (this.canvas.width - buttonWidth) / 2, y: startY + (buttonHeight + gap) * 2, w: buttonWidth, h: buttonHeight }
                     ];
 
-                    this.ctx.font = `bold ${buttonHeight * 0.4}px 'Inter', sans-serif`;
-                    this.ctx.textAlign = "center";
-                    this.ctx.textBaseline = "middle";
-                    this.menuButtons.forEach(button => {
+                    this.drawMenuButtons(this.activeMenuButtons);
+                    this.ctx.font = this.ui.font;
+                    this.ctx.fillText(`High Score: ${this.highScore}`, this.canvas.width / 2, this.canvas.height - 30);
+                }
+
+                drawPauseMenu() {
+                    this.drawOverlayMessage("Game Paused");
+                    const buttonWidth = this.canvas.width * 0.4;
+                    const buttonHeight = this.canvas.height * 0.1;
+                    const gap = 15;
+                    const startY = (this.canvas.height / 2) + 40;
+                    this.activeMenuButtons = [
+                        { text: 'Resume', action: 'resume', x: (this.canvas.width - buttonWidth) / 2, y: startY, w: buttonWidth, h: buttonHeight },
+                        { text: 'Back to Home', action: 'home', x: (this.canvas.width - buttonWidth) / 2, y: startY + buttonHeight + gap, w: buttonWidth, h: buttonHeight }
+                    ];
+                    this.drawMenuButtons(this.activeMenuButtons);
+                }
+
+                drawGameOverMenu() {
+                    this.drawOverlayMessage(this.endGameMessage, `High Score: ${this.highScore}`);
+                    const buttonWidth = this.canvas.width * 0.4;
+                    const buttonHeight = this.canvas.height * 0.1;
+                    const gap = 15;
+                    const startY = (this.canvas.height / 2) + 40;
+                    this.activeMenuButtons = [
+                        { text: 'Play Again', action: 'restart', x: (this.canvas.width - buttonWidth) / 2, y: startY, w: buttonWidth, h: buttonHeight },
+                        { text: 'Back to Home', action: 'home', x: (this.canvas.width - buttonWidth) / 2, y: startY + buttonHeight + gap, w: buttonWidth, h: buttonHeight }
+                    ];
+                    this.drawMenuButtons(this.activeMenuButtons);
+                }
+
+                drawMenuButtons(buttons) {
+                    buttons.forEach(button => {
+                        const fontSize = button.h * 0.4;
+                        this.ctx.font = `bold ${fontSize}px 'Inter', sans-serif`;
+                        this.ctx.textAlign = "center";
+                        this.ctx.textBaseline = "middle";
                         this.ctx.strokeStyle = '#660000';
                         this.ctx.lineWidth = 2;
                         this.ctx.strokeRect(button.x, button.y, button.w, button.h);
                         this.ctx.fillStyle = '#FFFFFF';
                         this.ctx.fillText(button.text, button.x + button.w / 2, button.y + button.h / 2);
                     });
-                    this.ctx.font = this.ui.font;
-                    this.ctx.fillText(`High Score: ${this.highScore}`, this.canvas.width / 2, this.canvas.height - 30);
                 }
 
-                drawGameElements() { this.drawBricks(); this.drawBalls(); this.drawPaddle(); this.drawScore(); this.drawLives(); this.drawLevel(); this.drawHomeButton(); }
+                drawGameElements() { this.drawBricks(); this.drawBalls(); this.drawPaddle(); this.drawScore(); this.drawLives(); this.drawLevel(); }
                 drawPaddle() { this.ctx.fillStyle = this.paddle.color; this.ctx.fillRect(this.paddle.x, this.paddle.y, this.paddle.width, this.paddle.height); }
                 drawBalls() { 
                     this.balls.forEach(ball => { 
@@ -363,15 +393,6 @@
                 drawScore() { this.ctx.font = this.ui.font; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "left"; this.ctx.fillText("Score: " + this.score, this.canvas.width * 0.02, this.canvas.height * 0.05); }
                 drawLives() { this.ctx.font = this.ui.font; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "right"; this.ctx.fillText("❤️ " + this.lives, this.canvas.width * 0.98, this.canvas.height * 0.05); }
                 drawLevel() { this.ctx.font = this.ui.font; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "center"; this.ctx.fillText("Level: " + this.level, this.canvas.width / 2, this.canvas.height * 0.05); }
-                drawHomeButton() {
-                    this.ctx.fillStyle = '#4A5568';
-                    this.ctx.fillRect(this.homeButton.x, this.homeButton.y, this.homeButton.w, this.homeButton.h);
-                    this.ctx.fillStyle = '#FFFFFF';
-                    this.ctx.font = `${this.homeButton.h * 0.5}px 'Inter', sans-serif`;
-                    this.ctx.textAlign = "center";
-                    this.ctx.textBaseline = "middle";
-                    this.ctx.fillText("← Home", this.homeButton.x + this.homeButton.w / 2, this.homeButton.y + this.homeButton.h / 2);
-                }
                 drawOverlayMessage(primary, secondary = "") {
                     this.ctx.fillStyle = "rgba(0, 0, 0, 0.7)"; this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
                     this.ctx.font = `bold ${this.canvas.height * 0.1}px 'Inter', sans-serif`; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "center";
@@ -537,7 +558,7 @@
                         if (ball.x > this.paddle.x && ball.x < this.paddle.x + this.paddle.width) {
                             if (ball.dy > 0) {
                                 ball.dy = -ball.dy;
-                                ball.y = this.paddle.y - ball.radius;
+                                ball.y = this.paddle.y - ball.radius; // Failsafe to prevent sticking
                                 this.sound.playHit();
                                 this.combo = 1;
 
@@ -545,6 +566,8 @@
                                 const angleRad = (Math.PI / 3) * collidePoint;
                                 const totalSpeed = Math.sqrt(ball.dx * ball.dx + ball.dy * ball.dy);
                                 ball.dx = totalSpeed * Math.sin(angleRad);
+                                // Normalize to maintain constant speed
+                                ball.dy = -Math.sqrt(totalSpeed * totalSpeed - ball.dx * ball.dx);
                             }
                         } else if (ball.y > this.settings.gameHeight) {
                             this.balls.splice(ballIndex, 1);
@@ -620,37 +643,37 @@
                 }
 
                 handlePointerClick(e) {
-                    if (this.state === 'MENU') {
-                        const rect = this.canvas.getBoundingClientRect();
-                        const scaleX = this.canvas.width / rect.width;
-                        const scaleY = this.canvas.height / rect.height;
-                        const clickX = (e.clientX - rect.left) * scaleX;
-                        const clickY = (e.clientY - rect.top) * scaleY;
-                        this.menuButtons.forEach(button => {
+                    const rect = this.canvas.getBoundingClientRect();
+                    const scaleX = this.canvas.width / rect.width;
+                    const scaleY = this.canvas.height / rect.height;
+                    const clickX = (e.clientX - rect.left) * scaleX;
+                    const clickY = (e.clientY - rect.top) * scaleY;
+
+                    let buttonClicked = false;
+                    if (this.state === 'MENU' || this.state === 'PAUSED' || this.state === 'GAMEOVER') {
+                        this.activeMenuButtons.forEach(button => {
                             if (clickX > button.x && clickX < button.x + button.w && clickY > button.y && clickY < button.y + button.h) {
-                                this.start(button.difficulty);
+                                buttonClicked = true;
+                                this.handleMenuAction(button.action);
                             }
                         });
-                    } else if (this.state !== 'MENU') {
-                        const rect = this.canvas.getBoundingClientRect();
-                        const scaleX = this.canvas.width / rect.width;
-                        const scaleY = this.canvas.height / rect.height;
-                        const clickX = (e.clientX - rect.left) * scaleX;
-                        const clickY = (e.clientY - rect.top) * scaleY;
-                        
-                        // Check for home button click
-                        if (clickX > this.homeButton.x && clickX < this.homeButton.x + this.homeButton.w && clickY > this.homeButton.y && clickY < this.homeButton.y + this.homeButton.h) {
-                            window.location.href = '/index.html';
-                            return;
-                        }
+                    }
 
-                        if (this.state === 'PLAYING') {
-                            this.state = 'PAUSED';
-                        } else if (this.state === 'PAUSED') {
-                            this.state = 'PLAYING';
-                        } else if (this.state === 'GAMEOVER') {
-                            document.location.reload();
-                        }
+                    if (buttonClicked) return;
+
+                    if (this.state === 'PLAYING') {
+                        this.state = 'PAUSED';
+                    }
+                }
+                
+                handleMenuAction(action) {
+                    switch(action) {
+                        case 'start_easy': this.start('easy'); break;
+                        case 'start_normal': this.start('normal'); break;
+                        case 'start_pro': this.start('pro'); break;
+                        case 'resume': this.state = 'PLAYING'; break;
+                        case 'restart': document.location.reload(); break;
+                        case 'home': window.location.href = '/index.html'; break;
                     }
                 }
 
@@ -694,13 +717,6 @@
                     
                     const baseFontSize = this.canvas.height * (this.isMobileDevice() ? 0.035 : 0.04);
                     this.ui.font = `${baseFontSize}px 'Inter', sans-serif`;
-
-                    this.homeButton = {
-                        w: this.canvas.width * 0.2,
-                        h: this.canvas.height * 0.06,
-                        x: this.canvas.width * 0.02,
-                        y: this.canvas.height * 0.92
-                    };
                 }
                 
                 getLevelLayout() {
