@@ -224,6 +224,9 @@
                     for (let i = this.balls.length - 1; i >= 0; i--) {
                         const ball = this.balls[i];
                         
+                        // Defensive check to prevent crash if ball object is invalid
+                        if (!ball) continue;
+
                         if (ball.speedBoostTimer > 0) {
                             ball.speedBoostTimer -= deltaTime;
                             if (ball.speedBoostTimer <= 0) this.deactivateSpeedBoost(ball);
@@ -298,7 +301,7 @@
                 }
                 
                 drawMenu() {
-                    const buttonWidth = this.canvas.width * 0.4;
+                    const buttonWidth = this.canvas.width * (this.isMobileDevice() ? 0.6 : 0.4);
                     const buttonHeight = this.canvas.height * 0.1;
                     const gap = 15;
                     const startY = (this.canvas.height - (buttonHeight * 3 + gap * 2)) / 2;
@@ -316,7 +319,7 @@
 
                 drawPauseMenu() {
                     this.drawOverlayMessage("Game Paused");
-                    const buttonWidth = this.canvas.width * 0.4;
+                    const buttonWidth = this.canvas.width * (this.isMobileDevice() ? 0.6 : 0.4);
                     const buttonHeight = this.canvas.height * 0.1;
                     const gap = 15;
                     const startY = (this.canvas.height / 2) + 40;
@@ -329,7 +332,7 @@
 
                 drawGameOverMenu() {
                     this.drawOverlayMessage(this.endGameMessage, `High Score: ${this.highScore}`);
-                    const buttonWidth = this.canvas.width * 0.4;
+                    const buttonWidth = this.canvas.width * (this.isMobileDevice() ? 0.6 : 0.4);
                     const buttonHeight = this.canvas.height * 0.1;
                     const gap = 15;
                     const startY = (this.canvas.height / 2) + 40;
@@ -342,7 +345,7 @@
 
                 drawMenuButtons(buttons) {
                     buttons.forEach(button => {
-                        const fontSize = button.h * 0.4;
+                        const fontSize = button.h * (this.isMobileDevice() ? 0.3 : 0.4);
                         this.ctx.font = `bold ${fontSize}px 'Inter', sans-serif`;
                         this.ctx.textAlign = "center";
                         this.ctx.textBaseline = "middle";
@@ -558,7 +561,7 @@
                         if (ball.x > this.paddle.x && ball.x < this.paddle.x + this.paddle.width) {
                             if (ball.dy > 0) {
                                 ball.dy = -ball.dy;
-                                ball.y = this.paddle.y - ball.radius; // Failsafe to prevent sticking
+                                ball.y = this.paddle.y - ball.radius;
                                 this.sound.playHit();
                                 this.combo = 1;
 
@@ -566,7 +569,6 @@
                                 const angleRad = (Math.PI / 3) * collidePoint;
                                 const totalSpeed = Math.sqrt(ball.dx * ball.dx + ball.dy * ball.dy);
                                 ball.dx = totalSpeed * Math.sin(angleRad);
-                                // Normalize to maintain constant speed
                                 ball.dy = -Math.sqrt(totalSpeed * totalSpeed - ball.dx * ball.dx);
                             }
                         } else if (ball.y > this.settings.gameHeight) {
@@ -673,7 +675,7 @@
                         case 'start_pro': this.start('pro'); break;
                         case 'resume': this.state = 'PLAYING'; break;
                         case 'restart': document.location.reload(); break;
-                        case 'home': window.location.href = '/index.html'; break;
+                        case 'home': window.location.href = './index.html'; break;
                     }
                 }
 
