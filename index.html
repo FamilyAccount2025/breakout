@@ -53,48 +53,56 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <!-- Game 1: Game Development -->
-                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700">
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col">
                     <img src="https://placehold.co/600x400/660000/FFFFFF?text=Game+Development" alt="Game Development Screenshot" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold mb-2">Breakout</h2>
-                        <p class="text-gray-400 mb-4">The classic brick-breaking game with modern power-ups and multiple levels.</p>
-                        <a href="/breakout.html" class="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full text-center">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <h2 class="text-2xl font-bold mb-2">Breakout</h2>
+                            <p class="text-gray-400 mb-4">The classic brick-breaking game with modern power-ups and multiple levels.<br>It's optimized for mobile.</p>
+                        </div>
+                        <a href="/breakout.html" class="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full text-center mt-4">
                             Play Now
                         </a>
                     </div>
                 </div>
 
                 <!-- Card 2: Generative Audio -->
-                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700">
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col">
                     <img src="https://placehold.co/600x400/0057FF/FFFFFF?text=Generative+Audio" alt="Generative Audio Screenshot" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold mb-2">Podcast</h2>
-                        <p class="text-gray-400 mb-4">An AI-generated podcast discussing the development of the Breakout game. Listen to an exploration of the art of the possible with generative AI.</p>
-                        <button id="open-podcast-button" class="inline-block bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full text-center">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <h2 class="text-2xl font-bold mb-2">Podcast</h2>
+                            <p class="text-gray-400 mb-4">An AI-generated podcast discussing the development of the Breakout game. Listen to an exploration of the art of the possible with generative AI.</p>
+                        </div>
+                        <button id="open-podcast-button" class="inline-block bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full text-center mt-4">
                             Listen Now
                         </button>
                     </div>
                 </div>
 
                 <!-- Card 3: Generative Content -->
-                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700">
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col">
                     <img src="https://placehold.co/600x400/008080/FFFFFF?text=Generative+Content" alt="Generative Content Screenshot" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold mb-2">FAQs</h2>
-                        <p class="text-gray-400 mb-4">An example of contextual content and HTML generation, creating a well-designed FAQ page from an LLM.</p>
-                        <a href="/faq.html" class="inline-block bg-teal-700 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-full text-center">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <h2 class="text-2xl font-bold mb-2">FAQs</h2>
+                            <p class="text-gray-400 mb-4">An example of contextual content and HTML generation, creating a well-designed FAQ page from an LLM.</p>
+                        </div>
+                        <a href="/faq.html" class="inline-block bg-teal-700 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-full text-center mt-4">
                             Read More
                         </a>
                     </div>
                 </div>
 
                 <!-- Placeholder Card -->
-                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 opacity-50">
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 opacity-50 flex flex-col">
                     <img src="https://placehold.co/600x400/1F2937/FFFFFF?text=Coming+Soon" alt="Coming Soon" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold mb-2">Next Project</h2>
-                        <p class="text-gray-400 mb-4">Another exciting proof of concept is currently in development and will be available soon!</p>
-                        <button class="inline-block bg-gray-700 text-gray-400 font-bold py-2 px-4 rounded w-full text-center cursor-not-allowed">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <h2 class="text-2xl font-bold mb-2">Next Project</h2>
+                            <p class="text-gray-400 mb-4">Another exciting proof of concept is currently in development and will be available soon!</p>
+                        </div>
+                        <button class="inline-block bg-gray-700 text-gray-400 font-bold py-2 px-4 rounded w-full text-center cursor-not-allowed mt-4">
                             Coming Soon
                         </button>
                     </div>
