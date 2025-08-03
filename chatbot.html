@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Project Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .aurora-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(ellipse at top, #1e293b, #0f172a 70%),
+                        radial-gradient(ellipse at bottom, #334155, #0f172a 70%);
+            animation: aurora 20s linear infinite;
+        }
+        @keyframes aurora {
+            0% { background-position: 0% 50%, 0% 50%; }
+            50% { background-position: 100% 50%, 100% 50%; }
+            100% { background-position: 0% 50%, 0% 50%; }
+        }
+        #chat-window {
+            scroll-behavior: smooth;
+        }
+        .chat-bubble {
+            animation: pop-in 0.3s ease-out;
+        }
+        @keyframes pop-in {
+            0% { transform: scale(0.9); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="aurora-background"></div>
+
+    <div class="container mx-auto h-screen flex flex-col p-4 relative z-10">
+        <header class="text-center py-4">
+            <h1 class="text-4xl font-bold mb-1" style="color: #FFD700;">AI Project Chatbot</h1>
+            <p class="text-md text-gray-400">Ask me anything about the Breakout game project!</p>
+        </header>
+
+        <div class="flex-grow bg-gray-800/50 backdrop-blur-sm rounded-lg border-2 border-gray-700 flex flex-col">
+            <div id="chat-window" class="flex-grow p-4 space-y-4 overflow-y-auto">
+                <!-- Chat messages will be appended here -->
+            </div>
+            <div class="p-4 border-t-2 border-gray-700">
+                <div class="flex items-center bg-gray-900 rounded-lg">
+                    <input type="text" id="chat-input" placeholder="Ask a question..." class="flex-grow bg-transparent p-3 text-white focus:outline-none">
+                    <button id="send-button" class="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-3 px-5 m-1 rounded-lg transition-colors">
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="/index.html" class="text-gray-400 hover:text-yellow-400 transition-colors">← Back to Home</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatWindow = document.getElementById('chat-window');
+            const chatInput = document.getElementById('chat-input');
+            const sendButton = document.getElementById('send-button');
+
+            const addMessage = (sender, text) => {
+                const messageDiv = document.createElement('div');
+                messageDiv.classList.add('chat-bubble', 'max-w-xl', 'p-3', 'rounded-lg');
+
+                if (sender === 'user') {
+                    messageDiv.classList.add('bg-yellow-500', 'text-gray-900', 'self-end', 'ml-auto');
+                } else {
+                    messageDiv.classList.add('bg-gray-700', 'text-white', 'self-start', 'mr-auto');
+                }
+                
+                messageDiv.textContent = text;
+                chatWindow.appendChild(messageDiv);
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            };
+            
+            const showTypingIndicator = () => {
+                const typingDiv = document.createElement('div');
+                typingDiv.id = 'typing-indicator';
+                typingDiv.classList.add('chat-bubble', 'bg-gray-700', 'text-white', 'self-start', 'mr-auto', 'p-3', 'rounded-lg');
+                typingDiv.innerHTML = '<span class="animate-pulse">● ● ●</span>';
+                chatWindow.appendChild(typingDiv);
+                chatWindow.scrollTop = chatWindow.scrollHeight;
+            };
+
+            const removeTypingIndicator = () => {
+                const indicator = document.getElementById('typing-indicator');
+                if (indicator) {
+                    indicator.remove();
+                }
+            };
+
+            const getAIResponse = async (userMessage) => {
+                showTypingIndicator();
+
+                // UPDATED KNOWLEDGE BASE
+                const context = `
+                    You are a helpful chatbot for a website showcasing AI proof of concepts by Chris Goff.
+                    Answer the user's questions based ONLY on the following information about the Breakout game project.
+                    Keep your answers concise, friendly, and in the first person from the perspective of the development team.
+
+                    ---
+                    CONTEXT:
+                    - **Project Timeline:** The entire project, from the initial idea to the final, feature-rich game and multi-page website, was developed over the course of a single day.
+
+                    - **Development Process:** We built the game through an iterative, conversational process with a generative AI (a large language model). The project started as a request for "Pong" but quickly pivoted to "Breakout". Our process involved continuous refinement: we started with core gameplay, then added strategic depth like difficulty levels, improved the game's feel with a countdown, optimized extensively for mobile, and integrated advanced features.
+
+                    - **Role of Generative AI:** The AI was our development partner. We gave it high-level concepts in natural language, and it generated the production-ready HTML, CSS, and JavaScript code. The AI was responsible for initial code generation, debugging complex errors (like mobile crashes and physics bugs), making major architectural decisions (like rewriting the game to a single, stable canvas application), and handling all optimizations.
+
+                    - **Objective:** The goal is to clear all bricks on the screen using a ball and paddle. You have 3 lives, and clearing all bricks advances you to the next level.
+
+                    - **Scoring System:** Each brick is worth 10 points. This is multiplied by a combo counter that increases with each consecutive brick you break. The combo resets to 1x as soon as the ball hits your paddle. The game also saves your personal high score in your browser.
+
+                    - **Difficulty Modes:**
+                        - **Easy:** Slower ball, larger paddle.
+                        - **Normal:** Standard speed and paddle size.
+                        - **Pro:** Faster ball, smaller paddle.
+
+                    - **Special Bricks & Power-ups (all are temporary):**
+                        - **Silver (Armored):** Requires two hits to break.
+                        - **Green (Speed Boost):** Doubles the speed of all active balls for 5 seconds.
+                        - **Yellow (Paddle Enlarge):** Doubles the size of your paddle for 5 seconds.
+                        - **Blue (Ball Shrink):** Shrinks all active balls by 50% for 5 seconds.
+                        - **Purple (Auto-Laser):** Equips your paddle with auto-firing lasers for 5 seconds.
+
+                    - **Other Gameplay Features:**
+                        - **Multi-Ball:** A new ball spawns after every 10 bricks are broken.
+                        - **Visual Effects:** Bricks create a confetti explosion when destroyed, and hitting a power-up brick causes the screen to shake.
+                        - **Game Feel:** A "3, 2, 1" countdown starts each level.
+
+                    - **Key Challenges & Solutions:** A major challenge was fixing bugs that appeared on mobile but not on desktop. This required re-engineering the game's physics and state management multiple times. The most critical fix was rebuilding the entire game to run on a single HTML canvas, which is a professional game development standard that solved numerous UI and stability issues.
+
+                    - **Mobile Optimization:** The game is fully optimized for mobile. It detects mobile devices to adjust ball speed, UI text size, and adds a dedicated "control area" at the bottom of the screen so your finger doesn't block the view of the paddle.
+                    ---
+                `;
+
+                let chatHistory = [];
+                chatHistory.push({ role: "user", parts: [{ text: context + "\n\nUser Question: " + userMessage }] });
+                const payload = { contents: chatHistory };
+                const apiKey = "" // Leave as-is
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error(`API request failed with status ${response.status}`);
+                    }
+
+                    const result = await response.json();
+                    const aiText = result.candidates[0].content.parts[0].text;
+                    
+                    removeTypingIndicator();
+                    addMessage('ai', aiText);
+
+                } catch (error) {
+                    removeTypingIndicator();
+                    addMessage('ai', "Sorry, I'm having trouble connecting right now. Please try again later.");
+                    console.error("AI Error:", error);
+                }
+            };
+
+            const handleSend = () => {
+                const message = chatInput.value.trim();
+                if (message) {
+                    addMessage('user', message);
+                    chatInput.value = '';
+                    getAIResponse(message);
+                }
+            };
+
+            sendButton.addEventListener('click', handleSend);
+            chatInput.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    handleSend();
+                }
+            });
+
+            // Initial greeting
+            addMessage('ai', "Hello! I'm an AI agent. Feel free to ask me anything about how the Breakout game was made.");
+        });
+    </script>
+</body>
+</html>
