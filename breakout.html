@@ -224,9 +224,6 @@
                     for (let i = this.balls.length - 1; i >= 0; i--) {
                         const ball = this.balls[i];
                         
-                        // Defensive check to prevent crash if ball object is invalid
-                        if (!ball) continue;
-
                         if (ball.speedBoostTimer > 0) {
                             ball.speedBoostTimer -= deltaTime;
                             if (ball.speedBoostTimer <= 0) this.deactivateSpeedBoost(ball);
@@ -398,9 +395,16 @@
                 drawLevel() { this.ctx.font = this.ui.font; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "center"; this.ctx.fillText("Level: " + this.level, this.canvas.width / 2, this.canvas.height * 0.05); }
                 drawOverlayMessage(primary, secondary = "") {
                     this.ctx.fillStyle = "rgba(0, 0, 0, 0.7)"; this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-                    this.ctx.font = `bold ${this.canvas.height * 0.1}px 'Inter', sans-serif`; this.ctx.fillStyle = "#FFFFFF"; this.ctx.textAlign = "center";
+                    const primaryFontSize = this.canvas.height * (this.isMobileDevice() ? 0.08 : 0.1);
+                    this.ctx.font = `bold ${primaryFontSize}px 'Inter', sans-serif`;
+                    this.ctx.fillStyle = "#FFFFFF";
+                    this.ctx.textAlign = "center";
                     this.ctx.fillText(primary, this.canvas.width / 2, this.canvas.height / 2);
-                    if(secondary) { this.ctx.font = `${this.canvas.height * 0.03}px 'Inter', sans-serif`; this.ctx.fillText(secondary, this.canvas.width / 2, this.canvas.height / 2 + 40); }
+                    if(secondary) {
+                        const secondaryFontSize = this.canvas.height * (this.isMobileDevice() ? 0.025 : 0.03);
+                        this.ctx.font = `${secondaryFontSize}px 'Inter', sans-serif`;
+                        this.ctx.fillText(secondary, this.canvas.width / 2, this.canvas.height / 2 + 40);
+                    }
                 }
                 drawParticles() {
                     for (const p of this.particles) {
