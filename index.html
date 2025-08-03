@@ -123,20 +123,20 @@
                     </div>
                 </div>
                 
-                <!-- Card 4: Coming Soon -->
-                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col fade-in opacity-50" style="--delay: 0.4s;">
-                    <div class="w-full h-32 bg-black relative flex items-center justify-center">
-                        <p class="text-gray-500 text-2xl">Coming Soon</p>
+                <!-- Card 4: AI Agent -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col fade-in" style="--delay: 0.4s;">
+                    <div class="w-full h-32 bg-black relative">
+                        <canvas class="w-full h-full" data-preview="chatbot"></canvas>
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
                         <div class="flex-grow">
-                            <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Next Concept</p>
-                            <h2 class="text-2xl font-bold mb-2">Next Project</h2>
-                            <p class="text-gray-400 mb-4">Another exciting proof of concept is currently in development and will be available soon!</p>
+                            <p class="text-sm font-semibold text-yellow-400 uppercase tracking-wider mb-1">Interactive AI Agent</p>
+                            <h2 class="text-2xl font-bold mb-2">Chatbot</h2>
+                            <p class="text-gray-400 mb-4">Ask an AI agent questions about the Breakout game project and get contextual answers.</p>
                         </div>
-                        <button class="inline-block bg-gray-700 text-gray-400 font-bold py-2 px-4 rounded w-full text-center cursor-not-allowed mt-4">
-                            Coming Soon
-                        </button>
+                        <a href="/chatbot.html" class="inline-block bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded w-full text-center mt-4 transition-colors">
+                            Chat Now
+                        </a>
                     </div>
                 </div>
 
@@ -195,6 +195,7 @@
                         case 'breakout': animateBreakout(ctx, canvas); break;
                         case 'podcast': animatePodcast(ctx, canvas); break;
                         case 'faq': animateFaq(ctx, canvas); break;
+                        case 'chatbot': animateChatbot(ctx, canvas); break;
                     }
                 };
                 
@@ -238,7 +239,7 @@
                         ball = { x: 50, y: 40, dx: 1, dy: 1, radius: 3 };
                     }
 
-                    if (now - resetTime > 10000) { // 10 seconds
+                    if (now - resetTime > 10000) {
                         resetTime = 0;
                     }
 
@@ -359,6 +360,42 @@
                     }
 
                     animationFrameId = requestAnimationFrame((ts) => animateFaq(ctx, canvas, ts));
+                }
+
+                let bubbleY = 0;
+                let bubbleTime = 0;
+                function animateChatbot(ctx, canvas, timestamp) {
+                    if (!bubbleTime) bubbleTime = timestamp;
+                    const elapsed = timestamp - bubbleTime;
+
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    const bubbleWidth = canvas.width * 0.6;
+                    const bubbleHeight = canvas.height * 0.2;
+                    const bubbleX = (canvas.width - bubbleWidth) / 2;
+
+                    // Animate bubbles appearing
+                    if (elapsed < 2000) { // First bubble
+                        ctx.fillStyle = '#4A5568';
+                        ctx.beginPath();
+                        ctx.roundRect(bubbleX, canvas.height * 0.2, bubbleWidth, bubbleHeight, 10);
+                        ctx.fill();
+                    }
+                    if (elapsed > 2000 && elapsed < 4000) { // Second bubble
+                        ctx.fillStyle = '#4A5568';
+                        ctx.beginPath();
+                        ctx.roundRect(bubbleX, canvas.height * 0.2, bubbleWidth, bubbleHeight, 10);
+                        ctx.fill();
+                        ctx.fillStyle = '#FBBF24';
+                        ctx.beginPath();
+                        ctx.roundRect(bubbleX, canvas.height * 0.5, bubbleWidth, bubbleHeight, 10);
+                        ctx.fill();
+                    }
+                    if (elapsed > 4000) { // Reset
+                        bubbleTime = timestamp;
+                    }
+                    
+                    animationFrameId = requestAnimationFrame((ts) => animateChatbot(ctx, canvas, ts));
                 }
             });
 
