@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Proof of Concepts - Redesigned</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* --- Animated Aurora Background --- */
+        .aurora-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(ellipse at top, #1e293b, #0f172a 70%),
+                        radial-gradient(ellipse at bottom, #334155, #0f172a 70%);
+            animation: aurora 20s linear infinite;
+        }
+
+        @keyframes aurora {
+            0% { background-position: 0% 50%, 0% 50%; }
+            50% { background-position: 100% 50%, 100% 50%; }
+            100% { background-position: 0% 50%, 0% 50%; }
+        }
+
+        /* --- Simplified Card Hover Effect --- */
+        .game-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .game-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+        
+        /* --- Scroll-to-View Animation --- */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- Modal Animation --- */
+        .modal-enter { opacity: 0; transform: scale(0.95); }
+        .modal-enter-active { opacity: 1; transform: scale(1); transition: all 0.2s ease-out; }
+        .modal-leave { opacity: 1; transform: scale(1); }
+        .modal-leave-active { opacity: 0; transform: scale(0.95); transition: all 0.2s ease-in; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="aurora-background"></div>
+
+    <div class="container mx-auto px-4 py-12 relative z-10">
+        
+        <header class="text-center mb-12 fade-in">
+            <h1 class="text-5xl font-bold mb-2" style="color: #FFD700;">Artificial Intelligence</h1>
+            <p class="text-lg text-gray-400">Proof of Concepts by Chris Goff</p>
+        </header>
+
+        <main>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Game 1: Game Development -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col fade-in" style="--delay: 0.1s;">
+                    <div class="w-full h-32 bg-black relative">
+                        <canvas class="w-full h-full" data-preview="breakout"></canvas>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <p class="text-sm font-semibold text-yellow-400 uppercase tracking-wider mb-1">Generative Code</p>
+                            <h2 class="text-2xl font-bold mb-2">Game Development</h2>
+                            <p class="text-gray-400 mb-4">Breakout - a remake of a classic game built from scratch with AI. Featuring modern power-ups and multiple levels. Optimized for mobile.</p>
+                        </div>
+                        <a href="/breakout.html" class="inline-block bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded w-full text-center mt-4 transition-colors">
+                            Play Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Generative Audio -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col fade-in" style="--delay: 0.2s;">
+                    <div class="w-full h-32 bg-black relative">
+                        <canvas class="w-full h-full" data-preview="podcast"></canvas>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <p class="text-sm font-semibold text-yellow-400 uppercase tracking-wider mb-1">Generative Audio</p>
+                            <h2 class="text-2xl font-bold mb-2">Podcast</h2>
+                            <p class="text-gray-400 mb-4">An AI-generated podcast discussing the development of the Breakout game.</p>
+                        </div>
+                        <button id="open-podcast-button" class="inline-block bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded w-full text-center mt-4 transition-colors">
+                            Listen Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3: Generative Content -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col fade-in" style="--delay: 0.3s;">
+                    <div class="w-full h-32 bg-black relative">
+                        <canvas class="w-full h-full" data-preview="faq"></canvas>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <p class="text-sm font-semibold text-yellow-400 uppercase tracking-wider mb-1">Generative Content</p>
+                            <h2 class="text-2xl font-bold mb-2">FAQs</h2>
+                            <p class="text-gray-400 mb-4">An example of contextual content and HTML generation, creating a well-designed FAQ page from an LLM.</p>
+                        </div>
+                        <a href="/faq.html" class="inline-block bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded w-full text-center mt-4 transition-colors">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Card 4: AI Agent -->
+                <div class="game-card bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 flex flex-col fade-in" style="--delay: 0.4s;">
+                    <div class="w-full h-32 bg-black relative">
+                        <canvas class="w-full h-full" data-preview="chatbot"></canvas>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="flex-grow">
+                            <p class="text-sm font-semibold text-yellow-400 uppercase tracking-wider mb-1">Interactive AI Agent</p>
+                            <h2 class="text-2xl font-bold mb-2">Chatbot</h2>
+                            <p class="text-gray-400 mb-4">Ask an AI agent questions about the Breakout game project and get contextual answers.</p>
+                        </div>
+                        <a href="/chatbot.html" class="inline-block bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-2 px-4 rounded w-full text-center mt-4 transition-colors">
+                            Chat Now
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Podcast Modal -->
+    <div id="podcast-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 hidden z-50">
+        <div id="modal-content" class="bg-gray-800 rounded-lg p-6 w-full max-w-md text-center border-2 border-gray-700 modal-enter">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-2xl font-bold">AI Development Podcast</h3>
+                <button id="close-podcast-button" class="text-gray-400 hover:text-white text-3xl">&times;</button>
+            </div>
+            <audio id="podcast-audio" controls class="w-full">
+                <source src="/podcast.m4a" type="audio/mp4">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Scroll-to-View Animation ---
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const delay = parseFloat(entry.target.style.getPropertyValue('--delay')) || 0;
+                        setTimeout(() => {
+                           entry.target.classList.add('visible');
+                        }, delay * 1000);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+            // --- Dynamic Canvas Previews ---
+            const previewCanvases = document.querySelectorAll('[data-preview]');
+            previewCanvases.forEach(canvas => {
+                const previewType = canvas.dataset.preview;
+                const ctx = canvas.getContext('2d');
+                let animationFrameId;
+
+                const resizeCanvas = () => {
+                    const rect = canvas.getBoundingClientRect();
+                    canvas.width = rect.width;
+                    canvas.height = rect.height;
+                };
+                
+                const startAnimation = () => {
+                    resizeCanvas();
+                    switch(previewType) {
+                        case 'breakout': animateBreakout(ctx, canvas); break;
+                        case 'podcast': animatePodcast(ctx, canvas); break;
+                        case 'faq': animateFaq(ctx, canvas); break;
+                        case 'chatbot': animateChatbot(ctx, canvas); break;
+                    }
+                };
+                
+                const stopAnimation = () => {
+                    cancelAnimationFrame(animationFrameId);
+                };
+
+                const observer = new IntersectionObserver(entries => {
+                    if (entries[0].isIntersecting) {
+                        startAnimation();
+                    } else {
+                        stopAnimation();
+                    }
+                }, { threshold: 0.1 });
+                
+                observer.observe(canvas);
+                window.addEventListener('resize', resizeCanvas);
+
+                // --- Animation Logic ---
+                let ball = { x: 50, y: 80, dx: 1.5, dy: 1.5, radius: 4 };
+                let paddle = { x: 50, width: 30 };
+                let bricks = [];
+                let resetTime = 0;
+
+                function createBricks(rows, cols) {
+                    let brickArray = [];
+                    for(let i = 0; i < rows; i++) {
+                        brickArray[i] = [];
+                        for(let j = 0; j < cols; j++) {
+                            brickArray[i][j] = { status: 1 };
+                        }
+                    }
+                    return brickArray;
+                }
+                
+                function animateBreakout(ctx, canvas) {
+                    const now = performance.now();
+                    if (resetTime === 0) {
+                        resetTime = now;
+                        bricks = createBricks(3, 5);
+                        ball = { x: 50, y: 40, dx: 1, dy: 1, radius: 3 };
+                    }
+
+                    if (now - resetTime > 10000) {
+                        resetTime = 0;
+                    }
+
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    const phoneWidth = canvas.width * 0.35;
+                    const phoneHeight = canvas.height * 0.75;
+                    const phoneX = (canvas.width - phoneWidth) / 2;
+                    const phoneY = (canvas.height - phoneHeight) / 2;
+
+                    ctx.fillStyle = '#334155'; ctx.strokeStyle = '#94a3b8'; ctx.lineWidth = 3;
+                    ctx.beginPath(); ctx.roundRect(phoneX, phoneY, phoneWidth, phoneHeight, 8); ctx.fill(); ctx.stroke();
+                    ctx.fillStyle = '#334155'; ctx.fillRect(phoneX + phoneWidth * 0.3, phoneY, phoneWidth * 0.4, 5);
+
+                    const screenX = phoneX + 6; const screenY = phoneY + 6;
+                    const screenWidth = phoneWidth - 12; const screenHeight = phoneHeight - 12;
+                    ctx.fillStyle = 'black'; ctx.fillRect(screenX, screenY, screenWidth, screenHeight);
+                    
+                    ctx.save();
+                    ctx.beginPath(); ctx.rect(screenX, screenY, screenWidth, screenHeight); ctx.clip();
+
+                    const brickRows = 3; const brickCols = 5;
+                    const brickWidth = screenWidth / brickCols;
+                    const brickHeight = 6;
+                    for(let i = 0; i < brickRows; i++) {
+                        for(let j = 0; j < brickCols; j++) {
+                            if (bricks[i] && bricks[i][j] && bricks[i][j].status === 1) {
+                                const brickX = j * brickWidth;
+                                const brickY = i * (brickHeight + 2) + 5;
+                                ctx.fillStyle = '#660000';
+                                ctx.fillRect(screenX + brickX + 1, screenY + brickY, brickWidth - 2, brickHeight);
+                                
+                                const ballTop = ball.y - ball.radius;
+                                const ballBottom = ball.y + ball.radius;
+                                const ballLeft = ball.x - ball.radius;
+                                const ballRight = ball.x + ball.radius;
+                                
+                                if (ballRight > brickX && ballLeft < brickX + brickWidth && ballBottom > brickY && ballTop < brickY + brickHeight) {
+                                    bricks[i][j].status = 0;
+                                    ball.dy *= -1;
+                                }
+                            }
+                        }
+                    }
+                    
+                    paddle.x = ball.x - (paddle.width / 2);
+                    if (paddle.x < 0) paddle.x = 0;
+                    if (paddle.x + paddle.width > screenWidth) paddle.x = screenWidth - paddle.width;
+                    ctx.fillStyle = 'white';
+                    ctx.fillRect(screenX + paddle.x, screenY + screenHeight - 15, paddle.width, 4);
+
+                    ctx.beginPath(); ctx.arc(screenX + ball.x, screenY + ball.y, ball.radius, 0, Math.PI * 2); ctx.fill();
+
+                    ball.x += ball.dx; ball.y += ball.dy;
+                    if (ball.x > screenWidth - ball.radius || ball.x < ball.radius) ball.dx *= -1;
+                    if (ball.y > screenHeight - 15 - ball.radius || ball.y < ball.radius) ball.dy *= -1;
+
+                    ctx.restore();
+
+                    animationFrameId = requestAnimationFrame(() => animateBreakout(ctx, canvas));
+                }
+
+                let bars = Array(5).fill(0).map(() => Math.random());
+                function animatePodcast(ctx, canvas) {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    const totalBarWidth = canvas.width * 0.25;
+                    const barWidth = totalBarWidth / bars.length;
+                    const gap = barWidth * 0.5;
+                    const totalWidth = (bars.length * barWidth) + ((bars.length - 1) * gap);
+                    const startX = (canvas.width - totalWidth) / 2;
+                    ctx.fillStyle = '#0057FF';
+                    const time = performance.now() * 0.005;
+                    bars.forEach((bar, i) => {
+                        const barHeight = (Math.sin(time + i * 0.5) * 0.45 + 0.55) * canvas.height * 0.5;
+                        const x = startX + i * (barWidth + gap);
+                        ctx.fillRect(x, (canvas.height - barHeight) / 2, barWidth, barHeight);
+                    });
+                    animationFrameId = requestAnimationFrame(() => animatePodcast(ctx, canvas));
+                }
+
+                let lineCount = 0;
+                let lastFaqTime = 0;
+                function animateFaq(ctx, canvas, timestamp) {
+                    if (!lastFaqTime) lastFaqTime = timestamp;
+                    if (timestamp - lastFaqTime > 200) {
+                        lineCount++;
+                        if (lineCount > 6) lineCount = 0;
+                        lastFaqTime = timestamp;
+                    }
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    const docWidth = canvas.width * 0.35;
+                    const docHeight = canvas.height * 0.55;
+                    const docX = (canvas.width - docWidth) / 2;
+                    const docY = (canvas.height - docHeight) / 2;
+                    
+                    ctx.strokeStyle = '#008080';
+                    ctx.lineWidth = 3;
+                    ctx.beginPath();
+                    ctx.moveTo(docX + docWidth * 0.75, docY);
+                    ctx.lineTo(docX, docY);
+                    ctx.lineTo(docX, docY + docHeight);
+                    ctx.lineTo(docX + docWidth, docY + docHeight);
+                    ctx.lineTo(docX + docWidth, docY + docHeight * 0.25);
+                    ctx.lineTo(docX + docWidth * 0.75, docY);
+                    ctx.stroke();
+                    ctx.beginPath();
+                    ctx.moveTo(docX + docWidth * 0.75, docY);
+                    ctx.lineTo(docX + docWidth * 0.75, docY + docHeight * 0.25);
+                    ctx.lineTo(docX + docWidth, docY + docHeight * 0.25);
+                    ctx.stroke();
+                    
+                    ctx.lineWidth = 2;
+                    for(let i = 0; i < lineCount; i++) {
+                        const y = docY + (docHeight * 0.2) + (i * docHeight * 0.12);
+                        ctx.beginPath();
+                        ctx.moveTo(docX + docWidth * 0.15, y);
+                        ctx.lineTo(docX + docWidth * 0.85, y);
+                        ctx.stroke();
+                    }
+
+                    animationFrameId = requestAnimationFrame((ts) => animateFaq(ctx, canvas, ts));
+                }
+
+                let bubbleY = 0;
+                let bubbleTime = 0;
+                function animateChatbot(ctx, canvas, timestamp) {
+                    if (!bubbleTime) bubbleTime = timestamp;
+                    const elapsed = timestamp - bubbleTime;
+
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    const bubbleWidth = canvas.width * 0.6;
+                    const bubbleHeight = canvas.height * 0.2;
+                    const bubbleX = (canvas.width - bubbleWidth) / 2;
+
+                    // Animate bubbles appearing
+                    if (elapsed < 2000) { // First bubble
+                        ctx.fillStyle = '#4A5568';
+                        ctx.beginPath();
+                        ctx.roundRect(bubbleX, canvas.height * 0.2, bubbleWidth, bubbleHeight, 10);
+                        ctx.fill();
+                    }
+                    if (elapsed > 2000 && elapsed < 4000) { // Second bubble
+                        ctx.fillStyle = '#4A5568';
+                        ctx.beginPath();
+                        ctx.roundRect(bubbleX, canvas.height * 0.2, bubbleWidth, bubbleHeight, 10);
+                        ctx.fill();
+                        ctx.fillStyle = '#FBBF24';
+                        ctx.beginPath();
+                        ctx.roundRect(bubbleX, canvas.height * 0.5, bubbleWidth, bubbleHeight, 10);
+                        ctx.fill();
+                    }
+                    if (elapsed > 4000) { // Reset
+                        bubbleTime = timestamp;
+                    }
+                    
+                    animationFrameId = requestAnimationFrame((ts) => animateChatbot(ctx, canvas, ts));
+                }
+            });
+
+            // --- Podcast Modal Functionality ---
+            const openButton = document.getElementById('open-podcast-button');
+            const closeButton = document.getElementById('close-podcast-button');
+            const modal = document.getElementById('podcast-modal');
+            const modalContent = document.getElementById('modal-content');
+            const audioPlayer = document.getElementById('podcast-audio');
+
+            function openModal() {
+                modal.classList.remove('hidden');
+                setTimeout(() => modalContent.classList.add('modal-enter-active'), 10);
+            }
+
+            function closeModal() {
+                modalContent.classList.remove('modal-enter-active');
+                modalContent.classList.add('modal-leave-active');
+                audioPlayer.pause();
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                    modalContent.classList.remove('modal-leave-active');
+                }, 200);
+            }
+
+            openButton.addEventListener('click', openModal);
+            closeButton.addEventListener('click', closeModal);
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) closeModal();
+            });
+        });
+    </script>
+</body>
+</html>
