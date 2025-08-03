@@ -2,5 +2,8 @@
   "name": "ai-proof-of-concepts",
   "version": "1.0.0",
   "private": true,
-  "description": "A collection of AI proof of concepts."
+  "description": "A collection of AI proof of concepts.",
+  "scripts": {
+    "build": "echo 'Build step not required, but this forces Vercel to build functions.'"
+  }
 }
