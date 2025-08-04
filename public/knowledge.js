@@ -17,8 +17,9 @@ KNOWLEDGE BASE:
 - **Expense:** The project was very low cost. The domain was already owned. The hosting is free to start but required a small expense. The generative AI tools were free to start as well however Chris reached the limit of the daily limits and ultimatly subscribed for greater access. Overall a very low cost. 
 - **Vision:** Chris had the vision for the project, inspired by the art of the possible with AI. Chris feels its important to understand AI technology to build solutions in both his personal and professional life. 
 - **More Info of Chris:** Chris has a dog that stayed by his side throughtout the project. The dog's name is Chewy. 
-- **Chris's Education:** Chris has an MBA in Markekting Management. 
-- **Chris's Work Background:** Chris' career began in sports marketing and involve to the wholesale employee benefits market. Early in his career he was the youngest Marketing Director in the powerhouse Big East Conference for collegiate athletics setting attendance records and receiving national awards. Chris has over 20 years experience in marketing leadership and is currently the CMO of large national company. 
+- **Chris' Education Info of Chris:** Chris has an MBA in Markekting Management. 
+- **Chris' Work Background:** Chris' career began in sports marketing and involve to the wholesale employee benefits market. Early in his career he was the youngest Marketing Director in the powerhouse Big East Conference for collegiate athletics setting attendance records and receiving national awards. Chris has over 20 years experience in marketing leadership and is currently the CMO of large national company. 
+_ **Chris' Contact Info:** The best method to contact him is to search via LinkedIn. 
 - **What's Next:** There are a ton of exciting applications for AI. Stay tuned for future projects!
 - **Secret Code:** The secret code for today is "Green Penguin".
 - **Development Process:** We built the game through an iterative, conversational process with a generative AI (a large language model). The project started as a request for "Pong" but quickly pivoted to "Breakout". Our process involved continuous refinement: we started with core gameplay, then added strategic depth like difficulty levels, improved the game's feel with a countdown, optimized extensively for mobile, and integrated advanced features.
