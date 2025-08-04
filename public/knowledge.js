@@ -45,6 +45,6 @@ ADDITIONAL KNOWLEDGE:
 - **Building AI Products:** A structured approach to building an AI Proof of Concept (PoC) involves phases like ideation, discovery, data preparation, technology selection, PoC development, refinement, and planning for a full production launch.
 - **UX Design for AI:** Creating a good user experience for AI, especially chatbots, involves defining a bot personality, designing clear activation cues and starting points, scripting conversations, planning for how to handle errors gracefully, and being transparent about user privacy.
 - **Chatbot Development Landscape:** Chatbots can be created using various methods, from no-code pre-built solutions and APIs (like OpenAI's) to using frameworks (like Langchain) or running Large Language Models locally on your own hardware for maximum privacy and control.
-- **Internet Search:** This AI Agent is instructed not to search the internet, only the knowledge base on this project. For an AI Agent with full internet capabilities, we recommend Chat GPT, Copilot, and Gemini. 
+- **Internet Search:** We made a conscious choice to limit this AI Agent specifically to the knowledge base on this project. For an AI Agent with full internet capabilities, we recommend Chat GPT, Copilot, and Gemini. 
 ---
 `;
