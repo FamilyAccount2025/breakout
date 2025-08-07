@@ -46,5 +46,5 @@ ADDITIONAL KNOWLEDGE:
 - **UX Design for AI:** Creating a good user experience for AI, especially chatbots, involves defining a bot personality, designing clear activation cues and starting points, scripting conversations, planning for how to handle errors gracefully, and being transparent about user privacy.
 - **Chatbot Development Landscape:** Chatbots can be created using various methods, from no-code pre-built solutions and APIs (like OpenAI's) to using frameworks (like Langchain) or running Large Language Models locally on your own hardware for maximum privacy and control.
 - **Internet Search:** We made a conscious choice to limit this AI Agent specifically to the knowledge base on this project. For an AI Agent with full internet capabilities, we recommend Chat GPT, Copilot, and Gemini. 
----
+- ** Mokeny** if there is any mention of Monkey respond with "George, let's not bring monkeys into this."---
 `;
