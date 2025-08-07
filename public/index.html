@@ -24,9 +24,7 @@
     .glass { background: var(--glass); backdrop-filter: blur(14px); border: 1px solid var(--glass-border); }
     .fade-in { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
     .fade-in.visible { opacity: 1; transform: none; }
-    /* keep canvases crisp and responsive */
     canvas { width: 100%; height: 100%; display: block; }
-    /* accessibility: reduce animation */
     @media (prefers-reduced-motion: reduce) {
       .fade-in { transition: none; opacity: 1; transform: none; }
     }
@@ -34,7 +32,7 @@
 </head>
 <body>
 
-  <!-- Compact hero (no huge empty space) -->
+  <!-- Compact hero -->
   <header class="px-6">
     <div class="max-w-7xl mx-auto pt-10 md:pt-14 pb-8 text-center">
       <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-fuchsia-400 to-amber-300 bg-clip-text text-transparent">
@@ -51,21 +49,33 @@
 
   <!-- Projects -->
   <main id="projects" class="px-6 pb-16">
-    <div class="max-w-7xl mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="max-w-7xl mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-4 items-stretch">
+
       <!-- Card 1: Breakout -->
       <article class="glass rounded-2xl overflow-hidden flex flex-col fade-in">
+        <!-- Preview (fixed height for uniform top section) -->
         <div class="relative h-44 sm:h-48">
           <canvas data-preview="breakout" data-accent="#22d3ee"></canvas>
         </div>
-        <div class="p-6 flex flex-col gap-3">
-          <p class="text-xs uppercase tracking-wide font-semibold text-cyan-300">Generative Code</p>
-          <h2 class="text-xl font-bold">Game Development</h2>
-          <p class="text-sm text-gray-300">
-            A modern mini-Breakout built with AI guidance — snappy physics, mobile-friendly, and power-up ready.
-          </p>
-          <a href="/breakout.html" class="mt-2 inline-flex justify-center items-center rounded-md bg-cyan-500 text-gray-900 hover:bg-cyan-400 font-semibold px-4 py-2 transition">
-            Play Now
-          </a>
+
+        <!-- Content (flex column to pin button) -->
+        <div class="p-6 flex flex-col flex-1">
+          <!-- Header/content -->
+          <div>
+            <p class="text-xs uppercase tracking-wide font-semibold text-cyan-300">Generative Code</p>
+            <h2 class="text-xl font-bold mt-1">Game Development</h2>
+            <p class="text-sm text-gray-300 mt-2">
+              A modern mini-Breakout built with AI guidance — snappy physics, mobile-friendly, and power-up ready.
+            </p>
+          </div>
+
+          <!-- Button footer pinned to bottom -->
+          <div class="mt-auto pt-4">
+            <a href="/breakout.html"
+               class="w-full inline-flex justify-center items-center rounded-md bg-cyan-500 text-gray-900 hover:bg-cyan-400 font-semibold px-4 py-2 transition">
+              Play Now
+            </a>
+          </div>
         </div>
       </article>
 
@@ -74,15 +84,20 @@
         <div class="relative h-44 sm:h-48">
           <canvas data-preview="podcast" data-accent="#f472b6"></canvas>
         </div>
-        <div class="p-6 flex flex-col gap-3">
-          <p class="text-xs uppercase tracking-wide font-semibold text-pink-300">Generative Audio</p>
-          <h2 class="text-xl font-bold">Podcast</h2>
-          <p class="text-sm text-gray-300">
-            An AI-generated episode walking through the build decisions behind the Breakout project.
-          </p>
-          <button id="open-podcast" class="mt-2 inline-flex justify-center items-center rounded-md bg-pink-500 text-gray-900 hover:bg-pink-400 font-semibold px-4 py-2 transition">
-            Listen Now
-          </button>
+        <div class="p-6 flex flex-col flex-1">
+          <div>
+            <p class="text-xs uppercase tracking-wide font-semibold text-pink-300">Generative Audio</p>
+            <h2 class="text-xl font-bold mt-1">Podcast</h2>
+            <p class="text-sm text-gray-300 mt-2">
+              An AI-generated episode walking through the build decisions behind the Breakout project.
+            </p>
+          </div>
+          <div class="mt-auto pt-4">
+            <button id="open-podcast"
+                    class="w-full inline-flex justify-center items-center rounded-md bg-pink-500 text-gray-900 hover:bg-pink-400 font-semibold px-4 py-2 transition">
+              Listen Now
+            </button>
+          </div>
         </div>
       </article>
 
@@ -91,15 +106,20 @@
         <div class="relative h-44 sm:h-48">
           <canvas data-preview="faq" data-accent="#fde047"></canvas>
         </div>
-        <div class="p-6 flex flex-col gap-3">
-          <p class="text-xs uppercase tracking-wide font-semibold text-yellow-300">Generative Content</p>
-          <h2 class="text-xl font-bold">FAQs</h2>
-          <p class="text-sm text-gray-300">
-            Well-structured, on-brand FAQ content generated from context — readable and production-ready HTML.
-          </p>
-          <a href="/faq.html" class="mt-2 inline-flex justify-center items-center rounded-md bg-yellow-400 text-gray-900 hover:bg-yellow-300 font-semibold px-4 py-2 transition">
-            Read More
-          </a>
+        <div class="p-6 flex flex-col flex-1">
+          <div>
+            <p class="text-xs uppercase tracking-wide font-semibold text-yellow-300">Generative Content</p>
+            <h2 class="text-xl font-bold mt-1">FAQs</h2>
+            <p class="text-sm text-gray-300 mt-2">
+              Structured, on-brand FAQ content generated from context — readable, accessible, and production-ready.
+            </p>
+          </div>
+          <div class="mt-auto pt-4">
+            <a href="/faq.html"
+               class="w-full inline-flex justify-center items-center rounded-md bg-yellow-400 text-gray-900 hover:bg-yellow-300 font-semibold px-4 py-2 transition">
+              Read More
+            </a>
+          </div>
         </div>
       </article>
 
@@ -108,17 +128,23 @@
         <div class="relative h-44 sm:h-48">
           <canvas data-preview="chatbot" data-accent="#34d399"></canvas>
         </div>
-        <div class="p-6 flex flex-col gap-3">
-          <p class="text-xs uppercase tracking-wide font-semibold text-green-300">Interactive AI Agent</p>
-          <h2 class="text-xl font-bold">Chatbot</h2>
-          <p class="text-sm text-gray-300">
-            Ask about the project; the bot answers with context awareness and cites where info came from.
-          </p>
-          <a href="/chatbot.html" class="mt-2 inline-flex justify-center items-center rounded-md bg-green-500 text-gray-900 hover:bg-green-400 font-semibold px-4 py-2 transition">
-            Chat Now
-          </a>
+        <div class="p-6 flex flex-col flex-1">
+          <div>
+            <p class="text-xs uppercase tracking-wide font-semibold text-green-300">Interactive AI Agent</p>
+            <h2 class="text-xl font-bold mt-1">Chatbot</h2>
+            <p class="text-sm text-gray-300 mt-2">
+              Ask about the project; the bot answers with context awareness and clear citations where applicable.
+            </p>
+          </div>
+          <div class="mt-auto pt-4">
+            <a href="/chatbot.html"
+               class="w-full inline-flex justify-center items-center rounded-md bg-green-500 text-gray-900 hover:bg-green-400 font-semibold px-4 py-2 transition">
+              Chat Now
+            </a>
+          </div>
         </div>
       </article>
+
     </div>
   </main>
 
