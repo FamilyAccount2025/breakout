@@ -153,4 +153,42 @@
       ctx.strokeStyle="#ff0";
       for(let i=0;i<5;i++){
         ctx.beginPath();
-        ctx.moveTo(10,20+i*15)*
+        ctx.moveTo(10,20+i*15);
+        ctx.lineTo(canvas.width-10,20+i*15);
+        ctx.stroke();
+      }
+      frame=requestAnimationFrame(drawFaq);
+    };
+    const drawChatbot = () => {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.fillStyle="#0f0";
+      ctx.fillRect(20,20,canvas.width-40,30);
+      ctx.fillStyle="#0ff";
+      ctx.fillRect(20,70,canvas.width-40,30);
+      frame=requestAnimationFrame(drawChatbot);
+    };
+    const start=()=>{
+      canvas.width=canvas.clientWidth;
+      canvas.height=canvas.clientHeight;
+      switch(canvas.dataset.preview){
+        case 'breakout': drawBreakout(); break;
+        case 'podcast': drawPodcast(); break;
+        case 'faq': drawFaq(); break;
+        case 'chatbot': drawChatbot(); break;
+      }
+    };
+    start();
+  });
+
+  // Podcast modal logic
+  const modal = document.getElementById('podcast-modal');
+  const openBtn = document.getElementById('open-podcast-button');
+  const closeBtn = document.getElementById('close-podcast-button');
+  const audioPlayer = document.getElementById('podcast-audio');
+  openBtn.addEventListener('click', () => modal.classList.remove('hidden'));
+  closeBtn.addEventListener('click', () => { modal.classList.add('hidden'); audioPlayer.pause(); });
+  modal.addEventListener('click', (e) => { if(e.target === modal){ modal.classList.add('hidden'); audioPlayer.pause(); } });
+</script>
+
+</body>
+</html>
