@@ -1,170 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chris Goff — AI Proof of Concepts</title>
-
-  <!-- Tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
-
-  <style>
-    :root {
-      --bg: #0a0a0a;
-      --glass: rgba(255,255,255,0.06);
-      --glass-border: rgba(255,255,255,0.12);
-    }
-    html, body { height: 100%; }
-    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: #fff; }
-    .glass { background: var(--glass); backdrop-filter: blur(14px); border: 1px solid var(--glass-border); }
-    .fade-in { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
-    .fade-in.visible { opacity: 1; transform: none; }
-    canvas { width: 100%; height: 100%; display: block; }
-    @media (prefers-reduced-motion: reduce) {
-      .fade-in { transition: none; opacity: 1; transform: none; }
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Compact hero -->
-  <header class="px-6">
-    <div class="max-w-7xl mx-auto pt-10 md:pt-14 pb-8 text-center">
-      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-fuchsia-400 to-amber-300 bg-clip-text text-transparent">
-        AI Proof of Concepts
-      </h1>
-      <p class="text-base md:text-lg text-gray-300 mt-3">
-        A polished showcase by Chris Goff — interactive experiences, generative audio, and contextual content powered by AI.
-      </p>
-      <a href="#projects" class="inline-block mt-6 px-6 py-3 rounded-full font-semibold bg-cyan-500 text-gray-900 hover:bg-cyan-400 transition">
-        Explore Projects
-      </a>
-    </div>
-  </header>
-
-  <!-- Projects -->
-  <main id="projects" class="px-6 pb-16">
-    <div class="max-w-7xl mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-4 items-stretch">
-
-      <!-- Card 1: Breakout -->
-      <article class="glass rounded-2xl overflow-hidden flex flex-col fade-in">
-        <!-- Preview (fixed height for uniform top section) -->
-        <div class="relative h-44 sm:h-48">
-          <canvas data-preview="breakout" data-accent="#22d3ee"></canvas>
-        </div>
-
-        <!-- Content (flex column to pin button) -->
-        <div class="p-6 flex flex-col flex-1">
-          <!-- Header/content -->
-          <div>
-            <p class="text-xs uppercase tracking-wide font-semibold text-cyan-300">Generative Code</p>
-            <h2 class="text-xl font-bold mt-1">Game Development</h2>
-            <p class="text-sm text-gray-300 mt-2">
-              A modern mini-Breakout built with AI guidance — snappy physics, mobile-friendly, and power-up ready.
-            </p>
-          </div>
-
-          <!-- Button footer pinned to bottom -->
-          <div class="mt-auto pt-4">
-            <a href="/breakout.html"
-               class="w-full inline-flex justify-center items-center rounded-md bg-cyan-500 text-gray-900 hover:bg-cyan-400 font-semibold px-4 py-2 transition">
-              Play Now
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 2: Podcast -->
-      <article class="glass rounded-2xl overflow-hidden flex flex-col fade-in">
-        <div class="relative h-44 sm:h-48">
-          <canvas data-preview="podcast" data-accent="#f472b6"></canvas>
-        </div>
-        <div class="p-6 flex flex-col flex-1">
-          <div>
-            <p class="text-xs uppercase tracking-wide font-semibold text-pink-300">Generative Audio</p>
-            <h2 class="text-xl font-bold mt-1">Podcast</h2>
-            <p class="text-sm text-gray-300 mt-2">
-              An AI-generated episode walking through the build decisions behind the Breakout project.
-            </p>
-          </div>
-          <div class="mt-auto pt-4">
-            <button id="open-podcast"
-                    class="w-full inline-flex justify-center items-center rounded-md bg-pink-500 text-gray-900 hover:bg-pink-400 font-semibold px-4 py-2 transition">
-              Listen Now
-            </button>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 3: FAQs -->
-      <article class="glass rounded-2xl overflow-hidden flex flex-col fade-in">
-        <div class="relative h-44 sm:h-48">
-          <canvas data-preview="faq" data-accent="#fde047"></canvas>
-        </div>
-        <div class="p-6 flex flex-col flex-1">
-          <div>
-            <p class="text-xs uppercase tracking-wide font-semibold text-yellow-300">Generative Content</p>
-            <h2 class="text-xl font-bold mt-1">FAQs</h2>
-            <p class="text-sm text-gray-300 mt-2">
-              Structured, on-brand FAQ content generated from context — readable, accessible, and production-ready.
-            </p>
-          </div>
-          <div class="mt-auto pt-4">
-            <a href="/faq.html"
-               class="w-full inline-flex justify-center items-center rounded-md bg-yellow-400 text-gray-900 hover:bg-yellow-300 font-semibold px-4 py-2 transition">
-              Read More
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 4: Chatbot -->
-      <article class="glass rounded-2xl overflow-hidden flex flex-col fade-in">
-        <div class="relative h-44 sm:h-48">
-          <canvas data-preview="chatbot" data-accent="#34d399"></canvas>
-        </div>
-        <div class="p-6 flex flex-col flex-1">
-          <div>
-            <p class="text-xs uppercase tracking-wide font-semibold text-green-300">Interactive AI Agent</p>
-            <h2 class="text-xl font-bold mt-1">Chatbot</h2>
-            <p class="text-sm text-gray-300 mt-2">
-              Ask about the project; the bot answers with context awareness and clear citations where applicable.
-            </p>
-          </div>
-          <div class="mt-auto pt-4">
-            <a href="/chatbot.html"
-               class="w-full inline-flex justify-center items-center rounded-md bg-green-500 text-gray-900 hover:bg-green-400 font-semibold px-4 py-2 transition">
-              Chat Now
-            </a>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </main>
-
-  <!-- Podcast Modal -->
-  <div id="podcast-modal" class="fixed inset-0 bg-black/80 hidden items-center justify-center p-4 z-50">
-    <div class="glass rounded-xl w-full max-w-md">
-      <div class="flex items-center justify-between px-5 pt-4">
-        <h3 class="text-xl font-bold">AI Development Podcast</h3>
-        <button id="close-podcast" class="text-3xl leading-none text-gray-300 hover:text-white">&times;</button>
-      </div>
-      <div class="p-5 pt-3">
-        <audio id="podcast-audio" controls class="w-full">
-          <source src="/podcast.m4a" type="audio/mp4"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
+<!-- Card 5: Interactive Quiz -->
+<article class="glass rounded-2xl overflow-hidden flex flex-col fade-in">
+  <!-- Preview -->
+  <div class="relative h-44 sm:h-48">
+    <canvas data-preview="quiz" data-accent="#a78bfa"></canvas>
   </div>
 
-  <!-- Main JS (animations + modal) -->
-  <script src="/assets/main.js" defer></script>
-</body>
-</html>
+  <!-- Content -->
+  <div class="p-6 flex flex-col flex-1">
+    <div>
+      <p class="text-xs uppercase tracking-wide font-semibold text-violet-300">Learning Module</p>
+      <h2 class="text-xl font-bold mt-1">Interactive Quiz</h2>
+      <p class="text-sm text-gray-300 mt-2">
+        Test your knowledge of employee benefits with a fast, fun quiz. Immediate feedback and score at the end.
+      </p>
+    </div>
+    <div class="mt-auto pt-4">
+      <a href="/quiz.html"
+         class="w-full inline-flex justify-center items-center rounded-md bg-violet-500 text-gray-900 hover:bg-violet-400 font-semibold px-4 py-2 transition">
+        Take Quiz
+      </a>
+    </div>
+  </div>
+</article>
