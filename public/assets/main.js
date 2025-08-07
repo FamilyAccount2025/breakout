@@ -15,18 +15,17 @@
 
     const resize = () => {
       const { clientWidth, clientHeight } = canvas;
-      // Guard against 0 size on initial layout
       if (!clientWidth || !clientHeight) return;
       canvas.width = Math.round(clientWidth * dpr);
       canvas.height = Math.round(clientHeight * dpr);
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0); // use CSS pixels in draw calls
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0); // draw in CSS pixels
     };
 
     resize();
     return { ctx, resize };
   }
 
-  /** Rounded rect helper for Safari (older) */
+  /** Rounded rect helper (Safari-friendly) */
   function roundRectPath(ctx, x, y, w, h, r) {
     const rr = Math.min(r, w / 2, h / 2);
     ctx.beginPath();
@@ -36,6 +35,14 @@
     ctx.arcTo(x, y + h, x, y, rr);
     ctx.arcTo(x, y, x + w, y, rr);
     ctx.closePath();
+  }
+
+  /** Color helpers */
+  function withAlpha(hex, a) {
+    const r = parseInt(hex.slice(1,3),16);
+    const g = parseInt(hex.slice(3,5),16);
+    const b = parseInt(hex.slice(5,7),16);
+    return `rgba(${r}, ${g}, ${b}, ${a})`;
   }
 
   /** Base animator with start/stop and observers */
@@ -53,7 +60,7 @@
       // ResizeObserver for crisp scaling
       this.ro = new ResizeObserver(() => {
         this.resizeFn();
-        // draw at least one frame on resize to avoid blank
+        // paint at least one frame to avoid blank after resize
         if (!this.running) this.drawFrame(this.ctx, 0, true);
       });
       this.ro.observe(canvas);
@@ -66,9 +73,9 @@
       this.io.observe(canvas);
     }
     start() {
-      if (this.running || prefersReduced) { 
-        // If reduced motion, paint a single static frame
-        if (!this.running) this.drawFrame(this.ctx, 0, true);
+      if (this.running) return;
+      if (prefersReduced) {
+        this.drawFrame(this.ctx, 0, true);
         return;
       }
       this.running = true;
@@ -94,23 +101,12 @@
     }
   }
 
-  /** Color helpers */
-  function withAlpha(hex, a) {
-    // expects #rrggbb
-    const r = parseInt(hex.slice(1,3),16);
-    const g = parseInt(hex.slice(3,5),16);
-    const b = parseInt(hex.slice(5,7),16);
-    return `rgba(${r}, ${g}, ${b}, ${a})`;
-  }
-
   /* ==================== Animations ==================== */
 
-  // 1) Breakout mini-preview (neon phone frame, bouncing ball + paddle auto-aim)
+  // 1) Breakout mini-preview (neon phone frame, bouncing ball + paddle)
   function breakoutPreview(canvas) {
     const accent = canvas.dataset.accent || '#22d3ee';
     const state = {
-      w: () => canvas.clientWidth,
-      h: () => canvas.clientHeight,
       screen: { x: 0, y: 0, w: 0, h: 0 },
       ball: { x: 80, y: 60, vx: 120, vy: 140, r: 6 },
       paddle: { w: 56, h: 7, x: 60 },
@@ -159,7 +155,7 @@
         }
       }
 
-      // update physics
+      // physics
       const seconds = staticFrame ? 0 : Math.min(dt, 32) / 1000;
       state.ball.x += state.ball.vx * seconds;
       state.ball.y += state.ball.vy * seconds;
@@ -168,9 +164,10 @@
       if (state.ball.x - state.ball.r < 0) { state.ball.x = state.ball.r; state.ball.vx *= -1; }
       if (state.ball.x + state.ball.r > sw) { state.ball.x = sw - state.ball.r; state.ball.vx *= -1; }
       if (state.ball.y - state.ball.r < 0) { state.ball.y = state.ball.r; state.ball.vy *= -1; }
+
       // paddle follows ball (auto-aim)
       const target = Math.max(0, Math.min(sw - state.paddle.w, state.ball.x - state.paddle.w/2));
-      state.paddle.x += (target - state.paddle.x) * 8 * seconds;
+      state.paddle.x += (target - state.paddle.x) * (staticFrame ? 1 : 8) * seconds;
 
       // paddle collision
       const pyP = sh - 16;
@@ -204,7 +201,7 @@
     return new Animator(canvas, draw);
   }
 
-  // 2) Podcast bars (already worked, now polished)
+  // 2) Podcast bars
   function podcastPreview(canvas) {
     const accent = canvas.dataset.accent || '#f472b6';
     const bars = 7;
@@ -232,148 +229,93 @@
     return new Animator(canvas, draw);
   }
 
-  // 3) FAQ typewriter lines
+  // 3) FAQ flip-cards preview (grid of flipping tiles: front=title, back=answer)
   function faqPreview(canvas) {
     const accent = canvas.dataset.accent || '#fde047';
-    const lines = [
-      'What is the project?',
-      'How was it built?',
-      'Can I use this code?',
-      'Is it mobile-friendly?',
-      'Where can I learn more?'
+    const tiles = [
+      { q: 'What is it?', a: 'An AI-driven FAQ system.' },
+      { q: 'How built?', a: 'LLM + context indexing.' },
+      { q: 'Can I edit?', a: 'Yes, content is CMS-ready.' },
+      { q: 'Responsive?', a: 'Fully mobile-friendly.' },
+      { q: 'Searchable?', a: 'Supports semantic search.' },
+      { q: 'Branding?', a: 'Themeable to your brand.' },
     ];
-    let visible = 0, timer = 0;
 
     const draw = (ctx, dt, staticFrame) => {
       const W = canvas.clientWidth, H = canvas.clientHeight;
       ctx.clearRect(0, 0, W, H);
 
-      // document sheet
-      const dw = Math.min(W * 0.7, 360), dh = Math.min(H * 0.7, 220);
-      const dx = (W - dw) / 2, dy = (H - dh) / 2;
-      roundRectPath(ctx, dx, dy, dw, dh, 10);
-      ctx.strokeStyle = withAlpha(accent, 0.9);
-      ctx.lineWidth = 2;
-      ctx.stroke();
+      // Grid layout (3 cols x 2 rows)
+      const cols = 3, rows = 2, gap = 10;
+      const tileW = (W - gap * (cols + 1)) / cols;
+      const tileH = (H - gap * (rows + 1)) / rows;
 
-      // update typewriter
-      if (!staticFrame) {
-        timer += dt;
-        if (timer > 350) {
-          timer = 0;
-          visible = (visible + 1) % (lines.length + 6); // add a few blank beats
-        }
-      }
+      ctx.textBaseline = 'middle';
+      ctx.textAlign = 'center';
 
-      const maxShown = Math.min(visible, lines.length);
-      ctx.fillStyle = '#e5e7eb';
-      ctx.font = '12px Inter, system-ui, sans-serif';
-      ctx.textBaseline = 'top';
+      const now = Date.now();
+      const period = 1400; // ms per tile flip
+      const totalCycle = period * tiles.length;
 
-      for (let i = 0; i < maxShown; i++) {
-        const y = dy + 16 + i * 18;
-        ctx.fillText(lines[i], dx + 14, y);
-        // underline pulse
-        ctx.strokeStyle = withAlpha(accent, 0.35 + 0.35 * Math.sin(Date.now()/600 + i));
-        ctx.lineWidth = 1.5;
-        ctx.beginPath();
-        ctx.moveTo(dx + 12, y + 14);
-        ctx.lineTo(dx + dw - 12, y + 14);
-        ctx.stroke();
-      }
-    };
-    return new Animator(canvas, draw);
-  }
+      for (let i = 0; i < tiles.length; i++) {
+        const c = i % cols;
+        const r = Math.floor(i / cols);
+        const x = gap + c * (tileW + gap);
+        const y = gap + r * (tileH + gap);
 
-  // 4) Chatbot bubbles with typing dots
-  function chatbotPreview(canvas) {
-    const accent = canvas.dataset.accent || '#34d399';
-    const draw = (ctx, dt, staticFrame) => {
-      const W = canvas.clientWidth, H = canvas.clientHeight;
-      ctx.clearRect(0, 0, W, H);
-      const margin = 14;
-      const bw = W - margin * 2;
-      const bh = 26;
+        // Each tile flips in sequence
+        const t = ((now + i * period) % totalCycle) / period; // 0..tiles.length, phased
+        // Flip progress 0..1 for current tile
+        let progress = (now % period) / period;
+        // make each tile flip with its own offset
+        progress = ((now + i * 180) % period) / period;
 
-      // bubble positions (slide in / loop)
-      const t = staticFrame ? 0 : (Date.now() % 4000) / 4000;
-      const y1 = margin + (1 - Math.min(1, t * 2)) * 6;      // first appears then settles
-      const y2 = margin + 44 + (t > 0.5 ? (1 - (t - 0.5) * 2) * 6 : 6); // second follows
+        // Smooth step for nicer easing
+        const ease = (p) => p*p*(3-2*p);
+        const p = staticFrame ? 0 : ease(progress);
 
-      // user bubble
-      roundRectPath(ctx, margin, y1, bw, bh, 10);
-      ctx.fillStyle = withAlpha('#ffffff', 0.1);
-      ctx.fill();
-      // bot bubble
-      roundRectPath(ctx, margin, y2, bw, bh, 10);
-      ctx.fillStyle = withAlpha(accent, 0.22);
-      ctx.fill();
+        // Compute scaleX for flip (1 -> 0 -> -1)
+        let scaleX = 1 - Math.abs(2 * p - 1) * 2; // 1 to -1
+        // Clamp a bit to avoid numerical weirdness near 0
+        if (Math.abs(scaleX) < 0.02) scaleX = scaleX < 0 ? -0.02 : 0.02;
 
-      // typing dots in bot bubble
-      const dots = 3;
-      const baseX = margin + bw / 2 - 18;
-      for (let i = 0; i < dots; i++) {
-        const phase = staticFrame ? 0 : Math.max(0, Math.sin(Date.now()/400 + i));
-        const r = 3 + phase * 1.5;
-        ctx.beginPath();
-        ctx.arc(baseX + i * 18, y2 + bh / 2, r, 0, Math.PI * 2);
-        ctx.fillStyle = withAlpha('#fff', 0.9);
+        // Draw card background (shadow)
+        ctx.save();
+        ctx.translate(x + tileW / 2, y + tileH / 2);
+        ctx.scale(scaleX, 1);
+
+        roundRectPath(ctx, -tileW/2, -tileH/2, tileW, tileH, 10);
+        ctx.fillStyle = withAlpha('#ffffff', 0.06);
         ctx.fill();
+        ctx.strokeStyle = withAlpha(accent, 0.55);
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+
+        // Front/back content based on sign of scaleX
+        const front = scaleX > 0; // front = question, back = answer
+        ctx.fillStyle = front ? '#e5e7eb' : '#111827';
+        ctx.font = `${Math.max(10, Math.min(14, tileW / 10))}px Inter, system-ui, sans-serif`;
+        const text = front ? tiles[i].q : tiles[i].a;
+
+        // Accent strip on back side
+        if (!front) {
+          ctx.save();
+          ctx.globalAlpha = 0.15;
+          roundRectPath(ctx, -tileW/2, -tileH/2, tileW, tileH, 10);
+          ctx.fillStyle = accent;
+          ctx.fill();
+          ctx.restore();
+        }
+
+        // Text
+        ctx.fillText(text, 0, 0, tileW - 18);
+
+        ctx.restore();
       }
     };
+
     return new Animator(canvas, draw);
   }
 
-  /* ============== Boot ============== */
-  function initCanvases() {
-    document.querySelectorAll('[data-preview]').forEach((canvas) => {
-      const type = canvas.dataset.preview;
-      let animator;
-      switch (type) {
-        case 'breakout': animator = breakoutPreview(canvas); break;
-        case 'podcast':  animator = podcastPreview(canvas);  break;
-        case 'faq':      animator = faqPreview(canvas);      break;
-        case 'chatbot':  animator = chatbotPreview(canvas);  break;
-        default: return;
-      }
-      // ensure initial paint
-      animator.drawFrame?.(animator.ctx, 0, true);
-    });
-  }
-
-  // Fade-in intersection
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('visible');
-        io.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
-
-  // Modal logic
-  function initModal() {
-    const openBtn = document.getElementById('open-podcast');
-    const closeBtn = document.getElementById('close-podcast');
-    const modal = document.getElementById('podcast-modal');
-    const audio = document.getElementById('podcast-audio');
-
-    if (!openBtn || !closeBtn || !modal) return;
-
-    const open = () => modal.classList.remove('hidden');
-    const close = () => { modal.classList.add('hidden'); audio?.pause(); };
-
-    openBtn.addEventListener('click', open, { passive: true });
-    closeBtn.addEventListener('click', close, { passive: true });
-    modal.addEventListener('click', (e) => { if (e.target === modal) close(); }, { passive: true });
-    window.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
-  }
-
-  // DOM ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => { initCanvases(); initModal(); });
-  } else {
-    initCanvases(); initModal();
-  }
-})();
+  // 4) Chatbot conversation preview (clear typing, alternating bubbles, looping)
+  function chatbotPreview(
