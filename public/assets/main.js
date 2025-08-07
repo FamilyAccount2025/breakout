@@ -318,4 +318,153 @@
   }
 
   // 4) Chatbot conversation preview (clear typing, alternating bubbles, looping)
-  function chatbotPreview(
+  function chatbotPreview(canvas) {
+    const accent = canvas.dataset.accent || '#34d399';
+
+    const script = [
+      { role: 'user', text: 'How was Breakout built?' },
+      { role: 'bot',  text: 'With AI-assisted code and canvas.' },
+      { role: 'user', text: 'Is it mobile-friendly?' },
+      { role: 'bot',  text: 'Yes — responsive & fast.' },
+    ];
+
+    let phase = 0; // which script index is “active” (typing or showing)
+    let timer = 0;
+
+    // timings (ms)
+    const SHOW_TIME = 1700;   // how long a finished message stays
+    const TYPE_TIME = 1100;   // typing duration
+
+    const draw = (ctx, dt, staticFrame) => {
+      const W = canvas.clientWidth, H = canvas.clientHeight;
+      ctx.clearRect(0, 0, W, H);
+
+      const margin = 12;
+      const maxBubbleW = W - margin * 4;
+      const lineH = 26;
+
+      // Advance timer
+      if (!staticFrame) {
+        timer += dt;
+        if (timer > (isBotTyping() ? TYPE_TIME : SHOW_TIME)) {
+          timer = 0;
+          phase = (phase + 1) % (script.length * 2); // each message has typing+show phases
+        }
+      }
+
+      // Draw recent 3 messages for visual clarity
+      const visibleMsgs = [];
+      const msgIndex = Math.floor(phase / 2); // current message index
+      for (let i = Math.max(0, msgIndex - 2); i <= msgIndex; i++) {
+        visibleMsgs.push(i);
+      }
+
+      let y = margin;
+      visibleMsgs.forEach((i) => {
+        const msg = script[i];
+        const isBot = msg.role === 'bot';
+        const bubbleW = Math.min(maxBubbleW, Math.max(140, ctx.measureText(msg.text).width + 28));
+        const x = isBot ? (W - bubbleW - margin) : margin;
+
+        // slide-in animation for the newest message
+        let slideOffset = 0;
+        if (i === msgIndex) {
+          const p = Math.min(1, timer / (isBotTyping() ? TYPE_TIME : 300));
+          slideOffset = (isBot ? 1 : -1) * (1 - p) * 12; // slide from side
+        }
+
+        // bubble
+        ctx.save();
+        roundRectPath(ctx, x + slideOffset, y, bubbleW, lineH, 10);
+        ctx.fillStyle = isBot ? withAlpha(accent, 0.22) : withAlpha('#ffffff', 0.10);
+        ctx.fill();
+
+        // content: typing dots or text
+        ctx.fillStyle = '#e5e7eb';
+        ctx.font = '12px Inter, system-ui, sans-serif';
+        ctx.textBaseline = 'middle';
+
+        if (i === msgIndex && isBotTyping()) {
+          // typing indicator
+          const dots = 3;
+          const cx = x + slideOffset + bubbleW / 2 - 14;
+          const cy = y + lineH / 2;
+          for (let d = 0; d < dots; d++) {
+            const r = 3 + (Math.sin(Date.now() / 250 + d) * 1.5 + 1.5) / 2;
+            ctx.beginPath();
+            ctx.arc(cx + d * 14, cy, r, 0, Math.PI * 2);
+            ctx.fill();
+          }
+        } else {
+          // text
+          const tx = x + slideOffset + 12;
+          const ty = y + lineH / 2;
+          ctx.fillText(msg.text, tx, ty);
+        }
+        ctx.restore();
+
+        y += lineH + 8;
+      });
+
+      // helper
+      function isBotTyping() {
+        // typing happens only on bot phases (odd phases)
+        const onBotPhase = (phase % 2 === 0) ? (script[msgIndex].role !== 'bot') : (script[msgIndex].role === 'bot');
+        // Equivalent simpler: bot message has a typing phase (odd index in 2x sequence)
+        const typing = (phase % 2 === 0) ? false : (script[msgIndex].role === 'bot');
+        return typing && !staticFrame;
+      }
+    };
+
+    return new Animator(canvas, draw);
+  }
+
+  /* ============== Boot ============== */
+  function initCanvases() {
+    document.querySelectorAll('[data-preview]').forEach((canvas) => {
+      const type = canvas.dataset.preview;
+      switch (type) {
+        case 'breakout': breakoutPreview(canvas); break;
+        case 'podcast':  podcastPreview(canvas);  break;
+        case 'faq':      faqPreview(canvas);      break;
+        case 'chatbot':  chatbotPreview(canvas);  break;
+        default: break;
+      }
+    });
+  }
+
+  // Fade-in intersection for cards
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
+
+  // Modal logic
+  function initModal() {
+    const openBtn = document.getElementById('open-podcast');
+    const closeBtn = document.getElementById('close-podcast');
+    const modal = document.getElementById('podcast-modal');
+    const audio = document.getElementById('podcast-audio');
+    if (!openBtn || !closeBtn || !modal) return;
+
+    const open = () => modal.classList.remove('hidden');
+    const close = () => { modal.classList.add('hidden'); audio?.pause(); };
+
+    openBtn.addEventListener('click', open, { passive: true });
+    closeBtn.addEventListener('click', close, { passive: true });
+    modal.addEventListener('click', (e) => { if (e.target === modal) close(); }, { passive: true });
+    window.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+  }
+
+  // DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => { initCanvases(); initModal(); });
+  } else {
+    initCanvases(); initModal();
+  }
+})();
