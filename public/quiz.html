@@ -1,0 +1,492 @@
+<!--
+  Employee Benefits AI Interactive Quiz
+  - Standalone, drop-in HTML file that works on any static host (GitHub Pages, Vercel static, etc.).
+  - Includes a local question bank + optional "AI Mode" that fetches questions from a Next.js API route.
+  - Mobile-first, accessible, no external build tools required.
+
+  Optional serverless AI generator (Next.js / Vercel) is included at the very bottom of this doc (search for: === OPTIONAL NEXT.JS API ROUTE ===)
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Employee Benefits Quiz</title>
+  <style>
+    :root {
+      --bg: #0f172a;        /* slate-900 */
+      --card: #111827;      /* gray-900 */
+      --muted: #94a3b8;     /* slate-400 */
+      --text: #e5e7eb;      /* gray-200 */
+      --accent: #22d3ee;    /* cyan-400 */
+      --accent-2: #a78bfa;  /* violet-400 */
+      --success: #10b981;   /* emerald-500 */
+      --danger: #ef4444;    /* red-500 */
+      --warning: #f59e0b;   /* amber-500 */
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 10% -10%, #1f2937 0%, var(--bg) 60%);
+      color: var(--text);
+      min-height: 100dvh;
+      display: grid; place-items: center; padding: 24px;
+    }
+    .container { width: 100%; max-width: 980px; }
+    header {
+      display: grid; gap: 10px; margin-bottom: 16px; text-align: center;
+    }
+    h1 { margin: 0; font-size: clamp(1.4rem, 1.2rem + 1.2vw, 2.2rem); letter-spacing: .2px }
+    .sub { color: var(--muted); font-size: .98rem }
+    .panel {
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .row { display: grid; gap: 14px }
+    .controls { padding: 16px; display: grid; gap: 12px }
+    .controls .grid { display: grid; grid-template-columns: 1fr; gap: 12px }
+    @media (min-width: 720px) { .controls .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+    label { display: grid; gap: 6px; font-size: .9rem }
+    select, input[type="number"], button, .toggle {
+      width: 100%; padding: 12px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12);
+      background: #0b1220; color: var(--text);
+    }
+    select:focus, input:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+
+    .toggle { display: flex; align-items: center; gap: 10px; cursor: pointer; user-select: none }
+    .toggle input { width: 18px; height: 18px }
+
+    .start { background: linear-gradient(135deg, var(--accent), var(--accent-2)); font-weight: 700; border: none; }
+    .start:disabled { opacity: .5; cursor: not-allowed }
+
+    .quiz { margin-top: 18px; padding: 16px; display: grid; gap: 18px }
+    .qhead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px }
+    .qprog { font-size: .9rem; color: var(--muted) }
+
+    .qcard { background: rgba(255,255,255,.02); border: 1px solid rgba(255,255,255,.08); border-radius: 16px; padding: 18px; display: grid; gap: 14px }
+    .qtext { font-size: 1.06rem }
+    .answers { display: grid; gap: 10px }
+    .ans {
+      text-align: left; border: 1px solid rgba(255,255,255,.12); background: #0a0f1c; border-radius: 12px; padding: 12px 14px; cursor: pointer; transition: transform .06s ease;
+    }
+    .ans:hover { transform: translateY(-1px) }
+    .ans.correct { border-color: rgba(16,185,129,.7); background: rgba(16,185,129,.08) }
+    .ans.incorrect { border-color: rgba(239,68,68,.7); background: rgba(239,68,68,.08) }
+
+    .explain { color: var(--muted); font-size: .95rem; line-height: 1.4 }
+
+    .actions { display: flex; gap: 10px; flex-wrap: wrap }
+    .btn { padding: 12px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); background: #0a0f1c; color: var(--text); cursor: pointer }
+    .btn.primary { background: linear-gradient(135deg, var(--accent-2), var(--accent) ); border: none; font-weight: 700 }
+
+    .result { display: grid; gap: 12px; text-align: center; padding: 18px }
+    .badge { display: inline-block; padding: 6px 10px; border-radius: 999px; font-size: .85rem; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.04) }
+    .score { font-size: clamp(1.2rem, 1rem + 1.2vw, 1.8rem); font-weight: 800 }
+
+    .foot { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 10px }
+    .sr-only { position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); white-space: nowrap }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Employee Benefits Quiz</h1>
+      <div class="sub">Health insurance & ancillary products • Funding • Compliance • Sales scenarios</div>
+    </header>
+
+    <section class="panel controls" aria-label="Quiz controls">
+      <div class="grid">
+        <label>
+          Topic
+          <select id="topic">
+            <option value="basics">Health Insurance Basics</option>
+            <option value="ancillary">Ancillary (Dental, Vision, Life, Disability)</option>
+            <option value="funding">Funding Arrangements</option>
+            <option value="compliance">Compliance (ACA, COBRA, HIPAA)</option>
+            <option value="sales">Broker & GA Sales Strategy</option>
+            <option value="mixed">Mixed (All Topics)</option>
+          </select>
+        </label>
+        <label>
+          Difficulty
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="expert">Expert</option>
+          </select>
+        </label>
+        <label>
+          Number of Questions
+          <input id="count" type="number" min="3" max="20" value="8" />
+        </label>
+        <label class="toggle" title="Generate questions via your serverless AI API (optional)">
+          <input id="aimode" type="checkbox" />
+          <span>AI Mode (use API)</span>
+        </label>
+      </div>
+      <button id="start" class="start">Start Quiz</button>
+    </section>
+
+    <section id="quiz" class="panel quiz" hidden>
+      <div class="qhead">
+        <div id="badge" class="badge">Topic: <span id="badgeTopic">Basics</span> • <span id="badgeDiff">Easy</span></div>
+        <div class="qprog" id="progress">Question 1 of N</div>
+      </div>
+
+      <div class="qcard" role="group" aria-labelledby="qtext">
+        <div id="qtext" class="qtext">Question text</div>
+        <div id="answers" class="answers"></div>
+        <div id="explain" class="explain" hidden></div>
+        <div class="actions">
+          <button id="next" class="btn primary" disabled>Next</button>
+          <button id="skip" class="btn" title="Skip this question and come back later">Skip</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="result" class="panel result" hidden>
+      <div id="resultBadge" class="badge">Result</div>
+      <div id="resultScore" class="score">0 / 0</div>
+      <div id="resultNote">Nice work!</div>
+      <div class="actions" style="justify-content:center">
+        <button id="retry" class="btn">Try Again</button>
+        <button id="share" class="btn">Copy Share Text</button>
+      </div>
+    </section>
+
+    <div class="foot">Built as a POC • No data stored • Works offline • Optional AI generation via Vercel API</div>
+  </div>
+
+  <script>
+    // ------------------------------
+    // Local Question Bank
+    // ------------------------------
+    // Each item: { topic, difficulty, q, choices: [..], answer: index, explain }
+    const BANK = [
+      // Basics
+      {topic:'basics', difficulty:'easy', q:'What does a health plan deductible represent?', choices:['The fixed amount paid per doctor visit','The maximum you’ll pay in a year','The amount you pay before the plan starts sharing costs','The amount the employer contributes monthly'], answer:2, explain:'The deductible is what a member pays for covered services before the plan starts sharing costs (coinsurance). Copays may be exempt on some services.'},
+      {topic:'basics', difficulty:'easy', q:'Which is typically lowest in an HMO compared to a PPO?', choices:['Monthly premium','Network restrictions','Need for referrals','Out-of-network coverage'], answer:0, explain:'HMOs often have lower premiums but tighter networks and referral requirements. Out-of-network coverage is usually limited.'},
+      {topic:'basics', difficulty:'intermediate', q:'A plan has $2,000 deductible, then 20% coinsurance until a $6,500 out-of-pocket max. A $10,000 covered surgery occurs. Roughly what will the member pay?', choices:['$2,000','$3,300','$6,500','$8,000'], answer:2, explain:'Member pays the first $2,000 (deductible) + 20% until OOP max. The coinsurance portion would exceed the OOP max, so the cap is $6,500.'},
+      {topic:'basics', difficulty:'expert', q:'In an HDHP compatible with HSAs, which service is typically covered pre-deductible without violating IRS rules?', choices:['Brand-name drugs','Preventive care under USPSTF A/B','Out-of-network ER visits','Telemedicine for any diagnosis'], answer:1, explain:'IRS allows certain preventive services to be covered pre-deductible in HSA-eligible HDHPs.'},
+
+      // Ancillary
+      {topic:'ancillary', difficulty:'easy', q:'Which is commonly an ancillary benefit?', choices:['Dental','Inpatient surgery','Hospital room and board','Chemotherapy'], answer:0, explain:'Ancillary benefits commonly include dental, vision, life, and disability.'},
+      {topic:'ancillary', difficulty:'intermediate', q:'Which vision metric is most often referenced for exam frequency?', choices:['Every 3 months','Every 6 months','Every 12 months','Every 24 months only'], answer:2, explain:'Many vision plans cover routine exams every 12 months, with lenses/frames on 12–24 month cycles depending on plan.'},
+      {topic:'ancillary', difficulty:'expert', q:'Short-term disability (STD) typically coordinates with which coverage and waiting period?', choices:['Long-term disability with 0-day wait','Long-term disability with 90–180 day elimination','Life insurance immediately','Dental with 14-day wait'], answer:1, explain:'STD often pays for the first weeks; LTD begins after a longer elimination period (commonly 90–180 days).'},
+
+      // Funding
+      {topic:'funding', difficulty:'easy', q:'What’s a common appeal of a level-funded plan for small employers?', choices:['No stop-loss needed','Potential refund if claims are low','Guaranteed renewals for 10 years','Exemption from ACA mandates'], answer:1, explain:'Level-funded can include a surplus/refund if claims run favorably; ACA rules still apply, and stop-loss is typically included.'},
+      {topic:'funding', difficulty:'intermediate', q:'In self-funding, what role does specific stop-loss play?', choices:['Covers claims above a set amount per member','Covers all claims for the group','Eliminates the need for a TPA','Acts as a health savings account'], answer:0, explain:'Specific stop-loss protects the plan against high-cost claims for any single covered individual above a threshold.'},
+      {topic:'funding', difficulty:'expert', q:'Which metric is MOST relevant when modeling expected claims cost for a 75-life group transitioning to level-funding?', choices:['Industry SIC code only','Historical large claims only','Age/sex factor, risk morbidity, and credibility','National medical CPI'], answer:2, explain:'Pricing reflects demographics (age/sex), morbidity factors, and credibility weighting of group experience when available.'},
+
+      // Compliance
+      {topic:'compliance', difficulty:'easy', q:'COBRA primarily provides what?', choices:['Subsidized coverage for low-income individuals','Continuation of employer-sponsored coverage after qualifying events','Medicare enrollment assistance','A federal premium tax credit'], answer:1, explain:'COBRA allows qualified beneficiaries to continue employer coverage after certain events (e.g., termination).'},
+      {topic:'compliance', difficulty:'intermediate', q:'Which employer size triggers ACA “Applicable Large Employer” (ALE) status for the employer mandate?', choices:['25+ FTE','50+ FTE','75+ FTE','100+ FTE'], answer:1, explain:'Generally 50 or more full-time employees (including equivalents) designates ALE status for ACA employer mandate rules.'},
+      {topic:'compliance', difficulty:'expert', q:'HIPAA allows a special enrollment right when which occurs?', choices:['Employee misses open enrollment deadline','Spouse loses other group coverage','Employee wants cheaper plan mid-year','Employee changes job title only'], answer:1, explain:'Loss of other group coverage is a HIPAA special enrollment event, enabling mid-year enrollment.'},
+
+      // Sales
+      {topic:'sales', difficulty:'easy', q:'What’s a common first-step in a broker’s discovery with a new group?', choices:['Presenting final rates immediately','Understanding current pain points and objectives','Requesting a 5-year rate guarantee','Quoting only one carrier'], answer:1, explain:'A consultative approach starts with discovery to align solutions with the employer’s objectives and challenges.'},
+      {topic:'sales', difficulty:'intermediate', q:'Which deliverable helps a CFO compare plan scenarios on a total-cost basis?', choices:['Member handbook','Glossary of insurance terms','Total Cost of Risk (employer + employee + trend)','Agent of Record letter'], answer:2, explain:'Total Cost of Risk (or total plan cost) helps decision-makers compare scenarios holistically.'},
+      {topic:'sales', difficulty:'expert', q:'For a 120-life manufacturer with high musculoskeletal claims, which wedge solution best opens the door?', choices:['Dental plan with richer ortho','PEPM virtual PT / MSK program + steerage','Raise deductibles across all plans','Eliminate out-of-network coverage entirely'], answer:1, explain:'Targeted clinical programs (e.g., MSK) can address primary cost drivers and create value-based engagement.'},
+
+      // Mixed bonus
+      {topic:'basics', difficulty:'intermediate', q:'Out-of-pocket maximums generally include which member costs?', choices:['Premiums only','Copays, deductible, and coinsurance for in-network essential benefits','Out-of-network balance bills','Non-covered cosmetic procedures'], answer:1, explain:'OOPM counts in-network cost sharing for covered essential benefits; premiums and OON balance bills typically do not count.'},
+      {topic:'ancillary', difficulty:'easy', q:'Which life insurance feature allows buying more coverage after life events without medical underwriting?', choices:['Waiver of premium','Guaranteed issue','Portability','Guaranteed insurability rider'], answer:3, explain:'A guaranteed insurability rider allows increases at certain life events without new evidence of insurability.'},
+      {topic:'funding', difficulty:'intermediate', q:'What is the main purpose of aggregate stop-loss in self-funding?', choices:['Cap total plan liability above a threshold','Pay first-dollar claims','Cover dental and vision only','Replace specific stop-loss'], answer:0, explain:'Aggregate stop-loss caps total claims for the plan year above a corridor, complementing specific stop-loss.'},
+      {topic:'compliance', difficulty:'intermediate', q:'Under the ACA, which metal level typically targets ~70% actuarial value?', choices:['Bronze','Silver','Gold','Platinum'], answer:1, explain:'Silver plans are designed around ~70% actuarial value (subject to de minimis variation).'},
+      {topic:'sales', difficulty:'easy', q:'What’s a simple tactic to boost open enrollment engagement?', choices:['Email only a 50-page booklet','One live meeting plus short topic videos','Cancel Q&A to reduce confusion','Share rates without plan changes'], answer:1, explain:'Blending live Q&A with short microlearning improves comprehension and participation.'},
+    ];
+
+    const TOPIC_LABELS = {
+      basics: 'Basics', ancillary: 'Ancillary', funding: 'Funding', compliance: 'Compliance', sales: 'Sales', mixed: 'Mixed'
+    };
+
+    // ------------------------------
+    // State
+    // ------------------------------
+    const els = {
+      topic: document.getElementById('topic'),
+      difficulty: document.getElementById('difficulty'),
+      count: document.getElementById('count'),
+      aimode: document.getElementById('aimode'),
+      start: document.getElementById('start'),
+
+      quiz: document.getElementById('quiz'),
+      badgeTopic: document.getElementById('badgeTopic'),
+      badgeDiff: document.getElementById('badgeDiff'),
+      progress: document.getElementById('progress'),
+
+      qtext: document.getElementById('qtext'),
+      answers: document.getElementById('answers'),
+      explain: document.getElementById('explain'),
+      next: document.getElementById('next'),
+      skip: document.getElementById('skip'),
+
+      result: document.getElementById('result'),
+      resultBadge: document.getElementById('resultBadge'),
+      resultScore: document.getElementById('resultScore'),
+      resultNote: document.getElementById('resultNote'),
+      retry: document.getElementById('retry'),
+      share: document.getElementById('share'),
+    };
+
+    let game = null;
+
+    function shuffle(arr){ return arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]); }
+
+    function sampleQuestions(topic, difficulty, count, pool=BANK){
+      let subset = pool.filter(q => (topic==='mixed' ? true : q.topic===topic) && q.difficulty===difficulty);
+      if (subset.length < count) {
+        // backfill from mixed difficulty within topic
+        const anyDiff = pool.filter(q => (topic==='mixed' ? true : q.topic===topic));
+        subset = subset.concat(shuffle(anyDiff).slice(0, count - subset.length));
+      }
+      return shuffle(subset).slice(0, count).map(q => ({...q}));
+    }
+
+    function startGame(questions){
+      game = {
+        questions, i: 0, score: 0, answered: new Array(questions.length).fill(false),
+        skipped: new Set()
+      };
+      els.badgeTopic.textContent = TOPIC_LABELS[els.topic.value];
+      els.badgeDiff.textContent = els.difficulty.value.charAt(0).toUpperCase() + els.difficulty.value.slice(1);
+      els.progress.textContent = `Question 1 of ${questions.length}`;
+      els.explain.hidden = true; els.next.disabled = true;
+      els.result.hidden = true; els.quiz.hidden = false;
+      renderCurrent();
+    }
+
+    function renderCurrent(){
+      const q = game.questions[game.i];
+      els.qtext.textContent = q.q;
+      els.answers.innerHTML = '';
+      q.choices.forEach((c, idx) => {
+        const b = document.createElement('button');
+        b.className = 'ans'; b.textContent = c; b.setAttribute('data-idx', idx);
+        b.addEventListener('click', () => selectAnswer(idx));
+        els.answers.appendChild(b);
+      });
+      els.explain.hidden = true; els.explain.textContent = '';
+      els.next.disabled = true;
+      els.progress.textContent = `Question ${game.i+1} of ${game.questions.length}`;
+      els.skip.disabled = false;
+    }
+
+    function selectAnswer(idx){
+      const q = game.questions[game.i];
+      if (game.answered[game.i]) return; // locked
+      game.answered[game.i] = true;
+      const correct = idx === q.answer;
+      if (correct) game.score++;
+      // style answers
+      [...els.answers.children].forEach((btn, i) => {
+        btn.classList.add(i === q.answer ? 'correct' : (i===idx ? 'incorrect' : ''));
+        btn.disabled = true;
+      });
+      els.explain.hidden = false; els.explain.textContent = q.explain || '';
+      els.next.disabled = false; els.skip.disabled = true;
+    }
+
+    function nextQuestion(){
+      // If any skipped remain and we are at the end, go to a skipped one
+      if (game.i < game.questions.length - 1) {
+        game.i++;
+      } else if (game.skipped.size > 0) {
+        game.i = [...game.skipped][0];
+        game.skipped.delete(game.i);
+      } else {
+        return finish();
+      }
+      renderCurrent();
+    }
+
+    function skipQuestion(){
+      if (!game.answered[game.i]) game.skipped.add(game.i);
+      nextQuestion();
+    }
+
+    function finish(){
+      els.quiz.hidden = true;
+      const total = game.questions.length;
+      const pct = Math.round((game.score/total)*100);
+      let title = 'Benefits Explorer';
+      if (pct >= 90) title = 'Benefits Pro';
+      else if (pct >= 75) title = 'Advisor-in-Training';
+      else if (pct >= 60) title = 'Getting There';
+      else title = 'Needs Enrollment Counseling 🙂';
+      els.resultBadge.textContent = title;
+      els.resultScore.textContent = `${game.score} / ${total} • ${pct}%`;
+      els.resultNote.textContent = pct >= 75 ? 'Strong grasp of concepts — nicely done!' : 'Keep going — try a different topic or difficulty.';
+      els.result.hidden = false;
+    }
+
+    async function buildQuestions(topic, difficulty, count){
+      if (!els.aimode.checked) return sampleQuestions(topic, difficulty, count);
+      try {
+        const res = await fetch('/api/generate-questions', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ topic, difficulty, count }) });
+        if (!res.ok) throw new Error('API error');
+        const data = await res.json();
+        if (!Array.isArray(data?.questions)) throw new Error('Bad payload');
+        // Validate and normalize
+        const normalized = data.questions.map(q => ({
+          topic: topic === 'mixed' ? (q.topic || 'basics') : topic,
+          difficulty,
+          q: String(q.q || q.question || ''),
+          choices: Array.isArray(q.choices) ? q.choices.slice(0,4) : [],
+          answer: Number.isInteger(q.answer) ? q.answer : 0,
+          explain: String(q.explain || q.explanation || '')
+        })).filter(q => q.q && q.choices.length >= 2);
+        if (normalized.length < count) {
+          const fallback = sampleQuestions(topic, difficulty, count - normalized.length);
+          return shuffle(normalized.concat(fallback)).slice(0, count);
+        }
+        return normalized.slice(0, count);
+      } catch (e) {
+        console.warn('AI fetch failed, using local bank:', e);
+        return sampleQuestions(topic, difficulty, count);
+      }
+    }
+
+    // ------------------------------
+    // Events
+    // ------------------------------
+    els.start.addEventListener('click', async () => {
+      const topic = els.topic.value;
+      const diff = els.difficulty.value;
+      const count = Math.min(20, Math.max(3, parseInt(els.count.value||8,10)));
+      els.start.disabled = true; els.start.textContent = 'Building questions…';
+      const qs = await buildQuestions(topic, diff, count);
+      els.start.disabled = false; els.start.textContent = 'Start Quiz';
+      startGame(qs);
+    });
+
+    els.next.addEventListener('click', nextQuestion);
+    els.skip.addEventListener('click', skipQuestion);
+
+    els.retry.addEventListener('click', () => {
+      els.result.hidden = true; window.scrollTo({top:0, behavior:'smooth'});
+    });
+
+    els.share.addEventListener('click', async () => {
+      const text = `I scored ${els.resultScore.textContent} on the Employee Benefits Quiz (Topic: ${els.badgeTopic.textContent}, Difficulty: ${els.badgeDiff.textContent}). Try to beat me!`;
+      try {
+        await navigator.clipboard.writeText(text);
+        els.share.textContent = 'Copied!'; setTimeout(()=> els.share.textContent = 'Copy Share Text', 1500);
+      } catch {
+        alert(text);
+      }
+    });
+  </script>
+</body>
+</html>
+
+<!-- ============================================================= -->
+<!-- === OPTIONAL NEXT.JS API ROUTE (for AI Mode using Vercel)  === -->
+<!-- ============================================================= -->
+
+<!--
+If your site is a Next.js app on Vercel, add this file to enable AI-generated questions.
+
+File: /pages/api/generate-questions.js  (Next.js Pages router)
+----- OR -----
+File: /app/api/generate-questions/route.js (Next.js App router — see variant below)
+
+1) Create an environment variable in Vercel:  OPENAI_API_KEY = your key
+2) Deploy. The front-end will POST { topic, difficulty, count } to this endpoint.
+3) The endpoint returns [{ q, choices:[...], answer:index, explain }].
+
+NOTE: For production, add safety checks & caching as needed.
+-->
+
+<!-- PAGES ROUTER VERSION (/pages/api/generate-questions.js) -->
+<script type="text/plain" data-filename="/pages/api/generate-questions.js">
+export default async function handler(req, res) {
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+  const { topic = 'mixed', difficulty = 'easy', count = 8 } = req.body || {};
+
+  // Build a tightly-scoped prompt for structured output
+  const prompt = `You are an expert in US employee benefits. Create ${count} multiple-choice quiz questions on the topic: "${topic}" with difficulty "${difficulty}".
+Return strict JSON: {"questions":[{"q":"...","choices":["A","B","C","D"],"answer":0-3,"explain":"..."}]}. Keep choices plausible, avoid trick wording, and keep explanations concise.`;
+
+  try {
+    const resp = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: 'gpt-4o-mini',
+        messages: [
+          { role: 'system', content: 'Return only JSON. No preface.' },
+          { role: 'user', content: prompt }
+        ],
+        temperature: 0.7
+      })
+    });
+
+    if (!resp.ok) {
+      const text = await resp.text();
+      return res.status(500).json({ error: 'OpenAI error', details: text });
+    }
+
+    const data = await resp.json();
+    const raw = data.choices?.[0]?.message?.content?.trim?.();
+    // Best-effort JSON parse
+    const payload = JSON.parse(raw);
+    // Minimal validation
+    if (!Array.isArray(payload?.questions)) throw new Error('Bad JSON schema');
+    return res.status(200).json({ questions: payload.questions });
+  } catch (e) {
+    return res.status(200).json({ questions: [] }); // front-end will fallback to local bank
+  }
+}
+</script>
+
+<!-- APP ROUTER VERSION (/app/api/generate-questions/route.js) -->
+<script type="text/plain" data-filename="/app/api/generate-questions/route.js">
+export async function POST(request) {
+  const body = await request.json();
+  const { topic = 'mixed', difficulty = 'easy', count = 8 } = body || {};
+
+  const prompt = `You are an expert in US employee benefits. Create ${count} multiple-choice quiz questions on the topic: "${topic}" with difficulty "${difficulty}".
+Return strict JSON: {"questions":[{"q":"...","choices":["A","B","C","D"],"answer":0-3,"explain":"..."}]}. Keep choices plausible, avoid trick wording, and keep explanations concise.`;
+
+  try {
+    const resp = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: 'gpt-4o-mini',
+        messages: [
+          { role: 'system', content: 'Return only JSON. No preface.' },
+          { role: 'user', content: prompt }
+        ],
+        temperature: 0.7
+      })
+    });
+
+    if (!resp.ok) {
+      const text = await resp.text();
+      return new Response(JSON.stringify({ error: 'OpenAI error', details: text }), { status: 500 });
+    }
+
+    const data = await resp.json();
+    const raw = data.choices?.[0]?.message?.content?.trim?.();
+    const payload = JSON.parse(raw);
+    if (!Array.isArray(payload?.questions)) throw new Error('Bad JSON schema');
+    return new Response(JSON.stringify({ questions: payload.questions }), { status: 200 });
+  } catch (e) {
+    return new Response(JSON.stringify({ questions: [] }), { status: 200 }); // front-end will fallback
+  }
+}
+</script>
