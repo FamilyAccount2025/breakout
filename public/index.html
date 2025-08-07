@@ -33,28 +33,29 @@
     /* Fade in animation */
     .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease, transform 0.8s ease; }
     .fade-in.visible { opacity: 1; transform: translateY(0); }
+    canvas { display: block; width: 100%; height: 100%; }
   </style>
 </head>
 <body class="text-white">
 
 <div class="particles"></div>
 
-<!-- HERO -->
-<section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-  <h1 class="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-pink-500 to-yellow-300 bg-clip-text text-transparent animate-pulse">
+<!-- HERO (shortened height) -->
+<section class="min-h-[40vh] flex flex-col justify-center items-center text-center px-6">
+  <h1 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-pink-500 to-yellow-300 bg-clip-text text-transparent">
     AI Proof of Concepts
   </h1>
-  <p class="text-lg md:text-xl text-gray-300 max-w-2xl mb-8">
+  <p class="text-lg md:text-xl text-gray-300 max-w-2xl mb-6">
     A showcase of cutting-edge projects by Chris Goff — blending AI with interactive experiences, audio, and generative content.
   </p>
   <a href="#projects" class="bg-cyan-500 hover:bg-cyan-400 text-gray-900 font-bold py-3 px-8 rounded-full transition">Explore Projects</a>
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="py-20 px-6 max-w-7xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-  <!-- Card Template -->
+<section id="projects" class="pb-20 px-6 max-w-7xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+  <!-- Card 1 -->
   <div class="glass rounded-xl overflow-hidden flex flex-col fade-in">
-    <div class="h-40 bg-black flex items-center justify-center text-gray-500 text-sm">[Canvas Preview: Breakout]</div>
+    <div class="h-40 bg-black"><canvas data-preview="breakout"></canvas></div>
     <div class="p-6 flex flex-col flex-grow">
       <p class="text-xs font-semibold text-cyan-400 uppercase mb-1">Generative Code</p>
       <h2 class="text-xl font-bold mb-3">Game Development</h2>
@@ -63,8 +64,9 @@
     </div>
   </div>
 
+  <!-- Card 2 -->
   <div class="glass rounded-xl overflow-hidden flex flex-col fade-in">
-    <div class="h-40 bg-black flex items-center justify-center text-gray-500 text-sm">[Canvas Preview: Podcast]</div>
+    <div class="h-40 bg-black"><canvas data-preview="podcast"></canvas></div>
     <div class="p-6 flex flex-col flex-grow">
       <p class="text-xs font-semibold text-pink-400 uppercase mb-1">Generative Audio</p>
       <h2 class="text-xl font-bold mb-3">Podcast</h2>
@@ -73,8 +75,9 @@
     </div>
   </div>
 
+  <!-- Card 3 -->
   <div class="glass rounded-xl overflow-hidden flex flex-col fade-in">
-    <div class="h-40 bg-black flex items-center justify-center text-gray-500 text-sm">[Canvas Preview: FAQ]</div>
+    <div class="h-40 bg-black"><canvas data-preview="faq"></canvas></div>
     <div class="p-6 flex flex-col flex-grow">
       <p class="text-xs font-semibold text-yellow-400 uppercase mb-1">Generative Content</p>
       <h2 class="text-xl font-bold mb-3">FAQs</h2>
@@ -83,8 +86,9 @@
     </div>
   </div>
 
+  <!-- Card 4 -->
   <div class="glass rounded-xl overflow-hidden flex flex-col fade-in">
-    <div class="h-40 bg-black flex items-center justify-center text-gray-500 text-sm">[Canvas Preview: Chatbot]</div>
+    <div class="h-40 bg-black"><canvas data-preview="chatbot"></canvas></div>
     <div class="p-6 flex flex-col flex-grow">
       <p class="text-xs font-semibold text-green-400 uppercase mb-1">Interactive AI Agent</p>
       <h2 class="text-xl font-bold mb-3">Chatbot</h2>
@@ -109,7 +113,7 @@
 </div>
 
 <script>
-  // Scroll fade-in
+  // Fade-in observer
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if(entry.isIntersecting) {
@@ -120,24 +124,33 @@
   }, { threshold: 0.1 });
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-  // Podcast modal logic
-  const modal = document.getElementById('podcast-modal');
-  const openBtn = document.getElementById('open-podcast-button');
-  const closeBtn = document.getElementById('close-podcast-button');
-  const audioPlayer = document.getElementById('podcast-audio');
-
-  openBtn.addEventListener('click', () => modal.classList.remove('hidden'));
-  closeBtn.addEventListener('click', () => {
-    modal.classList.add('hidden');
-    audioPlayer.pause();
-  });
-  modal.addEventListener('click', (e) => {
-    if(e.target === modal) {
-      modal.classList.add('hidden');
-      audioPlayer.pause();
-    }
-  });
-</script>
-
-</body>
-</html>
+  // Canvas animations
+  document.querySelectorAll('[data-preview]').forEach(canvas => {
+    const ctx = canvas.getContext('2d');
+    let frame;
+    const drawBreakout = () => {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.fillStyle="#0ff";
+      ctx.fillRect(10,10,canvas.width-20,10);
+      ctx.beginPath();
+      ctx.arc(canvas.width/2, canvas.height/2, 10, 0, Math.PI*2);
+      ctx.fillStyle="#ff0";
+      ctx.fill();
+      frame=requestAnimationFrame(drawBreakout);
+    };
+    const drawPodcast = () => {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      const bars=5;
+      for(let i=0;i<bars;i++){
+        const h=Math.sin(Date.now()/200+i)*20+30;
+        ctx.fillStyle="#f0f";
+        ctx.fillRect(i*20+20,canvas.height-h-10,10,h);
+      }
+      frame=requestAnimationFrame(drawPodcast);
+    };
+    const drawFaq = () => {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.strokeStyle="#ff0";
+      for(let i=0;i<5;i++){
+        ctx.beginPath();
+        ctx.moveTo(10,20+i*15)*
