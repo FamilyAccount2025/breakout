@@ -22,6 +22,7 @@ body {
   background: var(--color-bg-gradient);
   color: var(--color-text);
   line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
 }
 
 /* ==============================
@@ -91,142 +92,90 @@ input, select {
   font-size: 1rem;
   height: 42px;
 }
-input::placeholder {
-  color: #9ca3af; /* light gray placeholder */
-}
+input::placeholder { color: #9ca3af; }
 .checkbox {
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
 }
-.checkbox input {
-  width: 18px;
-  height: 18px;
-}
+.checkbox input { width: 18px; height: 18px; }
 
 /* ==============================
    Tooltip
    ============================== */
-.tooltip-container {
-  position: relative;
-  display: inline-block;
-}
+.tooltip-container { position: relative; display: inline-block; }
 .tooltip-icon {
-  font-size: 0.9rem;
-  cursor: pointer;
-  margin-left: 4px;
-  color: var(--color-accent);
+  font-size: 0.9rem; cursor: pointer; margin-left: 4px; color: var(--color-accent);
 }
 .tooltip-text {
-  visibility: hidden;
-  background: var(--color-primary);
-  color: #fff;
-  text-align: left;
-  border-radius: var(--radius);
-  padding: 0.5rem;
-  position: absolute;
-  z-index: 10;
-  width: 260px;
-  bottom: 125%;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.85rem;
-  line-height: 1.4;
+  visibility: hidden; background: var(--color-primary); color: #fff; text-align: left;
+  border-radius: var(--radius); padding: 0.5rem; position: absolute; z-index: 10;
+  width: 260px; bottom: 125%; left: 50%; transform: translateX(-50%);
+  opacity: 0; transition: opacity 0.3s; font-size: 0.85rem; line-height: 1.4;
   box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
 .tooltip-container:hover .tooltip-text,
-.tooltip-container:focus-within .tooltip-text {
-  visibility: visible;
-  opacity: 1;
-}
+.tooltip-container:focus-within .tooltip-text { visibility: visible; opacity: 1; }
 
 /* ==============================
    Buttons
    ============================== */
 button {
-  cursor: pointer;
-  border: none;
-  border-radius: var(--radius);
-  font-size: 1rem;
-  padding: 0.6rem 1rem;
-  transition: background 0.2s, transform 0.1s;
-  height: 42px;
+  cursor: pointer; border: none; border-radius: var(--radius);
+  font-size: 1rem; padding: 0.6rem 1rem; transition: background 0.2s, transform 0.1s;
+  height: 42px; -webkit-appearance: none; appearance: none;
 }
 button:disabled { opacity: 0.5; cursor: not-allowed; }
-.btn-primary {
-  background: var(--color-primary);
-  color: #fff;
-}
+.btn-primary { background: var(--color-primary); color: #fff; }
 .btn-primary:hover, .btn-primary:focus { background: var(--color-primary-light); }
-.btn-secondary {
-  background: #e2e8f0;
-  color: var(--color-text);
-}
+.btn-secondary { background: #e2e8f0; color: var(--color-text); }
 .btn-secondary:hover, .btn-secondary:focus { background: #cbd5e1; }
+
+/* Improve tap highlight on iOS */
+* { -webkit-tap-highlight-color: rgba(15,76,129,0.15); }
 
 /* ==============================
    Quiz Header & Progress
    ============================== */
-.quiz-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-}
+.quiz-header { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
 .badge {
-  background: var(--color-accent);
-  color: #fff;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
+  background: var(--color-accent); color: #fff; padding: 0.25rem 0.75rem;
+  border-radius: 999px; font-size: 0.85rem;
 }
-.progress-text {
-  font-size: 0.85rem;
-  color: var(--color-muted);
-}
+.progress-text { font-size: 0.85rem; color: var(--color-muted); }
 .progress-bar {
-  background: #e5e7eb;
-  height: 6px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  margin-bottom: 1rem;
+  background: #e5e7eb; height: 6px; border-radius: var(--radius);
+  overflow: hidden; margin-bottom: 1rem;
 }
-.progress-bar div {
-  height: 100%;
-  background: var(--color-primary);
-  width: 0;
-  transition: width 0.3s ease;
-}
+.progress-bar div { height: 100%; background: var(--color-primary); width: 0; transition: width 0.3s ease; }
 
 /* ==============================
    Question & Answers
    ============================== */
 .question-card { margin-bottom: 1rem; }
-.question-text { 
-  font-weight: 600; 
-  margin-bottom: 1rem; 
-  line-height: 1.4;
-  word-break: break-word;
+.question-text {
+  font-weight: 600; margin-bottom: 1rem; line-height: 1.4; word-break: break-word;
 }
-.answers-list { 
-  display: grid; 
-  gap: 0.6rem; 
-}
+
+/* Answer list & buttons — mobile-safe multi-line */
+.answers-list { display: grid; gap: 0.7rem; }
 .answers-list button {
+  width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;             /* center vertically even on 2+ lines */
   justify-content: flex-start;
   text-align: left;
+  color: var(--color-text);        /* override iOS blue */
   border: 1px solid #ddd;
   background: #fff;
-  padding: 0.9rem 0.9rem;
+  padding: 1rem 1rem;              /* more breathing room for multi-line */
   transition: background-color 0.25s ease, transform 0.15s ease, box-shadow 0.15s ease;
-  white-space: normal;
+  white-space: normal;             /* allow wrapping */
   line-height: 1.4;
+  overflow-wrap: anywhere;         /* break long words if needed */
   word-break: break-word;
-  min-height: 48px;
-  overflow: visible;
+  min-height: 56px;                /* taller min height to avoid “cut off” feel */
+  border-radius: 12px;             /* slightly rounder for big touch targets */
 }
 .answers-list button:hover:not(:disabled),
 .answers-list button:focus:not(:disabled) {
@@ -246,37 +195,22 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .answers-list button.clicked { transform: scale(0.96); }
 
 .explanation {
-  font-size: 0.95rem;
-  color: var(--color-text);
-  background: #f1f5f9;
-  border: 1px solid #e2e8f0;
-  border-radius: var(--radius);
-  padding: 0.9rem;
-  margin-top: 0.9rem;
-  animation: fadeIn 0.4s ease;
+  font-size: 0.95rem; color: var(--color-text);
+  background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: var(--radius);
+  padding: 0.9rem; margin-top: 0.9rem; animation: fadeIn 0.4s ease;
 }
 
 /* Why this matters block */
 .why-matters {
-  font-size: 0.9rem;
-  color: var(--color-text);
-  background: #eef9fd;
-  border: 1px solid #c7e7f4;
-  border-left: 4px solid var(--color-accent);
-  border-radius: var(--radius);
-  padding: 0.8rem 0.9rem;
-  margin-top: 0.7rem;
-  animation: fadeIn 0.4s ease;
+  font-size: 0.9rem; color: var(--color-text);
+  background: #eef9fd; border: 1px solid #c7e7f4; border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius); padding: 0.8rem 0.9rem; margin-top: 0.7rem; animation: fadeIn 0.4s ease;
 }
 
 /* ==============================
    Quiz Actions
    ============================== */
-.quiz-actions {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
-}
+.quiz-actions { display: flex; justify-content: space-between; margin-top: 1rem; }
 .right-buttons { display: flex; gap: 0.5rem; }
 
 /* ==============================
@@ -302,4 +236,13 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==============================
+   Mobile tweaks
+   ============================== */
+@media (max-width: 420px) {
+  .answers-list { gap: 0.6rem; }
+  .answers-list button { padding: 0.9rem; min-height: 54px; }
+  .quiz-container { margin: 1.25rem auto; }
 }
