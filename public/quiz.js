@@ -1,6 +1,6 @@
 // ==============================
-// Dynamic Local Banks (JSON) + AI mode
-// No duplicates per quiz + Printable PDF summary + Timestamp
+// Quiz Engine — Stable No-Duplicate Selection + Exact Count
+// Supports local JSON banks + AI mode, PDF summary, timestamps
 // ==============================
 
 const TOPIC_LABELS = {
@@ -12,7 +12,7 @@ const TOPIC_LABELS = {
   mixed: 'Mixed'
 };
 
-// Fallback (if JSON missing)
+// Fallback (used only if JSON missing)
 const FALLBACK = [
   { topic:'basics', difficulty:'easy',
     q:"What does a health plan deductible represent?",
@@ -46,26 +46,42 @@ const FALLBACK = [
     why:"Targeting clinical drivers can bend trend without blunt cost shifting." },
 ];
 
-// Elements & state
+// Elements/state
 const els = {};
 let game = null;
 
 // Utils
 const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
 function shuffle(arr) { return arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]); }
-const pick = (arr, n) => (n <= 0 ? [] : (arr.length <= n ? shuffle(arr.slice()) : shuffle(arr).slice(0, n)));
-const qKey = (q) => `${q.topic}|${q.difficulty}|${q.q}|${(q.choices||[]).join('¦')}`;
-function dedupeByKey(items) {
+
+// Dedupe by semantic key: topic + normalized question text (ignore choices/difficulty)
+const normalize = s => String(s||'').toLowerCase().replace(/\s+/g,' ').trim();
+const keyOf = q => `${q.topic}|${normalize(q.q)}`;
+
+function dedupe(items) {
   const seen = new Set();
   const out = [];
   for (const it of items) {
-    const key = qKey(it);
-    if (!seen.has(key)) { seen.add(key); out.push(it); }
+    const k = keyOf(it);
+    if (!seen.has(k)) { seen.add(k); out.push(it); }
   }
   return out;
 }
 
-// shuffle a question’s choices & recompute the correct index
+// Ensure we end up with EXACT requested count (if available) without duplicates
+function topUpUnique(baseSelected, poolAll, desiredCount) {
+  const selected = baseSelected.slice();
+  const used = new Set(selected.map(keyOf));
+  const candidates = poolAll.filter(q => !used.has(keyOf(q)));
+  for (const q of shuffle(candidates)) {
+    if (selected.length >= desiredCount) break;
+    selected.push(q);
+    used.add(keyOf(q));
+  }
+  return selected.slice(0, desiredCount);
+}
+
+// Shuffle choices and recompute correct index
 function shuffleChoices(q) {
   const pairs = q.choices.map((c,i)=>({c,i}));
   const shuffled = shuffle(pairs);
@@ -94,6 +110,7 @@ async function fetchBank(topic) {
     compliance: '/data/bank.compliance.json',
     sales: '/data/bank.sales.json'
   };
+
   if (topic === 'mixed') {
     const urls = Object.values(files);
     const results = await Promise.allSettled(urls.map(u => fetch(u, {cache:'no-store'})));
@@ -108,6 +125,7 @@ async function fetchBank(topic) {
     }
     return items.length ? items : FALLBACK.slice();
   }
+
   const url = files[topic];
   if (!url) return FALLBACK.slice();
   try {
@@ -120,41 +138,41 @@ async function fetchBank(topic) {
   }
 }
 
-// Build local set with difficulty mixing (and dedupe)
+// Build local set with difficulty mixing + guaranteed top-up to exact count
 function buildLocalSet(topic, difficulty, count, pool) {
   const inTopic = pool.filter(q => topic === 'mixed' ? true : q.topic === topic);
+  const uniquePool = dedupe(inTopic);
 
+  // Target harder share
   const harder = { easy: 'intermediate', intermediate: 'expert', expert: 'expert' }[difficulty];
   const hardShare = { easy: 0.25, intermediate: 0.50, expert: 1.0 }[difficulty];
 
   const needHard = Math.floor(count * hardShare);
   const needPrimary = count - needHard;
 
-  const primaryPool = inTopic.filter(q => q.difficulty === difficulty);
-  const harderPool = inTopic.filter(q => q.difficulty === harder);
+  const primaryPool = uniquePool.filter(q => q.difficulty === difficulty);
+  const harderPool  = uniquePool.filter(q => q.difficulty === harder);
 
+  // initial selection (unique already)
   let selected = [];
-  selected = selected.concat(pick(harderPool, needHard));
-  selected = selected.concat(pick(primaryPool, needPrimary));
+  selected = selected.concat(shuffle(primaryPool).slice(0, needPrimary));
+  selected = selected.concat(shuffle(harderPool).slice(0, needHard));
+  selected = dedupe(selected);
 
-  // Backfill if short with anything in-topic
-  if (selected.length < count) {
-    const backup = inTopic.filter(q => !selected.includes(q));
-    selected = selected.concat(pick(backup, count - selected.length));
-  }
+  // Top up from remaining unique pool until we hit the exact desired count
+  selected = topUpUnique(selected, uniquePool, count);
 
-  // Dedupe, shuffle questions & choices; enforce final count
-  selected = dedupeByKey(selected);
-  selected = shuffle(selected).map(shuffleChoices).slice(0, count);
-  return selected;
+  // Final shuffle + choice shuffle
+  return shuffle(selected).map(shuffleChoices);
 }
 
-// AI build (shuffled + deduped with fallback)
+// AI build with strong top-up guarantees
 async function buildQuestions(topic, difficulty, count) {
   if (!els.aimode.checked) {
     const pool = await fetchBank(topic);
     return buildLocalSet(topic, difficulty, count, pool);
   }
+
   try {
     const res = await fetch('/api/generate-questions', {
       method:'POST',
@@ -165,30 +183,34 @@ async function buildQuestions(topic, difficulty, count) {
     const data = await res.json();
     if (!Array.isArray(data?.questions)) throw new Error('Bad payload');
 
-    let normalized = data.questions.map(q => ({
+    // Normalize AI questions
+    let aiQs = data.questions.map(q => ({
       topic: topic === 'mixed' ? (q.topic || 'basics') : topic,
       difficulty,
-      q: String(q.q || q.question || ''),
+      q: String(q.q || q.question || '').trim(),
       choices: Array.isArray(q.choices) ? q.choices.slice(0,4) : [],
       answer: Number.isInteger(q.answer) ? q.answer : 0,
       explain: String(q.explain || q.explanation || ''),
       why: q.why ? String(q.why) : null
     })).filter(q => q.q && q.choices.length >= 2);
 
-    // Shuffle choices & questions
-    normalized = normalized.map(shuffleChoices);
-    normalized = shuffle(normalized);
+    // Dedupe AI set by question, then shuffle choices
+    aiQs = dedupe(aiQs).map(shuffleChoices);
 
-    // If short, backfill locally
-    if (normalized.length < count) {
+    // If AI under-delivers, top up from local bank
+    if (aiQs.length < count) {
       const pool = await fetchBank(topic);
-      const fallback = buildLocalSet(topic, difficulty, count - normalized.length, pool);
-      normalized = normalized.concat(fallback);
+      const localFill = buildLocalSet(topic, difficulty, count, pool); // already unique & correct size
+      // Merge & dedupe, then top-up again to exact count
+      let merged = dedupe(aiQs.concat(localFill));
+      // Final top-up in case merged fell below (rare)
+      merged = topUpUnique(merged, dedupe(pool), count);
+      return shuffle(merged).slice(0, count);
     }
 
-    // Final dedupe & slice to count
-    normalized = dedupeByKey(normalized).slice(0, count);
-    return normalized;
+    // If AI has enough, trim to exact count
+    return shuffle(aiQs).slice(0, count);
+
   } catch (e) {
     console.warn('AI fetch failed, using local bank:', e);
     const pool = await fetchBank(topic);
@@ -196,7 +218,7 @@ async function buildQuestions(topic, difficulty, count) {
   }
 }
 
-// Game flow
+// -------- Game flow + UI (unchanged except timestamp & summary building) --------
 function startGame(questions) {
   game = {
     questions: questions.map(q => ({...q, userAnswer: null, correct: null})),
@@ -282,7 +304,6 @@ function handleAnswerClick(e) {
     els.why.hidden = false;
   }
 
-  // per-topic stats
   if (!game.perTopic[q.topic]) game.perTopic[q.topic] = { total: 0, correct: 0 };
   game.perTopic[q.topic].total += 1;
   if (isCorrect) game.perTopic[q.topic].correct += 1;
@@ -323,13 +344,14 @@ function finish() {
   els.resultBadge.textContent = title;
   els.resultScore.textContent = `${game.score} / ${total} • ${pct}%`;
   els.resultNote.textContent = pct >= 75 ? 'Strong grasp of concepts — nicely done!' : 'Keep going — try a different topic or difficulty.';
-  els.resultMeta.textContent = `Completed on ${game.finishedAt.toLocaleString()}`;
+  if (document.getElementById('resultMeta')) {
+    document.getElementById('resultMeta').textContent = `Completed on ${game.finishedAt.toLocaleString()}`;
+  }
 
   buildPrintableSummary();
   els.result.hidden = false;
 }
 
-// Printable summary builder
 function coachingAdvice(perTopic) {
   const entries = Object.entries(perTopic).map(([topic, s]) => {
     const pct = s.total ? (s.correct / s.total) : 0;
@@ -356,6 +378,7 @@ function coachingAdvice(perTopic) {
 
 function buildPrintableSummary() {
   const container = els.printable;
+  if (!container) return;
   container.innerHTML = '';
   container.hidden = false;
 
@@ -367,7 +390,7 @@ function buildPrintableSummary() {
   header.innerHTML = `
     <h1>Employee Benefits Quiz — Summary</h1>
     <div class="meta"><strong>Completed:</strong> ${ts} •
-      <strong>Mode:</strong> ${els.aimode.checked ? 'AI' : 'Local'} •
+      <strong>Mode:</strong> ${els.aimode?.checked ? 'AI' : 'Local'} •
       <strong>Topic:</strong> ${TOPIC_LABELS[els.topic.value]} •
       <strong>Difficulty:</strong> ${els.difficulty.value} •
       <strong>Score:</strong> ${game.score}/${total} (${pct}%)
