@@ -1,638 +1,8 @@
 [
   {
     "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "What is prior authorization (PA)?",
-    "choices": [
-      "A pre‑approval from the plan for certain services/drugs",
-      "A discount at renewal",
-      "A claim paid automatically",
-      "A COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "PA requires plan approval before coverage for some services or meds.",
-    "why": "prior_auth"
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which account is employee‑owned and can roll over year to year?",
-    "choices": [
-      "FSA",
-      "HSA",
-      "HRA",
-      "None"
-    ],
-    "answer": 1,
-    "explain": "HSAs are employee‑owned, portable, and can grow via investment.",
-    "why": "accounts"
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "What does the out‑of‑pocket maximum (OOPM) cap?",
-    "choices": [
-      "Premiums only",
-      "In‑network cost‑sharing like deductibles, copays, coinsurance",
-      "Out‑of‑network charges only",
-      "Employer costs"
-    ],
-    "answer": 1,
-    "explain": "The OOPM caps in‑network cost‑sharing for the plan year; premiums don’t count.",
-    "why": "oopm"
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "What does a health plan deductible represent?",
+    "q": "What does a deductible represent in health insurance?",
     "choices": [
       "The fixed amount paid per doctor visit",
       "The maximum you’ll pay in a year",
@@ -640,763 +10,4193 @@
       "The amount the employer contributes monthly"
     ],
     "answer": 2,
-    "explain": "The deductible is paid by the member before cost‑sharing begins.",
-    "why": "deductible"
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What does the out-of-pocket maximum (OOPM) cap?",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about copays and coinsurance is correct?",
-    "choices": [
-      "Both are percentages",
-      "Copays are flat amounts; coinsurance is a percentage",
-      "Both are flat amounts",
-      "Neither applies after the deductible"
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
     ],
     "answer": 1,
-    "explain": "Copays are fixed dollars; coinsurance is a percentage of the allowed charge.",
-    "why": "coinsurance"
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What is coinsurance?",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
-    ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which services are typically covered at $0 under preventive care?",
-    "choices": [
-      "Vaccines and certain screenings",
-      "All specialist visits",
-      "All prescription drugs",
-      "All imaging"
-    ],
-    "answer": 0,
-    "explain": "Preventive services often have first‑dollar coverage under ACA rules.",
-    "why": "preventive"
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
-    "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which combination best describes an HSA‑eligible HDHP?",
-    "choices": [
-      "High premium, low deductible",
-      "Lower premium, higher deductible, HSA allowed",
-      "Any PPO can add an HSA",
-      "Zero cost‑sharing for all services"
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
     ],
     "answer": 1,
-    "explain": "HSA‑eligible HDHPs typically pair lower premiums with higher deductibles and allow pre‑tax HSA contributions.",
-    "why": "hsa_elig"
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "What is balance billing?",
+    "q": "What is a copay?",
     "choices": [
-      "Out‑of‑network providers bill the difference between their charge and allowed amount",
-      "Plan bills employer at renewal",
-      "Pharmacy bills plan for rebates",
-      "IRS bills for ACA fees"
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
     ],
     "answer": 0,
-    "explain": "Out‑of‑network balance billing can create large unexpected charges.",
-    "why": "balance_bill"
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
   },
   {
     "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
+    "difficulty": "easy",
+    "q": "What is a provider network?",
     "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
     ],
     "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
   },
   {
     "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 1)",
     "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
     ],
     "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What does a deductible represent in health insurance? (Scenario 2)",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
-    ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
     ],
     "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "What is a formulary?",
+    "q": "What does a deductible represent in health insurance? (Scenario 3)",
     "choices": [
-      "A list of covered medications and tiers",
-      "A network of hospitals",
-      "A state insurance tax",
-      "A premium subsidy"
-    ],
-    "answer": 0,
-    "explain": "A formulary is the plan’s covered drug list, usually tiered by value.",
-    "why": "formulary"
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
-    "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
     ],
     "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What does a deductible represent in health insurance? (Scenario 4)",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
     ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What does a deductible represent in health insurance? (Scenario 5)",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
     ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What does a deductible represent in health insurance? (Scenario 6)",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
     ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What does a deductible represent in health insurance? (Scenario 7)",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
     ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "What’s the typical trade‑off of a narrower network plan?",
+    "q": "What does a deductible represent in health insurance? (Scenario 8)",
     "choices": [
-      "Higher premiums, higher choice",
-      "Lower premiums, fewer providers",
-      "Same premium, fewer providers",
-      "No effect on costs"
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 9)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 10)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 11)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 12)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 13)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 14)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 15)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 16)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 17)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 18)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 19)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a deductible represent in health insurance? (Scenario 20)",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 1)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
     ],
     "answer": 1,
-    "explain": "Narrow networks reduce premiums by steering to selected providers.",
-    "why": "network"
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Tiered formularies primarily aim to…",
-    "choices": [
-      "Encourage generics and preferred brands",
-      "Eliminate all specialty drugs",
-      "Charge the list price",
-      "Replace prior auth"
-    ],
-    "answer": 0,
-    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
-    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
-    "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
-    ],
-    "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after meeting your deductible?",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 2)",
     "choices": [
-      "Coinsurance",
-      "Premium",
-      "HSA contribution",
-      "Employer match"
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
     ],
-    "answer": 0,
-    "explain": "After the deductible, members often pay coinsurance on covered services.",
-    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
   },
   {
     "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 3)",
     "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
     ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 4)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 5)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 6)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 7)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 8)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 9)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 10)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 11)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 12)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 13)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 14)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 15)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 16)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 17)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 18)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 19)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out-of-pocket maximum (OOPM) cap? (Scenario 20)",
+    "choices": [
+      "Premiums only",
+      "In-network cost-sharing",
+      "Out-of-network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 1)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 2)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 3)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 4)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 5)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 6)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 7)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 8)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 9)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 10)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 11)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 12)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 13)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 14)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 15)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 16)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 17)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 18)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 19)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is coinsurance? (Scenario 20)",
+    "choices": [
+      "A flat fee per visit",
+      "A percentage you pay after the deductible",
+      "The plan premium",
+      "An annual fee"
+    ],
+    "answer": 1,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 1)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 2)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 3)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 4)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 5)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 6)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 7)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 8)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 9)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 10)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 11)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 12)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 13)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 14)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 15)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 16)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 17)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 18)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 19)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a copay? (Scenario 20)",
+    "choices": [
+      "A fixed amount for a covered service",
+      "A percentage after deductible",
+      "An annual cost",
+      "The plan premium"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 1)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 2)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 3)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 4)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 5)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 6)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 7)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 8)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 9)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 10)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 11)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 12)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 13)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 14)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a provider network? (Scenario 15)",
+    "choices": [
+      "A group of providers contracted with the plan",
+      "A list of covered drugs",
+      "A claims processing team",
+      "A government agency"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
   },
   {
     "topic": "basics",
     "difficulty": "intermediate",
-    "q": "Which statement about OOPM is most accurate?",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500?",
     "choices": [
-      "In‑network cost‑sharing counts; premiums don’t",
-      "Premiums count fully",
-      "Only ER visits count",
-      "It resets on request mid‑year"
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year?",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
     ],
     "answer": 0,
-    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
-    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay?",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays?",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums?",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 1)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 2)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 3)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 4)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 5)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 6)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 7)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 8)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 9)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 10)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 11)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 12)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 13)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 14)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 15)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 16)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 17)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 18)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 19)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If a plan has a $2,000 deductible, what happens when an MRI costs $1,500? (Scenario 20)",
+    "choices": [
+      "Plan pays in full",
+      "You pay $1,500",
+      "You pay nothing",
+      "Plan pays $1,500"
+    ],
+    "answer": 1,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 1)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 2)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 3)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 4)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 5)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 6)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 7)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 8)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 9)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 10)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 11)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 12)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 13)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 14)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 15)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 16)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 17)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 18)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 19)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If you hit your OOPM in July, what do you pay for covered services for the rest of the year? (Scenario 20)",
+    "choices": [
+      "Nothing more for in-network covered services",
+      "Half the cost",
+      "Full charges",
+      "Copays only"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 1)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 2)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 3)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 4)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 5)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 6)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 7)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 8)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 9)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 10)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 11)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 12)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 13)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 14)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 15)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 16)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 17)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 18)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 19)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "If your coinsurance is 20% and a covered surgery costs $5,000 after deductible, what do you pay? (Scenario 20)",
+    "choices": [
+      "$1,000",
+      "$500",
+      "$2,500",
+      "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 1)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 2)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 3)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 4)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 5)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 6)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 7)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 8)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 9)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 10)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 11)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 12)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 13)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 14)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 15)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 16)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 17)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 18)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 19)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a plan set primary care copays lower than specialist copays? (Scenario 20)",
+    "choices": [
+      "To encourage primary care use",
+      "To discourage care",
+      "To raise ER visits",
+      "To meet ACA limits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 1)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 2)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 3)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 4)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 5)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 6)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 7)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 8)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 9)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 10)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 11)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 12)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 13)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 14)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Why might a narrow network plan have lower premiums? (Scenario 15)",
+    "choices": [
+      "Fewer contracted providers reduce costs",
+      "It increases ER usage",
+      "It reduces preventive care",
+      "It has higher deductibles"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
   },
   {
     "topic": "basics",
     "difficulty": "expert",
-    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior?",
     "choices": [
-      "$0 preventive drugs list",
-      "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay pre‑deductible",
-      "Vaccines at no cost"
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
     ],
-    "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
-    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible?",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%?",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization?",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network?",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 1)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 2)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 3)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 4)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 5)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 6)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 7)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 8)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 9)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 10)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 11)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 12)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 13)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 14)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 15)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 16)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 17)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 18)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 19)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How can adjusting the deductible level affect premium pricing and employee behavior? (Scenario 20)",
+    "choices": [
+      "Higher deductible usually lowers premium but may delay care",
+      "Lower deductible increases premium and access",
+      "Deductible has no effect",
+      "Deductible only affects preventive care"
+    ],
+    "answer": 0,
+    "explain": "The amount a member pays before the plan starts sharing costs.",
+    "why": "Deductibles set first-dollar risk and influence plan choice."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 1)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 2)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 3)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 4)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 5)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 6)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 7)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 8)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 9)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 10)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 11)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 12)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 13)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 14)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 15)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 16)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 17)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 18)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 19)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might a plan design pair a high OOPM with a low deductible? (Scenario 20)",
+    "choices": [
+      "To shift more cost-sharing to coinsurance after deductible",
+      "To reduce preventive coverage",
+      "To avoid network restrictions",
+      "To eliminate catastrophic coverage"
+    ],
+    "answer": 0,
+    "explain": "The max you pay for covered services in a year before plan pays 100%.",
+    "why": "OOPM limits worst-case exposure, critical for financial protection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 1)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 2)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 3)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 4)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 5)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 6)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 7)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 8)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 9)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 10)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 11)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 12)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 13)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 14)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 15)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 16)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 17)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 18)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 19)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Why might an employer adjust coinsurance from 20% to 30%? (Scenario 20)",
+    "choices": [
+      "To shift more ongoing cost to members and reduce premiums",
+      "To improve benefits",
+      "To meet ACA rules",
+      "To eliminate copays"
+    ],
+    "answer": 0,
+    "explain": "The percentage you pay for covered services after deductible.",
+    "why": "Coinsurance levels shape ongoing cost exposure after deductible is met."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 1)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 2)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 3)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 4)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 5)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 6)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 7)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 8)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 9)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 10)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 11)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 12)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 13)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 14)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 15)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 16)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 17)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 18)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 19)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "How could adjusting ER copays influence utilization? (Scenario 20)",
+    "choices": [
+      "Higher ER copays may steer patients to urgent care",
+      "Lower ER copays increase ER usage",
+      "Copays have no effect",
+      "Copays only affect preventive visits"
+    ],
+    "answer": 0,
+    "explain": "A fixed amount you pay for a covered service.",
+    "why": "Copays simplify member cost expectations and can encourage primary care use."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 1)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 2)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 3)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 4)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 5)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 6)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 7)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 8)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 9)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 10)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 11)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 12)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 13)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 14)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "When is it worth paying more for a broad network? (Scenario 15)",
+    "choices": [
+      "When members need access to specific specialists",
+      "Never",
+      "Always",
+      "Only for preventive care"
+    ],
+    "answer": 0,
+    "explain": "A group of providers contracted with the plan.",
+    "why": "Network design trades breadth for price; impacts satisfaction and disruption."
   }
 ]
