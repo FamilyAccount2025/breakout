@@ -1,36 +1,232 @@
 [
   {
     "topic": "funding",
-    "difficulty": "easy",
-    "q": "What’s a common appeal of a level‑funded plan for small employers?",
+    "difficulty": "intermediate",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "Potential refund if claims are low",
-      "No stop‑loss needed",
-      "Guaranteed renewals for 10 years",
-      "Exemption from ACA mandates"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Level‑funded plans may return surplus if claims run favorably; ACA rules still apply.",
-    "why": "Funding model affects cash flow, volatility, and renewal leverage."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What is IBNR?",
+    "choices": [
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "In self‑funded plans, which layer protects against a single high‑cost claimant?",
+    "q": "Pooling primarily aims to…",
     "choices": [
-      "Aggregate stop‑loss",
-      "Specific stop‑loss",
-      "Administrative services only fee",
-      "Pooling charge on fully insured"
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
     ],
-    "answer": 1,
-    "explain": "Specific stop‑loss caps exposure from any one claimant.",
-    "why": "Choosing correct attachment points is critical to risk management."
+    "answer": 0,
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Pooling primarily aims to…",
+    "choices": [
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
+    ],
+    "answer": 0,
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What is IBNR?",
+    "choices": [
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which lever can lower fixed monthly cost without cutting benefits (with analysis)?",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Pooling primarily aims to…",
+    "choices": [
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
+    ],
+    "answer": 0,
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What is IBNR?",
+    "choices": [
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which lever can lower fixed monthly cost without cutting benefits (with modeling)?",
     "choices": [
       "Increase specific attachment point",
       "Cut preventive services",
@@ -38,1365 +234,1169 @@
       "Switch to paper claims only"
     ],
     "answer": 0,
-    "explain": "Raising specific attachment point may lower fixed cost but changes risk; model before changing.",
-    "why": "Optimizing stop‑loss structure balances affordability with catastrophic protection."
+    "explain": "Raising the specific attachment can reduce fixed cost but increases risk—model first.",
+    "why": "attachment"
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes aggregate stop‑loss?",
+    "q": "Run‑out refers to…",
     "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
     ],
     "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about specific stop‑loss is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for attachment point?",
+    "q": "A claim corridor means…",
     "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes laser?",
-    "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
-    ],
-    "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about claim corridor is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for ASO fee?",
-    "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
-    ],
-    "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes credibility?",
-    "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
-    ],
-    "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about pooling is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for IBNR?",
-    "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes run‑out?",
+    "q": "Run‑out refers to…",
     "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
     ],
     "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about aggregate stop‑loss is most accurate?",
+    "q": "Pooling primarily aims to…",
     "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
     ],
     "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for specific stop‑loss?",
-    "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
-    ],
-    "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes attachment point?",
-    "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
-    ],
-    "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about laser is most accurate?",
+    "q": "Pooling primarily aims to…",
     "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
     ],
     "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for claim corridor?",
-    "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
-    ],
-    "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes ASO fee?",
-    "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
-    ],
-    "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about credibility is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for pooling?",
-    "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
-    ],
-    "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes IBNR?",
-    "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about run‑out is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for aggregate stop‑loss?",
+    "q": "A claim corridor means…",
     "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes specific stop‑loss?",
+    "q": "ASO fees pay for…",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about attachment point is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for laser?",
-    "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
-    ],
-    "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes claim corridor?",
-    "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
-    ],
-    "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about ASO fee is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for credibility?",
-    "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
-    ],
-    "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes pooling?",
-    "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
-    ],
-    "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about IBNR is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for run‑out?",
-    "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
-    ],
-    "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes aggregate stop‑loss?",
+    "q": "Run‑out refers to…",
     "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
     ],
     "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about specific stop‑loss is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for attachment point?",
-    "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
-    ],
-    "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes laser?",
-    "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
-    ],
-    "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about claim corridor is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for ASO fee?",
-    "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
-    ],
-    "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes credibility?",
+    "q": "What is IBNR?",
     "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
     ],
     "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about pooling is most accurate?",
+    "q": "Pooling primarily aims to…",
     "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
     ],
     "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for IBNR?",
+    "q": "A claim corridor means…",
     "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes run‑out?",
+    "q": "ASO fees pay for…",
     "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
     ],
     "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about aggregate stop‑loss is most accurate?",
+    "q": "Pooling primarily aims to…",
     "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
     ],
     "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for specific stop‑loss?",
-    "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
-    ],
-    "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes attachment point?",
+    "q": "Run‑out refers to…",
     "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
     ],
     "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about laser is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for claim corridor?",
-    "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
-    ],
-    "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes ASO fee?",
+    "q": "ASO fees pay for…",
     "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
     ],
     "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about credibility is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for pooling?",
-    "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
-    ],
-    "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes IBNR?",
+    "q": "ASO fees pay for…",
     "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
     ],
     "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about run‑out is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for aggregate stop‑loss?",
-    "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
-    ],
-    "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes specific stop‑loss?",
+    "q": "Run‑out refers to…",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What is IBNR?",
+    "choices": [
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What is IBNR?",
+    "choices": [
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about attachment point is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for laser?",
-    "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
-    ],
-    "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes claim corridor?",
-    "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
-    ],
-    "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about ASO fee is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for credibility?",
+    "q": "A claim corridor means…",
     "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes pooling?",
-    "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
-    ],
-    "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about IBNR is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for run‑out?",
+    "q": "A claim corridor means…",
     "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes aggregate stop‑loss?",
+    "q": "What is IBNR?",
     "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
     ],
     "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What is IBNR?",
+    "choices": [
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What’s a common appeal of a level‑funded plan for small employers?",
+    "choices": [
+      "Potential refund if claims are low",
+      "No stop‑loss needed",
+      "Guaranteed 10‑year renewals",
+      "Exemption from ACA mandates"
+    ],
+    "answer": 0,
+    "explain": "Level‑funded plans may return surplus if claims run favorably; ACA rules still apply.",
+    "why": "level_funded"
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about specific stop‑loss is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for attachment point?",
-    "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
-    ],
-    "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes laser?",
-    "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
-    ],
-    "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about claim corridor is most accurate?",
+    "q": "Pooling primarily aims to…",
     "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
     ],
     "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for ASO fee?",
-    "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
-    ],
-    "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes credibility?",
-    "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
-    ],
-    "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about pooling is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for IBNR?",
-    "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes run‑out?",
+    "q": "What is IBNR?",
     "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
     ],
     "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about aggregate stop‑loss is most accurate?",
+    "q": "In self‑funded plans, which layer protects against a single high‑cost claimant?",
     "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "ASO fee",
+      "Pooling charge on fully insured"
     ],
     "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "stop_loss"
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for specific stop‑loss?",
+    "q": "A claim corridor means…",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes attachment point?",
-    "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
-    ],
-    "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about laser is most accurate?",
+    "q": "Pooling primarily aims to…",
     "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
     ],
     "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for claim corridor?",
-    "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
-    ],
-    "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes ASO fee?",
-    "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
-    ],
-    "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about credibility is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for pooling?",
-    "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
-    ],
-    "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes IBNR?",
+    "q": "What is IBNR?",
     "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
     ],
     "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about run‑out is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for aggregate stop‑loss?",
-    "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
-    ],
-    "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes specific stop‑loss?",
+    "q": "ASO fees pay for…",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about attachment point is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for laser?",
-    "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
-    ],
-    "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes claim corridor?",
+    "q": "Run‑out refers to…",
     "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
     ],
     "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "ASO fees pay for…",
+    "choices": [
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
+    ],
+    "answer": 0,
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about ASO fee is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for credibility?",
+    "q": "A claim corridor means…",
     "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes pooling?",
+    "q": "What is IBNR?",
     "choices": [
-      "spreading risk across groups/blocks",
-      "paying claims weekly only",
-      "union-only pricing",
-      "ACA single risk pool only"
+      "Incurred but not reported claims reserve",
+      "Initial base rate",
+      "Index of benefits ratio",
+      "Internal benchmark"
     ],
     "answer": 0,
-    "explain": "Spreading risk across groups/blocks.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about IBNR is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "incurred but not reported claims reserve",
-      "initial base rate",
-      "index of benefits ratio",
-      "internal benchmark"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Incurred but not reported claims reserve.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for run‑out?",
-    "choices": [
-      "period claims continue to be paid after termination",
-      "early termination fee",
-      "grace period for premiums",
-      "cooling‑off"
-    ],
-    "answer": 0,
-    "explain": "Period claims continue to be paid after termination.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What best describes aggregate stop‑loss?",
-    "choices": [
-      "protection against total claims exceeding a threshold",
-      "single claimant cap",
-      "premium tax",
-      "ACA fee"
-    ],
-    "answer": 0,
-    "explain": "Protection against total claims exceeding a threshold.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about specific stop‑loss is most accurate?",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
     "choices": [
-      "protection capping exposure for a single claimant",
-      "aggregate pooling only",
-      "pharmacy rebate",
-      "reinsurance tax"
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
     ],
     "answer": 0,
-    "explain": "Protection capping exposure for a single claimant.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for attachment point?",
-    "choices": [
-      "claims level where stop‑loss starts paying",
-      "renewal premium",
-      "deductible for members",
-      "state benchmark"
-    ],
-    "answer": 0,
-    "explain": "Claims level where stop‑loss starts paying.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes laser?",
+    "q": "ASO fees pay for…",
     "choices": [
-      "higher spec attachment for a known high‑risk member",
-      "free wellness program",
-      "rebate on generics",
-      "ACA subsidy"
+      "Administrative services like claims adjudication and networks",
+      "Member premiums",
+      "Reinsurance taxes",
+      "PBM rebates"
     ],
     "answer": 0,
-    "explain": "Higher spec attachment for a known high‑risk member.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "ASO fees are the admin charges in self‑funded setups.",
+    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
   },
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which statement about claim corridor is most accurate?",
+    "q": "Credibility in rating refers to…",
     "choices": [
-      "range where employer bears risk before pooling",
-      "ER copay band",
-      "member drug tier",
-      "network width"
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
     ],
     "answer": 0,
-    "explain": "Range where employer bears risk before pooling.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Credibility in rating refers to…",
+    "choices": [
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
+    ],
+    "answer": 0,
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for ASO fee?",
+    "q": "A claim corridor means…",
     "choices": [
-      "admin fee to TPA/carrier for services",
-      "member balance bill",
-      "employer FICA",
-      "state DI rate"
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
     ],
     "answer": 0,
-    "explain": "Admin fee to tpa/carrier for services.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "A claim corridor means…",
+    "choices": [
+      "Employer bears a range of claims before pooling activates",
+      "All claims are pooled immediately",
+      "Only pharmacy is pooled",
+      "Employees pay claims first"
+    ],
+    "answer": 0,
+    "explain": "Corridors affect retained risk and volatility.",
+    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Credibility in rating refers to…",
+    "choices": [
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
+    ],
+    "answer": 0,
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Pooling primarily aims to…",
+    "choices": [
+      "Spread extreme risk across a larger block",
+      "Reduce network breadth",
+      "Cap member copays",
+      "Eliminate IBNR"
+    ],
+    "answer": 0,
+    "explain": "Pooling stabilizes results by sharing outlier claims.",
+    "why": "Pooling protects against outliers; structure differences matter between carriers."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What best describes credibility?",
+    "q": "Run‑out refers to…",
     "choices": [
-      "weight of group’s own experience in rating",
-      "broker’s tenure",
-      "member satisfaction score",
-      "provider HCAHPS"
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
     ],
     "answer": 0,
-    "explain": "Weight of group’s own experience in rating.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Run‑out refers to…",
+    "choices": [
+      "The period claims continue to be paid after termination",
+      "Plan year run time",
+      "COBRA duration",
+      "Stop‑loss policy grace period"
+    ],
+    "answer": 0,
+    "explain": "Run‑out periods impact member service during carrier changes.",
+    "why": "Run‑out administration affects member experience during carrier changes."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "What does a ‘laser’ in stop‑loss mean?",
+    "choices": [
+      "Higher attachment for a known high‑risk member",
+      "Automatic lower premium",
+      "Removal of all exclusions",
+      "Annual rate cap guarantee"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign higher risk retention to specific members.",
+    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Credibility in rating refers to…",
+    "choices": [
+      "Weight given to the group’s own claims experience",
+      "Broker tenure with the carrier",
+      "Member satisfaction survey score",
+      "Network size"
+    ],
+    "answer": 0,
+    "explain": "More credibility means your own experience drives rates more.",
+    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
   }
 ]
