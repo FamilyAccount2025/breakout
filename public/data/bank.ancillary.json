@@ -6,1397 +6,4197 @@
     "choices": [
       "Dental",
       "Inpatient surgery",
-      "Hospital room and board",
-      "Chemotherapy"
+      "Chemotherapy",
+      "Hospital room and board"
     ],
     "answer": 0,
-    "explain": "Ancillary commonly includes dental, vision, life, and disability.",
-    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
+    "explain": "Ancillary typically includes dental, vision, life, and disability.",
+    "why": "Ancillary products round out total rewards and retention."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What does 100/80/50 usually mean in dental?",
+    "choices": [
+      "Preventive/Basic/Major coverage levels",
+      "In/Out/Other network",
+      "Deductible/OOPM/Copay",
+      "Employer/Employee/Dependent split"
+    ],
+    "answer": 0,
+    "explain": "Common schedule: preventive 100%, basic 80%, major 50%.",
+    "why": "Preventive incentives lower downstream major claims and improve productivity."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "A vision allowance is:",
+    "choices": [
+      "Fixed dollars toward frames or lenses",
+      "A medical network",
+      "An HSA match",
+      "A dental implant rider"
+    ],
+    "answer": 0,
+    "explain": "Allowances fund frames/lenses up to the stated amount.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which dental plan design most encourages preventive care utilization?",
+    "q": "A dental plan has a $1,500 annual maximum. After plan pays $1,500, further services are:",
     "choices": [
-      "100/80/50 with two cleanings covered",
-      "50/50/50 with one cleaning",
-      "Uniform 70% for all services",
-      "Ortho-only plan"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Covering preventive at 100% with tiered basic/major benefits nudges early care.",
-    "why": "Preventive incentives lower downstream major claims and keep employees productive."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Short-term disability policies usually coordinate with which factor to avoid over-replacement of income?",
-    "choices": [
-      "State disability programs and employer-paid leave",
-      "Tax filing status",
-      "Spousal income",
-      "Social Security retirement benefits"
-    ],
-    "answer": 0,
-    "explain": "STD often integrates with state DI and employer leave to keep replacement within policy limits.",
-    "why": "Coordinating benefits avoids overpayment disputes and stabilizes pricing."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What is a dental annual maximum?",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A vision allowance is…",
-    "choices": [
-      "A fixed dollar amount toward frames or lenses",
-      "A medical lab discount",
-      "An HSA employer match",
-      "A life insurance rider"
-    ],
-    "answer": 0,
-    "explain": "Allowances pay toward frames/lenses up to a set amount.",
-    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What does AD&D add to a basic life policy?",
-    "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
-    ],
-    "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "In LTD, what does the elimination period represent?",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
-    "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
-    ],
-    "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "Voluntary (employee-paid) benefits primarily…",
-    "choices": [
-      "Expand choice without increasing employer premium spend",
-      "Replace all medical coverage",
-      "Are free to the employer and employee",
-      "Are only for executives"
-    ],
-    "answer": 0,
-    "explain": "Voluntary programs add options while controlling employer cost.",
-    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "Hospital indemnity insurance provides…",
-    "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
-    ],
-    "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "An Employee Assistance Program (EAP) offers…",
-    "choices": [
-      "Confidential counseling and support services",
-      "Extra dental cleanings",
-      "Free medical equipment",
-      "Automatic disability benefits"
-    ],
-    "answer": 0,
-    "explain": "EAPs provide short-term counseling and resources to support well-being.",
-    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "In LTD, what does the elimination period represent?",
-    "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
-    ],
-    "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Hospital indemnity insurance provides…",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What does AD&D add to a basic life policy?",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What is a dental annual maximum?",
+    "q": "A dental plan has a $1,500 annual maximum. After plan pays $1,500, further services are:",
     "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Hospital indemnity insurance provides…",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "A vision allowance is…",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "A fixed dollar amount toward frames or lenses",
-      "A medical lab discount",
-      "An HSA employer match",
-      "A life insurance rider"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Allowances pay toward frames/lenses up to a set amount.",
-    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Voluntary (employee-paid) benefits primarily…",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "Expand choice without increasing employer premium spend",
-      "Replace all medical coverage",
-      "Are free to the employer and employee",
-      "Are only for executives"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Voluntary programs add options while controlling employer cost.",
-    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "In LTD, what does the elimination period represent?",
-    "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
-    ],
-    "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "In LTD, what does the elimination period represent?",
-    "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
-    ],
-    "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "In LTD, what does the elimination period represent?",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Voluntary (employee-paid) benefits primarily…",
-    "choices": [
-      "Expand choice without increasing employer premium spend",
-      "Replace all medical coverage",
-      "Are free to the employer and employee",
-      "Are only for executives"
-    ],
-    "answer": 0,
-    "explain": "Voluntary programs add options while controlling employer cost.",
-    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "In LTD, what does the elimination period represent?",
-    "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
-    ],
-    "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
-    "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
-    ],
-    "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "Hospital indemnity insurance provides…",
-    "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
-    ],
-    "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "A critical illness policy generally pays…",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Voluntary (employee-paid) benefits primarily…",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "Expand choice without increasing employer premium spend",
-      "Replace all medical coverage",
-      "Are free to the employer and employee",
-      "Are only for executives"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Voluntary programs add options while controlling employer cost.",
-    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What does AD&D add to a basic life policy?",
+    "q": "A dental plan has a $1,500 annual maximum. After plan pays $1,500, further services are:",
     "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What does AD&D add to a basic life policy?",
-    "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
-    ],
-    "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What is a dental waiting period?",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What does AD&D add to a basic life policy?",
-    "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
-    ],
-    "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
-    "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
-    ],
-    "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What is a dental waiting period?",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "A critical illness policy generally pays…",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
-    "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
-    ],
-    "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Hospital indemnity insurance provides…",
-    "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
-    ],
-    "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What does AD&D add to a basic life policy?",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "An Employee Assistance Program (EAP) offers…",
-    "choices": [
-      "Confidential counseling and support services",
-      "Extra dental cleanings",
-      "Free medical equipment",
-      "Automatic disability benefits"
-    ],
-    "answer": 0,
-    "explain": "EAPs provide short-term counseling and resources to support well-being.",
-    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "An Employee Assistance Program (EAP) offers…",
+    "q": "A dental plan has a $1,500 annual maximum. After plan pays $1,500, further services are:",
     "choices": [
-      "Confidential counseling and support services",
-      "Extra dental cleanings",
-      "Free medical equipment",
-      "Automatic disability benefits"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "EAPs provide short-term counseling and resources to support well-being.",
-    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "In LTD, what does the elimination period represent?",
+    "q": "A dental plan has a $1,500 annual maximum. After plan pays $1,500, further services are:",
     "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
-    "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
-    ],
-    "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "q": "A dental plan has a $1,000 annual maximum. After plan pays $1,000, further services are:",
     "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Voluntary (employee-paid) benefits primarily…",
-    "choices": [
-      "Expand choice without increasing employer premium spend",
-      "Replace all medical coverage",
-      "Are free to the employer and employee",
-      "Are only for executives"
-    ],
-    "answer": 0,
-    "explain": "Voluntary programs add options while controlling employer cost.",
-    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What does AD&D add to a basic life policy?",
+    "q": "A dental plan has a $2,000 annual maximum. After plan pays $2,000, further services are:",
     "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "In LTD, what does the elimination period represent?",
-    "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
-    ],
-    "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A vision allowance is…",
-    "choices": [
-      "A fixed dollar amount toward frames or lenses",
-      "A medical lab discount",
-      "An HSA employer match",
-      "A life insurance rider"
-    ],
-    "answer": 0,
-    "explain": "Allowances pay toward frames/lenses up to a set amount.",
-    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "An Employee Assistance Program (EAP) offers…",
+    "q": "A dental plan has a $1,500 annual maximum. After plan pays $1,500, further services are:",
     "choices": [
-      "Confidential counseling and support services",
-      "Extra dental cleanings",
-      "Free medical equipment",
-      "Automatic disability benefits"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "EAPs provide short-term counseling and resources to support well-being.",
-    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
-    "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
-    ],
-    "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "An Employee Assistance Program (EAP) offers…",
+    "q": "A dental plan has a $1,500 annual maximum. After plan pays $1,500, further services are:",
     "choices": [
-      "Confidential counseling and support services",
-      "Extra dental cleanings",
-      "Free medical equipment",
-      "Automatic disability benefits"
+      "Member‑paid (up to any negotiated rate)",
+      "Covered at 100%",
+      "Always denied for the year ahead",
+      "Billed under medical"
     ],
     "answer": 0,
-    "explain": "EAPs provide short-term counseling and resources to support well-being.",
-    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What does AD&D add to a basic life policy?",
-    "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
-    ],
-    "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+    "explain": "Annual maximums cap plan payments for the year.",
+    "why": "Annual maximums cap plan liability; aligning caps to workforce needs balances cost and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What does AD&D add to a basic life policy?",
+    "q": "STD elimination period of 7 days means benefits:",
     "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
     ],
     "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "What is a dental waiting period?",
+    "q": "STD elimination period of 7 days means benefits:",
     "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
     ],
     "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "An Employee Assistance Program (EAP) offers…",
-    "choices": [
-      "Confidential counseling and support services",
-      "Extra dental cleanings",
-      "Free medical equipment",
-      "Automatic disability benefits"
-    ],
-    "answer": 0,
-    "explain": "EAPs provide short-term counseling and resources to support well-being.",
-    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What does AD&D add to a basic life policy?",
-    "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
-    ],
-    "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A vision allowance is…",
-    "choices": [
-      "A fixed dollar amount toward frames or lenses",
-      "A medical lab discount",
-      "An HSA employer match",
-      "A life insurance rider"
-    ],
-    "answer": 0,
-    "explain": "Allowances pay toward frames/lenses up to a set amount.",
-    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "In LTD, what does the elimination period represent?",
+    "q": "STD elimination period of 14 days means benefits:",
     "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
     ],
     "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A vision allowance is…",
-    "choices": [
-      "A fixed dollar amount toward frames or lenses",
-      "A medical lab discount",
-      "An HSA employer match",
-      "A life insurance rider"
-    ],
-    "answer": 0,
-    "explain": "Allowances pay toward frames/lenses up to a set amount.",
-    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Hospital indemnity insurance provides…",
-    "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
-    ],
-    "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "A critical illness policy generally pays…",
-    "choices": [
-      "A lump-sum upon diagnosis of a covered condition",
-      "Coinsurance for all surgeries",
-      "Only dental costs",
-      "An HSA match"
-    ],
-    "answer": 0,
-    "explain": "Pays a lump sum that can be used for any expense.",
-    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "q": "STD elimination period of 14 days means benefits:",
     "choices": [
-      "Whether the premium was paid pre-tax or post-tax",
-      "Member’s W-2 income",
-      "Carrier claims ratio",
-      "Group size over 100"
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
     ],
     "answer": 0,
-    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
-    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 7 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 7 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 7 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 7 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 30 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 30 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 30 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 7 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 30 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 7 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 7 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "STD elimination period of 14 days means benefits:",
+    "choices": [
+      "Start after that waiting period if disabled",
+      "Start immediately on day 1",
+      "Are taxable by default",
+      "Convert to LTD on day 1"
+    ],
+    "answer": 0,
+    "explain": "Elimination period delays benefit start; coordinate with PTO.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $150 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $150 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $180 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $180 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $200 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $180 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $200 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $120 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $150 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $200 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Vision plan provides $200 frame allowance. What best improves value?",
+    "choices": [
+      "Use in‑network providers/labs",
+      "Always out‑of‑network",
+      "Skip the allowance",
+      "Buy medical insurance"
+    ],
+    "answer": 0,
+    "explain": "In‑network labs stretch the allowance further.",
+    "why": "Clear allowances avoid surprise costs and improve satisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which change most improves voluntary enrollment?",
+    "choices": [
+      "Employer seed or GI amounts",
+      "Remove all communication",
+      "One‑hour OE",
+      "Only paper forms"
+    ],
+    "answer": 0,
+    "explain": "Small employer support or GI increases participation.",
+    "why": "Voluntary strategy lifts participation without raising employer spend."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Hospital indemnity insurance provides…",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
     "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
     ],
     "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental annual maximum?",
-    "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
-    ],
-    "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What does AD&D add to a basic life policy?",
-    "choices": [
-      "Additional benefit for accidental death or dismemberment",
-      "A long-term care rider",
-      "Waiver of premium",
-      "Annuity payout option"
-    ],
-    "answer": 0,
-    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
-    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "In LTD, what does the elimination period represent?",
-    "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
-    ],
-    "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What is a dental waiting period?",
-    "choices": [
-      "A time before specified services are covered",
-      "A medical plan grace period",
-      "ER copay holiday",
-      "ACA affordability test"
-    ],
-    "answer": 0,
-    "explain": "Waiting periods defer coverage for certain services like major work.",
-    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "What is a dental annual maximum?",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
     "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
     ],
     "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "Hospital indemnity insurance provides…",
-    "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
-    ],
-    "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "What is a dental annual maximum?",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
     "choices": [
-      "Yearly cap on plan-paid dental benefits",
-      "Medical OOPM",
-      "Employer premium cap",
-      "Unlimited orthodontics"
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
     ],
     "answer": 0,
-    "explain": "Annual maximums limit how much the plan pays each year.",
-    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "A vision allowance is…",
-    "choices": [
-      "A fixed dollar amount toward frames or lenses",
-      "A medical lab discount",
-      "An HSA employer match",
-      "A life insurance rider"
-    ],
-    "answer": 0,
-    "explain": "Allowances pay toward frames/lenses up to a set amount.",
-    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "In LTD, what does the elimination period represent?",
-    "choices": [
-      "Time between disability and benefit start",
-      "The time benefits are paid",
-      "The look-back for pre-existing conditions",
-      "The maximum benefit duration"
-    ],
-    "answer": 0,
-    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
-    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Hospital indemnity insurance provides…",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
     "choices": [
-      "Fixed cash per hospital event according to a schedule",
-      "All hospital bills at 100%",
-      "Only emergency room copays",
-      "A Medicare supplement"
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
     ],
     "answer": 0,
-    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
-    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Best practice to coordinate STD and LTD benefits is to:",
+    "choices": [
+      "Align elimination periods and definitions to avoid gaps",
+      "Separate vendors with no coordination",
+      "Exclude mental health",
+      "Start LTD first"
+    ],
+    "answer": 0,
+    "explain": "Coordination prevents gaps and conflicting definitions.",
+    "why": "Coordinating STD/LTD avoids coverage gaps and cash‑flow shocks for employees."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "How does paying LTD premium post‑tax affect benefits?",
+    "choices": [
+      "Benefits are generally tax‑free",
+      "Benefits become taxable",
+      "Premiums are refunded",
+      "No effect ever"
+    ],
+    "answer": 0,
+    "explain": "Post‑tax premiums generally produce tax‑free LTD benefits.",
+    "why": "Premium tax treatment flips LTD/Life benefit taxation—impacts real take‑home after a claim."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which ancillary combo best closes gaps for high‑deductible medical plans?",
+    "choices": [
+      "Hospital indemnity + critical illness",
+      "Only dental fluoride",
+      "Only AD&D",
+      "Only EAP"
+    ],
+    "answer": 0,
+    "explain": "Indemnity products supply cash to offset deductibles/lost wages.",
+    "why": "Fixed cash benefits close gaps medical plans don’t cover, easing financial strain."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which action most improves satisfaction with ancillary plans?",
+    "choices": [
+      "Clarity on allowances, limits, and networks",
+      "Use only out‑of‑network",
+      "Hide SBCs",
+      "Skip OE education"
+    ],
+    "answer": 0,
+    "explain": "Clear limits and network guidance reduce denials and surprises.",
+    "why": "Transparency drives trust and perceived value."
   }
 ]
