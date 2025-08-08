@@ -1,6 +1,5 @@
 // ==============================
-// Quiz Engine — Stable No-Duplicate Selection + Exact Count
-// Supports local JSON banks + AI mode, PDF summary, timestamps
+// Quiz Engine — Exact Count, No True Duplicates, AI+Local
 // ==============================
 
 const TOPIC_LABELS = {
@@ -12,7 +11,7 @@ const TOPIC_LABELS = {
   mixed: 'Mixed'
 };
 
-// Fallback (used only if JSON missing)
+// Fallback (only used if banks aren’t found)
 const FALLBACK = [
   { topic:'basics', difficulty:'easy',
     q:"What does a health plan deductible represent?",
@@ -54,39 +53,35 @@ let game = null;
 const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
 function shuffle(arr) { return arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]); }
 
-// Dedupe by semantic key: topic + normalized question text (ignore choices/difficulty)
-const normalize = s => String(s||'').toLowerCase().replace(/\s+/g,' ').trim();
-const keyOf = q => `${q.topic}|${normalize(q.q)}`;
-
-function dedupe(items) {
+// Dedupe by a “true-duplicate” key: topic + exact question + exact choices
+const qKey = (q) => `${q.topic}¦${String(q.q)}¦${(q.choices||[]).join('¦')}`;
+function dedupeTrue(items) {
   const seen = new Set();
   const out = [];
   for (const it of items) {
-    const k = keyOf(it);
+    const k = qKey(it);
     if (!seen.has(k)) { seen.add(k); out.push(it); }
   }
   return out;
 }
 
-// Ensure we end up with EXACT requested count (if available) without duplicates
-function topUpUnique(baseSelected, poolAll, desiredCount) {
-  const selected = baseSelected.slice();
-  const used = new Set(selected.map(keyOf));
-  const candidates = poolAll.filter(q => !used.has(keyOf(q)));
-  for (const q of shuffle(candidates)) {
-    if (selected.length >= desiredCount) break;
-    selected.push(q);
-    used.add(keyOf(q));
+function topUpUnique(base, pool, desiredCount) {
+  const out = base.slice();
+  const used = new Set(out.map(qKey));
+  for (const q of shuffle(pool)) {
+    if (out.length >= desiredCount) break;
+    const k = qKey(q);
+    if (!used.has(k)) { used.add(k); out.push(q); }
   }
-  return selected.slice(0, desiredCount);
+  return out.slice(0, desiredCount);
 }
 
 // Shuffle choices and recompute correct index
 function shuffleChoices(q) {
   const pairs = q.choices.map((c,i)=>({c,i}));
-  const shuffled = shuffle(pairs);
-  const choices = shuffled.map(p=>p.c);
-  const answerIndex = shuffled.findIndex(p=>p.i===q.answer);
+  const s = shuffle(pairs);
+  const choices = s.map(p=>p.c);
+  const answerIndex = s.findIndex(p=>p.i===q.answer);
   return { ...q, choices, answer: answerIndex };
 }
 
@@ -116,12 +111,12 @@ async function fetchBank(topic) {
     const results = await Promise.allSettled(urls.map(u => fetch(u, {cache:'no-store'})));
     let items = [];
     for (const r of results) {
-      try {
-        if (r.status === 'fulfilled' && r.value.ok) {
+      if (r.status === 'fulfilled' && r.value.ok) {
+        try {
           const arr = await r.value.json();
           if (Array.isArray(arr)) items = items.concat(arr);
-        }
-      } catch {}
+        } catch {}
+      }
     }
     return items.length ? items : FALLBACK.slice();
   }
@@ -138,12 +133,12 @@ async function fetchBank(topic) {
   }
 }
 
-// Build local set with difficulty mixing + guaranteed top-up to exact count
+// Build local set with difficulty mixing + exact fill
 function buildLocalSet(topic, difficulty, count, pool) {
   const inTopic = pool.filter(q => topic === 'mixed' ? true : q.topic === topic);
-  const uniquePool = dedupe(inTopic);
+  const uniquePool = dedupeTrue(inTopic);
 
-  // Target harder share
+  // harder mix
   const harder = { easy: 'intermediate', intermediate: 'expert', expert: 'expert' }[difficulty];
   const hardShare = { easy: 0.25, intermediate: 0.50, expert: 1.0 }[difficulty];
 
@@ -153,20 +148,19 @@ function buildLocalSet(topic, difficulty, count, pool) {
   const primaryPool = uniquePool.filter(q => q.difficulty === difficulty);
   const harderPool  = uniquePool.filter(q => q.difficulty === harder);
 
-  // initial selection (unique already)
   let selected = [];
   selected = selected.concat(shuffle(primaryPool).slice(0, needPrimary));
   selected = selected.concat(shuffle(harderPool).slice(0, needHard));
-  selected = dedupe(selected);
+  selected = dedupeTrue(selected);
 
-  // Top up from remaining unique pool until we hit the exact desired count
+  // Top up from remaining pool to hit count exactly
   selected = topUpUnique(selected, uniquePool, count);
 
-  // Final shuffle + choice shuffle
+  // Final shuffle + answer shuffle
   return shuffle(selected).map(shuffleChoices);
 }
 
-// AI build with strong top-up guarantees
+// AI build with exact fill
 async function buildQuestions(topic, difficulty, count) {
   if (!els.aimode.checked) {
     const pool = await fetchBank(topic);
@@ -183,7 +177,6 @@ async function buildQuestions(topic, difficulty, count) {
     const data = await res.json();
     if (!Array.isArray(data?.questions)) throw new Error('Bad payload');
 
-    // Normalize AI questions
     let aiQs = data.questions.map(q => ({
       topic: topic === 'mixed' ? (q.topic || 'basics') : topic,
       difficulty,
@@ -194,21 +187,16 @@ async function buildQuestions(topic, difficulty, count) {
       why: q.why ? String(q.why) : null
     })).filter(q => q.q && q.choices.length >= 2);
 
-    // Dedupe AI set by question, then shuffle choices
-    aiQs = dedupe(aiQs).map(shuffleChoices);
+    aiQs = dedupeTrue(aiQs).map(shuffleChoices);
 
-    // If AI under-delivers, top up from local bank
     if (aiQs.length < count) {
       const pool = await fetchBank(topic);
-      const localFill = buildLocalSet(topic, difficulty, count, pool); // already unique & correct size
-      // Merge & dedupe, then top-up again to exact count
-      let merged = dedupe(aiQs.concat(localFill));
-      // Final top-up in case merged fell below (rare)
-      merged = topUpUnique(merged, dedupe(pool), count);
+      const localFill = buildLocalSet(topic, difficulty, count, pool);
+      let merged = dedupeTrue(aiQs.concat(localFill));
+      merged = topUpUnique(merged, dedupeTrue(pool), count);
       return shuffle(merged).slice(0, count);
     }
 
-    // If AI has enough, trim to exact count
     return shuffle(aiQs).slice(0, count);
 
   } catch (e) {
@@ -218,7 +206,7 @@ async function buildQuestions(topic, difficulty, count) {
   }
 }
 
-// -------- Game flow + UI (unchanged except timestamp & summary building) --------
+// ---------- UI + Flow ----------
 function startGame(questions) {
   game = {
     questions: questions.map(q => ({...q, userAnswer: null, correct: null})),
@@ -352,6 +340,7 @@ function finish() {
   els.result.hidden = false;
 }
 
+// Coaching for printout
 function coachingAdvice(perTopic) {
   const entries = Object.entries(perTopic).map(([topic, s]) => {
     const pct = s.total ? (s.correct / s.total) : 0;
@@ -362,8 +351,8 @@ function coachingAdvice(perTopic) {
   if (!entries.length) return 'Answer a few questions to get targeted coaching.';
 
   const map = {
-    basics: 'Revisit HDHP/HSA rules, OOPM vs deductible, and formulary tiers. Use simple examples during employee education.',
-    ancillary: 'Emphasize preventive dental/vision design, LTD/Life taxability, and when EAP or indemnity applies.',
+    basics: 'Revisit HDHP/HSA rules, OOPM vs deductible, and formularies. Use simple examples during education.',
+    ancillary: 'Emphasize preventive dental/vision, LTD/Life taxability, and when EAP or indemnity applies.',
     funding: 'Review specific vs aggregate stop-loss and attachment points; model level-funded surplus/deficit scenarios.',
     compliance: 'Tighten COBRA timelines, ERISA fiduciary awareness, and MHPAEA/NQTL basics to reduce risk.',
     sales: 'Deepen discovery, steerage framing (quality + navigation), and claims analytics to support ROI stories.'
@@ -422,7 +411,50 @@ function buildPrintableSummary() {
   });
 }
 
+// Tiny inline notice if pool is too small
+function ensureCountOrNotify(finalQs, desired, poolCount) {
+  const bar = document.querySelector('.progress-bar');
+  const existing = document.getElementById('countNotice');
+  if (existing) existing.remove();
+
+  if (finalQs.length < desired) {
+    const note = document.createElement('div');
+    note.id = 'countNotice';
+    note.style.cssText = 'margin:.5rem 0 0; color:#b45309; font-size:.9rem;';
+    note.textContent = `Only ${finalQs.length} unique questions available (requested ${desired}). Pool size: ${poolCount}.`;
+    bar?.after(note);
+  }
+}
+
 // Init & events
+async function handleStart() {
+  let requested = parseInt(els.count.value, 10);
+  if (!isFinite(requested)) requested = 1;
+  const count = clamp(requested, 1, 100);
+  els.count.value = count;
+
+  const topic = els.topic.value;
+  const diff = els.difficulty.value;
+
+  els.start.disabled = true;
+  els.start.textContent = 'Building questions...';
+
+  // Build once to know pool size and final set
+  let poolForCount = [];
+  try {
+    const pool = await fetchBank(topic);
+    poolForCount = (topic === 'mixed') ? pool : pool.filter(q => q.topic === topic);
+  } catch { /* ignore */ }
+
+  const qs = await buildQuestions(topic, diff, count);
+
+  els.start.disabled = false;
+  els.start.textContent = 'Start Quiz';
+
+  ensureCountOrNotify(qs, count, poolForCount.length);
+  startGame(qs);
+}
+
 function init() {
   els.setup = document.getElementById('setup');
   els.quiz = document.getElementById('quiz');
@@ -456,33 +488,11 @@ function init() {
 
   els.printable = document.getElementById('printable');
 
-  // Start Quiz
-  els.start.addEventListener('click', async () => {
-    let requested = parseInt(els.count.value, 10);
-    if (!isFinite(requested)) requested = 1;
-    const count = clamp(requested, 1, 100);
-    els.count.value = count;
-
-    const topic = els.topic.value;
-    const diff = els.difficulty.value;
-
-    els.start.disabled = true;
-    els.start.textContent = 'Building questions...';
-    const qs = await buildQuestions(topic, diff, count);
-    els.start.disabled = false;
-    els.start.textContent = 'Start Quiz';
-    startGame(qs);
-  });
-
+  els.start.addEventListener('click', handleStart);
   els.answers.addEventListener('click', handleAnswerClick);
   els.next.addEventListener('click', nextQuestion);
   els.skip.addEventListener('click', skipQuestion);
-
-  els.retry.addEventListener('click', () => {
-    els.result.hidden = true;
-    els.setup.hidden = false;
-  });
-
+  els.retry.addEventListener('click', () => { els.result.hidden = true; els.setup.hidden = false; });
   els.share.addEventListener('click', async () => {
     const when = game?.finishedAt ? game.finishedAt.toLocaleString() : new Date().toLocaleString();
     const text = `I scored ${els.resultScore.textContent} on the Employee Benefits Quiz (${els.badge.textContent}) — ${when}. Try to beat me!`;
@@ -490,22 +500,15 @@ function init() {
       await navigator.clipboard.writeText(text);
       els.share.textContent = 'Copied!';
       setTimeout(() => els.share.textContent = 'Copy Share Text', 1500);
-    } catch {
-      alert(text);
-    }
+    } catch { alert(text); }
   });
-
   els.downloadPdf.addEventListener('click', () => {
     if (els.printable.innerHTML.trim() === '') buildPrintableSummary();
     els.printable.hidden = false;
     window.print();
     setTimeout(() => { els.printable.hidden = true; }, 200);
   });
-
-  els.backSetup.addEventListener('click', () => {
-    els.quiz.hidden = true;
-    els.setup.hidden = false;
-  });
+  els.backSetup.addEventListener('click', () => { els.quiz.hidden = true; els.setup.hidden = false; });
 }
 
 document.addEventListener('DOMContentLoaded', init);
