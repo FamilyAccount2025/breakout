@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What’s a common appeal of a level‑funded plan for small employers?",
+    "choices": [
+      "Potential refund if claims are low",
+      "No stop‑loss needed",
+      "Guaranteed renewals for 10 years",
+      "Exemption from ACA mandates"
+    ],
+    "answer": 0,
+    "explain": "Level‑funded plans may return surplus if claims run favorably; ACA rules still apply.",
+    "why": "Funding model affects cash flow, volatility, and renewal leverage."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "In self‑funded plans, which layer protects against a single high‑cost claimant?",
+    "choices": [
+      "Aggregate stop‑loss",
+      "Specific stop‑loss",
+      "Administrative services only fee",
+      "Pooling charge on fully insured"
+    ],
+    "answer": 1,
+    "explain": "Specific stop‑loss caps exposure from any one claimant.",
+    "why": "Choosing correct attachment points is critical to risk management."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which lever can lower fixed monthly cost without cutting benefits (with analysis)?",
+    "choices": [
+      "Increase specific attachment point",
+      "Cut preventive services",
+      "Remove specialty carve‑outs",
+      "Switch to paper claims only"
+    ],
+    "answer": 0,
+    "explain": "Raising specific attachment point may lower fixed cost but changes risk; model before changing.",
+    "why": "Optimizing stop‑loss structure balances affordability with catastrophic protection."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes aggregate stop‑loss?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about specific stop‑loss is most accurate?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for attachment point?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes laser?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about claim corridor is most accurate?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for ASO fee?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes credibility?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about pooling is most accurate?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for IBNR?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes run‑out?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about aggregate stop‑loss is most accurate?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for specific stop‑loss?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes attachment point?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about laser is most accurate?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for claim corridor?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes ASO fee?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about credibility is most accurate?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for pooling?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes IBNR?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about run‑out is most accurate?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for aggregate stop‑loss?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes specific stop‑loss?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about attachment point is most accurate?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for laser?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes claim corridor?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about ASO fee is most accurate?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for credibility?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes pooling?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about IBNR is most accurate?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for run‑out?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes aggregate stop‑loss?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about specific stop‑loss is most accurate?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for attachment point?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes laser?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about claim corridor is most accurate?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for ASO fee?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes credibility?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about pooling is most accurate?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for IBNR?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes run‑out?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about aggregate stop‑loss is most accurate?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for specific stop‑loss?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes attachment point?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about laser is most accurate?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for claim corridor?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes ASO fee?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about credibility is most accurate?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for pooling?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes IBNR?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about run‑out is most accurate?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for aggregate stop‑loss?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes specific stop‑loss?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about attachment point is most accurate?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for laser?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes claim corridor?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about ASO fee is most accurate?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for credibility?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes pooling?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about IBNR is most accurate?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for run‑out?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes aggregate stop‑loss?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about specific stop‑loss is most accurate?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for attachment point?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes laser?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about claim corridor is most accurate?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for ASO fee?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes credibility?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about pooling is most accurate?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for IBNR?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes run‑out?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about aggregate stop‑loss is most accurate?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for specific stop‑loss?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes attachment point?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about laser is most accurate?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for claim corridor?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes ASO fee?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about credibility is most accurate?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for pooling?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes IBNR?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about run‑out is most accurate?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for aggregate stop‑loss?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes specific stop‑loss?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about attachment point is most accurate?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for laser?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes claim corridor?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about ASO fee is most accurate?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for credibility?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes pooling?",
+    "choices": [
+      "spreading risk across groups/blocks",
+      "paying claims weekly only",
+      "union-only pricing",
+      "ACA single risk pool only"
+    ],
+    "answer": 0,
+    "explain": "Spreading risk across groups/blocks.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about IBNR is most accurate?",
+    "choices": [
+      "incurred but not reported claims reserve",
+      "initial base rate",
+      "index of benefits ratio",
+      "internal benchmark"
+    ],
+    "answer": 0,
+    "explain": "Incurred but not reported claims reserve.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for run‑out?",
+    "choices": [
+      "period claims continue to be paid after termination",
+      "early termination fee",
+      "grace period for premiums",
+      "cooling‑off"
+    ],
+    "answer": 0,
+    "explain": "Period claims continue to be paid after termination.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes aggregate stop‑loss?",
+    "choices": [
+      "protection against total claims exceeding a threshold",
+      "single claimant cap",
+      "premium tax",
+      "ACA fee"
+    ],
+    "answer": 0,
+    "explain": "Protection against total claims exceeding a threshold.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about specific stop‑loss is most accurate?",
+    "choices": [
+      "protection capping exposure for a single claimant",
+      "aggregate pooling only",
+      "pharmacy rebate",
+      "reinsurance tax"
+    ],
+    "answer": 0,
+    "explain": "Protection capping exposure for a single claimant.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for attachment point?",
+    "choices": [
+      "claims level where stop‑loss starts paying",
+      "renewal premium",
+      "deductible for members",
+      "state benchmark"
+    ],
+    "answer": 0,
+    "explain": "Claims level where stop‑loss starts paying.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes laser?",
+    "choices": [
+      "higher spec attachment for a known high‑risk member",
+      "free wellness program",
+      "rebate on generics",
+      "ACA subsidy"
+    ],
+    "answer": 0,
+    "explain": "Higher spec attachment for a known high‑risk member.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which statement about claim corridor is most accurate?",
+    "choices": [
+      "range where employer bears risk before pooling",
+      "ER copay band",
+      "member drug tier",
+      "network width"
+    ],
+    "answer": 0,
+    "explain": "Range where employer bears risk before pooling.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for ASO fee?",
+    "choices": [
+      "admin fee to TPA/carrier for services",
+      "member balance bill",
+      "employer FICA",
+      "state DI rate"
+    ],
+    "answer": 0,
+    "explain": "Admin fee to tpa/carrier for services.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "What best describes credibility?",
+    "choices": [
+      "weight of group’s own experience in rating",
+      "broker’s tenure",
+      "member satisfaction score",
+      "provider HCAHPS"
+    ],
+    "answer": 0,
+    "explain": "Weight of group’s own experience in rating.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  }
+]
