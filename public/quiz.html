@@ -62,8 +62,9 @@
       <div class="progress-bar"><div id="progressFill"></div></div>
       <div class="question-card">
         <div id="qtext" class="question-text"></div>
-        <div id="answers" class="answers-list"></div>
+        <div id="answers" class="answers-list" aria-live="polite"></div>
         <div id="explain" class="explanation" hidden></div>
+        <div id="why" class="why-matters" hidden></div>
       </div>
       <div class="quiz-actions">
         <button id="backSetup" class="btn-secondary">Back to Setup</button>
@@ -89,6 +90,6 @@
     <p>© 2025 — Chris Goff</p>
   </footer>
 
-  <script src="quiz.js"></script>
+  <script src="quiz.js" defer></script>
 </body>
 </html>
