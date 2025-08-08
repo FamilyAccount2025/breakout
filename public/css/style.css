@@ -208,18 +208,25 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 }
 
 /* ==============================
-   Quiz Actions
-   ============================== */
-.quiz-actions { display: flex; justify-content: space-between; margin-top: 1rem; }
-.right-buttons { display: flex; gap: 0.5rem; }
-
-/* ==============================
    Results
    ============================== */
 .result-panel { animation: slideUp 0.5s ease; }
 .result-panel h2 { margin-top: 0; }
 .score { font-size: 1.5rem; font-weight: 700; margin: 0.5rem 0; }
-.result-actions { display: flex; gap: 0.5rem; margin-top: 1rem; }
+.meta { color: var(--color-muted); margin-top: 0.25rem; margin-bottom: 0.5rem; }
+
+/* Result buttons: equal widths on desktop, full-width stack on mobile */
+.result-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.result-actions button {
+  flex: 1 1 0;               /* equal widths */
+  min-width: 180px;          /* reasonable min on larger screens */
+  height: 44px;              /* slightly taller for touch */
+}
 
 /* ==============================
    Printable summary
@@ -267,8 +274,12 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 /* ==============================
    Mobile tweaks
    ============================== */
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   .answers-list { gap: 0.6rem; }
   .answers-list button { padding: 0.9rem; min-height: 54px; }
   .quiz-container { margin: 1.25rem auto; }
+
+  /* result buttons: stack full-width */
+  .result-actions { flex-direction: column; }
+  .result-actions button { width: 100%; min-width: 0; }
 }
