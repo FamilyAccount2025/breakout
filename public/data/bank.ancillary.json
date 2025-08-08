@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Which is commonly an ancillary benefit?",
+    "choices": [
+      "Dental",
+      "Inpatient surgery",
+      "Hospital room and board",
+      "Chemotherapy"
+    ],
+    "answer": 0,
+    "explain": "Ancillary benefits commonly include dental, vision, life, and disability.",
+    "why": "Ancillary benefits round out total rewards and improve retention."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which dental design encourages preventive use?",
+    "choices": [
+      "100/80/50 with two cleanings covered",
+      "50/50/50 with one cleaning",
+      "Uniform 70% for all services",
+      "Ortho‑only at age 26+"
+    ],
+    "answer": 0,
+    "explain": "Plans often cover preventive at 100%, basic at 80%, major at 50%.",
+    "why": "Preventive care reduces downstream high‑cost procedures."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Short‑term disability policies usually coordinate with which factor to avoid over‑replacement?",
+    "choices": [
+      "Tax filing status",
+      "Social Security retirement",
+      "State DI and employer‑paid leave",
+      "Spousal income"
+    ],
+    "answer": 2,
+    "explain": "STD benefits often integrate with state DI and employer leave.",
+    "why": "Proper coordination avoids overpayment disputes and keeps premiums sustainable."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes dental waiting period?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about annual maximum (dental) is most accurate?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for vision allowance?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes life insurance AD&D?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about disability elimination period is most accurate?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes voluntary benefits?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about critical illness policy is most accurate?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for hospital indemnity?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes EAP?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about dental waiting period is most accurate?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for annual maximum (dental)?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes vision allowance?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about life insurance AD&D is most accurate?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for disability elimination period?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes LTD benefit taxability?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about voluntary benefits is most accurate?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for critical illness policy?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes hospital indemnity?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about EAP is most accurate?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for dental waiting period?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes annual maximum (dental)?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about vision allowance is most accurate?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for life insurance AD&D?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes disability elimination period?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about LTD benefit taxability is most accurate?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for voluntary benefits?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes critical illness policy?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about hospital indemnity is most accurate?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for EAP?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes dental waiting period?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about annual maximum (dental) is most accurate?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for vision allowance?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes life insurance AD&D?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about disability elimination period is most accurate?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes voluntary benefits?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about critical illness policy is most accurate?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for hospital indemnity?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes EAP?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about dental waiting period is most accurate?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for annual maximum (dental)?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes vision allowance?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about life insurance AD&D is most accurate?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for disability elimination period?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes LTD benefit taxability?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about voluntary benefits is most accurate?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for critical illness policy?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes hospital indemnity?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about EAP is most accurate?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for dental waiting period?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes annual maximum (dental)?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about vision allowance is most accurate?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for life insurance AD&D?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes disability elimination period?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about LTD benefit taxability is most accurate?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for voluntary benefits?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes critical illness policy?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about hospital indemnity is most accurate?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for EAP?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes dental waiting period?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about annual maximum (dental) is most accurate?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for vision allowance?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes life insurance AD&D?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about disability elimination period is most accurate?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes voluntary benefits?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about critical illness policy is most accurate?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for hospital indemnity?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes EAP?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about dental waiting period is most accurate?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for annual maximum (dental)?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes vision allowance?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about life insurance AD&D is most accurate?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for disability elimination period?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes LTD benefit taxability?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about voluntary benefits is most accurate?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for critical illness policy?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes hospital indemnity?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about EAP is most accurate?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for dental waiting period?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes annual maximum (dental)?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about vision allowance is most accurate?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for life insurance AD&D?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes disability elimination period?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about LTD benefit taxability is most accurate?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for voluntary benefits?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes critical illness policy?",
+    "choices": [
+      "lump‑sum on diagnosis of covered condition",
+      "policy paying only for dental",
+      "policy for travel only",
+      "FSA rollover vehicle"
+    ],
+    "answer": 0,
+    "explain": "Lump‑sum on diagnosis of covered condition.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about hospital indemnity is most accurate?",
+    "choices": [
+      "fixed cash per hospital event",
+      "percent of allowed charges",
+      "pharmacy rebate",
+      "health coaching only"
+    ],
+    "answer": 0,
+    "explain": "Fixed cash per hospital event.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for EAP?",
+    "choices": [
+      "confidential assistance services for employees",
+      "emergency ambulance plan",
+      "equipment allowance program",
+      "executive bonus only"
+    ],
+    "answer": 0,
+    "explain": "Confidential assistance services for employees.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes dental waiting period?",
+    "choices": [
+      "time before certain services are covered",
+      "premium grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Time before certain services are covered.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about annual maximum (dental) is most accurate?",
+    "choices": [
+      "plan cap on paid benefits per year",
+      "OOPM for medical",
+      "premium cap for employer",
+      "unlimited orthodontia"
+    ],
+    "answer": 0,
+    "explain": "Plan cap on paid benefits per year.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for vision allowance?",
+    "choices": [
+      "fixed dollar toward frames/lenses",
+      "network discount on hospitals",
+      "HSA match",
+      "life waiver of premium"
+    ],
+    "answer": 0,
+    "explain": "Fixed dollar toward frames/lenses.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes life insurance AD&D?",
+    "choices": [
+      "additional payout for covered accidental death/dis memberment",
+      "higher rate for smokers always",
+      "payout only if disability",
+      "loan program"
+    ],
+    "answer": 0,
+    "explain": "Additional payout for covered accidental death/dis memberment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Which statement about disability elimination period is most accurate?",
+    "choices": [
+      "time between disability and benefit start",
+      "period to enroll dependents",
+      "ER admission time",
+      "time to COBRA elect"
+    ],
+    "answer": 0,
+    "explain": "Time between disability and benefit start.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
+    "choices": [
+      "depends on who paid premium pre/post‑tax",
+      "always tax‑free",
+      "always taxable",
+      "only employer choice"
+    ],
+    "answer": 0,
+    "explain": "Depends on who paid premium pre/post‑tax.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What best describes voluntary benefits?",
+    "choices": [
+      "employee‑paid optional benefits",
+      "mandatory statutory benefits",
+      "free employer perks",
+      "Medicare supplements only"
+    ],
+    "answer": 0,
+    "explain": "Employee‑paid optional benefits.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  }
+]
