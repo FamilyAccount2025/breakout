@@ -1,1254 +1,1898 @@
 [
   {
     "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
     "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Most effective framing for a steerage network migration is…",
-    "choices": [
-      "Show navigation + quality outcomes + shared savings",
-      "Lead with penalties only",
-      "Focus only on discount",
-      "Avoid quality data to reduce debate"
-    ],
-    "answer": 0,
-    "explain": "Pair navigation and outcomes with savings to convey value beyond discounts.",
-    "why": "steerage"
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "OE communications should…",
-    "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
-    ],
-    "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
-    "choices": [
-      "Map timeline, owners, and risks through go‑live",
-      "Be verbal only",
-      "Wait until after renewal",
-      "Exclude member comms"
-    ],
-    "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "A strong first step with a new group is to…",
+    "q": "A strong first step with a new group is to:",
     "choices": [
       "Understand pain points and objectives",
       "Present final rates immediately",
-      "Request a 5‑year rate guarantee",
-      "Quote only one carrier"
+      "Quote one carrier only",
+      "Skip data collection"
     ],
     "answer": 0,
     "explain": "Discovery aligns solutions with the employer’s objectives.",
-    "why": "discovery"
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
   },
   {
     "topic": "sales",
     "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
+    "q": "Why promote site‑of‑care navigation?",
     "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
+      "Improves experience and reduces spend",
+      "Only helps rural areas",
+      "Replaces primary care",
+      "Required for ACA reporting"
     ],
     "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "A multi‑year strategy…",
-    "choices": [
-      "Aligns stakeholders and sequences change",
-      "Is unnecessary in benefits",
-      "Blocks innovation",
-      "Avoids measurement"
-    ],
-    "answer": 0,
-    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
-    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
-    "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
-    ],
-    "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which metric best signals an opportunity for condition‑management programs?",
-    "choices": [
-      "Rising avoidable ER utilization",
-      "High generic dispense rate",
-      "Stable preventive visit rates",
-      "Low telehealth adoption alone"
-    ],
-    "answer": 0,
-    "explain": "Avoidable ER spikes often flag gaps in primary care or adherence.",
-    "why": "analytics"
+    "explain": "Directing to high‑value sites reduces cost without harming outcomes.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
   },
   {
     "topic": "sales",
     "difficulty": "easy",
-    "q": "OE communications should…",
+    "q": "Benchmarking helps by:",
     "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
+      "Contextualizing plan metrics vs. peers",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing surveys"
     ],
     "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
-    "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
-      "Avoid data to stay high‑level",
-      "Lead with swag"
-    ],
-    "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture."
   },
   {
     "topic": "sales",
     "difficulty": "easy",
-    "q": "OE communications should…",
+    "q": "Which slide strengthens a finalist pitch the most?",
     "choices": [
-      "Be clear, timely, and multi‑channel",
-      "Be only one email",
-      "Skip visuals",
-      "Avoid deadlines"
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
     ],
     "answer": 0,
-    "explain": "Good comms lift participation and satisfaction.",
-    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "A good implementation plan should…",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals opportunity for condition‑management programs?",
+    "choices": [
+      "Avoidable ER utilization trend",
+      "PCP directory size",
+      "Generic dispense already high",
+      "Total # of vendors"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag access or adherence gaps to target.",
+    "why": "Claims analytics reveal actionable cost and quality drivers for targeted interventions."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
     "choices": [
       "Map timeline, owners, and risks through go‑live",
       "Be verbal only",
@@ -1256,147 +1900,2303 @@
       "Exclude member comms"
     ],
     "answer": 0,
-    "explain": "Strong implementations minimize disruption.",
-    "why": "Tight implementations avoid member disruption and set the year up for success."
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
+    "q": "An implementation plan should:",
     "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
     ],
     "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
+    "q": "An implementation plan should:",
     "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
     ],
     "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
-    "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
-    ],
-    "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Stop‑loss strategy should be reviewed…",
+    "q": "An implementation plan should:",
     "choices": [
-      "Annually with modeling of attachment points and lasers",
-      "Only after a shock claim",
-      "Every 5–7 years",
-      "Never"
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
     ],
     "answer": 0,
-    "explain": "Regular reviews align risk tolerance with cost.",
-    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
   },
   {
     "topic": "sales",
-    "difficulty": "easy",
-    "q": "Directing members to telehealth or high‑value sites of care…",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
     "choices": [
-      "Improves experience and reduces spend when appropriate",
-      "Always replaces primary care",
-      "Is prohibited for HSA plans",
-      "Only matters in rural areas"
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
     ],
     "answer": 0,
-    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
-    "why": "Directing members to the right site of care enhances experience and reduces spend."
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "An implementation plan should:",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption and errors.",
+    "why": "Tight implementations avoid disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "OE communications that work best are:",
+    "choices": [
+      "Clear, timely, and multi‑channel",
+      "One email only",
+      "Paper only",
+      "No deadlines"
+    ],
+    "answer": 0,
+    "explain": "Clarity and cadence lift participation and reduce confusion.",
+    "why": "Clear, timely OE communications lift participation and reduce HR noise."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
   },
   {
     "topic": "sales",
     "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
     "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
       "Avoid data to stay high‑level",
       "Lead with swag"
     ],
     "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Benchmarking helps by…",
-    "choices": [
-      "Contextualizing plan metrics vs. peers to target action",
-      "Guaranteeing lower premiums",
-      "Eliminating stop‑loss",
-      "Replacing member surveys"
-    ],
-    "answer": 0,
-    "explain": "Benchmarks support prioritization and negotiations.",
-    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
   },
   {
     "topic": "sales",
     "difficulty": "expert",
-    "q": "Best way to win CFO buy‑in on programs is to…",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
     "choices": [
-      "Tie interventions to outcomes and financial impact",
-      "Use vendor buzzwords",
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
       "Avoid data to stay high‑level",
       "Lead with swag"
     ],
     "answer": 0,
-    "explain": "A credible ROI story secures approval.",
-    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "To win CFO approval for navigation + steerage program, frame it as:",
+    "choices": [
+      "Outcomes + financial impact with credible ROI",
+      "Vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "Tie programs to outcomes and dollars to secure buy‑in.",
+    "why": "Link programs to outcomes and dollars to win CFO buy‑in."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "A multi‑year roadmap beats one‑year haggling because it:",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Blocks innovation",
+      "Avoids measurement",
+      "Eliminates analytics"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps prevent whiplash and keep accountability clear.",
+    "why": "Structured discovery uncovers pain points and goals that drive winning proposals."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "When a carrier offers a deep discount, what should you validate first?",
+    "choices": [
+      "Underlying unit costs, steerage, and quality outcomes",
+      "Swag value",
+      "Logo color",
+      "Number of emails sent"
+    ],
+    "answer": 0,
+    "explain": "Validate underlying economics and outcomes, not just headline discounts.",
+    "why": "Steerage networks + navigation improve outcomes and savings—frame value beyond discounts."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which slide strengthens a finalist pitch the most?",
+    "choices": [
+      "Baseline metrics + targeted interventions + projected ROI",
+      "Vendor awards slide only",
+      "Clip art collage",
+      "Appendix with 200 pages"
+    ],
+    "answer": 0,
+    "explain": "Lead with data‑driven story and expected impact.",
+    "why": "CFOs back plans that show measurable outcomes."
   }
 ]
