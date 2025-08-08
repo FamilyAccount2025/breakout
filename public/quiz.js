@@ -145,11 +145,16 @@ function handleAnswerClick(e) {
   if (game.answered[game.i]) return;
   game.answered[game.i] = true;
 
+  // Add click animation
+  btn.classList.add('clicked');
+  setTimeout(() => btn.classList.remove('clicked'), 150);
+
   const correct = idx === q.answer;
   if (correct) game.score++;
 
   [...els.answers.children].forEach((b, i) => {
-    b.classList.add(i === q.answer ? 'correct' : (i === idx ? 'incorrect' : ''));
+    const className = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : null);
+    if (className) b.classList.add(className);
     b.disabled = true;
   });
 
@@ -207,7 +212,7 @@ els.start.addEventListener('click', async () => {
   startGame(qs);
 });
 
-els.answers.addEventListener('click', handleAnswerClick); // event delegation
+els.answers.addEventListener('click', handleAnswerClick);
 els.next.addEventListener('click', nextQuestion);
 els.skip.addEventListener('click', skipQuestion);
 
