@@ -1,8 +1,1072 @@
 [
   {
     "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
     "difficulty": "easy",
-    "q": "What’s a common first step in a broker’s discovery with a new group?",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Most effective framing for a steerage network migration is…",
+    "choices": [
+      "Show navigation + quality outcomes + shared savings",
+      "Lead with penalties only",
+      "Focus only on discount",
+      "Avoid quality data to reduce debate"
+    ],
+    "answer": 0,
+    "explain": "Pair navigation and outcomes with savings to convey value beyond discounts.",
+    "why": "steerage"
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A good implementation plan should…",
+    "choices": [
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
+    ],
+    "answer": 0,
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "A strong first step with a new group is to…",
     "choices": [
       "Understand pain points and objectives",
       "Present final rates immediately",
@@ -11,7 +1075,119 @@
     ],
     "answer": 0,
     "explain": "Discovery aligns solutions with the employer’s objectives.",
-    "why": "Consultative discovery improves plan fit and renewal success."
+    "why": "discovery"
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Benchmarking helps by…",
+    "choices": [
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
+    ],
+    "answer": 0,
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "A multi‑year strategy…",
+    "choices": [
+      "Aligns stakeholders and sequences change",
+      "Is unnecessary in benefits",
+      "Blocks innovation",
+      "Avoids measurement"
+    ],
+    "answer": 0,
+    "explain": "Roadmaps beat one‑off haggling and prevent whiplash.",
+    "why": "A multi‑year roadmap beats one‑year haggling and aligns stakeholders."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Stop‑loss strategy should be reviewed…",
+    "choices": [
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
+    ],
+    "answer": 0,
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
   },
   {
     "topic": "sales",
@@ -20,1383 +1196,207 @@
     "choices": [
       "Rising avoidable ER utilization",
       "High generic dispense rate",
-      "Stable preventive visits",
-      "Low telehealth adoption only"
+      "Stable preventive visit rates",
+      "Low telehealth adoption alone"
     ],
     "answer": 0,
     "explain": "Avoidable ER spikes often flag gaps in primary care or adherence.",
-    "why": "Targeting clinical drivers can bend trend without blunt cost shifting."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which framing is most effective when presenting migration to a steerage network?",
-    "choices": [
-      "Show navigation + quality outcomes + shared savings",
-      "Lead with penalties only",
-      "Focus only on carrier discount",
-      "Avoid quality data to reduce debate"
-    ],
-    "answer": 0,
-    "explain": "Pairing navigation, outcomes, and savings shows value beyond discounts.",
-    "why": "Strategic framing increases adoption of guided care models."
+    "why": "analytics"
   },
   {
     "topic": "sales",
     "difficulty": "easy",
-    "q": "What best describes value narrative?",
+    "q": "OE communications should…",
     "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
     ],
     "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "OE communications should…",
+    "choices": [
+      "Be clear, timely, and multi‑channel",
+      "Be only one email",
+      "Skip visuals",
+      "Avoid deadlines"
+    ],
+    "answer": 0,
+    "explain": "Good comms lift participation and satisfaction.",
+    "why": "Clear, timely OE communications lift participation and reduce noise to HR."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Which statement about claims analytics is most accurate?",
+    "q": "A good implementation plan should…",
     "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
+      "Map timeline, owners, and risks through go‑live",
+      "Be verbal only",
+      "Wait until after renewal",
+      "Exclude member comms"
     ],
     "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for steerage network?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes discovery?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Strong implementations minimize disruption.",
+    "why": "Tight implementations avoid member disruption and set the year up for success."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Which statement about benchmarking is most accurate?",
+    "q": "Stop‑loss strategy should be reviewed…",
     "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
     ],
     "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for implementation plan?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
   },
   {
     "topic": "sales",
     "difficulty": "easy",
-    "q": "What best describes OE communications?",
+    "q": "Directing members to telehealth or high‑value sites of care…",
     "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
     ],
     "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Which statement about clinical programs is most accurate?",
+    "q": "Benchmarking helps by…",
     "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
     ],
     "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for stop‑loss strategy review?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
   },
   {
     "topic": "sales",
     "difficulty": "easy",
-    "q": "What best describes multi‑year strategy?",
+    "q": "Directing members to telehealth or high‑value sites of care…",
     "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
     ],
     "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "Directing members to telehealth or high‑value sites of care…",
+    "choices": [
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
+    ],
+    "answer": 0,
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Which statement about value narrative is most accurate?",
+    "q": "Stop‑loss strategy should be reviewed…",
     "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
+      "Annually with modeling of attachment points and lasers",
+      "Only after a shock claim",
+      "Every 5–7 years",
+      "Never"
     ],
     "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for claims analytics?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Regular reviews align risk tolerance with cost.",
+    "why": "Annual stop‑loss reviews prevent surprises and optimize cost/risk balance."
   },
   {
     "topic": "sales",
     "difficulty": "easy",
-    "q": "What best describes steerage network?",
+    "q": "Directing members to telehealth or high‑value sites of care…",
     "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
+      "Improves experience and reduces spend when appropriate",
+      "Always replaces primary care",
+      "Is prohibited for HSA plans",
+      "Only matters in rural areas"
     ],
     "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Site‑of‑care navigation is table‑stakes in modern benefits.",
+    "why": "Directing members to the right site of care enhances experience and reduces spend."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Best way to win CFO buy‑in on programs is to…",
+    "choices": [
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
+    ],
+    "answer": 0,
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
   },
   {
     "topic": "sales",
     "difficulty": "intermediate",
-    "q": "Which statement about discovery is most accurate?",
+    "q": "Benchmarking helps by…",
     "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
+      "Contextualizing plan metrics vs. peers to target action",
+      "Guaranteeing lower premiums",
+      "Eliminating stop‑loss",
+      "Replacing member surveys"
     ],
     "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Benchmarks support prioritization and negotiations.",
+    "why": "Benchmarking sets context and strengthens negotiating posture with carriers."
   },
   {
     "topic": "sales",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for benchmarking?",
+    "q": "Best way to win CFO buy‑in on programs is to…",
     "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
+      "Tie interventions to outcomes and financial impact",
+      "Use vendor buzzwords",
+      "Avoid data to stay high‑level",
+      "Lead with swag"
     ],
     "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes implementation plan?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about OE communications is most accurate?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for clinical programs?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes stop‑loss strategy review?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about multi‑year strategy is most accurate?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for value narrative?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes claims analytics?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about steerage network is most accurate?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for discovery?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes benchmarking?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about implementation plan is most accurate?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for OE communications?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes clinical programs?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about stop‑loss strategy review is most accurate?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for multi‑year strategy?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes value narrative?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about claims analytics is most accurate?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for steerage network?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes discovery?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about benchmarking is most accurate?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for implementation plan?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes OE communications?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about clinical programs is most accurate?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for stop‑loss strategy review?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes multi‑year strategy?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about value narrative is most accurate?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for claims analytics?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes steerage network?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about discovery is most accurate?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for benchmarking?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes implementation plan?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about OE communications is most accurate?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for clinical programs?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes stop‑loss strategy review?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about multi‑year strategy is most accurate?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for value narrative?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes claims analytics?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about steerage network is most accurate?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for discovery?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes benchmarking?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about implementation plan is most accurate?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for OE communications?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes clinical programs?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about stop‑loss strategy review is most accurate?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for multi‑year strategy?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes value narrative?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about claims analytics is most accurate?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for steerage network?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes discovery?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about benchmarking is most accurate?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for implementation plan?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes OE communications?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about clinical programs is most accurate?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for stop‑loss strategy review?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes multi‑year strategy?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about value narrative is most accurate?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for claims analytics?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes steerage network?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about discovery is most accurate?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for benchmarking?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes implementation plan?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about OE communications is most accurate?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for clinical programs?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes stop‑loss strategy review?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about multi‑year strategy is most accurate?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for value narrative?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes claims analytics?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about steerage network is most accurate?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for discovery?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes benchmarking?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about implementation plan is most accurate?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for OE communications?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes clinical programs?",
-    "choices": [
-      "initiatives to improve outcomes and reduce avoidable spend",
-      "marketing swag",
-      "PPO rebrand only",
-      "faxing claims"
-    ],
-    "answer": 0,
-    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about stop‑loss strategy review is most accurate?",
-    "choices": [
-      "annual review of attachment points and lasers",
-      "wait for large claims then adjust",
-      "ignore pooling trends",
-      "avoid modeling"
-    ],
-    "answer": 0,
-    "explain": "Annual review of attachment points and lasers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for multi‑year strategy?",
-    "choices": [
-      "roadmap across benefit years",
-      "single‑year rate haggle",
-      "defer all changes",
-      "avoid data until renewal"
-    ],
-    "answer": 0,
-    "explain": "Roadmap across benefit years.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes value narrative?",
-    "choices": [
-      "story that ties benefits to outcomes and ROI",
-      "pure price sheet",
-      "carrier logos only",
-      "jargon‑heavy deck"
-    ],
-    "answer": 0,
-    "explain": "Story that ties benefits to outcomes and roi.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about claims analytics is most accurate?",
-    "choices": [
-      "turning raw claims into insights and actions",
-      "rate load guessing",
-      "PHI blast emails",
-      "untracked surveys"
-    ],
-    "answer": 0,
-    "explain": "Turning raw claims into insights and actions.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for steerage network?",
-    "choices": [
-      "design that directs members to high‑value providers",
-      "all providers at same cost",
-      "no quality variation exists",
-      "only out‑of‑network use"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to high‑value providers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes discovery?",
-    "choices": [
-      "structured questions to surface goals and pain points",
-      "one‑way presentation",
-      "renewal notice only",
-      "RFP auto‑send"
-    ],
-    "answer": 0,
-    "explain": "Structured questions to surface goals and pain points.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "intermediate",
-    "q": "Which statement about benchmarking is most accurate?",
-    "choices": [
-      "comparing plan metrics to market peers",
-      "random carrier quote",
-      "only internal budget",
-      "legal review"
-    ],
-    "answer": 0,
-    "explain": "Comparing plan metrics to market peers.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for implementation plan?",
-    "choices": [
-      "mapped timeline and responsibilities",
-      "unplanned go‑live",
-      "verbal hand‑off only",
-      "skip member comms"
-    ],
-    "answer": 0,
-    "explain": "Mapped timeline and responsibilities.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "sales",
-    "difficulty": "easy",
-    "q": "What best describes OE communications?",
-    "choices": [
-      "clear, timely employee messaging for enrollment",
-      "carrier press releases",
-      "broker comp disclosure",
-      "COBRA letters"
-    ],
-    "answer": 0,
-    "explain": "Clear, timely employee messaging for enrollment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "A credible ROI story secures approval.",
+    "why": "Linking programs to outcomes and dollars wins buy‑in at the CFO level."
   }
 ]
