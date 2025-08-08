@@ -10,1393 +10,1393 @@
       "Chemotherapy"
     ],
     "answer": 0,
-    "explain": "Ancillary benefits commonly include dental, vision, life, and disability.",
-    "why": "Ancillary benefits round out total rewards and improve retention."
+    "explain": "Ancillary commonly includes dental, vision, life, and disability.",
+    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which dental design encourages preventive use?",
+    "q": "Which dental plan design most encourages preventive care utilization?",
     "choices": [
       "100/80/50 with two cleanings covered",
       "50/50/50 with one cleaning",
       "Uniform 70% for all services",
-      "Ortho‑only at age 26+"
+      "Ortho-only plan"
     ],
     "answer": 0,
-    "explain": "Plans often cover preventive at 100%, basic at 80%, major at 50%.",
-    "why": "Preventive care reduces downstream high‑cost procedures."
+    "explain": "Covering preventive at 100% with tiered basic/major benefits nudges early care.",
+    "why": "Preventive incentives lower downstream major claims and keep employees productive."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Short‑term disability policies usually coordinate with which factor to avoid over‑replacement?",
+    "q": "Short-term disability policies usually coordinate with which factor to avoid over-replacement of income?",
     "choices": [
+      "State disability programs and employer-paid leave",
       "Tax filing status",
-      "Social Security retirement",
-      "State DI and employer‑paid leave",
-      "Spousal income"
+      "Spousal income",
+      "Social Security retirement benefits"
     ],
-    "answer": 2,
-    "explain": "STD benefits often integrate with state DI and employer leave.",
-    "why": "Proper coordination avoids overpayment disputes and keeps premiums sustainable."
+    "answer": 0,
+    "explain": "STD often integrates with state DI and employer leave to keep replacement within policy limits.",
+    "why": "Coordinating benefits avoids overpayment disputes and stabilizes pricing."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes dental waiting period?",
+    "q": "What is a dental waiting period?",
     "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about annual maximum (dental) is most accurate?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for vision allowance?",
-    "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
-    ],
-    "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes life insurance AD&D?",
+    "q": "A vision allowance is…",
     "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
+      "A fixed dollar amount toward frames or lenses",
+      "A medical lab discount",
+      "An HSA employer match",
+      "A life insurance rider"
     ],
     "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about disability elimination period is most accurate?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
-    "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
-    ],
-    "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Allowances pay toward frames/lenses up to a set amount.",
+    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes voluntary benefits?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about critical illness policy is most accurate?",
+    "q": "In LTD, what does the elimination period represent?",
     "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
     ],
     "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for hospital indemnity?",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
     "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
     ],
     "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes EAP?",
+    "q": "Voluntary (employee-paid) benefits primarily…",
     "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
+      "Expand choice without increasing employer premium spend",
+      "Replace all medical coverage",
+      "Are free to the employer and employee",
+      "Are only for executives"
     ],
     "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Voluntary programs add options while controlling employer cost.",
+    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
   },
   {
     "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about dental waiting period is most accurate?",
+    "difficulty": "easy",
+    "q": "A critical illness policy generally pays…",
     "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "An Employee Assistance Program (EAP) offers…",
+    "choices": [
+      "Confidential counseling and support services",
+      "Extra dental cleanings",
+      "Free medical equipment",
+      "Automatic disability benefits"
+    ],
+    "answer": 0,
+    "explain": "EAPs provide short-term counseling and resources to support well-being.",
+    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental waiting period?",
+    "choices": [
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for annual maximum (dental)?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes vision allowance?",
+    "difficulty": "expert",
+    "q": "In LTD, what does the elimination period represent?",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about life insurance AD&D is most accurate?",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
     "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
     ],
     "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for disability elimination period?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes LTD benefit taxability?",
+    "q": "A critical illness policy generally pays…",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
     ],
     "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about voluntary benefits is most accurate?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for critical illness policy?",
-    "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
-    ],
-    "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes hospital indemnity?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about EAP is most accurate?",
-    "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
-    ],
-    "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for dental waiting period?",
+    "q": "A critical illness policy generally pays…",
     "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "choices": [
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
+    ],
+    "answer": 0,
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental waiting period?",
+    "choices": [
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes annual maximum (dental)?",
-    "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
-    ],
-    "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about vision allowance is most accurate?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for life insurance AD&D?",
-    "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
-    ],
-    "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes disability elimination period?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about LTD benefit taxability is most accurate?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for voluntary benefits?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes critical illness policy?",
-    "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
-    ],
-    "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about hospital indemnity is most accurate?",
+    "q": "Hospital indemnity insurance provides…",
     "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
     ],
     "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for EAP?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes dental waiting period?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
+    ],
+    "answer": 0,
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "A vision allowance is…",
+    "choices": [
+      "A fixed dollar amount toward frames or lenses",
+      "A medical lab discount",
+      "An HSA employer match",
+      "A life insurance rider"
+    ],
+    "answer": 0,
+    "explain": "Allowances pay toward frames/lenses up to a set amount.",
+    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental annual maximum?",
+    "choices": [
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
+    ],
+    "answer": 0,
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "Voluntary (employee-paid) benefits primarily…",
+    "choices": [
+      "Expand choice without increasing employer premium spend",
+      "Replace all medical coverage",
+      "Are free to the employer and employee",
+      "Are only for executives"
+    ],
+    "answer": 0,
+    "explain": "Voluntary programs add options while controlling employer cost.",
+    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Voluntary (employee-paid) benefits primarily…",
+    "choices": [
+      "Expand choice without increasing employer premium spend",
+      "Replace all medical coverage",
+      "Are free to the employer and employee",
+      "Are only for executives"
+    ],
+    "answer": 0,
+    "explain": "Voluntary programs add options while controlling employer cost.",
+    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "choices": [
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
+    ],
+    "answer": 0,
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "A critical illness policy generally pays…",
+    "choices": [
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "A critical illness policy generally pays…",
+    "choices": [
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "A critical illness policy generally pays…",
+    "choices": [
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental waiting period?",
+    "choices": [
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about annual maximum (dental) is most accurate?",
+    "q": "Voluntary (employee-paid) benefits primarily…",
     "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
+      "Expand choice without increasing employer premium spend",
+      "Replace all medical coverage",
+      "Are free to the employer and employee",
+      "Are only for executives"
     ],
     "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Voluntary programs add options while controlling employer cost.",
+    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "What does AD&D add to a basic life policy?",
+    "choices": [
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
+    ],
+    "answer": 0,
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for vision allowance?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes life insurance AD&D?",
-    "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
-    ],
-    "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about disability elimination period is most accurate?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes voluntary benefits?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about critical illness policy is most accurate?",
+    "q": "What is a dental waiting period?",
     "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
-    ],
-    "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for hospital indemnity?",
-    "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
-    ],
-    "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes EAP?",
-    "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
-    ],
-    "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about dental waiting period is most accurate?",
-    "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for annual maximum (dental)?",
-    "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
-    ],
-    "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes vision allowance?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about life insurance AD&D is most accurate?",
-    "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
-    ],
-    "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for disability elimination period?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes LTD benefit taxability?",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
     ],
     "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about voluntary benefits is most accurate?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for critical illness policy?",
-    "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
-    ],
-    "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes hospital indemnity?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about EAP is most accurate?",
+    "q": "What is a dental waiting period?",
     "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
-    ],
-    "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for dental waiting period?",
-    "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes annual maximum (dental)?",
-    "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
-    ],
-    "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about vision allowance is most accurate?",
+    "q": "A critical illness policy generally pays…",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for life insurance AD&D?",
-    "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
-    ],
-    "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes disability elimination period?",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
     "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
     ],
     "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about LTD benefit taxability is most accurate?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for voluntary benefits?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes critical illness policy?",
+    "q": "An Employee Assistance Program (EAP) offers…",
     "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
+      "Confidential counseling and support services",
+      "Extra dental cleanings",
+      "Free medical equipment",
+      "Automatic disability benefits"
     ],
     "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "EAPs provide short-term counseling and resources to support well-being.",
+    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What is a dental annual maximum?",
+    "choices": [
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
+    ],
+    "answer": 0,
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about hospital indemnity is most accurate?",
+    "q": "An Employee Assistance Program (EAP) offers…",
     "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
+      "Confidential counseling and support services",
+      "Extra dental cleanings",
+      "Free medical equipment",
+      "Automatic disability benefits"
     ],
     "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "EAPs provide short-term counseling and resources to support well-being.",
+    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
   },
   {
     "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for EAP?",
+    "difficulty": "intermediate",
+    "q": "In LTD, what does the elimination period represent?",
     "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
     ],
     "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes dental waiting period?",
+    "q": "What is a dental waiting period?",
     "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about annual maximum (dental) is most accurate?",
-    "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
-    ],
-    "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for vision allowance?",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes life insurance AD&D?",
-    "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
-    ],
-    "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about disability elimination period is most accurate?",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
     "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
     ],
     "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
+    "q": "Voluntary (employee-paid) benefits primarily…",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
+      "Expand choice without increasing employer premium spend",
+      "Replace all medical coverage",
+      "Are free to the employer and employee",
+      "Are only for executives"
     ],
     "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes voluntary benefits?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Voluntary programs add options while controlling employer cost.",
+    "why": "Positioning voluntary benefits correctly expands choice without driving employer cost, improving retention."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about critical illness policy is most accurate?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for hospital indemnity?",
+    "q": "A critical illness policy generally pays…",
     "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
     ],
     "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes EAP?",
+    "q": "A vision allowance is…",
     "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
+      "A fixed dollar amount toward frames or lenses",
+      "A medical lab discount",
+      "An HSA employer match",
+      "A life insurance rider"
     ],
     "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Allowances pay toward frames/lenses up to a set amount.",
+    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about dental waiting period is most accurate?",
+    "q": "An Employee Assistance Program (EAP) offers…",
     "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "Confidential counseling and support services",
+      "Extra dental cleanings",
+      "Free medical equipment",
+      "Automatic disability benefits"
+    ],
+    "answer": 0,
+    "explain": "EAPs provide short-term counseling and resources to support well-being.",
+    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "choices": [
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
+    ],
+    "answer": 0,
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "An Employee Assistance Program (EAP) offers…",
+    "choices": [
+      "Confidential counseling and support services",
+      "Extra dental cleanings",
+      "Free medical equipment",
+      "Automatic disability benefits"
+    ],
+    "answer": 0,
+    "explain": "EAPs provide short-term counseling and resources to support well-being.",
+    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental waiting period?",
+    "choices": [
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for annual maximum (dental)?",
-    "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
-    ],
-    "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes vision allowance?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about life insurance AD&D is most accurate?",
-    "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
-    ],
-    "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for disability elimination period?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes LTD benefit taxability?",
+    "q": "What is a dental waiting period?",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
-    ],
-    "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about voluntary benefits is most accurate?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for critical illness policy?",
-    "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
-    ],
-    "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes hospital indemnity?",
-    "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
-    ],
-    "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about EAP is most accurate?",
-    "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
-    ],
-    "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for dental waiting period?",
-    "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes annual maximum (dental)?",
-    "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
-    ],
-    "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about vision allowance is most accurate?",
+    "q": "What does AD&D add to a basic life policy?",
     "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
     ],
     "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for life insurance AD&D?",
-    "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
-    ],
-    "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes disability elimination period?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
   },
   {
     "topic": "ancillary",
     "difficulty": "intermediate",
-    "q": "Which statement about LTD benefit taxability is most accurate?",
+    "q": "What is a dental waiting period?",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
-    ],
-    "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for voluntary benefits?",
-    "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
-    ],
-    "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes critical illness policy?",
-    "choices": [
-      "lump‑sum on diagnosis of covered condition",
-      "policy paying only for dental",
-      "policy for travel only",
-      "FSA rollover vehicle"
-    ],
-    "answer": 0,
-    "explain": "Lump‑sum on diagnosis of covered condition.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about hospital indemnity is most accurate?",
-    "choices": [
-      "fixed cash per hospital event",
-      "percent of allowed charges",
-      "pharmacy rebate",
-      "health coaching only"
-    ],
-    "answer": 0,
-    "explain": "Fixed cash per hospital event.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for EAP?",
-    "choices": [
-      "confidential assistance services for employees",
-      "emergency ambulance plan",
-      "equipment allowance program",
-      "executive bonus only"
-    ],
-    "answer": 0,
-    "explain": "Confidential assistance services for employees.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "easy",
-    "q": "What best describes dental waiting period?",
-    "choices": [
-      "time before certain services are covered",
-      "premium grace period",
+      "A time before specified services are covered",
+      "A medical plan grace period",
       "ER copay holiday",
       "ACA affordability test"
     ],
     "answer": 0,
-    "explain": "Time before certain services are covered.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about annual maximum (dental) is most accurate?",
-    "choices": [
-      "plan cap on paid benefits per year",
-      "OOPM for medical",
-      "premium cap for employer",
-      "unlimited orthodontia"
-    ],
-    "answer": 0,
-    "explain": "Plan cap on paid benefits per year.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for vision allowance?",
-    "choices": [
-      "fixed dollar toward frames/lenses",
-      "network discount on hospitals",
-      "HSA match",
-      "life waiver of premium"
-    ],
-    "answer": 0,
-    "explain": "Fixed dollar toward frames/lenses.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes life insurance AD&D?",
+    "q": "What is a dental annual maximum?",
     "choices": [
-      "additional payout for covered accidental death/dis memberment",
-      "higher rate for smokers always",
-      "payout only if disability",
-      "loan program"
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
     ],
     "answer": 0,
-    "explain": "Additional payout for covered accidental death/dis memberment.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
-  },
-  {
-    "topic": "ancillary",
-    "difficulty": "intermediate",
-    "q": "Which statement about disability elimination period is most accurate?",
-    "choices": [
-      "time between disability and benefit start",
-      "period to enroll dependents",
-      "ER admission time",
-      "time to COBRA elect"
-    ],
-    "answer": 0,
-    "explain": "Time between disability and benefit start.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
   },
   {
     "topic": "ancillary",
     "difficulty": "expert",
-    "q": "Which scenario aligns with best practice for LTD benefit taxability?",
+    "q": "An Employee Assistance Program (EAP) offers…",
     "choices": [
-      "depends on who paid premium pre/post‑tax",
-      "always tax‑free",
-      "always taxable",
-      "only employer choice"
+      "Confidential counseling and support services",
+      "Extra dental cleanings",
+      "Free medical equipment",
+      "Automatic disability benefits"
     ],
     "answer": 0,
-    "explain": "Depends on who paid premium pre/post‑tax.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "EAPs provide short-term counseling and resources to support well-being.",
+    "why": "Early access to counseling and legal/financial support reduces absenteeism and supports a healthier culture."
   },
   {
     "topic": "ancillary",
     "difficulty": "easy",
-    "q": "What best describes voluntary benefits?",
+    "q": "A critical illness policy generally pays…",
     "choices": [
-      "employee‑paid optional benefits",
-      "mandatory statutory benefits",
-      "free employer perks",
-      "Medicare supplements only"
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
     ],
     "answer": 0,
-    "explain": "Employee‑paid optional benefits.",
-    "why": "Understanding ancillary features helps employees use benefits effectively."
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What does AD&D add to a basic life policy?",
+    "choices": [
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
+    ],
+    "answer": 0,
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "A vision allowance is…",
+    "choices": [
+      "A fixed dollar amount toward frames or lenses",
+      "A medical lab discount",
+      "An HSA employer match",
+      "A life insurance rider"
+    ],
+    "answer": 0,
+    "explain": "Allowances pay toward frames/lenses up to a set amount.",
+    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental waiting period?",
+    "choices": [
+      "A time before specified services are covered",
+      "A medical plan grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "A critical illness policy generally pays…",
+    "choices": [
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "A critical illness policy generally pays…",
+    "choices": [
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "A vision allowance is…",
+    "choices": [
+      "A fixed dollar amount toward frames or lenses",
+      "A medical lab discount",
+      "An HSA employer match",
+      "A life insurance rider"
+    ],
+    "answer": 0,
+    "explain": "Allowances pay toward frames/lenses up to a set amount.",
+    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "A critical illness policy generally pays…",
+    "choices": [
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "A critical illness policy generally pays…",
+    "choices": [
+      "A lump-sum upon diagnosis of a covered condition",
+      "Coinsurance for all surgeries",
+      "Only dental costs",
+      "An HSA match"
+    ],
+    "answer": 0,
+    "explain": "Pays a lump sum that can be used for any expense.",
+    "why": "Lump-sum benefits can close financial gaps that medical plans don’t cover, reducing hardship after diagnosis."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "intermediate",
+    "q": "LTD benefits being taxable or tax-free primarily depends on which factor?",
+    "choices": [
+      "Whether the premium was paid pre-tax or post-tax",
+      "Member’s W-2 income",
+      "Carrier claims ratio",
+      "Group size over 100"
+    ],
+    "answer": 0,
+    "explain": "If premiums are paid post-tax, benefits are generally tax-free; pre-tax premiums usually make benefits taxable.",
+    "why": "Pre-tax vs. post-tax premium treatment flips whether LTD benefits are taxable—impacting take-home replacement."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What is a dental annual maximum?",
+    "choices": [
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
+    ],
+    "answer": 0,
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What does AD&D add to a basic life policy?",
+    "choices": [
+      "Additional benefit for accidental death or dismemberment",
+      "A long-term care rider",
+      "Waiver of premium",
+      "Annuity payout option"
+    ],
+    "answer": 0,
+    "explain": "AD&D pays an additional benefit for accidental death or qualifying dismemberment.",
+    "why": "Knowing when AD&D applies prevents overestimating life coverage and supports accurate total comp messaging."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "What is a dental waiting period?",
+    "choices": [
+      "A time before specified services are covered",
+      "A medical plan grace period",
+      "ER copay holiday",
+      "ACA affordability test"
+    ],
+    "answer": 0,
+    "explain": "Waiting periods defer coverage for certain services like major work.",
+    "why": "Waiting periods can make new enrollees delay major services; setting expectations prevents dissatisfaction."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental annual maximum?",
+    "choices": [
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
+    ],
+    "answer": 0,
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "What is a dental annual maximum?",
+    "choices": [
+      "Yearly cap on plan-paid dental benefits",
+      "Medical OOPM",
+      "Employer premium cap",
+      "Unlimited orthodontics"
+    ],
+    "answer": 0,
+    "explain": "Annual maximums limit how much the plan pays each year.",
+    "why": "Annual maximums cap plan liability; matching the cap to workforce needs balances premium and protection."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "A vision allowance is…",
+    "choices": [
+      "A fixed dollar amount toward frames or lenses",
+      "A medical lab discount",
+      "An HSA employer match",
+      "A life insurance rider"
+    ],
+    "answer": 0,
+    "explain": "Allowances pay toward frames/lenses up to a set amount.",
+    "why": "Clear allowances avoid surprise costs and help employees use in-network vendors effectively."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "easy",
+    "q": "In LTD, what does the elimination period represent?",
+    "choices": [
+      "Time between disability and benefit start",
+      "The time benefits are paid",
+      "The look-back for pre-existing conditions",
+      "The maximum benefit duration"
+    ],
+    "answer": 0,
+    "explain": "The elimination period delays the first LTD payment by a specified number of days.",
+    "why": "The elimination period determines cash-flow timing during disability—critical for employees living paycheck to paycheck."
+  },
+  {
+    "topic": "ancillary",
+    "difficulty": "expert",
+    "q": "Hospital indemnity insurance provides…",
+    "choices": [
+      "Fixed cash per hospital event according to a schedule",
+      "All hospital bills at 100%",
+      "Only emergency room copays",
+      "A Medicare supplement"
+    ],
+    "answer": 0,
+    "explain": "Pays fixed amounts per event, helping with deductibles and incidentals.",
+    "why": "Fixed cash per event helps offset deductibles and lost wages, improving perceived value of the medical plan."
   }
 ]
