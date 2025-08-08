@@ -1,4 +1,6 @@
-/* Base Reset & Variables */
+/* ==============================
+   Base Reset & Variables
+   ============================== */
 :root {
   --color-bg: #f8f9fb;
   --color-card: #ffffff;
@@ -12,16 +14,17 @@
   --shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-  margin: 0;
   font-family: system-ui, sans-serif;
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.5;
 }
 
-/* Layout */
+/* ==============================
+   Layout & Containers
+   ============================== */
 .site-header, .site-footer {
   background: var(--color-card);
   padding: 1rem 2rem;
@@ -44,15 +47,25 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Cards */
+/* ==============================
+   Panels (Setup / Quiz / Result)
+   ============================== */
 .setup-panel, .quiz-panel, .result-panel {
   background: var(--color-card);
   border-radius: var(--radius);
   padding: 1.5rem;
   box-shadow: var(--shadow);
+  animation: fadeIn 0.4s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.setup-panel:hover, .quiz-panel:hover, .result-panel:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
-/* Form */
+/* ==============================
+   Form Styles
+   ============================== */
 .form-grid {
   display: grid;
   gap: 1rem;
@@ -81,7 +94,9 @@ input, select {
 }
 .checkbox input { margin-right: 0.5rem; }
 
-/* Buttons */
+/* ==============================
+   Buttons
+   ============================== */
 button {
   cursor: pointer;
   border: none;
@@ -95,14 +110,16 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   background: var(--color-primary);
   color: #fff;
 }
-.btn-primary:hover { background: var(--color-primary-light); }
+.btn-primary:hover, .btn-primary:focus { background: var(--color-primary-light); }
 .btn-secondary {
   background: #e5e7eb;
   color: #111;
 }
-.btn-secondary:hover { background: #d1d5db; }
+.btn-secondary:hover, .btn-secondary:focus { background: #d1d5db; }
 
-/* Quiz */
+/* ==============================
+   Quiz Header & Progress
+   ============================== */
 .quiz-header {
   display: flex;
   justify-content: space-between;
@@ -132,6 +149,10 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   width: 0;
   transition: width 0.3s ease;
 }
+
+/* ==============================
+   Question & Answers
+   ============================== */
 .question-card {
   margin-bottom: 1rem;
 }
@@ -147,20 +168,41 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   text-align: left;
   border: 1px solid #ddd;
   background: #fff;
+  padding: 0.75rem;
+  transition: background-color 0.25s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.answers-list button:hover:not(:disabled),
+.answers-list button:focus:not(:disabled) {
+  background: #f3f4f6;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 .answers-list button.correct {
   border-color: var(--color-success);
   background: #ecfdf5;
+  animation: fadeIn 0.4s ease;
 }
 .answers-list button.incorrect {
   border-color: var(--color-danger);
   background: #fef2f2;
+  animation: fadeIn 0.4s ease;
 }
+
+/* Click press animation */
+.answers-list button.clicked {
+  transform: scale(0.96);
+}
+
+/* Explanation text */
 .explanation {
   font-size: 0.9rem;
   color: var(--color-muted);
   margin-top: 0.75rem;
+  animation: fadeIn 0.4s ease;
 }
+
+/* ==============================
+   Quiz Actions
+   ============================== */
 .quiz-actions {
   display: flex;
   justify-content: space-between;
@@ -171,7 +213,12 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   gap: 0.5rem;
 }
 
-/* Results */
+/* ==============================
+   Results
+   ============================== */
+.result-panel {
+  animation: slideUp 0.5s ease;
+}
 .result-panel h2 {
   margin-top: 0;
 }
@@ -184,4 +231,24 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   display: flex;
   gap: 0.5rem;
   margin-top: 1rem;
+}
+
+/* ==============================
+   Footer
+   ============================== */
+.site-footer p {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+/* ==============================
+   Animations
+   ============================== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
