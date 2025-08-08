@@ -1,6 +1,10 @@
-// ==============================
-// Quiz Engine — No Repeats by Text OR Concept, Exact Count (1–100), AI+Local
-// ==============================
+// ==============================================
+// Employee Benefits Quiz Engine
+// - No repeats by TEXT or CONCEPT in a single quiz
+// - Exact count (1–100) with helpful notices
+// - Local banks + optional AI mode
+// - Scoring hardened (final score recomputed from answers)
+// ==============================================
 
 const TOPIC_LABELS = {
   basics: 'Basics',
@@ -11,13 +15,13 @@ const TOPIC_LABELS = {
   mixed: 'Mixed'
 };
 
-// Fallback (used only if banks aren’t found)
+// Fallback used only if a bank can’t be loaded
 const FALLBACK = [
   { topic:'basics', difficulty:'easy',
     q:"What does a health plan deductible represent?",
     choices:["The fixed amount paid per doctor visit","The maximum you’ll pay in a year","The amount you pay before the plan starts sharing costs","The amount the employer contributes monthly"],
     answer:2,
-    explain:"The deductible is what a member pays for covered services before the plan starts sharing costs (coinsurance).",
+    explain:"The deductible is what a member pays for covered services before the plan starts sharing costs.",
     why:"Deductibles shape member cost exposure and influence plan selection." },
   { topic:'ancillary', difficulty:'easy',
     q:"Which is commonly an ancillary benefit?",
@@ -41,30 +45,31 @@ const FALLBACK = [
     q:"Which metric best signals an opportunity for condition-management programs?",
     choices:["High generic dispense rate","Rising avoidable ER utilization","Stable preventive visit rates","Low telehealth adoption"],
     answer:1,
-    explain:"Avoidable ER spikes often flag gaps in primary care access or adherence—ripe for management.",
+    explain:"Avoidable ER spikes often flag access or adherence gaps to target.",
     why:"Targeting clinical drivers can bend trend without blunt cost shifting." },
 ];
 
-// DOM refs / state
+// ---------- DOM refs & state ----------
 const els = {};
 let game = null;
 
-// Helpers
+// ---------- Utils ----------
 const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
 const shuffle = (arr) => arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 const norm = s => String(s||'').toLowerCase().replace(/\s+/g,' ').trim();
 
-// Keys
-const keyText    = q => `${q.topic}¦${norm(q.q)}`;                            // prevent same question text
-const keyExact   = q => `${q.topic}¦${String(q.q)}¦${(q.choices||[]).join('¦')}`; // safety
-const keyConcept = q => {                                                     // prevent same concept
-  const correct = (q.choices && q.choices[q.answer]) ? q.choices[q.answer] : '';
+// Keys for dedupe
+const keyText    = q => `${q.topic}¦${norm(q.q)}`;                            // same wording
+const keyExact   = q => `${q.topic}¦${String(q.q)}¦${(q.choices||[]).join('¦')}`; // identical Q/choices
+const keyConcept = q => {                                                     // same concept/answer, different wording
+  const correct = (q.choices && Number.isInteger(q.answer) && q.choices[q.answer]) ? q.choices[q.answer] : '';
   return `${q.topic}¦${q.difficulty}¦${norm(q.explain)}¦${norm(correct)}`;
 };
 
-// Dedupers
+// Generic dedupe helper
 function dedupe(items, keyFn) {
-  const seen = new Set(), out = [];
+  const out = [];
+  const seen = new Set();
   for (const it of items) {
     const k = keyFn(it);
     if (!seen.has(k)) { seen.add(k); out.push(it); }
@@ -75,7 +80,7 @@ const dedupeExact     = (items) => dedupe(items, keyExact);
 const dedupeByText    = (items) => dedupe(items, keyText);
 const dedupeByConcept = (items) => dedupe(items, keyConcept);
 
-// Top-up to exact count while respecting concept-level uniqueness
+// Top-up to exact count while enforcing concept & text uniqueness
 function topUpUniqueByConcept(base, pool, desiredCount) {
   const out = base.slice();
   const usedConcepts = new Set(out.map(keyConcept));
@@ -84,19 +89,24 @@ function topUpUniqueByConcept(base, pool, desiredCount) {
     if (out.length >= desiredCount) break;
     const kc = keyConcept(q), kt = keyText(q);
     if (!usedConcepts.has(kc) && !usedTexts.has(kt)) {
-      usedConcepts.add(kc); usedTexts.add(kt); out.push(q);
+      usedConcepts.add(kc);
+      usedTexts.add(kt);
+      out.push(q);
     }
   }
   return out.slice(0, desiredCount);
 }
 
-// Shuffle choices & recompute correct index
+// Shuffle choices and recompute correct index (safe)
 function shuffleChoices(q) {
-  const pairs = q.choices.map((c,i)=>({c,i}));
+  const choices = Array.isArray(q.choices) ? q.choices.slice(0,4) : [];
+  const correctIndex = Number.isInteger(q.answer) ? q.answer : 0;
+  const pairs = choices.map((c,i)=>({c,i}));
   const s = shuffle(pairs);
-  const choices = s.map(p=>p.c);
-  const answerIndex = s.findIndex(p=>p.i===q.answer);
-  return { ...q, choices, answer: answerIndex };
+  const shuffledChoices = s.map(p=>p.c);
+  const newAnswerIndex = s.findIndex(p=>p.i === correctIndex);
+  const safeAnswer = newAnswerIndex >= 0 ? newAnswerIndex : 0;
+  return { ...q, choices: shuffledChoices, answer: safeAnswer };
 }
 
 function defaultWhy(topic) {
@@ -110,7 +120,7 @@ function defaultWhy(topic) {
   }
 }
 
-// Load banks
+// ---------- Data loading ----------
 async function fetchBank(topic) {
   const files = {
     basics: '/data/bank.basics.json',
@@ -147,19 +157,18 @@ async function fetchBank(topic) {
   }
 }
 
-// Build LOCAL set — exact count, no repeats by text or concept
+// ---------- Builders ----------
 function buildLocalSet(topic, difficulty, count, pool) {
   const inTopic = pool.filter(q => topic === 'mixed' ? true : q.topic === topic);
 
-  // Groom: remove exact dupes, then ensure concept-level uniqueness
+  // Groom pool
   const groomed = dedupeExact(inTopic);
-  const byDiff  = groomed.filter(q => q.difficulty === difficulty);
-  const uniqueConcept = dedupeByConcept(byDiff); // <- key change
+  const currentDiff = groomed.filter(q => q.difficulty === difficulty);
+  const uniqueConcept = dedupeByConcept(currentDiff);
 
-  // Fill from harder bucket as requested (progressive mix)
+  // Progressive mix (harder % by difficulty)
   const harder = { easy:'intermediate', intermediate:'expert', expert:'expert' }[difficulty];
   const hardShare = { easy:0.25, intermediate:0.50, expert:1.0 }[difficulty];
-
   const needHard    = Math.floor(count * hardShare);
   const needPrimary = count - needHard;
 
@@ -169,23 +178,22 @@ function buildLocalSet(topic, difficulty, count, pool) {
   let selected = [];
   selected = selected.concat(shuffle(primaryPool).slice(0, needPrimary));
   selected = selected.concat(shuffle(harderPool).slice(0, needHard));
-  // Re-enforce uniqueness by concept & text
   selected = dedupeByText(dedupeByConcept(selected));
 
-  // Top up to exact count from all unique-by-concept in-topic pool
   const allUniqueConcept = dedupeByConcept(dedupeByText(groomed));
   selected = topUpUniqueByConcept(selected, allUniqueConcept, count);
 
+  // Final shuffle & choice shuffle
   return shuffle(selected).map(shuffleChoices);
 }
 
-// Build AI set — same guarantees
 async function buildQuestions(topic, difficulty, count) {
   if (!els.aimode.checked) {
     const pool = await fetchBank(topic);
     return buildLocalSet(topic, difficulty, count, pool);
   }
 
+  // AI mode
   try {
     const res = await fetch('/api/generate-questions', {
       method:'POST',
@@ -230,6 +238,7 @@ function startGame(questions) {
   game = {
     questions: questions.map(q => ({...q, userAnswer: null, correct: null})),
     i: 0,
+    // Keep a live score for UX, but compute final score from answers at finish
     score: 0,
     answered: new Array(questions.length).fill(false),
     skipped: new Set(),
@@ -249,10 +258,12 @@ function renderCurrent() {
   const q = game.questions[game.i];
   els.qtext.textContent = q.q;
   els.answers.innerHTML = '';
+
   q.choices.forEach((c, idx) => {
     const btn = document.createElement('button');
+    btn.type = 'button';
     btn.textContent = c;
-    btn.setAttribute('data-index', idx);
+    btn.setAttribute('data-index', String(idx));
     els.answers.appendChild(btn);
   });
 
@@ -265,30 +276,36 @@ function renderCurrent() {
   els.progressText.textContent = `Question ${game.i+1} of ${game.questions.length}`;
 }
 
+// Hardened answer handler
 function handleAnswerClick(e) {
   const btn = e.target.closest('button[data-index]');
   if (!btn || !game) return;
 
-  const idx = parseInt(btn.getAttribute('data-index'), 10);
+  const idx = Number(btn.getAttribute('data-index'));
+  if (!Number.isInteger(idx)) return;
+
   const q = game.questions[game.i];
-  if (game.answered[game.i]) return;
+  if (!q || game.answered[game.i]) return;
 
+  // Visual click
   btn.classList.add('clicked');
-  setTimeout(() => btn.classList.remove('clicked'), 150);
+  setTimeout(() => btn.classList.remove('clicked'), 120);
 
-  const isCorrect = idx === q.answer;
+  const isCorrect = Number.isInteger(q.answer) && idx === q.answer;
   game.answered[game.i] = true;
   q.userAnswer = idx;
-  q.correct = isCorrect;
+  q.correct = !!isCorrect;
 
+  // Style buttons & lock
   [...els.answers.children].forEach((b, i) => {
-    const cls = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : null);
+    const cls = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : '');
     if (cls) b.classList.add(cls);
     b.disabled = true;
   });
 
-  const chosen = q.choices[idx];
-  const correct = q.choices[q.answer];
+  // Explanations
+  const chosen = q.choices[idx] ?? '';
+  const correct = q.choices[q.answer] ?? '';
   els.explain.innerHTML = isCorrect
     ? `✅ <strong>Correct.</strong> ${q.explain || ''}`
     : `❌ <strong>Incorrect.</strong> You selected “${chosen}.”<br><br>✅ <strong>Correct answer:</strong> “${correct}.”<br>${q.explain || ''}`;
@@ -297,24 +314,48 @@ function handleAnswerClick(e) {
   const why = q.why || defaultWhy(q.topic);
   if (why) { els.why.textContent = `Why this matters: ${why}`; els.why.hidden = false; }
 
+  // Live score (final is recomputed at finish)
+  if (isCorrect) game.score++;
+
+  // Per-topic stats
   if (!game.perTopic[q.topic]) game.perTopic[q.topic] = { total:0, correct:0 };
   game.perTopic[q.topic].total += 1;
   if (isCorrect) game.perTopic[q.topic].correct += 1;
 
-  els.next.disabled = false; els.skip.disabled = true;
+  els.next.disabled = false;
+  els.skip.disabled = true;
 }
 
 function nextQuestion() {
-  if (game.i < game.questions.length - 1) { game.i++; renderCurrent(); }
-  else if (game.skipped.size > 0) { game.i = [...game.skipped][0]; game.skipped.delete(game.i); renderCurrent(); }
-  else { finish(); }
+  if (game.i < game.questions.length - 1) {
+    game.i++;
+    renderCurrent();
+  } else if (game.skipped.size > 0) {
+    game.i = [...game.skipped][0];
+    game.skipped.delete(game.i);
+    renderCurrent();
+  } else {
+    finish();
+  }
 }
-function skipQuestion() { if (!game.answered[game.i]) game.skipped.add(game.i); nextQuestion(); }
+function skipQuestion() {
+  if (!game.answered[game.i]) game.skipped.add(game.i);
+  nextQuestion();
+}
+
+function computeFinalScore() {
+  if (!game?.questions) return 0;
+  return game.questions.reduce((acc, q) => acc + (q.correct ? 1 : 0), 0);
+}
 
 function finish() {
   els.quiz.hidden = true;
+
+  // Recompute score from the source of truth to avoid any drift
   const total = game.questions.length;
-  const pct = Math.round((game.score/total)*100);
+  const finalScore = computeFinalScore();
+  const pct = Math.round((finalScore/total)*100);
+
   let title = 'Benefits Explorer';
   if (pct >= 90) title = 'Benefits Pro';
   else if (pct >= 75) title = 'Advisor-in-Training';
@@ -322,16 +363,18 @@ function finish() {
   else title = 'Needs Enrollment Counseling 🙂';
 
   game.finishedAt = new Date();
+
   els.resultBadge.textContent = title;
-  els.resultScore.textContent = `${game.score} / ${total} • ${pct}%`;
+  els.resultScore.textContent = `${finalScore} / ${total} • ${pct}%`;
   els.resultNote.textContent = pct >= 75 ? 'Strong grasp of concepts — nicely done!' : 'Keep going — try a different topic or difficulty.';
   const meta = document.getElementById('resultMeta');
   if (meta) meta.textContent = `Completed on ${game.finishedAt.toLocaleString()}`;
 
-  buildPrintableSummary();
+  buildPrintableSummary(finalScore, total, pct);
   els.result.hidden = false;
 }
 
+// Coaching text for printout
 function coachingAdvice(perTopic) {
   const entries = Object.entries(perTopic).map(([topic, s]) => {
     const pct = s.total ? (s.correct/s.total) : 0;
@@ -356,14 +399,12 @@ function coachingAdvice(perTopic) {
   return lines.join('\n');
 }
 
-function buildPrintableSummary() {
+function buildPrintableSummary(score, total, pct) {
   const container = els.printable;
   if (!container) return;
   container.innerHTML = '';
   container.hidden = false;
 
-  const total = game.questions.length;
-  const pct = Math.round((game.score/total)*100);
   const ts = game.finishedAt ? game.finishedAt.toLocaleString() : new Date().toLocaleString();
 
   const header = document.createElement('div');
@@ -373,7 +414,7 @@ function buildPrintableSummary() {
       <strong>Mode:</strong> ${els.aimode?.checked ? 'AI' : 'Local'} •
       <strong>Topic:</strong> ${TOPIC_LABELS[els.topic.value]} •
       <strong>Difficulty:</strong> ${els.difficulty.value} •
-      <strong>Score:</strong> ${game.score}/${total} (${pct}%)
+      <strong>Score:</strong> ${score}/${total} (${pct}%)
     </div>
   `;
   container.appendChild(header);
@@ -402,28 +443,26 @@ function buildPrintableSummary() {
   });
 }
 
-// Notice if >100 or pool too small
+// Notice if >100 or not enough uniques
 function ensureCountOrNotify(finalQs, requested, availableByConcept) {
   const bar = document.querySelector('.progress-bar');
   const existing = document.getElementById('countNotice');
   if (existing) existing.remove();
 
+  const note = document.createElement('div');
+  note.id = 'countNotice';
+  note.style.cssText = 'margin:.5rem 0 0; color:#b45309; font-size:.9rem;';
+
   if (requested > 100) {
-    const note = document.createElement('div');
-    note.id = 'countNotice';
-    note.style.cssText = 'margin:.5rem 0 0; color:#b45309; font-size:.9rem;';
     note.textContent = `Up to 100 questions are allowed per quiz. Reduced to 100.`;
     bar?.after(note);
   } else if (finalQs.length < requested) {
-    const note = document.createElement('div');
-    note.id = 'countNotice';
-    note.style.cssText = 'margin:.5rem 0 0; color:#b45309; font-size:.9rem;';
     note.textContent = `Only ${finalQs.length} unique concepts available (requested ${requested}). Pool concepts: ${availableByConcept}.`;
     bar?.after(note);
   }
 }
 
-// Start
+// ---------- Start / Init ----------
 async function handleStart() {
   let requested = parseInt(els.count.value, 10);
   if (!isFinite(requested)) requested = 1;
@@ -436,7 +475,7 @@ async function handleStart() {
   els.start.disabled = true;
   els.start.textContent = 'Building questions...';
 
-  // For the notice: how many unique concepts are in the pool?
+  // Compute available unique concepts for notice
   let availableByConcept = 0;
   try {
     const pool = await fetchBank(topic);
@@ -502,7 +541,7 @@ function init() {
     } catch { alert(text); }
   });
   els.downloadPdf.addEventListener('click', () => {
-    if (els.printable.innerHTML.trim() === '') buildPrintableSummary();
+    if (els.printable.innerHTML.trim() === '') buildPrintableSummary(computeFinalScore(), game.questions.length, Math.round((computeFinalScore()/game.questions.length)*100));
     els.printable.hidden = false;
     window.print();
     setTimeout(() => { els.printable.hidden = true; }, 200);
