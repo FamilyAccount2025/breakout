@@ -58,7 +58,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -72,7 +72,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -86,7 +86,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -100,7 +100,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -114,7 +114,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -128,7 +128,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario)",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -142,49 +142,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for most groups?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for most groups?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -198,7 +198,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -212,7 +212,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -226,7 +226,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -240,7 +240,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -254,7 +254,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -268,49 +268,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for most groups in practice?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for most groups?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -324,7 +324,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -338,7 +338,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -352,7 +352,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -366,7 +366,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for best groups in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -380,7 +380,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -394,49 +394,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for most groups in practice for mid‑size employers?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for most groups?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -450,7 +450,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -464,7 +464,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -478,7 +478,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -492,7 +492,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for best groups in practice in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -506,7 +506,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -520,49 +520,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for best groups in practice for mid‑size employers for mid‑size employers?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter for mid‑size employers?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for greatest groups in practice?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -576,7 +576,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -590,7 +590,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -604,7 +604,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -618,7 +618,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for best groups in practice in real‑world settings in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -632,7 +632,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -646,49 +646,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for best groups in practice for mid‑size employers for mid‑size employers in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter for mid‑size employers for mid‑size employers?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for greatest groups in practice when budgets matter?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings in real‑world settings in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -702,7 +702,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter in practice for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -716,7 +716,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers in practice for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -730,7 +730,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers when budgets matter in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -744,7 +744,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for optimal groups in practice in real‑world settings in real‑world settings when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -758,7 +758,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers for most groups in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -772,49 +772,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for best groups in practice for mid‑size employers for mid‑size employers in real‑world settings when budgets matter?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter for mid‑size employers for mid‑size employers when budgets matter?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for greatest groups in practice when budgets matter in practice?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings in real‑world settings in real‑world settings for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -828,7 +828,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter in practice for mid‑size employers for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -842,7 +842,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers in practice for best groups in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -856,7 +856,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers when budgets matter in practice for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -870,7 +870,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for optimal groups in practice in real‑world settings in real‑world settings when budgets matter for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -884,7 +884,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers for strongest groups in practice when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -898,49 +898,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for strongest groups in practice for mid‑size employers for mid‑size employers in real‑world settings when budgets matter in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter for mid‑size employers for mid‑size employers when budgets matter in practice?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for greatest groups in practice when budgets matter in practice for most groups?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings in real‑world settings in real‑world settings for greatest groups for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -954,7 +954,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter in practice for mid‑size employers for most groups when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -968,7 +968,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers in practice for best groups in real‑world settings in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -982,7 +982,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers when budgets matter in practice for greatest groups when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -996,7 +996,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for optimal groups in practice in real‑world settings in real‑world settings when budgets matter for mid‑size employers in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1010,7 +1010,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers for strongest groups in practice when budgets matter in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1024,49 +1024,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for strongest groups in practice for mid‑size employers for mid‑size employers in real‑world settings when budgets matter in real‑world settings for mid‑size employers?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter for mid‑size employers for mid‑size employers when budgets matter in practice in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for greatest groups in practice when budgets matter in practice for best groups in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings in real‑world settings in real‑world settings for greatest groups for strongest groups in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1080,7 +1080,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter in practice for mid‑size employers for greatest groups when budgets matter in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1094,7 +1094,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers in practice for strongest groups in real‑world settings in practice for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1108,7 +1108,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers when budgets matter in practice for greatest groups when budgets matter in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1122,7 +1122,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for optimal groups in practice in real‑world settings in real‑world settings when budgets matter for mid‑size employers in real‑world settings in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1136,7 +1136,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers for strongest groups in practice when budgets matter in real‑world settings for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1150,49 +1150,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for strongest groups in practice for mid‑size employers for mid‑size employers in real‑world settings when budgets matter in real‑world settings for mid‑size employers for mid‑size employers?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter for mid‑size employers for mid‑size employers when budgets matter in practice in real‑world settings in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for greatest groups in practice when budgets matter in practice for best groups in real‑world settings in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings in real‑world settings in real‑world settings for greatest groups for strongest groups in real‑world settings in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1206,7 +1206,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter in practice for mid‑size employers for greatest groups when budgets matter in real‑world settings in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1220,7 +1220,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers in practice for strongest groups in real‑world settings in practice for strongest groups when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1234,7 +1234,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers when budgets matter in practice for greatest groups when budgets matter in practice when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1248,7 +1248,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for optimal groups in practice in real‑world settings in real‑world settings when budgets matter for mid‑size employers in real‑world settings in practice for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1262,7 +1262,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers for strongest groups in practice when budgets matter in real‑world settings for most groups in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1276,49 +1276,49 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant for strongest groups in practice for mid‑size employers for mid‑size employers in real‑world settings when budgets matter in real‑world settings for mid‑size employers for mid‑size employers in practice?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Specific stop‑loss",
+      "Aggregate stop‑loss",
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Level‑funded plans appeal to small employers partly because they may… for mid‑size employers in real‑world settings when budgets matter for mid‑size employers for mid‑size employers when budgets matter in practice in real‑world settings in real‑world settings in practice?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "IBNR refers to… for greatest groups for optimal groups for greatest groups in practice when budgets matter in practice for optimal groups in real‑world settings in real‑world settings in real‑world settings?",
     "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
     ],
     "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
+    "explain": "IBNR estimates claims incurred but not yet billed.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for greatest groups in practice in real‑world settings in real‑world settings in real‑world settings for greatest groups for strongest groups in real‑world settings in practice in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1332,7 +1332,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings when budgets matter in practice for mid‑size employers for greatest groups when budgets matter in real‑world settings in practice in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1346,7 +1346,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers for mid‑size employers in real‑world settings for mid‑size employers in practice for strongest groups in real‑world settings in practice for strongest groups when budgets matter for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1360,7 +1360,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for optimal groups in real‑world settings when budgets matter for mid‑size employers when budgets matter in practice for greatest groups when budgets matter in practice when budgets matter in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1374,7 +1374,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice for optimal groups in practice in real‑world settings in real‑world settings when budgets matter for mid‑size employers in real‑world settings in practice for greatest groups for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1388,7 +1388,7 @@
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) when budgets matter when budgets matter for mid‑size employers for strongest groups in practice when budgets matter in real‑world settings for most groups in practice in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -1444,7 +1444,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 greatest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1472,7 +1472,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 optimal likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1486,7 +1486,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 greatest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1500,7 +1500,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 greatest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1514,7 +1514,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 strongest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1528,7 +1528,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 greatest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1542,7 +1542,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely: (consider a mid‑year scenario)",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1556,7 +1556,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 best likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1570,7 +1570,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 optimal likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1584,7 +1584,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 strongest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1598,7 +1598,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 strongest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1612,7 +1612,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 strongest likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1626,7 +1626,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 optimal likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1640,7 +1640,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely: (consider a mid‑year scenario)",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1654,7 +1654,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 optimal likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1668,7 +1668,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely: (consider a mid‑year scenario)",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1682,7 +1682,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 best likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1696,7 +1696,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely: (consider a mid‑year scenario)",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1710,7 +1710,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 best likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1724,161 +1724,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
-    "choices": [
-      "Lowers fixed premium, increases retained claim risk",
-      "Raises fixed premium, lowers risk",
-      "No impact",
-      "Eliminates lasers"
-    ],
-    "answer": 0,
-    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
-    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 best likely:",
     "choices": [
       "Lowers fixed premium, increases retained claim risk",
       "Raises fixed premium, lowers risk",
@@ -1906,7 +1752,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: when budgets matter?",
     "choices": [
       "Set a higher attachment for a known high‑risk member",
       "Lower the premium for all",
@@ -1920,7 +1766,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for mid‑size employers?",
     "choices": [
       "Set a higher attachment for a known high‑risk member",
       "Lower the premium for all",
@@ -1934,7 +1780,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in real‑world settings?",
     "choices": [
       "Set a higher attachment for a known high‑risk member",
       "Lower the premium for all",
@@ -1948,7 +1794,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in practice?",
     "choices": [
       "Set a higher attachment for a known high‑risk member",
       "Lower the premium for all",
@@ -1962,7 +1808,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for most groups?",
     "choices": [
       "Set a higher attachment for a known high‑risk member",
       "Lower the premium for all",
@@ -1976,259 +1822,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
-    "choices": [
-      "Set a higher attachment for a known high‑risk member",
-      "Lower the premium for all",
-      "Remove all exclusions",
-      "Guarantee aggregate corridor"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign more risk to the employer for specific members.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: (consider a mid‑year scenario)",
     "choices": [
       "Set a higher attachment for a known high‑risk member",
       "Lower the premium for all",
@@ -2256,7 +1850,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
+    "q": "ASO fees typically cover: in practice?",
     "choices": [
       "Claims adjudication, network access, customer service",
       "Member premiums",
@@ -2270,7 +1864,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
+    "q": "ASO fees typically cover: for most groups?",
     "choices": [
       "Claims adjudication, network access, customer service",
       "Member premiums",
@@ -2284,7 +1878,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
+    "q": "ASO fees typically cover: for mid‑size employers?",
     "choices": [
       "Claims adjudication, network access, customer service",
       "Member premiums",
@@ -2298,7 +1892,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
+    "q": "ASO fees typically cover: when budgets matter?",
     "choices": [
       "Claims adjudication, network access, customer service",
       "Member premiums",
@@ -2312,7 +1906,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
+    "q": "ASO fees typically cover: in real‑world settings?",
     "choices": [
       "Claims adjudication, network access, customer service",
       "Member premiums",
@@ -2326,189 +1920,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
-    "choices": [
-      "Claims adjudication, network access, customer service",
-      "Member premiums",
-      "Employer taxes",
-      "Stop‑loss benefits"
-    ],
-    "answer": 0,
-    "explain": "ASO fees pay for administrative services, not insurance.",
-    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "ASO fees typically cover:",
+    "q": "ASO fees typically cover: (consider a mid‑year scenario)",
     "choices": [
       "Claims adjudication, network access, customer service",
       "Member premiums",
@@ -2536,7 +1948,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2550,7 +1962,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2564,7 +1976,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2578,7 +1990,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2592,7 +2004,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2606,7 +2018,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario)",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2620,7 +2032,231 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 strongest likely: (consider a mid‑year scenario)",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 greatest likely: (consider a mid‑year scenario)",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 strongest likely: (consider a mid‑year scenario)",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 greatest likely: (consider a mid‑year scenario)",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: when budgets matter when budgets matter?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for mid‑size employers when budgets matter?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in real‑world settings for mid‑size employers?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in practice for most groups?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for most groups for mid‑size employers?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: (consider a mid‑year scenario) in real‑world settings?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: in practice when budgets matter?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: for optimal groups for most groups?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: for mid‑size employers for mid‑size employers?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: when budgets matter for most groups?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: in real‑world settings in real‑world settings?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: (consider a mid‑year scenario) for mid‑size employers?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly in practice when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2634,7 +2270,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2648,7 +2284,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2662,7 +2298,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2676,7 +2312,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for greatest groups for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2690,7 +2326,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2704,7 +2340,175 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: when budgets matter when budgets matter in real‑world settings?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for mid‑size employers when budgets matter when budgets matter?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in real‑world settings for mid‑size employers in practice?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in practice for optimal groups for most groups?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for greatest groups for mid‑size employers for most groups?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: (consider a mid‑year scenario) in real‑world settings when budgets matter?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: in practice when budgets matter in practice?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: for optimal groups for greatest groups for mid‑size employers?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: for mid‑size employers for mid‑size employers for mid‑size employers?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: when budgets matter for greatest groups in practice?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: in real‑world settings in real‑world settings when budgets matter?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: (consider a mid‑year scenario) for mid‑size employers when budgets matter?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly in practice when budgets matter in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2718,7 +2522,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter for best groups in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2732,7 +2536,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for most groups in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2746,7 +2550,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers in practice in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2760,7 +2564,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for greatest groups for mid‑size employers for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2774,7 +2578,7 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) in real‑world settings when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2788,7 +2592,203 @@
   {
     "topic": "funding",
     "difficulty": "intermediate",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: when budgets matter when budgets matter in real‑world settings in real‑world settings?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for mid‑size employers when budgets matter when budgets matter in practice?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in real‑world settings for mid‑size employers in practice for most groups?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: in practice for optimal groups for greatest groups for mid‑size employers?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: for greatest groups for mid‑size employers for strongest groups in real‑world settings?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will: (consider a mid‑year scenario) in real‑world settings when budgets matter in real‑world settings?",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: in practice when budgets matter in practice for mid‑size employers?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: for optimal groups for greatest groups for mid‑size employers when budgets matter?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: for mid‑size employers for mid‑size employers for mid‑size employers in real‑world settings?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: when budgets matter for greatest groups in practice in real‑world settings?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: in real‑world settings in real‑world settings when budgets matter when budgets matter?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover: (consider a mid‑year scenario) for mid‑size employers when budgets matter for mid‑size employers?",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly in practice when budgets matter in practice in real‑world settings?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly when budgets matter for best groups in real‑world settings for most groups?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly in real‑world settings for strongest groups in practice in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -2816,7 +2816,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach strongest prepares for carrier changes mid‑year in practice?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2830,7 +2830,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach best prepares for carrier changes mid‑year in real‑world settings?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2844,7 +2844,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach optimal prepares for carrier changes mid‑year when budgets matter?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2858,7 +2858,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach strongest prepares for carrier changes mid‑year for mid‑size employers?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2872,7 +2872,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach best prepares for carrier changes mid‑year in practice?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2886,7 +2886,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach best prepares for carrier changes mid‑year for mid‑size employers?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2900,7 +2900,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach best prepares for carrier changes mid‑year for most groups?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2914,7 +2914,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach strongest prepares for carrier changes mid‑year for most groups?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2928,7 +2928,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for most groups?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2942,7 +2942,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach optimal prepares for carrier changes mid‑year in practice?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2956,7 +2956,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach strongest prepares for carrier changes mid‑year in real‑world settings?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2970,7 +2970,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach best prepares for carrier changes mid‑year when budgets matter?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2984,7 +2984,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach best prepares for carrier changes mid‑year? (consider a mid‑year scenario)",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -2998,7 +2998,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach optimal prepares for carrier changes mid‑year in real‑world settings?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -3012,7 +3012,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for mid‑size employers?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -3026,189 +3026,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
-    "choices": [
-      "Sufficient IBNR and run‑out admin planning",
-      "Rely on members to self‑manage",
-      "Freeze all claims",
-      "Skip data feeds"
-    ],
-    "answer": 0,
-    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "q": "Which approach strongest prepares for carrier changes mid‑year when budgets matter?",
     "choices": [
       "Sufficient IBNR and run‑out admin planning",
       "Rely on members to self‑manage",
@@ -3236,7 +3054,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
+    "q": "When negotiating lasers, a smart counter is to: for most groups?",
     "choices": [
       "Model alternatives (rate vs. attachment), consider aggregating risk",
       "Accept all lasers",
@@ -3250,7 +3068,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
+    "q": "When negotiating lasers, a smart counter is to: in practice?",
     "choices": [
       "Model alternatives (rate vs. attachment), consider aggregating risk",
       "Accept all lasers",
@@ -3264,7 +3082,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
+    "q": "When negotiating lasers, a smart counter is to: for mid‑size employers?",
     "choices": [
       "Model alternatives (rate vs. attachment), consider aggregating risk",
       "Accept all lasers",
@@ -3278,7 +3096,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
+    "q": "When negotiating lasers, a smart counter is to: when budgets matter?",
     "choices": [
       "Model alternatives (rate vs. attachment), consider aggregating risk",
       "Accept all lasers",
@@ -3292,7 +3110,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
+    "q": "When negotiating lasers, a smart counter is to: in real‑world settings?",
     "choices": [
       "Model alternatives (rate vs. attachment), consider aggregating risk",
       "Accept all lasers",
@@ -3306,329 +3124,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
-    "choices": [
-      "Model alternatives (rate vs. attachment), consider aggregating risk",
-      "Accept all lasers",
-      "Ignore past claims",
-      "Focus only on network size"
-    ],
-    "answer": 0,
-    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
-    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "When negotiating lasers, a smart counter is to:",
+    "q": "When negotiating lasers, a smart counter is to: (consider a mid‑year scenario)",
     "choices": [
       "Model alternatives (rate vs. attachment), consider aggregating risk",
       "Accept all lasers",
@@ -3656,7 +3152,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: when budgets matter?",
     "choices": [
       "Transition to self‑funding with tailored stop‑loss",
       "Return to fully insured",
@@ -3670,7 +3166,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: for most groups?",
     "choices": [
       "Transition to self‑funding with tailored stop‑loss",
       "Return to fully insured",
@@ -3684,7 +3180,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: in real‑world settings?",
     "choices": [
       "Transition to self‑funding with tailored stop‑loss",
       "Return to fully insured",
@@ -3698,7 +3194,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: in practice?",
     "choices": [
       "Transition to self‑funding with tailored stop‑loss",
       "Return to fully insured",
@@ -3712,7 +3208,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: for mid‑size employers?",
     "choices": [
       "Transition to self‑funding with tailored stop‑loss",
       "Return to fully insured",
@@ -3726,189 +3222,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
-    "choices": [
-      "Transition to self‑funding with tailored stop‑loss",
-      "Return to fully insured",
-      "Ban reporting",
-      "Wait 5 years"
-    ],
-    "answer": 0,
-    "explain": "Good experience may justify moving toward self‑funding.",
-    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: (consider a mid‑year scenario)",
     "choices": [
       "Transition to self‑funding with tailored stop‑loss",
       "Return to fully insured",
@@ -3936,7 +3250,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -3950,7 +3264,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -3964,7 +3278,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -3978,7 +3292,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -3992,7 +3306,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4006,7 +3320,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario)",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4020,7 +3334,371 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which approach strongest prepares for carrier changes mid‑year in practice for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year in real‑world settings when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year when budgets matter for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year for mid‑size employers for most groups?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for mid‑size employers in real‑world settings?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for greatest groups for most groups?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year for greatest groups in real‑world settings?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for most groups when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year in practice for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year when budgets matter in real‑world settings?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year? (consider a mid‑year scenario) for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year in real‑world settings when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for mid‑size employers when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year when budgets matter in real‑world settings?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: for most groups for most groups?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: in practice when budgets matter?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: for mid‑size employers when budgets matter?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: when budgets matter for most groups?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: in real‑world settings for most groups?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: (consider a mid‑year scenario) when budgets matter?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: when budgets matter in practice?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: for greatest groups for most groups?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: in real‑world settings for mid‑size employers?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: in practice in practice?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: for mid‑size employers for most groups?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: (consider a mid‑year scenario) when budgets matter?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4034,7 +3712,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4048,7 +3726,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4062,7 +3740,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice when budgets matter?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4076,7 +3754,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly for greatest groups for most groups?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4090,7 +3768,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly? (consider a mid‑year scenario) for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4104,7 +3782,371 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which approach strongest prepares for carrier changes mid‑year in practice for mid‑size employers when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year in real‑world settings when budgets matter for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year when budgets matter for mid‑size employers for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year for mid‑size employers for strongest groups for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for mid‑size employers in real‑world settings when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for greatest groups for most groups when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year for greatest groups in real‑world settings for most groups?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for most groups when budgets matter in real‑world settings?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year in practice for mid‑size employers in practice?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year when budgets matter in real‑world settings for most groups?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year? (consider a mid‑year scenario) for mid‑size employers when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year in real‑world settings when budgets matter for mid‑size employers?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach optimal prepares for carrier changes mid‑year for mid‑size employers when budgets matter when budgets matter?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach strongest prepares for carrier changes mid‑year when budgets matter in real‑world settings in real‑world settings?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: for best groups for most groups for mid‑size employers?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: in practice when budgets matter for mid‑size employers?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: for mid‑size employers when budgets matter when budgets matter?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: when budgets matter for most groups in practice?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: in real‑world settings for greatest groups in practice?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to: (consider a mid‑year scenario) when budgets matter for most groups?",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: when budgets matter in practice for mid‑size employers?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: for greatest groups for strongest groups for most groups?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: in real‑world settings for mid‑size employers in real‑world settings?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: in practice in practice in practice?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: for mid‑size employers for most groups in real‑world settings?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be: (consider a mid‑year scenario) when budgets matter in real‑world settings?",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly for mid‑size employers in real‑world settings for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4118,7 +4160,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly when budgets matter in real‑world settings in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4132,7 +4174,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in real‑world settings when budgets matter in real‑world settings?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
@@ -4146,49 +4188,7 @@
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
-    "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
-    ],
-    "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
-    "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
-    ],
-    "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
-    "choices": [
-      "Total cost (fixed + variable) with credible trend",
-      "Discounts only",
-      "Member anecdotes",
-      "Carrier brand alone"
-    ],
-    "answer": 0,
-    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
-    "why": "Seeing full cost avoids false savings."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which metric helps compare funding options fairly?",
+    "q": "Which metric helps compare funding options fairly in practice when budgets matter for mid‑size employers?",
     "choices": [
       "Total cost (fixed + variable) with credible trend",
       "Discounts only",
