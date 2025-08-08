@@ -5,107 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Employee Benefits Quiz</title>
   <link rel="stylesheet" href="css/style.css" />
-
-  <!-- Scoped enhancements: tooltip + field error styles -->
-  <style>
-    /* ------- Field + error presentation (non-intrusive) ------- */
-    .field {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .field > label {
-      font-weight: 600;
-    }
-    .input-wrap {
-      display: block;
-      position: relative;
-    }
-    .field-error {
-      min-height: 1rem;         /* reserve space to avoid layout shift */
-      font-size: 0.875rem;      /* smaller than body text */
-      line-height: 1.25rem;
-      color: #b91c1c;           /* muted red */
-      margin-top: 4px;
-    }
-    .field-error.hidden {
-      visibility: hidden;       /* keeps space reserved, stays subtle */
-    }
-    .input-invalid {
-      border-color: #fca5a5 !important;
-      box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.18); /* soft ring */
-      border-radius: 10px;
-    }
-
-    /* ------- Tooltip visuals (accessible, mobile-friendly) ------- */
-    .tooltip-container {
-      position: relative;
-      display: inline-flex;
-      align-items: center;
-      margin-left: .35rem;
-    }
-    .tooltip-trigger {
-      appearance: none;
-      border: 0;
-      background: transparent;
-      padding: 0 .15rem;
-      line-height: 1;
-      cursor: pointer;
-      font-size: 0.95rem;
-      color: inherit;
-    }
-    .tooltip-trigger:focus-visible {
-      outline: 2px solid #8b5cf6; /* violet focus ring */
-      outline-offset: 2px;
-      border-radius: .25rem;
-    }
-    .tooltip-text {
-      position: absolute;
-      z-index: 30;
-      bottom: calc(100% + 8px);
-      left: 50%;
-      transform: translateX(-50%);
-      min-width: 220px;
-      max-width: min(78vw, 360px);
-      background: rgba(17, 24, 39, 0.96);
-      color: #f3f4f6;
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 8px;
-      padding: .6rem .75rem;
-      font-size: .875rem;
-      line-height: 1.25rem;
-      box-shadow: 0 6px 18px rgba(0,0,0,.35);
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity .16s ease, visibility .16s ease, transform .16s ease;
-      transform-origin: bottom center;
-    }
-    .tooltip-text::after {
-      content: "";
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      border-width: 6px;
-      border-style: solid;
-      border-color: rgba(17,24,39,0.96) transparent transparent transparent;
-      filter: drop-shadow(0 2px 2px rgba(0,0,0,.25));
-    }
-    .tooltip-container:hover .tooltip-text,
-    .tooltip-container:focus-within .tooltip-text {
-      opacity: 1;
-      visibility: visible;
-      transform: translateX(-50%) translateY(-2px);
-    }
-    .tooltip-container[data-open="true"] .tooltip-text {
-      opacity: 1;
-      visibility: visible;
-      transform: translateX(-50%) translateY(-2px);
-    }
-    @media (pointer: coarse) {
-      .tooltip-trigger { padding: 0 .25rem; font-size: 1.05rem; }
-    }
-  </style>
 </head>
 <body>
   <header class="site-header">
@@ -117,75 +16,48 @@
       <h1>Employee Benefits Quiz</h1>
       <p class="subtitle">Test your knowledge on health insurance, ancillary benefits, compliance, funding, and sales strategies.</p>
 
-      <!--
-        Form grid remains; each control wrapped in .field to keep layout stable.
-        Error note for "Number of Questions" lives under the input, with reserved space.
-      -->
       <div class="form-grid">
-        <div class="field">
-          <label for="topic">Topic</label>
-          <div class="input-wrap">
-            <select id="topic">
-              <option value="basics">Health Insurance Basics</option>
-              <option value="ancillary">Ancillary Products</option>
-              <option value="funding">Funding Arrangements</option>
-              <option value="compliance">Compliance</option>
-              <option value="sales">Broker & GA Sales Strategy</option>
-              <option value="mixed">Mixed (All Topics)</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="field">
-          <label for="difficulty">Difficulty</label>
-          <div class="input-wrap">
-            <select id="difficulty">
-              <option value="easy">Easy</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="expert">Expert</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="field">
-          <label for="count">Number of Questions</label>
-          <div class="input-wrap">
-            <input
-              id="count"
-              type="number"
-              min="1"
-              max="100"
-              step="1"
-              placeholder="Enter 1–100"
-              inputmode="numeric"
-              aria-describedby="countError"
-              aria-invalid="false"
-            />
-          </div>
-          <!-- Reserved space for the message (no layout jumps) -->
-          <p id="countError" class="field-error hidden" role="alert" aria-live="polite"></p>
-        </div>
-
-        <div class="field">
-          <label class="checkbox" for="aimode">
-            <input id="aimode" type="checkbox" aria-describedby="aimode-help" />
-            <span>AI Mode
-              <span class="tooltip-container" data-open="false">
-                <button
-                  type="button"
-                  class="tooltip-trigger"
-                  aria-label="More info about AI Mode"
-                  aria-expanded="false"
-                  aria-controls="aimode-help"
-                >ℹ️</button>
-                <span id="aimode-help" role="tooltip" class="tooltip-text">
-                  Use AI to generate new questions not in the core course content.<br>
-                  Tip: choose your Topic first for best results.
-                </span>
+        <label>Topic
+          <select id="topic">
+            <option value="basics">Health Insurance Basics</option>
+            <option value="ancillary">Ancillary Products</option>
+            <option value="funding">Funding Arrangements</option>
+            <option value="compliance">Compliance</option>
+            <option value="sales">Broker & GA Sales Strategy</option>
+            <option value="mixed">Mixed (All Topics)</option>
+          </select>
+        </label>
+        <label>Difficulty
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="expert">Expert</option>
+          </select>
+        </label>
+        <label>Number of Questions
+          <input
+            id="count"
+            type="number"
+            min="1"
+            max="100"
+            step="1"
+            placeholder="Enter 1–100"
+            inputmode="numeric"
+          />
+        </label>
+        <label class="checkbox">
+          <input id="aimode" type="checkbox" />
+          <span>AI Mode
+            <span class="tooltip-container">
+              <span class="tooltip-icon" tabindex="0" aria-label="AI Mode info">ℹ️</span>
+              <span class="tooltip-text">
+                <strong>AI Mode:</strong> Uses AI to generate new, unique questions beyond the core course content.<br><br>
+                💡 For the most tailored coaching feedback, use <strong>without AI Mode</strong> so results are based on our full, curated knowledge banks.<br><br>
+                Tip: Select your <strong>Topic</strong> first for best results.
               </span>
             </span>
-          </label>
-        </div>
+          </span>
+        </label>
       </div>
 
       <button id="start" class="btn-primary">Start Quiz</button>
@@ -231,83 +103,6 @@
   <footer class="site-footer">
     <p>© 2025 — Chris Goff</p>
   </footer>
-
-  <!-- Tooltip + validation behavior (plays nice with your quiz.js) -->
-  <script>
-    (function () {
-      /* ---------- Tooltip ---------- */
-      const container = document.querySelector('.tooltip-container');
-      if (container) {
-        const trigger = container.querySelector('.tooltip-trigger');
-        const tooltip = container.querySelector('.tooltip-text');
-
-        const setOpen = (open) => {
-          container.setAttribute('data-open', String(open));
-          trigger.setAttribute('aria-expanded', String(open));
-        };
-
-        trigger.addEventListener('click', () => {
-          setOpen(container.getAttribute('data-open') !== 'true');
-        }, { passive: true });
-
-        trigger.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape') { setOpen(false); trigger.blur(); }
-        });
-
-        document.addEventListener('pointerdown', (e) => {
-          if (container.getAttribute('data-open') === 'true' && !container.contains(e.target)) {
-            setOpen(false);
-          }
-        });
-
-        container.addEventListener('mouseenter', () => setOpen(true));
-        container.addEventListener('mouseleave', () => {
-          // keep open if user explicitly toggled it
-          if (container.getAttribute('data-open') !== 'true') setOpen(false);
-        });
-        trigger.addEventListener('blur', () => {
-          if (container.getAttribute('data-open') !== 'true') setOpen(false);
-        });
-      }
-
-      /* ---------- Subtle validation for "Number of Questions" ---------- */
-      const count = document.getElementById('count');
-      const errorEl = document.getElementById('countError');
-      const startBtn = document.getElementById('start');
-
-      function showError(msg) {
-        errorEl.textContent = msg || '';
-        errorEl.classList.toggle('hidden', !msg);
-        count.classList.toggle('input-invalid', !!msg);
-        count.setAttribute('aria-invalid', msg ? 'true' : 'false');
-      }
-
-      function validateCount() {
-        const raw = (count.value || '').trim();
-        if (!raw) { showError('Please enter how many questions (1–100) to start.'); return false; }
-        const n = Number(raw);
-        if (!Number.isInteger(n) || n < 1 || n > 100) {
-          showError('Enter a whole number from 1 to 100.'); return false;
-        }
-        showError('');
-        return true;
-      }
-
-      // Live validation as the user types/leaves the field
-      count.addEventListener('input', validateCount);
-      count.addEventListener('blur', validateCount);
-
-      // Guard the Start button: if invalid, stop other listeners and focus the field
-      // Use capture to run before quiz.js (without touching quiz.js code)
-      startBtn.addEventListener('click', function (e) {
-        if (!validateCount()) {
-          e.preventDefault();
-          e.stopImmediatePropagation();
-          count.focus();
-        }
-      }, true);
-    })();
-  </script>
 
   <script src="quiz.js" defer></script>
 </body>
