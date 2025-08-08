@@ -3,6 +3,7 @@
 // - Prefers concept-level uniqueness; falls back to text-level to fill to the requested count (max 100)
 // - Works with banks WITH or WITHOUT explicit "concept" field
 // - AI + local banks; robust scoring; PDF summary
+// - Friendly validation for missing/invalid "Number of Questions"
 // ==============================================
 
 const TOPIC_LABELS = {
@@ -459,7 +460,7 @@ function buildPrintableSummary(score, total, pct) {
   });
 }
 
-// Notice if >100 or not enough uniques
+// Inline notice if >100 or not enough uniques
 function ensureCountOrNotify(finalQs, requested, availableByConcept) {
   const bar = document.querySelector('.progress-bar');
   const existing = document.getElementById('countNotice');
@@ -478,10 +479,47 @@ function ensureCountOrNotify(finalQs, requested, availableByConcept) {
   }
 }
 
+// ---- Friendly count validation helpers ----
+function showCountError(msg) {
+  // Place a small inline message right below the count input
+  let err = document.getElementById('countInputError');
+  if (!err) {
+    err = document.createElement('div');
+    err.id = 'countInputError';
+    err.style.cssText = 'margin-top:6px;color:#b91c1c;font-size:.9rem;';
+    const parentLabel = els.count.closest('label') || els.count.parentElement;
+    parentLabel.appendChild(err);
+  }
+  err.textContent = msg;
+  // visual nudge on the input
+  els.count.style.outline = '2px solid #fca5a5';
+  els.count.style.outlineOffset = '2px';
+}
+function clearCountError() {
+  const err = document.getElementById('countInputError');
+  if (err) err.remove();
+  els.count.style.outline = '';
+  els.count.style.outlineOffset = '';
+}
+
 // ---------- Start / Init ----------
 async function handleStart() {
-  let requested = parseInt(els.count.value, 10);
-  if (!isFinite(requested)) requested = 1;
+  // Validate "Number of Questions"
+  const raw = (els.count.value || '').trim();
+  if (raw === '') {
+    showCountError('Please enter how many questions (1–100) to start.');
+    els.count.focus();
+    return;
+  }
+
+  let requested = parseInt(raw, 10);
+  if (!isFinite(requested) || requested < 1) {
+    showCountError('Enter a whole number between 1 and 100.');
+    els.count.focus();
+    return;
+  }
+  clearCountError();
+
   let count = clamp(requested, 1, 100); // hard cap 100
   els.count.value = Math.min(requested, 100);
 
@@ -542,6 +580,7 @@ function init() {
 
   els.printable = document.getElementById('printable');
 
+  // Wire events
   els.start.addEventListener('click', handleStart);
   els.answers.addEventListener('click', handleAnswerClick);
   els.next.addEventListener('click', nextQuestion);
@@ -568,6 +607,13 @@ function init() {
     setTimeout(() => { els.printable.hidden = true; }, 200);
   });
   els.backSetup.addEventListener('click', () => { els.quiz.hidden = true; els.setup.hidden = false; });
+
+  // Clear inline error as soon as user types a valid value
+  els.count.addEventListener('input', () => {
+    const raw = (els.count.value || '').trim();
+    const n = parseInt(raw, 10);
+    if (raw !== '' && isFinite(n) && n >= 1 && n <= 100) clearCountError();
+  });
 }
 
 document.addEventListener('DOMContentLoaded', init);
