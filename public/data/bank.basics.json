@@ -1,6 +1,636 @@
 [
   {
     "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "What is prior authorization (PA)?",
+    "choices": [
+      "A pre‑approval from the plan for certain services/drugs",
+      "A discount at renewal",
+      "A claim paid automatically",
+      "A COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "PA requires plan approval before coverage for some services or meds.",
+    "why": "prior_auth"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which account is employee‑owned and can roll over year to year?",
+    "choices": [
+      "FSA",
+      "HSA",
+      "HRA",
+      "None"
+    ],
+    "answer": 1,
+    "explain": "HSAs are employee‑owned, portable, and can grow via investment.",
+    "why": "accounts"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does the out‑of‑pocket maximum (OOPM) cap?",
+    "choices": [
+      "Premiums only",
+      "In‑network cost‑sharing like deductibles, copays, coinsurance",
+      "Out‑of‑network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The OOPM caps in‑network cost‑sharing for the plan year; premiums don’t count.",
+    "why": "oopm"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
     "difficulty": "easy",
     "q": "What does a health plan deductible represent?",
     "choices": [
@@ -10,97 +640,125 @@
       "The amount the employer contributes monthly"
     ],
     "answer": 2,
-    "explain": "The deductible is paid by the member before the plan begins cost‑sharing (coinsurance).",
-    "why": "Deductibles drive out‑of‑pocket exposure and influence plan selection."
+    "explain": "The deductible is paid by the member before cost‑sharing begins.",
+    "why": "deductible"
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which cost typically applies after you meet your deductible?",
+    "q": "Which cost typically applies after meeting your deductible?",
     "choices": [
-      "Premium",
       "Coinsurance",
-      "An HSA contribution",
+      "Premium",
+      "HSA contribution",
       "Employer match"
     ],
-    "answer": 1,
-    "explain": "Once the deductible is met, members often pay coinsurance— a percentage of the allowed charge.",
-    "why": "Knowing when coinsurance starts prevents surprise bills."
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "Which of the following is usually a fixed dollar amount at the time of service?",
+    "q": "Which cost typically applies after meeting your deductible?",
     "choices": [
-      "Premium",
       "Coinsurance",
-      "Copay",
-      "Stop‑loss"
+      "Premium",
+      "HSA contribution",
+      "Employer match"
     ],
-    "answer": 2,
-    "explain": "A copay is a fixed dollar amount for specific services like office visits or prescriptions.",
-    "why": "Understanding copays helps members budget routine care."
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
   },
   {
     "topic": "basics",
     "difficulty": "intermediate",
-    "q": "Which combination best describes an HSA‑eligible HDHP?",
+    "q": "Which statement about OOPM is most accurate?",
     "choices": [
-      "High premium, low deductible, HSA allowed",
-      "Lower premium, higher deductible, HSA allowed",
-      "Any PPO with an HSA add‑on",
-      "Zero cost‑sharing for all services"
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
     ],
-    "answer": 1,
-    "explain": "HSA‑eligible HDHPs typically pair lower premiums with higher deductibles and allow pre‑tax HSA contributions.",
-    "why": "HSA strategies can materially lower net spending for many households."
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
   },
   {
     "topic": "basics",
     "difficulty": "intermediate",
-    "q": "Which services can be covered pre‑deductible on an HSA‑eligible plan without losing eligibility?",
+    "q": "Tiered formularies primarily aim to…",
     "choices": [
-      "Any specialist visit",
-      "Preventive care per IRS guidelines",
-      "All urgent care",
-      "Non‑preventive prescriptions"
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
     ],
-    "answer": 1,
-    "explain": "IRS rules allow certain preventive services (including specified drugs) pre‑deductible.",
-    "why": "Designing plans correctly preserves HSA tax advantages."
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
   },
   {
     "topic": "basics",
     "difficulty": "expert",
-    "q": "Under IRS rules, which structure would typically disqualify HSA eligibility?",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
     "choices": [
       "$0 preventive drugs list",
       "Telemedicine at full allowed amount pre‑deductible",
-      "Non‑preventive copay before deductible",
+      "Non‑preventive copay pre‑deductible",
       "Vaccines at no cost"
     ],
     "answer": 2,
-    "explain": "Non‑preventive copays before the deductible generally violate HSA eligibility requirements.",
-    "why": "Misclassification can trigger compliance and tax issues."
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "What does out‑of‑pocket maximum (OOPM) cap?",
+    "q": "Which cost typically applies after meeting your deductible?",
     "choices": [
-      "Premiums only",
-      "In‑network cost‑sharing like deductibles, copays, coinsurance",
-      "Out‑of‑network charges only",
-      "Employer costs"
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
     ],
-    "answer": 1,
-    "explain": "The OOPM caps a member’s in‑network cost‑sharing for the plan year; premiums don’t count.",
-    "why": "OOPM defines worst‑case exposure for members."
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
   },
   {
     "topic": "basics",
     "difficulty": "intermediate",
-    "q": "Which statement about copays and coinsurance is most accurate?",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about copays and coinsurance is correct?",
     "choices": [
       "Both are percentages",
       "Copays are flat amounts; coinsurance is a percentage",
@@ -108,36 +766,512 @@
       "Neither applies after the deductible"
     ],
     "answer": 1,
-    "explain": "Copays are fixed dollar amounts; coinsurance is a percentage of allowed charges.",
-    "why": "Clarity on these terms improves plan literacy and satisfaction."
+    "explain": "Copays are fixed dollars; coinsurance is a percentage of the allowed charge.",
+    "why": "coinsurance"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which services are typically covered at $0 under preventive care?",
+    "choices": [
+      "Vaccines and certain screenings",
+      "All specialist visits",
+      "All prescription drugs",
+      "All imaging"
+    ],
+    "answer": 0,
+    "explain": "Preventive services often have first‑dollar coverage under ACA rules.",
+    "why": "preventive"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which combination best describes an HSA‑eligible HDHP?",
+    "choices": [
+      "High premium, low deductible",
+      "Lower premium, higher deductible, HSA allowed",
+      "Any PPO can add an HSA",
+      "Zero cost‑sharing for all services"
+    ],
+    "answer": 1,
+    "explain": "HSA‑eligible HDHPs typically pair lower premiums with higher deductibles and allow pre‑tax HSA contributions.",
+    "why": "hsa_elig"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is balance billing?",
+    "choices": [
+      "Out‑of‑network providers bill the difference between their charge and allowed amount",
+      "Plan bills employer at renewal",
+      "Pharmacy bills plan for rebates",
+      "IRS bills for ACA fees"
+    ],
+    "answer": 0,
+    "explain": "Out‑of‑network balance billing can create large unexpected charges.",
+    "why": "balance_bill"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
     "q": "What is a formulary?",
     "choices": [
-      "A state insurance tax",
-      "A network of hospitals",
       "A list of covered medications and tiers",
+      "A network of hospitals",
+      "A state insurance tax",
       "A premium subsidy"
     ],
+    "answer": 0,
+    "explain": "A formulary is the plan’s covered drug list, usually tiered by value.",
+    "why": "formulary"
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
     "answer": 2,
-    "explain": "A formulary is the plan’s covered drug list, usually with tiered cost‑sharing.",
-    "why": "Understanding formularies helps members and HR steer to lower‑cost drugs."
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
   },
   {
     "topic": "basics",
     "difficulty": "intermediate",
-    "q": "What is prior authorization (PA)?",
+    "q": "Which statement about OOPM is most accurate?",
     "choices": [
-      "A discount applied at renewal",
-      "A pre‑approval from the plan for certain services/drugs",
-      "A claim paid automatically",
-      "A COBRA notice"
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
     ],
-    "answer": 1,
-    "explain": "PA requires the plan’s approval before coverage for some services or medications.",
-    "why": "Good PA management can control inappropriate utilization while ensuring needed care."
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after meeting your deductible?",
+    "choices": [
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
+    ],
+    "answer": 0,
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
   },
   {
     "topic": "basics",
@@ -150,1253 +1284,119 @@
       "No effect on costs"
     ],
     "answer": 1,
-    "explain": "Narrow networks usually reduce premiums by concentrating steerage to specific providers.",
-    "why": "Network design is a major lever for affordability."
+    "explain": "Narrow networks reduce premiums by steering to selected providers.",
+    "why": "network"
   },
   {
     "topic": "basics",
     "difficulty": "intermediate",
-    "q": "Which account lets employees set aside pre‑tax dollars for qualified health expenses, rolling over year to year if owned by the employee?",
+    "q": "Tiered formularies primarily aim to…",
     "choices": [
-      "FSA",
-      "HSA",
-      "HRA",
-      "None"
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
     ],
-    "answer": 1,
-    "explain": "An HSA is employee‑owned, portable, and can roll over with potential investment growth.",
-    "why": "HSAs combine tax advantages with long‑term savings potential."
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Tiered formularies primarily aim to…",
+    "choices": [
+      "Encourage generics and preferred brands",
+      "Eliminate all specialty drugs",
+      "Charge the list price",
+      "Replace prior auth"
+    ],
+    "answer": 0,
+    "explain": "Tiering nudges toward clinically effective, lower‑cost options.",
+    "why": "Formularies balance cost and access; steering to preferred tiers can save thousands each year."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about OOPM is most accurate?",
+    "choices": [
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
+    ],
+    "answer": 0,
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
   },
   {
     "topic": "basics",
     "difficulty": "easy",
-    "q": "What’s balance billing?",
+    "q": "Which cost typically applies after meeting your deductible?",
     "choices": [
-      "Provider bills member for the difference between charge and allowed amount out‑of‑network",
-      "Plan bills employer at renewal",
-      "Pharmacy bills plan for rebates",
-      "IRS bills for ACA fees"
+      "Coinsurance",
+      "Premium",
+      "HSA contribution",
+      "Employer match"
     ],
     "answer": 0,
-    "explain": "Out‑of‑network providers may bill the difference between their charge and the plan’s allowed amount.",
-    "why": "Avoiding balance billing reduces member complaints and escalations."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which design drives better medication adherence while managing cost?",
-    "choices": [
-      "No formulary",
-      "Tiered formulary with generics favored",
-      "Pay all drugs at 100%",
-      "Only specialty drugs covered"
-    ],
-    "answer": 1,
-    "explain": "Tiered formularies encourage generics and preferred brands with lower member cost‑sharing.",
-    "why": "Adherence reduces downstream avoidable costs."
+    "explain": "After the deductible, members often pay coinsurance on covered services.",
+    "why": "Coinsurance after the deductible drives perceived value and can create bill surprises if poorly explained."
   },
   {
     "topic": "basics",
     "difficulty": "expert",
-    "q": "Which metric best indicates concentration risk for catastrophic claims?",
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
     "choices": [
-      "Preventive visit rate",
-      "PMPM paid trend",
-      "Large‑claimant share of total spend",
-      "Generic dispense rate"
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
     ],
     "answer": 2,
-    "explain": "A high share of spend from a few claimants signals volatility and stop‑loss sensitivity.",
-    "why": "Identifying concentration risk informs attachment‑point strategy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
   },
   {
     "topic": "basics",
     "difficulty": "intermediate",
-    "q": "Which factor most influences coinsurance?",
+    "q": "Which statement about OOPM is most accurate?",
     "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
+      "In‑network cost‑sharing counts; premiums don’t",
+      "Premiums count fully",
+      "Only ER visits count",
+      "It resets on request mid‑year"
     ],
     "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
+    "explain": "Deductibles, copays, and coinsurance generally apply to the OOPM.",
+    "why": "The out-of-pocket max defines worst‑case liability, a key factor in financial planning for families."
   },
   {
     "topic": "basics",
     "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "easy",
-    "q": "Which statement best describes telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences reference pricing?",
-    "choices": [
-      "setting a maximum plan payment for a service",
-      "eliminating preventive coverage",
-      "banning telehealth",
-      "auto‑enrolling COBRA"
-    ],
-    "answer": 0,
-    "explain": "Setting a maximum plan payment for a service.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences formulary tiering?",
-    "choices": [
-      "grouping drugs by cost/clinical value",
-      "waiving all drug costs",
-      "billing list price to member",
-      "only covering specialty drugs"
-    ],
-    "answer": 0,
-    "explain": "Grouping drugs by cost/clinical value.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences HSA?",
-    "choices": [
-      "employee‑owned, pre‑tax account for qualified expenses",
-      "employer payroll tax",
-      "carrier incentive fee",
-      "provider charity care"
-    ],
-    "answer": 0,
-    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences HRA?",
-    "choices": [
-      "employer‑funded account that reimburses expenses",
-      "employee‑owned investment account",
-      "state subsidy",
-      "tax penalty"
-    ],
-    "answer": 0,
-    "explain": "Employer‑funded account that reimburses expenses.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "intermediate",
-    "q": "Which factor most influences telehealth?",
-    "choices": [
-      "remote clinical visit via phone/video",
-      "in‑person ER only",
-      "home nursing only",
-      "medical tourism"
-    ],
-    "answer": 0,
-    "explain": "Remote clinical visit via phone/video.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding coinsurance?",
-    "choices": [
-      "member pays a percentage after deductible",
-      "member pays premium only",
-      "employer pays all",
-      "copays replace all percentages"
-    ],
-    "answer": 0,
-    "explain": "Member pays a percentage after deductible.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding OOPM?",
-    "choices": [
-      "cap on in‑network cost‑sharing per year",
-      "cap on premiums",
-      "no cap exists",
-      "cap on provider charges"
-    ],
-    "answer": 0,
-    "explain": "Cap on in‑network cost‑sharing per year.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding EOB?",
-    "choices": [
-      "a statement explaining how a claim was processed",
-      "a medical bill",
-      "a tax form",
-      "a COBRA notice"
-    ],
-    "answer": 0,
-    "explain": "A statement explaining how a claim was processed.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding prior authorization?",
-    "choices": [
-      "plan approval needed before certain services",
-      "member refund check",
-      "drug coupon program",
-      "open enrollment"
-    ],
-    "answer": 0,
-    "explain": "Plan approval needed before certain services.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
-  },
-  {
-    "topic": "basics",
-    "difficulty": "expert",
-    "q": "Which scenario is most accurate regarding network steerage?",
-    "choices": [
-      "design that directs members to selected providers",
-      "waiving all referrals",
-      "paying cash only",
-      "closing all networks"
-    ],
-    "answer": 0,
-    "explain": "Design that directs members to selected providers.",
-    "why": "Mastering terminology reduces confusion and improves plan literacy."
+    "q": "Which pre‑deductible structure would disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay pre‑deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA rules.",
+    "why": "Missteps on HSA eligibility can create tax issues and derail consumer‑driven strategies."
   }
 ]
