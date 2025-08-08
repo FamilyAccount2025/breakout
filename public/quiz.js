@@ -258,12 +258,6 @@ function finish() {
 // ==============================
 // Init / Events
 // ==============================
-function clampCountInput() {
-  const n = parseInt(els.count.value, 10);
-  const fixed = clamp(isFinite(n) ? n : 8, 3, 20);
-  if (String(n) !== String(fixed)) els.count.value = fixed;
-}
-
 function init() {
   // Cache elements once
   els.setup = document.getElementById('setup');
@@ -294,13 +288,11 @@ function init() {
   els.retry = document.getElementById('retry');
   els.share = document.getElementById('share');
 
-  // Live clamp of count input
-  ['input','change','blur'].forEach(evt => els.count.addEventListener(evt, clampCountInput));
-
   // Events
   els.start.addEventListener('click', async () => {
-    const requested = parseInt(els.count.value, 10);
-    const count = clamp(isFinite(requested) ? requested : 8, 3, 20);
+    let requested = parseInt(els.count.value, 10);
+    if (!isFinite(requested)) requested = 1;    // if empty or invalid, default to 1
+    const count = clamp(requested, 1, 20);
     els.count.value = count; // reflect clamp
 
     const topic = els.topic.value;
