@@ -1,6 +1,6 @@
 // ==============================
 // Dynamic Local Banks (JSON) + AI mode
-// No duplicates per quiz + Printable PDF summary
+// No duplicates per quiz + Printable PDF summary + Timestamp
 // ==============================
 
 const TOPIC_LABELS = {
@@ -65,7 +65,7 @@ function dedupeByKey(items) {
   return out;
 }
 
-// shuffle question’s choices & recompute correct index
+// shuffle a question’s choices & recompute the correct index
 function shuffleChoices(q) {
   const pairs = q.choices.map((c,i)=>({c,i}));
   const shuffled = shuffle(pairs);
@@ -204,7 +204,8 @@ function startGame(questions) {
     score: 0,
     answered: new Array(questions.length).fill(false),
     skipped: new Set(),
-    perTopic: {} // {topic: {total, correct}}
+    perTopic: {},
+    finishedAt: null
   };
   els.badge.textContent = `${TOPIC_LABELS[els.topic.value]} • ${els.difficulty.value}`;
   els.progressFill.style.width = '0%';
@@ -256,7 +257,7 @@ function handleAnswerClick(e) {
   q.userAnswer = idx;
   q.correct = isCorrect;
 
-  // style all buttons
+  // style buttons
   [...els.answers.children].forEach((b, i) => {
     const className = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : null);
     if (className) b.classList.add(className);
@@ -316,19 +317,20 @@ function finish() {
   else if (pct >= 75) title = 'Advisor-in-Training';
   else if (pct >= 60) title = 'Getting There';
   else title = 'Needs Enrollment Counseling 🙂';
+
+  game.finishedAt = new Date();
+
   els.resultBadge.textContent = title;
   els.resultScore.textContent = `${game.score} / ${total} • ${pct}%`;
   els.resultNote.textContent = pct >= 75 ? 'Strong grasp of concepts — nicely done!' : 'Keep going — try a different topic or difficulty.';
+  els.resultMeta.textContent = `Completed on ${game.finishedAt.toLocaleString()}`;
 
-  // Build printable summary content now
   buildPrintableSummary();
-
   els.result.hidden = false;
 }
 
 // Printable summary builder
 function coachingAdvice(perTopic) {
-  // Simple rule-based coaching by weakest topics
   const entries = Object.entries(perTopic).map(([topic, s]) => {
     const pct = s.total ? (s.correct / s.total) : 0;
     return { topic, ...s, pct };
@@ -345,7 +347,6 @@ function coachingAdvice(perTopic) {
     sales: 'Deepen discovery, steerage framing (quality + navigation), and claims analytics to support ROI stories.'
   };
 
-  // take top 2 weakest topics
   entries.slice(0,2).forEach(e => {
     lines.push(`• ${TOPIC_LABELS[e.topic]}: ${map[e.topic] || 'Focus training on key fundamentals and real scenarios.'}`);
   });
@@ -356,15 +357,17 @@ function coachingAdvice(perTopic) {
 function buildPrintableSummary() {
   const container = els.printable;
   container.innerHTML = '';
-  container.hidden = false; // it will be hidden by CSS during normal view, shown only when printing if needed
+  container.hidden = false;
 
   const total = game.questions.length;
   const pct = Math.round((game.score/total)*100);
+  const ts = game.finishedAt ? game.finishedAt.toLocaleString() : new Date().toLocaleString();
 
   const header = document.createElement('div');
   header.innerHTML = `
     <h1>Employee Benefits Quiz — Summary</h1>
-    <div class="meta"><strong>Mode:</strong> ${els.aimode.checked ? 'AI' : 'Local'} •
+    <div class="meta"><strong>Completed:</strong> ${ts} •
+      <strong>Mode:</strong> ${els.aimode.checked ? 'AI' : 'Local'} •
       <strong>Topic:</strong> ${TOPIC_LABELS[els.topic.value]} •
       <strong>Difficulty:</strong> ${els.difficulty.value} •
       <strong>Score:</strong> ${game.score}/${total} (${pct}%)
@@ -372,12 +375,10 @@ function buildPrintableSummary() {
   `;
   container.appendChild(header);
 
-  // Coaching block
   const coach = document.createElement('div');
   coach.innerHTML = `<h2>Sales Coaching Advice</h2><pre class="small" style="white-space:pre-wrap;margin:0">${coachingAdvice(game.perTopic)}</pre>`;
   container.appendChild(coach);
 
-  // Questions detail
   const h2 = document.createElement('h2');
   h2.textContent = 'Question Details';
   container.appendChild(h2);
@@ -425,6 +426,7 @@ function init() {
   els.resultBadge = document.getElementById('resultBadge');
   els.resultScore = document.getElementById('resultScore');
   els.resultNote = document.getElementById('resultNote');
+  els.resultMeta = document.getElementById('resultMeta');
   els.retry = document.getElementById('retry');
   els.share = document.getElementById('share');
   els.downloadPdf = document.getElementById('downloadPdf');
@@ -459,7 +461,8 @@ function init() {
   });
 
   els.share.addEventListener('click', async () => {
-    const text = `I scored ${els.resultScore.textContent} on the Employee Benefits Quiz (${els.badge.textContent}). Try to beat me!`;
+    const when = game?.finishedAt ? game.finishedAt.toLocaleString() : new Date().toLocaleString();
+    const text = `I scored ${els.resultScore.textContent} on the Employee Benefits Quiz (${els.badge.textContent}) — ${when}. Try to beat me!`;
     try {
       await navigator.clipboard.writeText(text);
       els.share.textContent = 'Copied!';
@@ -470,17 +473,9 @@ function init() {
   });
 
   els.downloadPdf.addEventListener('click', () => {
-    // Ensure summary is built (should be after finish)
     if (els.printable.innerHTML.trim() === '') buildPrintableSummary();
-
-    // Show printable, trigger print, then hide
     els.printable.hidden = false;
-    // In case the section was off-screen, scroll it into view (optional)
-    // els.printable.scrollIntoView({ behavior: 'smooth' });
-
     window.print();
-
-    // Hide again after print (give browser a tick)
     setTimeout(() => { els.printable.hidden = true; }, 200);
   });
 
