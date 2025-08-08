@@ -1,5 +1,5 @@
 // ==============================
-// Quiz Engine — No-Repeats Per Quiz, Exact Count (1–100), AI+Local
+// Quiz Engine — No Repeats by Text OR Concept, Exact Count (1–100), AI+Local
 // ==============================
 
 const TOPIC_LABELS = {
@@ -11,7 +11,7 @@ const TOPIC_LABELS = {
   mixed: 'Mixed'
 };
 
-// Fallback (only used if banks aren’t found)
+// Fallback (used only if banks aren’t found)
 const FALLBACK = [
   { topic:'basics', difficulty:'easy',
     q:"What does a health plan deductible represent?",
@@ -45,50 +45,52 @@ const FALLBACK = [
     why:"Targeting clinical drivers can bend trend without blunt cost shifting." },
 ];
 
-// Elements/state
+// DOM refs / state
 const els = {};
 let game = null;
 
-// Utils
+// Helpers
 const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
-function shuffle(arr) { return arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]); }
+const shuffle = (arr) => arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+const norm = s => String(s||'').toLowerCase().replace(/\s+/g,' ').trim();
+
+// Keys
+const keyText    = q => `${q.topic}¦${norm(q.q)}`;                            // prevent same question text
+const keyExact   = q => `${q.topic}¦${String(q.q)}¦${(q.choices||[]).join('¦')}`; // safety
+const keyConcept = q => {                                                     // prevent same concept
+  const correct = (q.choices && q.choices[q.answer]) ? q.choices[q.answer] : '';
+  return `${q.topic}¦${q.difficulty}¦${norm(q.explain)}¦${norm(correct)}`;
+};
 
 // Dedupers
-const norm = s => String(s||'').toLowerCase().replace(/\s+/g,' ').trim();
-const keyText = q => `${q.topic}¦${norm(q.q)}`;         // for no-repeats within a quiz
-const keyExact = q => `${q.topic}¦${String(q.q)}¦${(q.choices||[]).join('¦')}`; // for bank grooming
-
-function dedupeByText(items) {
-  const seen = new Set();
-  const out = [];
+function dedupe(items, keyFn) {
+  const seen = new Set(), out = [];
   for (const it of items) {
-    const k = keyText(it);
+    const k = keyFn(it);
     if (!seen.has(k)) { seen.add(k); out.push(it); }
   }
   return out;
 }
-function dedupeExact(items) {
-  const seen = new Set();
-  const out = [];
-  for (const it of items) {
-    const k = keyExact(it);
-    if (!seen.has(k)) { seen.add(k); out.push(it); }
-  }
-  return out;
-}
+const dedupeExact     = (items) => dedupe(items, keyExact);
+const dedupeByText    = (items) => dedupe(items, keyText);
+const dedupeByConcept = (items) => dedupe(items, keyConcept);
 
-function topUpUniqueByText(base, pool, desiredCount) {
+// Top-up to exact count while respecting concept-level uniqueness
+function topUpUniqueByConcept(base, pool, desiredCount) {
   const out = base.slice();
-  const used = new Set(out.map(keyText));
+  const usedConcepts = new Set(out.map(keyConcept));
+  const usedTexts    = new Set(out.map(keyText));
   for (const q of shuffle(pool)) {
     if (out.length >= desiredCount) break;
-    const k = keyText(q);
-    if (!used.has(k)) { used.add(k); out.push(q); }
+    const kc = keyConcept(q), kt = keyText(q);
+    if (!usedConcepts.has(kc) && !usedTexts.has(kt)) {
+      usedConcepts.add(kc); usedTexts.add(kt); out.push(q);
+    }
   }
   return out.slice(0, desiredCount);
 }
 
-// Shuffle choices and recompute correct index
+// Shuffle choices & recompute correct index
 function shuffleChoices(q) {
   const pairs = q.choices.map((c,i)=>({c,i}));
   const s = shuffle(pairs);
@@ -108,7 +110,7 @@ function defaultWhy(topic) {
   }
 }
 
-// Load local banks
+// Load banks
 async function fetchBank(topic) {
   const files = {
     basics: '/data/bank.basics.json',
@@ -145,36 +147,39 @@ async function fetchBank(topic) {
   }
 }
 
-// Build local set with difficulty mixing + exact fill, deduped by text to avoid repeats
+// Build LOCAL set — exact count, no repeats by text or concept
 function buildLocalSet(topic, difficulty, count, pool) {
   const inTopic = pool.filter(q => topic === 'mixed' ? true : q.topic === topic);
-  // First remove exact duplicates for safety, then dedupe by text for no-repeats
+
+  // Groom: remove exact dupes, then ensure concept-level uniqueness
   const groomed = dedupeExact(inTopic);
-  const uniqueByText = dedupeByText(groomed);
+  const byDiff  = groomed.filter(q => q.difficulty === difficulty);
+  const uniqueConcept = dedupeByConcept(byDiff); // <- key change
 
-  // harder mix
-  const harder = { easy: 'intermediate', intermediate: 'expert', expert: 'expert' }[difficulty];
-  const hardShare = { easy: 0.25, intermediate: 0.50, expert: 1.0 }[difficulty];
+  // Fill from harder bucket as requested (progressive mix)
+  const harder = { easy:'intermediate', intermediate:'expert', expert:'expert' }[difficulty];
+  const hardShare = { easy:0.25, intermediate:0.50, expert:1.0 }[difficulty];
 
-  const needHard = Math.floor(count * hardShare);
+  const needHard    = Math.floor(count * hardShare);
   const needPrimary = count - needHard;
 
-  const primaryPool = uniqueByText.filter(q => q.difficulty === difficulty);
-  const harderPool  = uniqueByText.filter(q => q.difficulty === harder);
+  const primaryPool = uniqueConcept;
+  const harderPool  = dedupeByConcept(groomed.filter(q => q.difficulty === harder));
 
   let selected = [];
   selected = selected.concat(shuffle(primaryPool).slice(0, needPrimary));
   selected = selected.concat(shuffle(harderPool).slice(0, needHard));
-  selected = dedupeByText(selected);
+  // Re-enforce uniqueness by concept & text
+  selected = dedupeByText(dedupeByConcept(selected));
 
-  // Top up from remaining unique-by-text pool
-  selected = topUpUniqueByText(selected, uniqueByText, count);
+  // Top up to exact count from all unique-by-concept in-topic pool
+  const allUniqueConcept = dedupeByConcept(dedupeByText(groomed));
+  selected = topUpUniqueByConcept(selected, allUniqueConcept, count);
 
-  // Final shuffle + answer shuffle
   return shuffle(selected).map(shuffleChoices);
 }
 
-// AI build with exact fill and no-repeats by text
+// Build AI set — same guarantees
 async function buildQuestions(topic, difficulty, count) {
   if (!els.aimode.checked) {
     const pool = await fetchBank(topic);
@@ -201,16 +206,16 @@ async function buildQuestions(topic, difficulty, count) {
       why: q.why ? String(q.why) : null
     })).filter(q => q.q && q.choices.length >= 2);
 
-    aiQs = dedupeByText(dedupeExact(aiQs)).map(shuffleChoices);
+    aiQs = dedupeByText(dedupeByConcept(dedupeExact(aiQs))).map(shuffleChoices);
 
     if (aiQs.length < count) {
       const pool = await fetchBank(topic);
       const localFill = buildLocalSet(topic, difficulty, count, pool);
-      let merged = dedupeByText(dedupeExact(aiQs.concat(localFill)));
-      merged = topUpUniqueByText(merged, dedupeByText(dedupeExact(pool)), count);
+      let merged = dedupeByText(dedupeByConcept(dedupeExact(aiQs.concat(localFill))));
+      const allUniqueConcept = dedupeByConcept(dedupeByText(dedupeExact(pool)));
+      merged = topUpUniqueByConcept(merged, allUniqueConcept, count);
       return shuffle(merged).slice(0, count);
     }
-
     return shuffle(aiQs).slice(0, count);
 
   } catch (e) {
@@ -220,7 +225,7 @@ async function buildQuestions(topic, difficulty, count) {
   }
 }
 
-// ---------- UI + Flow ----------
+// ---------- UI / Flow ----------
 function startGame(questions) {
   game = {
     questions: questions.map(q => ({...q, userAnswer: null, correct: null})),
@@ -244,7 +249,6 @@ function renderCurrent() {
   const q = game.questions[game.i];
   els.qtext.textContent = q.q;
   els.answers.innerHTML = '';
-
   q.choices.forEach((c, idx) => {
     const btn = document.createElement('button');
     btn.textContent = c;
@@ -252,16 +256,12 @@ function renderCurrent() {
     els.answers.appendChild(btn);
   });
 
-  els.explain.hidden = true;
-  els.explain.innerHTML = '';
-  els.why.hidden = true;
-  els.why.innerHTML = '';
+  els.explain.hidden = true; els.explain.innerHTML = '';
+  els.why.hidden = true; els.why.innerHTML = '';
+  els.next.disabled = true; els.skip.disabled = false;
 
-  els.next.disabled = true;
-  els.skip.disabled = false;
-
-  const progressPct = ((game.i) / game.questions.length) * 100;
-  els.progressFill.style.width = `${progressPct}%`;
+  const pct = ((game.i) / game.questions.length) * 100;
+  els.progressFill.style.width = `${pct}%`;
   els.progressText.textContent = `Question ${game.i+1} of ${game.questions.length}`;
 }
 
@@ -281,55 +281,35 @@ function handleAnswerClick(e) {
   q.userAnswer = idx;
   q.correct = isCorrect;
 
-  // style buttons
   [...els.answers.children].forEach((b, i) => {
-    const className = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : null);
-    if (className) b.classList.add(className);
+    const cls = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : null);
+    if (cls) b.classList.add(cls);
     b.disabled = true;
   });
 
   const chosen = q.choices[idx];
   const correct = q.choices[q.answer];
-  if (isCorrect) {
-    els.explain.innerHTML = `✅ <strong>Correct.</strong> ${q.explain || ''}`;
-    game.score++;
-  } else {
-    els.explain.innerHTML = `❌ <strong>Incorrect.</strong> You selected “${chosen}.”<br><br>` +
-      `✅ <strong>Correct answer:</strong> “${correct}.”<br>` +
-      (q.explain ? `${q.explain}` : '');
-  }
+  els.explain.innerHTML = isCorrect
+    ? `✅ <strong>Correct.</strong> ${q.explain || ''}`
+    : `❌ <strong>Incorrect.</strong> You selected “${chosen}.”<br><br>✅ <strong>Correct answer:</strong> “${correct}.”<br>${q.explain || ''}`;
   els.explain.hidden = false;
 
   const why = q.why || defaultWhy(q.topic);
-  if (why) {
-    els.why.textContent = `Why this matters: ${why}`;
-    els.why.hidden = false;
-  }
+  if (why) { els.why.textContent = `Why this matters: ${why}`; els.why.hidden = false; }
 
-  if (!game.perTopic[q.topic]) game.perTopic[q.topic] = { total: 0, correct: 0 };
+  if (!game.perTopic[q.topic]) game.perTopic[q.topic] = { total:0, correct:0 };
   game.perTopic[q.topic].total += 1;
   if (isCorrect) game.perTopic[q.topic].correct += 1;
 
-  els.next.disabled = false;
-  els.skip.disabled = true;
+  els.next.disabled = false; els.skip.disabled = true;
 }
 
 function nextQuestion() {
-  if (game.i < game.questions.length - 1) {
-    game.i++;
-    renderCurrent();
-  } else if (game.skipped.size > 0) {
-    game.i = [...game.skipped][0];
-    game.skipped.delete(game.i);
-    renderCurrent();
-  } else {
-    finish();
-  }
+  if (game.i < game.questions.length - 1) { game.i++; renderCurrent(); }
+  else if (game.skipped.size > 0) { game.i = [...game.skipped][0]; game.skipped.delete(game.i); renderCurrent(); }
+  else { finish(); }
 }
-function skipQuestion() {
-  if (!game.answered[game.i]) game.skipped.add(game.i);
-  nextQuestion();
-}
+function skipQuestion() { if (!game.answered[game.i]) game.skipped.add(game.i); nextQuestion(); }
 
 function finish() {
   els.quiz.hidden = true;
@@ -342,22 +322,19 @@ function finish() {
   else title = 'Needs Enrollment Counseling 🙂';
 
   game.finishedAt = new Date();
-
   els.resultBadge.textContent = title;
   els.resultScore.textContent = `${game.score} / ${total} • ${pct}%`;
   els.resultNote.textContent = pct >= 75 ? 'Strong grasp of concepts — nicely done!' : 'Keep going — try a different topic or difficulty.';
-  if (document.getElementById('resultMeta')) {
-    document.getElementById('resultMeta').textContent = `Completed on ${game.finishedAt.toLocaleString()}`;
-  }
+  const meta = document.getElementById('resultMeta');
+  if (meta) meta.textContent = `Completed on ${game.finishedAt.toLocaleString()}`;
 
   buildPrintableSummary();
   els.result.hidden = false;
 }
 
-// Coaching for printout
 function coachingAdvice(perTopic) {
   const entries = Object.entries(perTopic).map(([topic, s]) => {
-    const pct = s.total ? (s.correct / s.total) : 0;
+    const pct = s.total ? (s.correct/s.total) : 0;
     return { topic, ...s, pct };
   }).sort((a,b)=>a.pct - b.pct);
 
@@ -425,33 +402,33 @@ function buildPrintableSummary() {
   });
 }
 
-// Tiny inline notice if beyond limit or pool too small
-function ensureCountOrNotify(finalQs, desired, poolUniqueTextCount) {
+// Notice if >100 or pool too small
+function ensureCountOrNotify(finalQs, requested, availableByConcept) {
   const bar = document.querySelector('.progress-bar');
   const existing = document.getElementById('countNotice');
   if (existing) existing.remove();
 
-  if (desired > 100) {
+  if (requested > 100) {
     const note = document.createElement('div');
     note.id = 'countNotice';
     note.style.cssText = 'margin:.5rem 0 0; color:#b45309; font-size:.9rem;';
     note.textContent = `Up to 100 questions are allowed per quiz. Reduced to 100.`;
     bar?.after(note);
-  } else if (finalQs.length < desired) {
+  } else if (finalQs.length < requested) {
     const note = document.createElement('div');
     note.id = 'countNotice';
     note.style.cssText = 'margin:.5rem 0 0; color:#b45309; font-size:.9rem;';
-    note.textContent = `Only ${finalQs.length} unique questions available by text (requested ${desired}). Pool unique-by-text: ${poolUniqueTextCount}.`;
+    note.textContent = `Only ${finalQs.length} unique concepts available (requested ${requested}). Pool concepts: ${availableByConcept}.`;
     bar?.after(note);
   }
 }
 
-// Init & events
+// Start
 async function handleStart() {
   let requested = parseInt(els.count.value, 10);
   if (!isFinite(requested)) requested = 1;
-  let count = clamp(requested, 1, 100);     // hard-cap 100
-  if (requested > 100) els.count.value = 100; else els.count.value = count;
+  let count = clamp(requested, 1, 100); // hard cap 100
+  els.count.value = Math.min(requested, 100);
 
   const topic = els.topic.value;
   const diff = els.difficulty.value;
@@ -459,12 +436,13 @@ async function handleStart() {
   els.start.disabled = true;
   els.start.textContent = 'Building questions...';
 
-  // For the notice, compute how many unique-by-text are available in this topic
-  let poolUniqueTextCount = 0;
+  // For the notice: how many unique concepts are in the pool?
+  let availableByConcept = 0;
   try {
     const pool = await fetchBank(topic);
     const inTopic = pool.filter(q => topic === 'mixed' ? true : q.topic === topic);
-    poolUniqueTextCount = dedupeByText(dedupeExact(inTopic.filter(q => q.difficulty === diff))).length;
+    const byDiff = inTopic.filter(q => q.difficulty === diff);
+    availableByConcept = dedupeByConcept(dedupeExact(byDiff)).length;
   } catch {}
 
   const qs = await buildQuestions(topic, diff, count);
@@ -472,7 +450,7 @@ async function handleStart() {
   els.start.disabled = false;
   els.start.textContent = 'Start Quiz';
 
-  ensureCountOrNotify(qs, requested, poolUniqueTextCount);
+  ensureCountOrNotify(qs, requested, availableByConcept);
   startGame(qs);
 }
 
