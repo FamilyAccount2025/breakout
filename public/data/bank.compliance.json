@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "COBRA primarily provides what?",
+    "choices": [
+      "Continuation of employer coverage after qualifying events",
+      "Subsidized public coverage",
+      "Medicare enrollment assistance",
+      "A federal premium tax credit"
+    ],
+    "answer": 0,
+    "explain": "COBRA lets qualified beneficiaries continue group coverage after certain events.",
+    "why": "COBRA compliance protects both employers and employees."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice timing is most accurate for COBRA election?",
+    "choices": [
+      "Election Notice within 44 days of the qualifying event (general rule)",
+      "Employee must elect within 7 days",
+      "Carrier sends Election Notice automatically",
+      "COBRA doesn’t require notices"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days from the event to provide the Election Notice.",
+    "why": "Late or missing notices create legal exposure."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario most likely triggers an ERISA fiduciary concern?",
+    "choices": [
+      "Recommending funds with undisclosed comp conflicts",
+      "Providing at‑cost plan docs",
+      "Sharing public SBC links",
+      "Posting OE schedules"
+    ],
+    "answer": 0,
+    "explain": "Undisclosed compensation conflicts may breach fiduciary duty.",
+    "why": "Fiduciary lapses can result in significant regulatory and legal consequences."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes SBC?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about SPD is most accurate?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for HIPAA PHI?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes Medicare credible coverage (Part D)?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about QLE is most accurate?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for PCORI fee?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes 5500 filing?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about NQTL parity is most accurate?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for MHPAEA?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes COBRA QE?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about SBC is most accurate?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for SPD?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes HIPAA PHI?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about Medicare credible coverage (Part D) is most accurate?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for QLE?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes PCORI fee?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about 5500 filing is most accurate?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for NQTL parity?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes MHPAEA?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about COBRA QE is most accurate?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for SBC?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes SPD?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about HIPAA PHI is most accurate?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for Medicare credible coverage (Part D)?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes QLE?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about PCORI fee is most accurate?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for 5500 filing?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes NQTL parity?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about MHPAEA is most accurate?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for COBRA QE?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes SBC?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about SPD is most accurate?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for HIPAA PHI?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes Medicare credible coverage (Part D)?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about QLE is most accurate?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for PCORI fee?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes 5500 filing?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about NQTL parity is most accurate?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for MHPAEA?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes COBRA QE?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about SBC is most accurate?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for SPD?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes HIPAA PHI?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about Medicare credible coverage (Part D) is most accurate?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for QLE?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes PCORI fee?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about 5500 filing is most accurate?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for NQTL parity?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes MHPAEA?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about COBRA QE is most accurate?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for SBC?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes SPD?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about HIPAA PHI is most accurate?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for Medicare credible coverage (Part D)?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes QLE?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about PCORI fee is most accurate?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for 5500 filing?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes NQTL parity?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about MHPAEA is most accurate?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for COBRA QE?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes SBC?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about SPD is most accurate?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for HIPAA PHI?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes Medicare credible coverage (Part D)?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about QLE is most accurate?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for PCORI fee?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes 5500 filing?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about NQTL parity is most accurate?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for MHPAEA?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes COBRA QE?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about SBC is most accurate?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for SPD?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes HIPAA PHI?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about Medicare credible coverage (Part D) is most accurate?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for QLE?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes PCORI fee?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about 5500 filing is most accurate?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for NQTL parity?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes MHPAEA?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about COBRA QE is most accurate?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for SBC?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes SPD?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about HIPAA PHI is most accurate?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for Medicare credible coverage (Part D)?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes QLE?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about PCORI fee is most accurate?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for 5500 filing?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes NQTL parity?",
+    "choices": [
+      "non‑quantitative limits under MHPAEA",
+      "non‑qualified tax levy",
+      "non‑quarterly trend load",
+      "non‑quid pro quo"
+    ],
+    "answer": 0,
+    "explain": "Non‑quantitative limits under mhpaea.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about MHPAEA is most accurate?",
+    "choices": [
+      "mental health parity law requiring parity with medical/surgical",
+      "Medicare premium adjustment",
+      "market health pricing act",
+      "medical hardship policy"
+    ],
+    "answer": 0,
+    "explain": "Mental health parity law requiring parity with medical/surgical.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for COBRA QE?",
+    "choices": [
+      "qualifying event like termination or reduction in hours",
+      "quality evaluation",
+      "quote estimate",
+      "qualified expense"
+    ],
+    "answer": 0,
+    "explain": "Qualifying event like termination or reduction in hours.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes SBC?",
+    "choices": [
+      "summary of benefits & coverage required by ACA",
+      "stop‑loss binder",
+      "SPD replacement",
+      "COBRA waiver"
+    ],
+    "answer": 0,
+    "explain": "Summary of benefits & coverage required by aca.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about SPD is most accurate?",
+    "choices": [
+      "ERISA summary plan description for participants",
+      "state small group rate filing",
+      "carrier EOB",
+      "pharmacy prior auth"
+    ],
+    "answer": 0,
+    "explain": "Erisa summary plan description for participants.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for HIPAA PHI?",
+    "choices": [
+      "protected health information privacy rules",
+      "public pricing data",
+      "payroll file",
+      "provider directory"
+    ],
+    "answer": 0,
+    "explain": "Protected health information privacy rules.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes Medicare credible coverage (Part D)?",
+    "choices": [
+      "notice stating Rx plan is as good as Medicare standard",
+      "COBRA premium credit",
+      "Med Supp plan",
+      "HSA rollover"
+    ],
+    "answer": 0,
+    "explain": "Notice stating rx plan is as good as medicare standard.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which statement about QLE is most accurate?",
+    "choices": [
+      "qualifying life event allowing mid‑year change",
+      "quarterly loss expectation",
+      "quality level evaluation",
+      "quote lead estimate"
+    ],
+    "answer": 0,
+    "explain": "Qualifying life event allowing mid‑year change.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for PCORI fee?",
+    "choices": [
+      "ACA fee paid by self‑funded plans",
+      "state stop‑loss tax",
+      "Medicare tax",
+      "ERISA filing penalty"
+    ],
+    "answer": 0,
+    "explain": "Aca fee paid by self‑funded plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "What best describes 5500 filing?",
+    "choices": [
+      "annual ERISA reporting for applicable plans",
+      "ACA 1095‑C",
+      "HIPAA BA agreement",
+      "IRS W‑2"
+    ],
+    "answer": 0,
+    "explain": "Annual erisa reporting for applicable plans.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  }
+]
