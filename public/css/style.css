@@ -208,6 +208,41 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 }
 
 /* ==============================
+   Quiz Actions (aligned one row)
+   ============================== */
+.quiz-actions {
+  display: flex;
+  align-items: stretch;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  flex-wrap: nowrap;            /* keep one line */
+}
+
+/* Left button (Back to Setup) takes half the row */
+.quiz-actions > #backSetup {
+  flex: 1 1 50%;
+  min-width: 0;
+  height: 44px;
+  white-space: nowrap;          /* avoid line breaks */
+}
+
+/* Right side holds Skip + Next and takes the other half */
+.quiz-actions .right-buttons {
+  flex: 1 1 50%;
+  min-width: 0;
+  display: flex;
+  gap: 0.6rem;
+}
+
+/* Skip and Next split that half evenly */
+.quiz-actions .right-buttons > button {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 44px;
+  white-space: nowrap;          /* avoid line breaks */
+}
+
+/* ==============================
    Results
    ============================== */
 .result-panel { animation: slideUp 0.5s ease; }
@@ -223,9 +258,9 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   flex-wrap: wrap;
 }
 .result-actions button {
-  flex: 1 1 0;               /* equal widths */
-  min-width: 180px;          /* reasonable min on larger screens */
-  height: 44px;              /* slightly taller for touch */
+  flex: 1 1 0;
+  min-width: 180px;
+  height: 44px;
 }
 
 /* ==============================
@@ -282,4 +317,12 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   /* result buttons: stack full-width */
   .result-actions { flex-direction: column; }
   .result-actions button { width: 100%; min-width: 0; }
+
+  /* tighten action row fonts a touch */
+  .quiz-actions > #backSetup,
+  .quiz-actions .right-buttons > button {
+    font-size: 0.95rem;
+    padding: 0.55rem 0.6rem;
+    height: 42px;
+  }
 }
