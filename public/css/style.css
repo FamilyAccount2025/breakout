@@ -91,6 +91,9 @@ input, select {
   font-size: 1rem;
   height: 42px;
 }
+input::placeholder {
+  color: #9ca3af; /* light gray placeholder */
+}
 .checkbox {
   flex-direction: row;
   align-items: center;
@@ -222,8 +225,8 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   white-space: normal;
   line-height: 1.4;
   word-break: break-word;
-  min-height: 48px;            /* prevent cramped/tall wrap jitter */
-  overflow: visible;           /* ensure content never clips on mobile */
+  min-height: 48px;
+  overflow: visible;
 }
 .answers-list button:hover:not(:disabled),
 .answers-list button:focus:not(:disabled) {
