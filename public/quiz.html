@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="brand-placeholder">[ Your Logo Here ]</div>
+    <div class="brand-placeholder">Interactive Quiz with AI Coach</div>
   </header>
 
   <main class="quiz-container">
@@ -35,16 +35,16 @@
           </select>
         </label>
         <label>Number of Questions
-          <input id="count" type="number" min="3" max="20" value="8" />
+          <input id="count" type="number" min="3" max="20" step="1" value="8" />
         </label>
         <label class="checkbox">
           <input id="aimode" type="checkbox" />
           <span>AI Mode
             <span class="tooltip-container">
-              <span class="tooltip-icon">ℹ️</span>
+              <span class="tooltip-icon" tabindex="0" aria-label="AI Mode info">ℹ️</span>
               <span class="tooltip-text">
-                Use AI to generate new questions currently not in the core course content.<br>
-                Be sure to select your Topic first.
+                Use AI to generate new questions not in the core course content.<br>
+                Tip: choose your Topic first for best results.
               </span>
             </span>
           </span>
@@ -86,7 +86,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© 2025 — Employee Benefits Quiz Demo</p>
+    <p>© 2025 — Chris Goff</p>
   </footer>
 
   <script src="quiz.js"></script>
