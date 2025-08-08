@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What’s a common first step in a broker’s discovery with a new group?",
+    "choices": [
+      "Understand pain points and objectives",
+      "Present final rates immediately",
+      "Request a 5‑year rate guarantee",
+      "Quote only one carrier"
+    ],
+    "answer": 0,
+    "explain": "Discovery aligns solutions with the employer’s objectives.",
+    "why": "Consultative discovery improves plan fit and renewal success."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which metric best signals an opportunity for condition‑management programs?",
+    "choices": [
+      "Rising avoidable ER utilization",
+      "High generic dispense rate",
+      "Stable preventive visits",
+      "Low telehealth adoption only"
+    ],
+    "answer": 0,
+    "explain": "Avoidable ER spikes often flag gaps in primary care or adherence.",
+    "why": "Targeting clinical drivers can bend trend without blunt cost shifting."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which framing is most effective when presenting migration to a steerage network?",
+    "choices": [
+      "Show navigation + quality outcomes + shared savings",
+      "Lead with penalties only",
+      "Focus only on carrier discount",
+      "Avoid quality data to reduce debate"
+    ],
+    "answer": 0,
+    "explain": "Pairing navigation, outcomes, and savings shows value beyond discounts.",
+    "why": "Strategic framing increases adoption of guided care models."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes value narrative?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about claims analytics is most accurate?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for steerage network?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes discovery?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about benchmarking is most accurate?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for implementation plan?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes OE communications?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about clinical programs is most accurate?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for stop‑loss strategy review?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes multi‑year strategy?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about value narrative is most accurate?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for claims analytics?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes steerage network?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about discovery is most accurate?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for benchmarking?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes implementation plan?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about OE communications is most accurate?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for clinical programs?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes stop‑loss strategy review?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about multi‑year strategy is most accurate?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for value narrative?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes claims analytics?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about steerage network is most accurate?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for discovery?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes benchmarking?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about implementation plan is most accurate?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for OE communications?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes clinical programs?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about stop‑loss strategy review is most accurate?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for multi‑year strategy?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes value narrative?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about claims analytics is most accurate?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for steerage network?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes discovery?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about benchmarking is most accurate?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for implementation plan?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes OE communications?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about clinical programs is most accurate?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for stop‑loss strategy review?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes multi‑year strategy?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about value narrative is most accurate?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for claims analytics?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes steerage network?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about discovery is most accurate?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for benchmarking?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes implementation plan?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about OE communications is most accurate?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for clinical programs?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes stop‑loss strategy review?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about multi‑year strategy is most accurate?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for value narrative?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes claims analytics?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about steerage network is most accurate?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for discovery?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes benchmarking?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about implementation plan is most accurate?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for OE communications?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes clinical programs?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about stop‑loss strategy review is most accurate?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for multi‑year strategy?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes value narrative?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about claims analytics is most accurate?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for steerage network?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes discovery?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about benchmarking is most accurate?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for implementation plan?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes OE communications?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about clinical programs is most accurate?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for stop‑loss strategy review?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes multi‑year strategy?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about value narrative is most accurate?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for claims analytics?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes steerage network?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about discovery is most accurate?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for benchmarking?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes implementation plan?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about OE communications is most accurate?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for clinical programs?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes stop‑loss strategy review?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about multi‑year strategy is most accurate?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for value narrative?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes claims analytics?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about steerage network is most accurate?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for discovery?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes benchmarking?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about implementation plan is most accurate?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for OE communications?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes clinical programs?",
+    "choices": [
+      "initiatives to improve outcomes and reduce avoidable spend",
+      "marketing swag",
+      "PPO rebrand only",
+      "faxing claims"
+    ],
+    "answer": 0,
+    "explain": "Initiatives to improve outcomes and reduce avoidable spend.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about stop‑loss strategy review is most accurate?",
+    "choices": [
+      "annual review of attachment points and lasers",
+      "wait for large claims then adjust",
+      "ignore pooling trends",
+      "avoid modeling"
+    ],
+    "answer": 0,
+    "explain": "Annual review of attachment points and lasers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for multi‑year strategy?",
+    "choices": [
+      "roadmap across benefit years",
+      "single‑year rate haggle",
+      "defer all changes",
+      "avoid data until renewal"
+    ],
+    "answer": 0,
+    "explain": "Roadmap across benefit years.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes value narrative?",
+    "choices": [
+      "story that ties benefits to outcomes and ROI",
+      "pure price sheet",
+      "carrier logos only",
+      "jargon‑heavy deck"
+    ],
+    "answer": 0,
+    "explain": "Story that ties benefits to outcomes and roi.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about claims analytics is most accurate?",
+    "choices": [
+      "turning raw claims into insights and actions",
+      "rate load guessing",
+      "PHI blast emails",
+      "untracked surveys"
+    ],
+    "answer": 0,
+    "explain": "Turning raw claims into insights and actions.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for steerage network?",
+    "choices": [
+      "design that directs members to high‑value providers",
+      "all providers at same cost",
+      "no quality variation exists",
+      "only out‑of‑network use"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to high‑value providers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes discovery?",
+    "choices": [
+      "structured questions to surface goals and pain points",
+      "one‑way presentation",
+      "renewal notice only",
+      "RFP auto‑send"
+    ],
+    "answer": 0,
+    "explain": "Structured questions to surface goals and pain points.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "intermediate",
+    "q": "Which statement about benchmarking is most accurate?",
+    "choices": [
+      "comparing plan metrics to market peers",
+      "random carrier quote",
+      "only internal budget",
+      "legal review"
+    ],
+    "answer": 0,
+    "explain": "Comparing plan metrics to market peers.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "expert",
+    "q": "Which scenario aligns with best practice for implementation plan?",
+    "choices": [
+      "mapped timeline and responsibilities",
+      "unplanned go‑live",
+      "verbal hand‑off only",
+      "skip member comms"
+    ],
+    "answer": 0,
+    "explain": "Mapped timeline and responsibilities.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  },
+  {
+    "topic": "sales",
+    "difficulty": "easy",
+    "q": "What best describes OE communications?",
+    "choices": [
+      "clear, timely employee messaging for enrollment",
+      "carrier press releases",
+      "broker comp disclosure",
+      "COBRA letters"
+    ],
+    "answer": 0,
+    "explain": "Clear, timely employee messaging for enrollment.",
+    "why": "Understanding ancillary features helps employees use benefits effectively."
+  }
+]
