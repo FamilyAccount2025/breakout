@@ -1,1402 +1,4202 @@
 [
   {
     "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
     "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "Which lever can lower fixed monthly cost without cutting benefits (with modeling)?",
-    "choices": [
-      "Increase specific attachment point",
-      "Cut preventive services",
-      "Remove specialty carve‑outs",
-      "Switch to paper claims only"
-    ],
-    "answer": 0,
-    "explain": "Raising the specific attachment can reduce fixed cost but increases risk—model first.",
-    "why": "attachment"
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What’s a common appeal of a level‑funded plan for small employers?",
-    "choices": [
-      "Potential refund if claims are low",
-      "No stop‑loss needed",
-      "Guaranteed 10‑year renewals",
-      "Exemption from ACA mandates"
-    ],
-    "answer": 0,
-    "explain": "Level‑funded plans may return surplus if claims run favorably; ACA rules still apply.",
-    "why": "level_funded"
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
-    "why": "Accurate IBNR keeps financials honest during transitions and audits."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "In self‑funded plans, which layer protects against a single high‑cost claimant?",
+    "q": "What protects a self‑funded plan from a single high‑cost claimant?",
     "choices": [
       "Specific stop‑loss",
       "Aggregate stop‑loss",
-      "ASO fee",
-      "Pooling charge on fully insured"
+      "PBM rebate",
+      "ASO fee"
     ],
     "answer": 0,
     "explain": "Specific stop‑loss caps exposure per claimant; aggregate caps total claims.",
-    "why": "stop_loss"
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
-    "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
-    ],
-    "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "What is IBNR?",
+    "q": "Level‑funded plans appeal to small employers partly because they may…",
     "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
+      "Refund surplus if claims run low",
+      "Eliminate stop‑loss",
+      "Avoid all ACA rules",
+      "Guarantee flat rates for 10 years"
     ],
     "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "explain": "Level‑funded may return surplus when claims are favorable; ACA rules still apply.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "IBNR refers to…",
+    "choices": [
+      "Incurred but not reported claims",
+      "Initial base rate",
+      "Index of benefit ratio",
+      "Internal benchmark rate"
+    ],
+    "answer": 0,
+    "explain": "IBNR estimates claims incurred but not yet billed.",
     "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "Run‑out refers to…",
+    "q": "Which metric helps compare funding options fairly?",
     "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
     ],
     "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
   },
   {
     "topic": "funding",
     "difficulty": "easy",
-    "q": "ASO fees pay for…",
+    "q": "Which metric helps compare funding options fairly?",
     "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
     ],
     "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "easy",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $100,000 to $125,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $75,000 to $100,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $50,000 to $75,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Raising specific stop‑loss attachment from $150,000 to $175,000 most likely:",
+    "choices": [
+      "Lowers fixed premium, increases retained claim risk",
+      "Raises fixed premium, lowers risk",
+      "No impact",
+      "Eliminates lasers"
+    ],
+    "answer": 0,
+    "explain": "Higher specific attachments reduce fixed cost but increase volatility—model before changing.",
+    "why": "Stop‑loss terms define catastrophic protection; bad attachment points swing risk materially."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "A 'laser' at renewal means the stop‑loss carrier will:",
+    "choices": [
+      "Set a higher attachment for a known high‑risk member",
+      "Lower the premium for all",
+      "Remove all exclusions",
+      "Guarantee aggregate corridor"
+    ],
+    "answer": 0,
+    "explain": "Lasers assign more risk to the employer for specific members.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "ASO fees typically cover:",
+    "choices": [
+      "Claims adjudication, network access, customer service",
+      "Member premiums",
+      "Employer taxes",
+      "Stop‑loss benefits"
+    ],
+    "answer": 0,
+    "explain": "ASO fees pay for administrative services, not insurance.",
+    "why": "ASO fees buy admin capability; transparency allows apples‑to‑apples comparisons."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "intermediate",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "A claim corridor means…",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
-    "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
-    ],
-    "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "expert",
-    "q": "A claim corridor means…",
-    "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
-    ],
-    "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "What is IBNR?",
-    "choices": [
-      "Incurred but not reported claims reserve",
-      "Initial base rate",
-      "Index of benefits ratio",
-      "Internal benchmark"
-    ],
-    "answer": 0,
-    "explain": "IBNR accounts for claims that happened but haven’t been billed yet.",
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
     "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
-    "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
-    ],
-    "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "easy",
-    "q": "ASO fees pay for…",
-    "choices": [
-      "Administrative services like claims adjudication and networks",
-      "Member premiums",
-      "Reinsurance taxes",
-      "PBM rebates"
-    ],
-    "answer": 0,
-    "explain": "ASO fees are the admin charges in self‑funded setups.",
-    "why": "ASO fees buy administrative capability; transparency is crucial for total cost comparisons."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
-  },
-  {
-    "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
-    "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
-    ],
-    "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "A claim corridor means…",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
     "difficulty": "expert",
-    "q": "A claim corridor means…",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Employer bears a range of claims before pooling activates",
-      "All claims are pooled immediately",
-      "Only pharmacy is pooled",
-      "Employees pay claims first"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Corridors affect retained risk and volatility.",
-    "why": "Claim corridors affect volatility; employers need to understand risk left unhedged."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Pooling primarily aims to…",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Spread extreme risk across a larger block",
-      "Reduce network breadth",
-      "Cap member copays",
-      "Eliminate IBNR"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Pooling stabilizes results by sharing outlier claims.",
-    "why": "Pooling protects against outliers; structure differences matter between carriers."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
-    "difficulty": "easy",
-    "q": "Run‑out refers to…",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "The period claims continue to be paid after termination",
-      "Plan year run time",
-      "COBRA duration",
-      "Stop‑loss policy grace period"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Run‑out periods impact member service during carrier changes.",
-    "why": "Run‑out administration affects member experience during carrier changes."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "What does a ‘laser’ in stop‑loss mean?",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Higher attachment for a known high‑risk member",
-      "Automatic lower premium",
-      "Removal of all exclusions",
-      "Annual rate cap guarantee"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "Lasers assign higher risk retention to specific members.",
-    "why": "Lasers shift individual risk back to the plan; knowing when to accept matters at renewal."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
   },
   {
     "topic": "funding",
-    "difficulty": "intermediate",
-    "q": "Credibility in rating refers to…",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
     "choices": [
-      "Weight given to the group’s own claims experience",
-      "Broker tenure with the carrier",
-      "Member satisfaction survey score",
-      "Network size"
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
     ],
     "answer": 0,
-    "explain": "More credibility means your own experience drives rates more.",
-    "why": "Credibility weighting affects how much your own claims drive rates—key in negotiations."
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which approach best prepares for carrier changes mid‑year?",
+    "choices": [
+      "Sufficient IBNR and run‑out admin planning",
+      "Rely on members to self‑manage",
+      "Freeze all claims",
+      "Skip data feeds"
+    ],
+    "answer": 0,
+    "explain": "Proper run‑out and IBNR planning avoids member disruption.",
+    "why": "Accurate IBNR keeps financials honest during transitions and audits."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "When negotiating lasers, a smart counter is to:",
+    "choices": [
+      "Model alternatives (rate vs. attachment), consider aggregating risk",
+      "Accept all lasers",
+      "Ignore past claims",
+      "Focus only on network size"
+    ],
+    "answer": 0,
+    "explain": "Quantify trade‑offs: higher premium/no laser vs lower premium/laser.",
+    "why": "Lasers shift risk for known high‑cost members back to the plan—negotiate carefully."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "For a maturing level‑funded group with good experience, the next step could be:",
+    "choices": [
+      "Transition to self‑funding with tailored stop‑loss",
+      "Return to fully insured",
+      "Ban reporting",
+      "Wait 5 years"
+    ],
+    "answer": 0,
+    "explain": "Good experience may justify moving toward self‑funding.",
+    "why": "Level‑funded arrangements change cash flow and can refund surplus—powerful for smaller groups."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
+  },
+  {
+    "topic": "funding",
+    "difficulty": "expert",
+    "q": "Which metric helps compare funding options fairly?",
+    "choices": [
+      "Total cost (fixed + variable) with credible trend",
+      "Discounts only",
+      "Member anecdotes",
+      "Carrier brand alone"
+    ],
+    "answer": 0,
+    "explain": "Compare apples‑to‑apples total cost including risk/volatility.",
+    "why": "Seeing full cost avoids false savings."
   }
 ]
