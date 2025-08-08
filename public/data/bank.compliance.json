@@ -2,1401 +2,4201 @@
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "An SBC is…",
+    "q": "COBRA primarily provides:",
     "choices": [
-      "A summary of benefits and coverage required by ACA",
-      "A stop‑loss binder certificate",
-      "An SPD replacement",
-      "A COBRA waiver form"
+      "Continuation of employer coverage after qualifying events",
+      "A premium tax credit",
+      "Medicare enrollment",
+      "A wellness grant"
     ],
     "answer": 0,
-    "explain": "SBCs standardize plan information for comparison.",
-    "why": "SBCs give employees clear benefit comparisons and are an ACA requirement."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
-    "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
-    ],
-    "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
-    "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
-    ],
-    "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "COBRA allows qualified beneficiaries to continue group coverage.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "An SBC is…",
+    "q": "HIPAA PHI refers to:",
     "choices": [
-      "A summary of benefits and coverage required by ACA",
-      "A stop‑loss binder certificate",
-      "An SPD replacement",
-      "A COBRA waiver form"
-    ],
-    "answer": 0,
-    "explain": "SBCs standardize plan information for comparison.",
-    "why": "SBCs give employees clear benefit comparisons and are an ACA requirement."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
-    "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
-    ],
-    "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
-    "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
-    ],
-    "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
-    "choices": [
-      "Protected health information governed by privacy rules",
+      "Protected health information under privacy rules",
       "Public pricing data",
       "Payroll records",
       "Provider directories"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
-    "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
-    ],
-    "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
-    "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
-    ],
-    "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
-    "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
-    ],
-    "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "HIPAA governs privacy/security of PHI.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "q": "An SBC is:",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Summary of Benefits and Coverage (ACA)",
+      "Stop‑loss binder certificate",
+      "SPD replacement",
+      "COBRA waiver"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
+    "explain": "SBCs standardize plan info for comparison.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "An SBC is…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "A summary of benefits and coverage required by ACA",
-      "A stop‑loss binder certificate",
-      "An SPD replacement",
-      "A COBRA waiver form"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "SBCs standardize plan information for comparison.",
-    "why": "SBCs give employees clear benefit comparisons and are an ACA requirement."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
-    "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
-    ],
-    "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
-    "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
-    ],
-    "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "An SBC is…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "A summary of benefits and coverage required by ACA",
-      "A stop‑loss binder certificate",
-      "An SPD replacement",
-      "A COBRA waiver form"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "SBCs standardize plan information for comparison.",
-    "why": "SBCs give employees clear benefit comparisons and are an ACA requirement."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
-    "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
-    ],
-    "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
-    "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
-    ],
-    "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "An SBC is…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "A summary of benefits and coverage required by ACA",
-      "A stop‑loss binder certificate",
-      "An SPD replacement",
-      "A COBRA waiver form"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "SBCs standardize plan information for comparison.",
-    "why": "SBCs give employees clear benefit comparisons and are an ACA requirement."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
-    "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
-    ],
-    "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "An SPD is…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "An SPD is…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
-    "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
-    ],
-    "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
-    "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
-    ],
-    "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
-    "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
-    ],
-    "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
-  },
-  {
-    "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
-    "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
-    ],
-    "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "easy",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "q": "General rule for COBRA Election Notice timing is:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
   },
   {
     "topic": "compliance",
     "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "q": "General rule for COBRA Election Notice timing is:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "General rule for COBRA Election Notice timing is:",
+    "choices": [
+      "Within 44 days of qualifying event",
+      "Within 7 days",
+      "Next plan year",
+      "No notice needed"
+    ],
+    "answer": 0,
+    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
+    "why": "COBRA processes prevent penalties and protect former employees from gaps."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Under MHPAEA, NQTLs must be:",
+    "choices": [
+      "Comparable between MH/SUD and medical/surgical",
+      "Stricter for MH/SUD",
+      "Ignored for small groups",
+      "Filed only with PBM"
+    ],
+    "answer": 0,
+    "explain": "Parity requires comparable NQTLs across benefit classes.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which document communicates plan terms and participant rights under ERISA?",
+    "choices": [
+      "SPD",
+      "COBRA invoice",
+      "PBM rebate report",
+      "EOB"
+    ],
+    "answer": 0,
+    "explain": "SPDs outline rights/obligations; errors can be costly.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "intermediate",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   },
   {
     "topic": "compliance",
     "difficulty": "expert",
-    "q": "Which scenario most likely triggers an ERISA fiduciary concern?",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Recommending funds with undisclosed comp conflicts",
-      "Providing at‑cost plan docs",
-      "Sharing public SBC links",
-      "Posting OE schedules"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Undisclosed compensation conflicts may breach fiduciary duty.",
-    "why": "erisa"
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SBC is…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "A summary of benefits and coverage required by ACA",
-      "A stop‑loss binder certificate",
-      "An SPD replacement",
-      "A COBRA waiver form"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "SBCs standardize plan information for comparison.",
-    "why": "SBCs give employees clear benefit comparisons and are an ACA requirement."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "difficulty": "expert",
+    "q": "Which practice best reduces ERISA fiduciary exposure?",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Documented prudent process on fees/vendors",
+      "Rely on oral updates",
+      "Ignore conflicts",
+      "Hide comp arrangements"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
+    "explain": "A prudent process and transparency mitigate fiduciary risk.",
+    "why": "ERISA fiduciary duty and reporting carry real enforcement risk."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SBC is…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "A summary of benefits and coverage required by ACA",
-      "A stop‑loss binder certificate",
-      "An SPD replacement",
-      "A COBRA waiver form"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "SBCs standardize plan information for comparison.",
-    "why": "SBCs give employees clear benefit comparisons and are an ACA requirement."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "NQTL under MHPAEA refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Non‑quantitative treatment limits that must be on par with medical/surgical",
-      "Non‑qualified tax levy",
-      "Non‑quarterly trend load",
-      "Negotiated quality totals"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Parity requires NQTLs be comparable across MH/SUD and medical/surgical.",
-    "why": "Parity compliance is a hot audit area—NQTL mapping matters."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "COBRA primarily provides…",
+    "difficulty": "expert",
+    "q": "Most defensible approach to MHPAEA audits is to:",
     "choices": [
-      "Continuation of employer coverage after qualifying events",
-      "Subsidized public coverage",
-      "Medicare enrollment assistance",
-      "A premium tax credit"
+      "Maintain written NQTL analyses with data",
+      "Rely on carrier brochures",
+      "Exclude MH/SUD",
+      "Delay responses"
     ],
     "answer": 0,
-    "explain": "COBRA lets qualified beneficiaries continue group coverage after certain events.",
-    "why": "cobra"
+    "explain": "Written, data‑backed NQTL analysis is key.",
+    "why": "Parity enforcement is active; NQTL mapping is a hot audit focus."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Part D creditable coverage notices…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "Avoid late‑enrollment penalties for Medicare beneficiaries",
-      "Increase HSA limits",
-      "Supersede COBRA timelines",
-      "Replace SBCs"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "Part D notices must be timely and accurate.",
-    "why": "Creditable coverage notices prevent late‑enrollment penalties for Part D."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Form 5500…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "Is an annual ERISA filing for applicable plans",
-      "Is a HIPAA audit checklist",
-      "Is a stop‑loss claim form",
-      "Is a COBRA premium invoice"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "5500 filings promote transparency and carry penalties if late/incorrect.",
-    "why": "Form 5500 filings underpin transparency; late or wrong filings draw penalties."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "PCORI fees apply to…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "Self‑funded health plans (and some insured policies)",
-      "Only dental plans",
-      "Only fully insured plans",
-      "HSA accounts"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "PCORI funds comparative effectiveness research and is due annually.",
-    "why": "PCORI fees hit self‑funded plans; budgeting avoids unpleasant surprises."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "Which notice timing is most accurate for COBRA election?",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "Election Notice within 44 days of the qualifying event (general rule)",
-      "Employee must elect within 7 days",
-      "Carrier sends Election Notice automatically",
-      "No notices are required"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "Administrators generally have up to 44 days to provide the Election Notice.",
-    "why": "timing"
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "easy",
-    "q": "An SPD is…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "An ERISA summary plan description for participants",
-      "A pharmacy prior‑auth form",
-      "A Medicare claim form",
-      "A PBM contract"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "SPDs outline plan terms and participant rights.",
-    "why": "The SPD communicates rights/obligations; errors can be costly."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
   },
   {
     "topic": "compliance",
-    "difficulty": "intermediate",
-    "q": "HIPAA PHI refers to…",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
     "choices": [
-      "Protected health information governed by privacy rules",
-      "Public pricing data",
-      "Payroll records",
-      "Provider directories"
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
     ],
     "answer": 0,
-    "explain": "HIPAA sets standards for privacy and security of PHI.",
-    "why": "HIPAA privacy/security rules protect PHI; violations erode trust and invite fines."
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "When handling PHI, a best‑practice safeguard is:",
+    "choices": [
+      "Minimum necessary access and secure transmission",
+      "Everyone can access all PHI",
+      "Email PHI unencrypted",
+      "Print and leave at desk"
+    ],
+    "answer": 0,
+    "explain": "Minimum necessary + secure handling reduces HIPAA risk.",
+    "why": "HIPAA safeguards PHI; violations erode trust and invite fines."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
+  },
+  {
+    "topic": "compliance",
+    "difficulty": "expert",
+    "q": "Which notice helps avoid Medicare Part D late‑enrollment penalties?",
+    "choices": [
+      "Creditable coverage notice",
+      "SPD addendum",
+      "SBC front page",
+      "HIPAA file log"
+    ],
+    "answer": 0,
+    "explain": "Timely Part D notices reduce employee penalties and confusion.",
+    "why": "Accurate, timely notices reduce liability and confusion."
   }
 ]
