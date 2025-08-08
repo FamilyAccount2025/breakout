@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does a health plan deductible represent?",
+    "choices": [
+      "The fixed amount paid per doctor visit",
+      "The maximum you’ll pay in a year",
+      "The amount you pay before the plan starts sharing costs",
+      "The amount the employer contributes monthly"
+    ],
+    "answer": 2,
+    "explain": "The deductible is paid by the member before the plan begins cost‑sharing (coinsurance).",
+    "why": "Deductibles drive out‑of‑pocket exposure and influence plan selection."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which cost typically applies after you meet your deductible?",
+    "choices": [
+      "Premium",
+      "Coinsurance",
+      "An HSA contribution",
+      "Employer match"
+    ],
+    "answer": 1,
+    "explain": "Once the deductible is met, members often pay coinsurance— a percentage of the allowed charge.",
+    "why": "Knowing when coinsurance starts prevents surprise bills."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which of the following is usually a fixed dollar amount at the time of service?",
+    "choices": [
+      "Premium",
+      "Coinsurance",
+      "Copay",
+      "Stop‑loss"
+    ],
+    "answer": 2,
+    "explain": "A copay is a fixed dollar amount for specific services like office visits or prescriptions.",
+    "why": "Understanding copays helps members budget routine care."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which combination best describes an HSA‑eligible HDHP?",
+    "choices": [
+      "High premium, low deductible, HSA allowed",
+      "Lower premium, higher deductible, HSA allowed",
+      "Any PPO with an HSA add‑on",
+      "Zero cost‑sharing for all services"
+    ],
+    "answer": 1,
+    "explain": "HSA‑eligible HDHPs typically pair lower premiums with higher deductibles and allow pre‑tax HSA contributions.",
+    "why": "HSA strategies can materially lower net spending for many households."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which services can be covered pre‑deductible on an HSA‑eligible plan without losing eligibility?",
+    "choices": [
+      "Any specialist visit",
+      "Preventive care per IRS guidelines",
+      "All urgent care",
+      "Non‑preventive prescriptions"
+    ],
+    "answer": 1,
+    "explain": "IRS rules allow certain preventive services (including specified drugs) pre‑deductible.",
+    "why": "Designing plans correctly preserves HSA tax advantages."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Under IRS rules, which structure would typically disqualify HSA eligibility?",
+    "choices": [
+      "$0 preventive drugs list",
+      "Telemedicine at full allowed amount pre‑deductible",
+      "Non‑preventive copay before deductible",
+      "Vaccines at no cost"
+    ],
+    "answer": 2,
+    "explain": "Non‑preventive copays before the deductible generally violate HSA eligibility requirements.",
+    "why": "Misclassification can trigger compliance and tax issues."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What does out‑of‑pocket maximum (OOPM) cap?",
+    "choices": [
+      "Premiums only",
+      "In‑network cost‑sharing like deductibles, copays, coinsurance",
+      "Out‑of‑network charges only",
+      "Employer costs"
+    ],
+    "answer": 1,
+    "explain": "The OOPM caps a member’s in‑network cost‑sharing for the plan year; premiums don’t count.",
+    "why": "OOPM defines worst‑case exposure for members."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which statement about copays and coinsurance is most accurate?",
+    "choices": [
+      "Both are percentages",
+      "Copays are flat amounts; coinsurance is a percentage",
+      "Both are flat amounts",
+      "Neither applies after the deductible"
+    ],
+    "answer": 1,
+    "explain": "Copays are fixed dollar amounts; coinsurance is a percentage of allowed charges.",
+    "why": "Clarity on these terms improves plan literacy and satisfaction."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What is a formulary?",
+    "choices": [
+      "A state insurance tax",
+      "A network of hospitals",
+      "A list of covered medications and tiers",
+      "A premium subsidy"
+    ],
+    "answer": 2,
+    "explain": "A formulary is the plan’s covered drug list, usually with tiered cost‑sharing.",
+    "why": "Understanding formularies helps members and HR steer to lower‑cost drugs."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "What is prior authorization (PA)?",
+    "choices": [
+      "A discount applied at renewal",
+      "A pre‑approval from the plan for certain services/drugs",
+      "A claim paid automatically",
+      "A COBRA notice"
+    ],
+    "answer": 1,
+    "explain": "PA requires the plan’s approval before coverage for some services or medications.",
+    "why": "Good PA management can control inappropriate utilization while ensuring needed care."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What’s the typical trade‑off of a narrower network plan?",
+    "choices": [
+      "Higher premiums, higher choice",
+      "Lower premiums, fewer providers",
+      "Same premium, fewer providers",
+      "No effect on costs"
+    ],
+    "answer": 1,
+    "explain": "Narrow networks usually reduce premiums by concentrating steerage to specific providers.",
+    "why": "Network design is a major lever for affordability."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which account lets employees set aside pre‑tax dollars for qualified health expenses, rolling over year to year if owned by the employee?",
+    "choices": [
+      "FSA",
+      "HSA",
+      "HRA",
+      "None"
+    ],
+    "answer": 1,
+    "explain": "An HSA is employee‑owned, portable, and can roll over with potential investment growth.",
+    "why": "HSAs combine tax advantages with long‑term savings potential."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "What’s balance billing?",
+    "choices": [
+      "Provider bills member for the difference between charge and allowed amount out‑of‑network",
+      "Plan bills employer at renewal",
+      "Pharmacy bills plan for rebates",
+      "IRS bills for ACA fees"
+    ],
+    "answer": 0,
+    "explain": "Out‑of‑network providers may bill the difference between their charge and the plan’s allowed amount.",
+    "why": "Avoiding balance billing reduces member complaints and escalations."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which design drives better medication adherence while managing cost?",
+    "choices": [
+      "No formulary",
+      "Tiered formulary with generics favored",
+      "Pay all drugs at 100%",
+      "Only specialty drugs covered"
+    ],
+    "answer": 1,
+    "explain": "Tiered formularies encourage generics and preferred brands with lower member cost‑sharing.",
+    "why": "Adherence reduces downstream avoidable costs."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which metric best indicates concentration risk for catastrophic claims?",
+    "choices": [
+      "Preventive visit rate",
+      "PMPM paid trend",
+      "Large‑claimant share of total spend",
+      "Generic dispense rate"
+    ],
+    "answer": 2,
+    "explain": "A high share of spend from a few claimants signals volatility and stop‑loss sensitivity.",
+    "why": "Identifying concentration risk informs attachment‑point strategy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "easy",
+    "q": "Which statement best describes telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences reference pricing?",
+    "choices": [
+      "setting a maximum plan payment for a service",
+      "eliminating preventive coverage",
+      "banning telehealth",
+      "auto‑enrolling COBRA"
+    ],
+    "answer": 0,
+    "explain": "Setting a maximum plan payment for a service.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences formulary tiering?",
+    "choices": [
+      "grouping drugs by cost/clinical value",
+      "waiving all drug costs",
+      "billing list price to member",
+      "only covering specialty drugs"
+    ],
+    "answer": 0,
+    "explain": "Grouping drugs by cost/clinical value.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences HSA?",
+    "choices": [
+      "employee‑owned, pre‑tax account for qualified expenses",
+      "employer payroll tax",
+      "carrier incentive fee",
+      "provider charity care"
+    ],
+    "answer": 0,
+    "explain": "Employee‑owned, pre‑tax account for qualified expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences HRA?",
+    "choices": [
+      "employer‑funded account that reimburses expenses",
+      "employee‑owned investment account",
+      "state subsidy",
+      "tax penalty"
+    ],
+    "answer": 0,
+    "explain": "Employer‑funded account that reimburses expenses.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "intermediate",
+    "q": "Which factor most influences telehealth?",
+    "choices": [
+      "remote clinical visit via phone/video",
+      "in‑person ER only",
+      "home nursing only",
+      "medical tourism"
+    ],
+    "answer": 0,
+    "explain": "Remote clinical visit via phone/video.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding coinsurance?",
+    "choices": [
+      "member pays a percentage after deductible",
+      "member pays premium only",
+      "employer pays all",
+      "copays replace all percentages"
+    ],
+    "answer": 0,
+    "explain": "Member pays a percentage after deductible.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding OOPM?",
+    "choices": [
+      "cap on in‑network cost‑sharing per year",
+      "cap on premiums",
+      "no cap exists",
+      "cap on provider charges"
+    ],
+    "answer": 0,
+    "explain": "Cap on in‑network cost‑sharing per year.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding EOB?",
+    "choices": [
+      "a statement explaining how a claim was processed",
+      "a medical bill",
+      "a tax form",
+      "a COBRA notice"
+    ],
+    "answer": 0,
+    "explain": "A statement explaining how a claim was processed.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding prior authorization?",
+    "choices": [
+      "plan approval needed before certain services",
+      "member refund check",
+      "drug coupon program",
+      "open enrollment"
+    ],
+    "answer": 0,
+    "explain": "Plan approval needed before certain services.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  },
+  {
+    "topic": "basics",
+    "difficulty": "expert",
+    "q": "Which scenario is most accurate regarding network steerage?",
+    "choices": [
+      "design that directs members to selected providers",
+      "waiving all referrals",
+      "paying cash only",
+      "closing all networks"
+    ],
+    "answer": 0,
+    "explain": "Design that directs members to selected providers.",
+    "why": "Mastering terminology reduces confusion and improves plan literacy."
+  }
+]
