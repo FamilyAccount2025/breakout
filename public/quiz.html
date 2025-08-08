@@ -1,108 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Employee Benefits Quiz</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz with AI Coach</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    /* Tooltip styling */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 6px;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 240px;
+      background-color: #333;
+      color: #fff;
+      text-align: left;
+      border-radius: 6px;
+      padding: 8px;
+      position: absolute;
+      z-index: 10;
+      bottom: 125%; /* show above the icon */
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 0.85rem;
+      line-height: 1.3;
+    }
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%; /* arrow */
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #333 transparent transparent transparent;
+    }
+    .tooltip:hover .tooltiptext,
+    .tooltip:focus-within .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand-placeholder">Interactive Quiz with AI Coach</div>
-  </header>
 
-  <main class="quiz-container">
-    <section class="setup-panel" id="setup">
-      <h1>Employee Benefits Quiz</h1>
-      <p class="subtitle">Test your knowledge on health insurance, ancillary benefits, compliance, funding, and sales strategies.</p>
+<header>
+  <h1 id="logo">Interactive Quiz with AI Coach</h1>
+</header>
 
-      <div class="form-grid">
-        <label>Topic
-          <select id="topic">
-            <option value="basics">Health Insurance Basics</option>
-            <option value="ancillary">Ancillary Products</option>
-            <option value="funding">Funding Arrangements</option>
-            <option value="compliance">Compliance</option>
-            <option value="sales">Broker & GA Sales Strategy</option>
-            <option value="mixed">Mixed (All Topics)</option>
-          </select>
+<main>
+  <!-- Setup Screen -->
+  <section id="setup">
+    <div class="card">
+      <h2>Employee Benefits Quiz</h2>
+      <p>Test your knowledge on health insurance, ancillary benefits, compliance, funding, and sales strategies.</p>
+      
+      <label for="topic">Topic</label>
+      <select id="topic">
+        <option value="basics">Basics</option>
+        <option value="ancillary">Ancillary Benefits</option>
+        <option value="funding">Funding Arrangements</option>
+        <option value="compliance">Compliance</option>
+        <option value="sales">Broker &amp; GA Sales Strategy</option>
+        <option value="mixed">Mixed (All Topics)</option>
+      </select>
+
+      <label for="difficulty">Difficulty</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="expert">Expert</option>
+      </select>
+
+      <label for="count">Number of Questions</label>
+      <input id="count" type="number" placeholder="Enter 1-100" min="1" max="100" />
+
+      <div style="margin-top:8px;">
+        <label>
+          <input type="checkbox" id="aimode" />
+          AI Mode
         </label>
-        <label>Difficulty
-          <select id="difficulty">
-            <option value="easy">Easy</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="expert">Expert</option>
-          </select>
-        </label>
-        <label>Number of Questions
-          <input
-            id="count"
-            type="number"
-            min="1"
-            max="100"
-            step="1"
-            placeholder="Enter 1–100"
-            inputmode="numeric"
-          />
-        </label>
-        <label class="checkbox">
-          <input id="aimode" type="checkbox" />
-          <span>AI Mode
-            <span class="tooltip-container">
-              <span class="tooltip-icon" tabindex="0" aria-label="AI Mode info">ℹ️</span>
-              <span class="tooltip-text">
-                Use AI to generate new questions not in the core course content.<br>
-                Tip: choose your Topic first for best results.
-              </span>
-            </span>
+        <span class="tooltip" tabindex="0">
+          ⓘ
+          <span class="tooltiptext">
+            <strong>AI Mode:</strong> Uses AI to generate new, unique questions beyond the core course content.<br><br>
+            💡 For the most tailored coaching feedback, use <strong>without AI Mode</strong> so results are based on our full, curated knowledge banks.
           </span>
-        </label>
+        </span>
       </div>
 
-      <button id="start" class="btn-primary">Start Quiz</button>
-    </section>
+      <button id="start">Start Quiz</button>
+    </div>
+  </section>
 
-    <section class="quiz-panel" id="quiz" hidden>
-      <div class="quiz-header">
-        <span id="badge" class="badge"></span>
-        <span id="progress" class="progress-text"></span>
+  <!-- Quiz Screen -->
+  <section id="quiz" hidden>
+    <div class="quiz-header">
+      <span id="badge"></span>
+      <div class="progress-bar">
+        <div id="progressFill" class="progress-fill"></div>
       </div>
-      <div class="progress-bar"><div id="progressFill"></div></div>
-      <div class="question-card">
-        <div id="qtext" class="question-text"></div>
-        <div id="answers" class="answers-list" aria-live="polite"></div>
-        <div id="explain" class="explanation" hidden></div>
-        <div id="why" class="why-matters" hidden></div>
+      <span id="progress"></span>
+    </div>
+    <div class="card">
+      <p id="qtext"></p>
+      <div id="answers"></div>
+      <div id="explain" class="explain" hidden></div>
+      <div id="why" class="why" hidden></div>
+      <div class="quiz-buttons">
+        <button id="backSetup">Back to Setup</button>
+        <button id="skip">Skip</button>
+        <button id="next" disabled>Next</button>
       </div>
-      <div class="quiz-actions">
-        <button id="backSetup" class="btn-secondary">Back to Setup</button>
-        <div class="right-buttons">
-          <button id="skip" class="btn-secondary">Skip</button>
-          <button id="next" class="btn-primary" disabled>Next</button>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="result-panel" id="result" hidden>
+  <!-- Result Screen -->
+  <section id="result" hidden>
+    <div class="card">
       <h2 id="resultBadge"></h2>
-      <div id="resultScore" class="score"></div>
-      <div id="resultMeta" class="meta"></div>
+      <p id="resultScore"></p>
       <p id="resultNote"></p>
-      <div class="result-actions">
-        <button id="retry" class="btn-secondary">Try Again</button>
-        <button id="share" class="btn-secondary">Copy Share Text</button>
-        <button id="downloadPdf" class="btn-primary">Download PDF Summary</button>
+      <p id="resultMeta"></p>
+      <div class="quiz-buttons">
+        <button id="retry">Try Again</button>
+        <button id="share">Copy Share Text</button>
+        <button id="downloadPdf">Download PDF</button>
       </div>
-    </section>
+    </div>
+    <div id="printable" hidden></div>
+  </section>
+</main>
 
-    <!-- Printable Summary (hidden until download/print) -->
-    <section id="printable" class="printable" hidden></section>
-  </main>
-
-  <footer class="site-footer">
-    <p>© 2025 — Chris Goff</p>
-  </footer>
-
-  <script src="quiz.js" defer></script>
+<script src="/quiz.js"></script>
 </body>
 </html>
