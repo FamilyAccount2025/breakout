@@ -122,7 +122,7 @@ function renderCurrent() {
   q.choices.forEach((c, idx) => {
     const btn = document.createElement('button');
     btn.textContent = c;
-    btn.addEventListener('click', () => selectAnswer(idx));
+    btn.setAttribute('data-index', idx);
     els.answers.appendChild(btn);
   });
 
@@ -135,17 +135,22 @@ function renderCurrent() {
   els.progressText.textContent = `Question ${game.i+1} of ${game.questions.length}`;
 }
 
-function selectAnswer(idx) {
+function handleAnswerClick(e) {
+  const btn = e.target.closest('button[data-index]');
+  if (!btn) return;
+
+  const idx = parseInt(btn.getAttribute('data-index'), 10);
   const q = game.questions[game.i];
+
   if (game.answered[game.i]) return;
   game.answered[game.i] = true;
 
   const correct = idx === q.answer;
   if (correct) game.score++;
 
-  [...els.answers.children].forEach((btn, i) => {
-    btn.classList.add(i === q.answer ? 'correct' : (i === idx ? 'incorrect' : ''));
-    btn.disabled = true;
+  [...els.answers.children].forEach((b, i) => {
+    b.classList.add(i === q.answer ? 'correct' : (i === idx ? 'incorrect' : ''));
+    b.disabled = true;
   });
 
   els.explain.textContent = q.explain || '';
@@ -202,6 +207,7 @@ els.start.addEventListener('click', async () => {
   startGame(qs);
 });
 
+els.answers.addEventListener('click', handleAnswerClick); // event delegation
 els.next.addEventListener('click', nextQuestion);
 els.skip.addEventListener('click', skipQuestion);
 
