@@ -1,9 +1,8 @@
 // ==============================================
-// Employee Benefits Quiz Engine
-// - No repeats by TEXT or CONCEPT in a single quiz
-// - Exact count (1–100) with helpful notices
-// - Local banks + optional AI mode
-// - Scoring hardened (final score recomputed from answers)
+// Employee Benefits Quiz Engine (Concept-first Dedupe)
+// - Prefers concept-level uniqueness; falls back to text-level to fill to the requested count (max 100)
+// - Works with banks WITH or WITHOUT explicit "concept" field
+// - AI + local banks; robust scoring; PDF summary
 // ==============================================
 
 const TOPIC_LABELS = {
@@ -57,14 +56,16 @@ let game = null;
 const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
 const shuffle = (arr) => arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 const norm = s => String(s||'').toLowerCase().replace(/\s+/g,' ').trim();
+const keyText = q => `${q.topic}¦${norm(q.q)}`;
+const keyExact = q => `${q.topic}¦${String(q.q)}¦${(q.choices||[]).join('¦')}`;
 
-// Keys for dedupe
-const keyText    = q => `${q.topic}¦${norm(q.q)}`;                            // same wording
-const keyExact   = q => `${q.topic}¦${String(q.q)}¦${(q.choices||[]).join('¦')}`; // identical Q/choices
-const keyConcept = q => {                                                     // same concept/answer, different wording
+// Concept key: prefer q.concept; else derive from explanation + correct answer (stable)
+function derivedConceptKey(q) {
+  if (q.concept) return String(q.concept);
   const correct = (q.choices && Number.isInteger(q.answer) && q.choices[q.answer]) ? q.choices[q.answer] : '';
   return `${q.topic}¦${q.difficulty}¦${norm(q.explain)}¦${norm(correct)}`;
-};
+}
+const keyConcept = q => derivedConceptKey(q);
 
 // Generic dedupe helper
 function dedupe(items, keyFn) {
@@ -89,10 +90,20 @@ function topUpUniqueByConcept(base, pool, desiredCount) {
     if (out.length >= desiredCount) break;
     const kc = keyConcept(q), kt = keyText(q);
     if (!usedConcepts.has(kc) && !usedTexts.has(kt)) {
-      usedConcepts.add(kc);
-      usedTexts.add(kt);
-      out.push(q);
+      usedConcepts.add(kc); usedTexts.add(kt); out.push(q);
     }
+  }
+  return out.slice(0, desiredCount);
+}
+
+// Relaxer: if concept-unique couldn’t fill, fall back to text-only uniqueness to fill to requested count
+function topUpUniqueByText(base, pool, desiredCount) {
+  const out = base.slice();
+  const usedTexts = new Set(out.map(keyText));
+  for (const q of shuffle(pool)) {
+    if (out.length >= desiredCount) break;
+    const kt = keyText(q);
+    if (!usedTexts.has(kt)) { usedTexts.add(kt); out.push(q); }
   }
   return out.slice(0, desiredCount);
 }
@@ -136,10 +147,7 @@ async function fetchBank(topic) {
     let items = [];
     for (const r of results) {
       if (r.status === 'fulfilled' && r.value.ok) {
-        try {
-          const arr = await r.value.json();
-          if (Array.isArray(arr)) items = items.concat(arr);
-        } catch {}
+        try { const arr = await r.value.json(); if (Array.isArray(arr)) items = items.concat(arr); } catch {}
       }
     }
     return items.length ? items : FALLBACK.slice();
@@ -161,10 +169,10 @@ async function fetchBank(topic) {
 function buildLocalSet(topic, difficulty, count, pool) {
   const inTopic = pool.filter(q => topic === 'mixed' ? true : q.topic === topic);
 
-  // Groom pool
+  // Groom pool: remove exact dupes, then de-dup by concept first
   const groomed = dedupeExact(inTopic);
   const currentDiff = groomed.filter(q => q.difficulty === difficulty);
-  const uniqueConcept = dedupeByConcept(currentDiff);
+  const conceptUniqueForDiff = dedupeByConcept(currentDiff);
 
   // Progressive mix (harder % by difficulty)
   const harder = { easy:'intermediate', intermediate:'expert', expert:'expert' }[difficulty];
@@ -172,16 +180,22 @@ function buildLocalSet(topic, difficulty, count, pool) {
   const needHard    = Math.floor(count * hardShare);
   const needPrimary = count - needHard;
 
-  const primaryPool = uniqueConcept;
   const harderPool  = dedupeByConcept(groomed.filter(q => q.difficulty === harder));
 
   let selected = [];
-  selected = selected.concat(shuffle(primaryPool).slice(0, needPrimary));
+  selected = selected.concat(shuffle(conceptUniqueForDiff).slice(0, needPrimary));
   selected = selected.concat(shuffle(harderPool).slice(0, needHard));
   selected = dedupeByText(dedupeByConcept(selected));
 
-  const allUniqueConcept = dedupeByConcept(dedupeByText(groomed));
-  selected = topUpUniqueByConcept(selected, allUniqueConcept, count);
+  // Top up with concept-unique from the whole in-topic set
+  const allConceptUnique = dedupeByConcept(dedupeByText(groomed));
+  selected = topUpUniqueByConcept(selected, allConceptUnique, count);
+
+  // If still short, relax to text-level uniqueness to fill
+  if (selected.length < count) {
+    const textUnique = dedupeByText(dedupeExact(inTopic));
+    selected = topUpUniqueByText(selected, textUnique, count);
+  }
 
   // Final shuffle & choice shuffle
   return shuffle(selected).map(shuffleChoices);
@@ -211,17 +225,28 @@ async function buildQuestions(topic, difficulty, count) {
       choices: Array.isArray(q.choices) ? q.choices.slice(0,4) : [],
       answer: Number.isInteger(q.answer) ? q.answer : 0,
       explain: String(q.explain || q.explanation || ''),
-      why: q.why ? String(q.why) : null
+      why: q.why ? String(q.why) : null,
+      concept: q.concept ? String(q.concept) : undefined
     })).filter(q => q.q && q.choices.length >= 2);
 
+    // concept-first dedupe
     aiQs = dedupeByText(dedupeByConcept(dedupeExact(aiQs))).map(shuffleChoices);
 
     if (aiQs.length < count) {
       const pool = await fetchBank(topic);
       const localFill = buildLocalSet(topic, difficulty, count, pool);
       let merged = dedupeByText(dedupeByConcept(dedupeExact(aiQs.concat(localFill))));
-      const allUniqueConcept = dedupeByConcept(dedupeByText(dedupeExact(pool)));
-      merged = topUpUniqueByConcept(merged, allUniqueConcept, count);
+
+      // Top up by concept from all local
+      const allConceptUnique = dedupeByConcept(dedupeByText(dedupeExact(pool)));
+      merged = topUpUniqueByConcept(merged, allConceptUnique, count);
+
+      // If still short, relax to text-level
+      if (merged.length < count) {
+        const textUnique = dedupeByText(dedupeExact(pool));
+        merged = topUpUniqueByText(merged, textUnique, count);
+      }
+
       return shuffle(merged).slice(0, count);
     }
     return shuffle(aiQs).slice(0, count);
@@ -238,8 +263,7 @@ function startGame(questions) {
   game = {
     questions: questions.map(q => ({...q, userAnswer: null, correct: null})),
     i: 0,
-    // Keep a live score for UX, but compute final score from answers at finish
-    score: 0,
+    score: 0, // live score; final recomputed at finish
     answered: new Array(questions.length).fill(false),
     skipped: new Set(),
     perTopic: {},
@@ -276,7 +300,6 @@ function renderCurrent() {
   els.progressText.textContent = `Question ${game.i+1} of ${game.questions.length}`;
 }
 
-// Hardened answer handler
 function handleAnswerClick(e) {
   const btn = e.target.closest('button[data-index]');
   if (!btn || !game) return;
@@ -287,7 +310,6 @@ function handleAnswerClick(e) {
   const q = game.questions[game.i];
   if (!q || game.answered[game.i]) return;
 
-  // Visual click
   btn.classList.add('clicked');
   setTimeout(() => btn.classList.remove('clicked'), 120);
 
@@ -296,14 +318,12 @@ function handleAnswerClick(e) {
   q.userAnswer = idx;
   q.correct = !!isCorrect;
 
-  // Style buttons & lock
   [...els.answers.children].forEach((b, i) => {
     const cls = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : '');
     if (cls) b.classList.add(cls);
     b.disabled = true;
   });
 
-  // Explanations
   const chosen = q.choices[idx] ?? '';
   const correct = q.choices[q.answer] ?? '';
   els.explain.innerHTML = isCorrect
@@ -314,10 +334,7 @@ function handleAnswerClick(e) {
   const why = q.why || defaultWhy(q.topic);
   if (why) { els.why.textContent = `Why this matters: ${why}`; els.why.hidden = false; }
 
-  // Live score (final is recomputed at finish)
   if (isCorrect) game.score++;
-
-  // Per-topic stats
   if (!game.perTopic[q.topic]) game.perTopic[q.topic] = { total:0, correct:0 };
   game.perTopic[q.topic].total += 1;
   if (isCorrect) game.perTopic[q.topic].correct += 1;
@@ -351,7 +368,6 @@ function computeFinalScore() {
 function finish() {
   els.quiz.hidden = true;
 
-  // Recompute score from the source of truth to avoid any drift
   const total = game.questions.length;
   const finalScore = computeFinalScore();
   const pct = Math.round((finalScore/total)*100);
@@ -457,7 +473,7 @@ function ensureCountOrNotify(finalQs, requested, availableByConcept) {
     note.textContent = `Up to 100 questions are allowed per quiz. Reduced to 100.`;
     bar?.after(note);
   } else if (finalQs.length < requested) {
-    note.textContent = `Only ${finalQs.length} unique concepts available (requested ${requested}). Pool concepts: ${availableByConcept}.`;
+    note.textContent = `Only ${finalQs.length} unique concepts available (requested ${requested}). Pool concepts: ${availableByConcept}. Added text-unique questions to fill.`;
     bar?.after(note);
   }
 }
@@ -475,7 +491,7 @@ async function handleStart() {
   els.start.disabled = true;
   els.start.textContent = 'Building questions...';
 
-  // Compute available unique concepts for notice
+  // For notice: how many unique concepts are in the pool?
   let availableByConcept = 0;
   try {
     const pool = await fetchBank(topic);
@@ -541,7 +557,12 @@ function init() {
     } catch { alert(text); }
   });
   els.downloadPdf.addEventListener('click', () => {
-    if (els.printable.innerHTML.trim() === '') buildPrintableSummary(computeFinalScore(), game.questions.length, Math.round((computeFinalScore()/game.questions.length)*100));
+    if (els.printable.innerHTML.trim() === '') {
+      const total = game?.questions?.length || 0;
+      const score = computeFinalScore();
+      const pct = total ? Math.round((score/total)*100) : 0;
+      buildPrintableSummary(score, total, pct);
+    }
     els.printable.hidden = false;
     window.print();
     setTimeout(() => { els.printable.hidden = true; }, 200);
