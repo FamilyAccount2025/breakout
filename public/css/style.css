@@ -162,20 +162,20 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .answers-list button {
   width: 100%;
   display: flex;
-  align-items: center;             /* center vertically even on 2+ lines */
+  align-items: center;
   justify-content: flex-start;
   text-align: left;
-  color: var(--color-text);        /* override iOS blue */
+  color: var(--color-text);
   border: 1px solid #ddd;
   background: #fff;
-  padding: 1rem 1rem;              /* more breathing room for multi-line */
+  padding: 1rem 1rem;
   transition: background-color 0.25s ease, transform 0.15s ease, box-shadow 0.15s ease;
-  white-space: normal;             /* allow wrapping */
+  white-space: normal;
   line-height: 1.4;
-  overflow-wrap: anywhere;         /* break long words if needed */
+  overflow-wrap: anywhere;
   word-break: break-word;
-  min-height: 56px;                /* taller min height to avoid “cut off” feel */
-  border-radius: 12px;             /* slightly rounder for big touch targets */
+  min-height: 56px;
+  border-radius: 12px;
 }
 .answers-list button:hover:not(:disabled),
 .answers-list button:focus:not(:disabled) {
@@ -220,6 +220,32 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .result-panel h2 { margin-top: 0; }
 .score { font-size: 1.5rem; font-weight: 700; margin: 0.5rem 0; }
 .result-actions { display: flex; gap: 0.5rem; margin-top: 1rem; }
+
+/* ==============================
+   Printable summary
+   ============================== */
+.printable {
+  background: #fff;
+  color: #000;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-top: 1rem;
+}
+.printable h1 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+.printable h2 { font-size: 1.1rem; margin: 0.75rem 0 0.5rem; }
+.printable .meta { color: #374151; margin-bottom: 0.75rem; }
+.printable .qcard {
+  border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.75rem; margin: 0.5rem 0;
+}
+.printable .qcard .small { color: #374151; font-size: 0.9rem; }
+
+/* Print rules: hide everything except printable */
+@media print {
+  body { background: #fff; }
+  .site-header, .site-footer, .setup-panel, .quiz-panel, .result-panel { display: none !important; }
+  .printable { display: block !important; box-shadow: none; padding: 0; margin: 0; }
+}
 
 /* ==============================
    Footer
