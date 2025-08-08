@@ -47,11 +47,10 @@ const els = {
 let game = null;
 
 // ==============================
-// Utility Functions
+// Helpers
 // ==============================
-function shuffle(arr) {
-  return arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
-}
+function clamp(n, min, max) { return Math.min(max, Math.max(min, n)); }
+function shuffle(arr) { return arr.map(v=>[Math.random(), v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]); }
 
 function sampleQuestions(topic, difficulty, count, pool=BANK) {
   let subset = pool.filter(q => (topic==='mixed' ? true : q.topic===topic) && q.difficulty===difficulty);
@@ -62,8 +61,16 @@ function sampleQuestions(topic, difficulty, count, pool=BANK) {
   return shuffle(subset).slice(0, count).map(q => ({...q}));
 }
 
+// live-clamp the number input so it never falls below 3 or above 20
+function clampCountInput() {
+  const n = parseInt(els.count.value, 10);
+  const fixed = clamp(isFinite(n) ? n : 8, 3, 20);
+  if (String(n) !== String(fixed)) els.count.value = fixed;
+}
+['input','change','blur'].forEach(evt => els.count.addEventListener(evt, clampCountInput));
+
 // ==============================
-// Game Flow
+// Build Questions
 // ==============================
 async function buildQuestions(topic, difficulty, count) {
   if (!els.aimode.checked) return sampleQuestions(topic, difficulty, count);
@@ -97,6 +104,9 @@ async function buildQuestions(topic, difficulty, count) {
   }
 }
 
+// ==============================
+// Game Flow
+// ==============================
 function startGame(questions) {
   game = {
     questions,
@@ -127,6 +137,7 @@ function renderCurrent() {
   });
 
   els.explain.hidden = true;
+  els.explain.innerHTML = '';
   els.next.disabled = true;
   els.skip.disabled = false;
 
@@ -141,98 +152,20 @@ function handleAnswerClick(e) {
 
   const idx = parseInt(btn.getAttribute('data-index'), 10);
   const q = game.questions[game.i];
-
   if (game.answered[game.i]) return;
-  game.answered[game.i] = true;
 
-  // Add click animation
+  // Tactile press
   btn.classList.add('clicked');
   setTimeout(() => btn.classList.remove('clicked'), 150);
 
-  const correct = idx === q.answer;
-  if (correct) game.score++;
+  const isCorrect = idx === q.answer;
 
+  // lock the question & style all buttons
+  game.answered[game.i] = true;
   [...els.answers.children].forEach((b, i) => {
     const className = i === q.answer ? 'correct' : (i === idx ? 'incorrect' : null);
     if (className) b.classList.add(className);
     b.disabled = true;
   });
 
-  els.explain.textContent = q.explain || '';
-  els.explain.hidden = false;
-  els.next.disabled = false;
-  els.skip.disabled = true;
-}
-
-function nextQuestion() {
-  if (game.i < game.questions.length - 1) {
-    game.i++;
-    renderCurrent();
-  } else if (game.skipped.size > 0) {
-    game.i = [...game.skipped][0];
-    game.skipped.delete(game.i);
-    renderCurrent();
-  } else {
-    finish();
-  }
-}
-
-function skipQuestion() {
-  if (!game.answered[game.i]) game.skipped.add(game.i);
-  nextQuestion();
-}
-
-function finish() {
-  els.quiz.hidden = true;
-  const total = game.questions.length;
-  const pct = Math.round((game.score/total)*100);
-  let title = 'Benefits Explorer';
-  if (pct >= 90) title = 'Benefits Pro';
-  else if (pct >= 75) title = 'Advisor-in-Training';
-  else if (pct >= 60) title = 'Getting There';
-  else title = 'Needs Enrollment Counseling 🙂';
-  els.resultBadge.textContent = title;
-  els.resultScore.textContent = `${game.score} / ${total} • ${pct}%`;
-  els.resultNote.textContent = pct >= 75 ? 'Strong grasp of concepts — nicely done!' : 'Keep going — try a different topic or difficulty.';
-  els.result.hidden = false;
-}
-
-// ==============================
-// Event Listeners
-// ==============================
-els.start.addEventListener('click', async () => {
-  const topic = els.topic.value;
-  const diff = els.difficulty.value;
-  const count = Math.min(20, Math.max(3, parseInt(els.count.value||8,10)));
-  els.start.disabled = true;
-  els.start.textContent = 'Building questions...';
-  const qs = await buildQuestions(topic, diff, count);
-  els.start.disabled = false;
-  els.start.textContent = 'Start Quiz';
-  startGame(qs);
-});
-
-els.answers.addEventListener('click', handleAnswerClick);
-els.next.addEventListener('click', nextQuestion);
-els.skip.addEventListener('click', skipQuestion);
-
-els.retry.addEventListener('click', () => {
-  els.result.hidden = true;
-  els.setup.hidden = false;
-});
-
-els.share.addEventListener('click', async () => {
-  const text = `I scored ${els.resultScore.textContent} on the Employee Benefits Quiz (${els.badge.textContent}). Try to beat me!`;
-  try {
-    await navigator.clipboard.writeText(text);
-    els.share.textContent = 'Copied!';
-    setTimeout(() => els.share.textContent = 'Copy Share Text', 1500);
-  } catch {
-    alert(text);
-  }
-});
-
-els.backSetup.addEventListener('click', () => {
-  els.quiz.hidden = true;
-  els.setup.hidden = false;
-});
+  //
