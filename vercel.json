@@ -12,5 +12,22 @@
         { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/quiz.html",
+      "destination": "https://quiz.chrisgoff.com/",
+      "permanent": true
+    },
+    {
+      "source": "/quiz",
+      "destination": "https://quiz.chrisgoff.com/",
+      "permanent": true
+    },
+    {
+      "source": "/quiz/",
+      "destination": "https://quiz.chrisgoff.com/",
+      "permanent": true
+    }
   ]
 }
