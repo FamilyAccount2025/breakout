@@ -18,8 +18,9 @@
       --radius:16px; --shadow:0 10px 28px rgba(0,0,0,.35);
       --container:1040px;
       --space-lg:clamp(36px,6vw,64px);
-      --space-md:clamp(26px,4.5vw,42px);
-      --space-sm:clamp(16px,3vw,28px);
+      /* reduced ~30% from earlier rhythm */
+      --space-md:clamp(18px,3.2vw,29px);
+      --space-sm:clamp(12px,2.2vw,20px);
       --btn-pad-y:12px; --btn-pad-x:18px; --btn-font:16px;
     }
     *{box-sizing:border-box} html,body{height:100%}
@@ -41,12 +42,8 @@
     .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
     .brand{display:inline-flex;gap:12px;align-items:center;font-weight:700;letter-spacing:.5px}
     .brand-badge{width:26px;height:26px;border-radius:50%;background:conic-gradient(from 120deg,var(--cta-1),var(--cta-2));box-shadow:0 0 16px rgba(255,154,60,.35), inset 0 0 18px rgba(255,255,255,.22)}
-    .btn{
-      display:inline-flex;align-items:center;justify-content:center;
-      padding:var(--btn-pad-y) var(--btn-pad-x);
-      border-radius:999px;font-weight:700;font-size:var(--btn-font);
-      line-height:1;cursor:pointer;user-select:none;text-decoration:none;
-    }
+
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:var(--btn-pad-y) var(--btn-pad-x);border-radius:999px;font-weight:700;font-size:var(--btn-font);line-height:1;cursor:pointer;user-select:none;text-decoration:none}
     .btn-outline{border:1px solid var(--border);color:var(--text);background:transparent}
     .btn-outline:hover{border-color:var(--cyan)}
     .btn-primary{border:none;color:#0B0B0B;background:linear-gradient(90deg,var(--cta-1),var(--cta-2));box-shadow:0 8px 22px rgba(255,154,60,.25)}
@@ -59,31 +56,23 @@
 
     /* Sections */
     section{padding:var(--space-md) 0}
-    .panel{
-      background:linear-gradient(180deg,rgba(255,255,255,.032),rgba(255,255,255,.012));
-      border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow);
-      padding:clamp(18px,3vw,26px);
-    }
+    .panel{background:linear-gradient(180deg,rgba(255,255,255,.032),rgba(255,255,255,.012));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(16px,2.6vw,24px)}
     .kicker{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--muted-2);margin-bottom:8px}
     h2{font-size:clamp(22px,3vw,30px);margin:0 0 8px}
     p{margin:0 0 10px}
 
-    /* Timeline */
-    .timeline{display:grid;gap:14px;margin-top:8px;grid-template-columns:1fr}
+    .timeline{display:grid;gap:12px;margin-top:6px;grid-template-columns:1fr}
     @media (min-width:720px){ .timeline{grid-template-columns:repeat(3,1fr)} }
     .step{padding:14px;border-radius:12px;border:1px dashed var(--border);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01))}
     .label{color:var(--muted-2);font-size:12px;text-transform:uppercase;letter-spacing:1.4px}
     .title{font-weight:800;margin-top:6px}
     .body{color:var(--muted);margin-top:6px}
 
-    /* Fact */
-    .fact{border:1px solid var(--border);border-radius:var(--radius);padding:clamp(16px,2.6vw,24px);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));box-shadow:var(--shadow)}
+    .fact{border:1px solid var(--border);border-radius:var(--radius);padding:clamp(14px,2.2vw,20px);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));box-shadow:var(--shadow)}
 
-    /* CTA grid */
     .cta-grid{display:grid;gap:12px;align-items:center;grid-template-columns:1fr}
     @media (min-width:880px){ .cta-grid{grid-template-columns:1.4fr auto} }
 
-    /* Footer */
     footer{padding:var(--space-md) 0 var(--space-lg); color:var(--muted-2); font-size:14px; text-align:center}
 
     /* Modal */
@@ -204,7 +193,7 @@
         <h3 id="contact-title">Let’s Connect</h3>
         <button class="btn btn-outline close" data-close-modal="contact" aria-label="Close dialog">Close</button>
       </header>
-      <form id="contact-form" action="https://formspree.io/f/xpwlbkzw" method="POST" novalidate>
+      <form id="contact-form" method="POST" novalidate>
         <!-- Honeypot -->
         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px; height:0; width:0; opacity:0;" />
         <div class="form-row">
@@ -233,6 +222,9 @@
   </div>
 
   <script>
+    const FORM_ENDPOINT = "https://formspree.io/f/xpwlbkzw";
+    const EMAIL_TO = "chris@chrisgoff.com";
+
     document.getElementById('year').textContent = new Date().getFullYear();
 
     // Modal open/close
@@ -243,18 +235,47 @@
     closers.forEach(btn => btn.addEventListener("click", () => modalBackdrop.classList.remove("open")));
     modalBackdrop.addEventListener("click", function(e){ if(e.target === modalBackdrop) modalBackdrop.classList.remove("open"); });
 
-    // Lightweight validation before POSTing to Formspree
+    // Submit with fetch -> success message in-modal; fallback to mailto on failure
     const form = document.getElementById("contact-form");
-    form.addEventListener("submit", function(e){
+    form.addEventListener("submit", async function(e){
+      e.preventDefault();
       ["name","email","message"].forEach(id => document.getElementById("err-"+id).textContent = "");
       const name = document.getElementById("name").value.trim();
       const email = document.getElementById("email").value.trim();
       const message = document.getElementById("message").value.trim();
       let ok = true;
       if(!name){ document.getElementById("err-name").textContent = "Please enter your name."; ok = false; }
-      if(!email || !/^([^\s@]+)@([^\s@]+)\.([^\s@]+)$/.test(email)){ document.getElementById("err-email").textContent = "Please enter a valid email."; ok = false; }
+      if(!email || !/^([^\\s@]+)@([^\\s@]+)\\.([^\\s@]+)$/.test(email)){ document.getElementById("err-email").textContent = "Please enter a valid email."; ok = false; }
       if(!message){ document.getElementById("err-message").textContent = "Please enter a message."; ok = false; }
-      if(!ok){ e.preventDefault(); }
+      if(!ok){ return; }
+
+      try{
+        const res = await fetch(FORM_ENDPOINT, {
+          method:"POST",
+          headers:{ "Accept":"application/json", "Content-Type":"application/json" },
+          body: JSON.stringify({ name, email, message })
+        });
+        if(res.ok){
+          const modal = document.querySelector(".modal");
+          modal.innerHTML = `
+            <header style="border-bottom:1px solid var(--border); padding-bottom:10px; margin-bottom:10px;">
+              <h3>Thanks — message sent!</h3>
+            </header>
+            <p>Your note is on its way. I’ll get back to you soon.</p>
+            <div style="display:flex; justify-content:flex-end; margin-top:16px;">
+              <button class="btn btn-primary" id="close-after-submit">Close</button>
+            </div>`;
+          document.getElementById("close-after-submit").addEventListener("click", () => modalBackdrop.classList.remove("open"));
+        } else {
+          const subject = encodeURIComponent("AI Conversation — ChrisGoff.com");
+          const body = encodeURIComponent(`Name: ${name}\\nEmail: ${email}\\n\\nMessage:\\n${message}\\n\\n— Sent from ChrisGoff.com`);
+          window.location.href = `mailto:${EMAIL_TO}?subject=${subject}&body=${body}`;
+        }
+      } catch(err){
+        const subject = encodeURIComponent("AI Conversation — ChrisGoff.com");
+        const body = encodeURIComponent(`Name: ${name}\\nEmail: ${email}\\n\\nMessage:\\n${message}\\n\\n— Sent from ChrisGoff.com`);
+        window.location.href = `mailto:${EMAIL_TO}?subject=${subject}&body=${body}`;
+      }
     });
   </script>
 </body>
