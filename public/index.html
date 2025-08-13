@@ -10,125 +10,255 @@
   <link rel="canonical" href="https://www.chrisgoff.com/" />
   <style>
     :root {
-      --bg: #0A0F1F;
-      --text: #F5F7FA;
-      --muted: #B9C3D1;
-      --muted-2: #93A0B2;
-      --cyan: #0FF0FC;
-      --card: #0E152B;
-      --card-2: #0C1326;
-      --border: #1A2542;
-      --focus: #8EEBFF;
-      --cta-1: #FF5E57;
-      --cta-2: #FF9A3C;
-      --radius: 16px;
-      --shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
-      --container: 1040px;
-      --space: clamp(36px, 6vw, 64px);
+      --bg:#0A0F1F; --text:#F5F7FA; --muted:#B9C3D1; --muted-2:#93A0B2;
+      --cyan:#0FF0FC; --border:#1A2542; --focus:#8EEBFF;
+      --cta-1:#FF5E57; --cta-2:#FF9A3C;
+      --card:#0E152B; --card-2:#0C1326;
+      --radius:16px; --shadow:0 10px 28px rgba(0,0,0,.35);
+      --container:1040px;
+      --space-lg:clamp(36px,6vw,64px);
+      --space-md:clamp(26px,4.5vw,42px); /* tighter feature spacing */
+      --space-sm:clamp(16px,3vw,28px);
+      --btn-pad-y:12px; --btn-pad-x:18px; --btn-font:16px;
     }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.5;
+    *{box-sizing:border-box} html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 800px at 70% -10%,rgba(15,240,252,.06),transparent 60%),
+        radial-gradient(800px 600px at 10% 10%,rgba(255,154,60,.05),transparent 60%),
+        var(--bg);
+      color:var(--text); line-height:1.55;
     }
-    a { color: var(--cyan); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .container { width: min(92vw, var(--container)); margin: 0 auto; }
-    header { padding: 1rem 0; position: sticky; top: 0; background: rgba(10,15,31,0.85); backdrop-filter: blur(6px); }
-    .nav { display: flex; justify-content: space-between; align-items: center; }
-    .brand { display: flex; align-items: center; gap: 0.5rem; font-weight: bold; }
-    .brand-badge { width: 26px; height: 26px; border-radius: 50%; background: conic-gradient(from 120deg, var(--cta-1), var(--cta-2)); }
-    .btn { padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 999px; background: transparent; color: var(--text); }
-    .btn-primary { background: linear-gradient(90deg, var(--cta-1), var(--cta-2)); border: none; color: #000; font-weight: bold; }
-    .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
-    .hero { padding: var(--space) 0 var(--space)/2; text-align: left; }
-    .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 0.5rem; text-transform: uppercase; }
-    .hero p.sub { max-width: 600px; margin-bottom: 1rem; color: var(--muted); }
-    section { padding: var(--space) 0; }
-    .panel { background: var(--card); border-radius: var(--radius); padding: 2rem; border: 1px solid var(--border); }
-    .kicker { font-size: 0.75rem; letter-spacing: 2px; color: var(--muted-2); text-transform: uppercase; margin-bottom: 0.5rem; }
-    h2 { margin-top: 0; }
-    .timeline { display: grid; gap: 1rem; margin-top: 1rem; }
-    @media (min-width: 720px) { .timeline { grid-template-columns: repeat(3, 1fr); } }
-    .step { padding: 1rem; border: 1px dashed var(--border); border-radius: 12px; background: rgba(255,255,255,0.02); }
-    .label { font-size: 0.75rem; color: var(--muted-2); text-transform: uppercase; }
-    .title { font-weight: bold; margin-top: 0.25rem; }
-    .body { margin-top: 0.25rem; color: var(--muted); }
-    .fact { padding: 1.5rem; border: 1px solid var(--border); border-radius: var(--radius); background: rgba(255,255,255,0.02); }
-    footer { padding: 2rem 0; color: var(--muted-2); font-size: 0.875rem; text-align: center; }
+    a{color:var(--cyan);text-decoration:none} a:hover{text-decoration:underline}
+    .container{width:min(92vw,var(--container));margin:0 auto}
+
+    header{position:sticky;top:0;z-index:5;background:rgba(10,15,31,.85);backdrop-filter:blur(6px)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:inline-flex;gap:12px;align-items:center;font-weight:700;letter-spacing:.5px}
+    .brand-badge{width:26px;height:26px;border-radius:50%;background:conic-gradient(from 120deg,var(--cta-1),var(--cta-2))}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:var(--btn-pad-y) var(--btn-pad-x);
+      border-radius:999px; font-weight:700; font-size:var(--btn-font);
+      line-height:1; cursor:pointer; user-select:none; text-decoration:none;
+    }
+    .btn-outline{border:1px solid var(--border); color:var(--text); background:transparent;}
+    .btn-outline:hover{border-color:var(--cyan)}
+    .btn-primary{border:none; color:#0B0B0B; background:linear-gradient(90deg,var(--cta-1),var(--cta-2)); box-shadow:0 8px 22px rgba(255,154,60,.25)}
+    .btn-primary:hover{filter:brightness(1.08); box-shadow:0 10px 26px rgba(255,154,60,.35)}
+
+    .hero{padding:var(--space-lg) 0 var(--space-sm);}
+    .hero h1{font-size:clamp(36px,5vw,62px);line-height:1.03;margin:0 0 10px;text-transform:uppercase;letter-spacing:1.1px}
+    .hero p.sub{font-size:clamp(16px,2.1vw,21px);color:var(--muted);max-width:44ch;margin:0 0 var(--space-sm)}
+    .br-desktop{display:none}
+    @media (min-width: 1000px){ .br-desktop{display:block} }
+
+    section{padding:var(--space-md) 0}
+    .panel{
+      background:linear-gradient(180deg,rgba(255,255,255,.032),rgba(255,255,255,.012));
+      border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow);
+      padding:clamp(18px,3vw,26px);
+    }
+    .kicker{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--muted-2);margin-bottom:8px}
+    h2{font-size:clamp(22px,3vw,30px);margin:0 0 8px}
+    p{margin:0 0 10px}
+
+    /* Timeline */
+    .timeline{display:grid;gap:14px;margin-top:8px;grid-template-columns:1fr}
+    @media (min-width:720px){ .timeline{grid-template-columns:repeat(3,1fr)} }
+    .step{padding:14px;border-radius:12px;border:1px dashed var(--border);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01))}
+    .label{color:var(--muted-2);font-size:12px;text-transform:uppercase;letter-spacing:1.4px}
+    .title{font-weight:800;margin-top:6px}
+    .body{color:var(--muted);margin-top:6px}
+
+    /* Fact */
+    .fact{border:1px solid var(--border);border-radius:var(--radius);padding:clamp(16px,2.6vw,24px);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));box-shadow:var(--shadow)}
+
+    footer{padding:var(--space-md) 0 var(--space-lg); color:var(--muted-2); font-size:14px; text-align:center}
+
+    /* Modal */
+    .modal-backdrop{position:fixed;inset:0;display:none;background:rgba(4,6,14,.6);backdrop-filter:blur(6px);z-index:20}
+    .modal-backdrop.open{display:grid;place-items:center}
+    .modal{width:min(92vw,700px);background:var(--card);color:var(--text);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);padding:clamp(18px,3vw,26px)}
+    .modal header{position:relative;padding:0 0 10px;margin-bottom:10px;border-bottom:1px solid var(--border)}
+    .modal h3{margin:0;font-size:22px}
+    .close{position:absolute;right:0;top:0} .close.btn-outline{padding:8px 12px}
+    .field{display:grid;gap:8px;margin-bottom:12px}
+    label{font-size:14px;color:var(--muted-2)}
+    input,textarea{width:100%;border-radius:10px;border:1px solid var(--border);background:var(--card-2);color:var(--text);padding:12px 12px;font:inherit;outline:none}
+    input:focus,textarea:focus{border-color:var(--focus);box-shadow:0 0 0 3px rgba(142,235,255,.2)}
+    textarea{min-height:120px;resize:vertical}
+    .form-row{display:grid;gap:12px;grid-template-columns:1fr}
+    @media (min-width:680px){.form-row{grid-template-columns:1fr 1fr}}
+    .error{color:#FFD3CF;font-size:13px;min-height:1.2em}
   </style>
 </head>
 <body>
   <header>
-    <div class="container nav">
-      <div class="brand">
-        <span class="brand-badge"></span> <span>Chris Goff</span>
+    <div class="container nav" role="navigation" aria-label="Main">
+      <div class="brand" aria-label="Chris Goff brand">
+        <span class="brand-badge" aria-hidden="true"></span>
+        <span>Chris Goff</span>
       </div>
-      <button class="btn">Let’s Connect</button>
+      <button class="btn btn-outline" data-open-modal="contact">Let’s Connect</button>
     </div>
   </header>
-  <main>
-    <section class="hero container">
-      <h1>Artificial Intelligence</h1>
-      <p class="sub">Unlock the transformative power of AI, generative technology, and intelligent agents.</p>
-      <div class="actions">
-        <button class="btn btn-primary">Let’s Connect</button>
-        <a class="btn btn-outline" href="https://quiz.chrisgoff.com">Study Guide App</a>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <h1>ARTIFICIAL INTELLIGENCE</h1>
+        <p class="sub">
+          Unlock the transformative power of AI, generative technology,<br class="br-desktop">
+          and intelligent agents.
+        </p>
+        <div class="actions">
+          <button class="btn btn-primary" data-open-modal="contact" aria-haspopup="dialog" aria-controls="contact-modal">Let’s Connect</button>
+          <a class="btn btn-outline" href="https://quiz.chrisgoff.com" target="_blank" rel="noopener">Study Guide App</a>
+        </div>
       </div>
     </section>
-    <section class="container">
-      <div class="panel">
-        <div class="kicker">Shared Vision</div>
-        <h2>Connect. Explore. Build.</h2>
-        <p>Exploring practical AI use cases with like‑minded professionals</p>
+
+    <!-- SHARED VISION -->
+    <section id="shared-vision">
+      <div class="container">
+        <div class="panel">
+          <div class="kicker">Shared Vision</div>
+          <h2>Connect. Explore. Build.</h2>
+          <p>Exploring practical AI use cases with like‑minded professionals</p>
+        </div>
       </div>
     </section>
-    <section class="container">
-      <div class="panel">
-        <div class="kicker">AI Evolution</div>
-        <h2>From Past to Agentic</h2>
-        <div class="timeline">
-          <div class="step">
-            <div class="label">Past</div>
-            <div class="title">Traditional AI</div>
-            <p class="body">Rule‑based systems and narrow models designed for specific tasks at predictable scale.</p>
-          </div>
-          <div class="step">
-            <div class="label">Present</div>
-            <div class="title">Generative AI</div>
-            <p class="body">Large models create text, images, and insights; copilots accelerate analysis and creation.</p>
-          </div>
-          <div class="step">
-            <div class="label">Next</div>
-            <div class="title">Agentic AI</div>
-            <p class="body">Autonomous teams plan, call tools, and execute workflows end‑to‑end with oversight.</p>
+
+    <!-- AI VISION (and subsequent features use the same tighter spacing) -->
+    <section>
+      <div class="container">
+        <div class="panel">
+          <div class="kicker">AI Evolution</div>
+          <h2>From Past to Agentic</h2>
+          <p class="muted">A compact view of where we’ve been — and where we’re going next.</p>
+
+          <div class="timeline" aria-label="AI Evolution timeline">
+            <div class="step">
+              <div class="label">Past</div>
+              <div class="title">Traditional AI</div>
+              <p class="body">Rule‑based systems and narrow models designed for specific tasks at predictable scale.</p>
+            </div>
+            <div class="step">
+              <div class="label">Present</div>
+              <div class="title">Generative AI</div>
+              <p class="body">Large models create text, images, and insights; copilots accelerate analysis and creation.</p>
+            </div>
+            <div class="step">
+              <div class="label">Next</div>
+              <div class="title">Agentic AI</div>
+              <p class="body">Autonomous teams plan, call tools, and execute workflows end‑to‑end with oversight.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="container">
-      <div class="fact">
-        <h3>Did you know?</h3>
-        <p>Organizations that experiment broadly with AI — across multiple teams and workflows — tend to discover outsized gains in productivity, creativity, and speed to insight.</p>
+
+    <!-- DID YOU KNOW -->
+    <section>
+      <div class="container">
+        <article class="fact" aria-labelledby="fact-title">
+          <h3 id="fact-title">Did you know?</h3>
+          <p>Organizations that experiment broadly with AI — across multiple teams and workflows — tend to discover outsized gains in productivity, creativity, and speed to insight.</p>
+        </article>
       </div>
     </section>
-    <section class="container">
-      <div class="panel">
-        <div class="kicker">Let’s Talk</div>
-        <h2>Start the conversation</h2>
-        <p>Whether you’re experimenting, building, or just curious, I’d love to connect.</p>
-        <button class="btn btn-primary">Start the Conversation</button>
+
+    <!-- FINAL CTA -->
+    <section>
+      <div class="container">
+        <div class="panel" style="display:grid;gap:12px;align-items:center;grid-template-columns:1fr; }
+        @media (min-width:880px){ grid-template-columns:1.4fr auto; }">
+          <div>
+            <div class="kicker">Let’s Talk</div>
+            <h2>Start the conversation</h2>
+            <p>Whether you’re experimenting, building, or just curious, I’d love to connect.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary" data-open-modal="contact" aria-haspopup="dialog" aria-controls="contact-modal">Start the Conversation</button>
+          </div>
+        </div>
       </div>
     </section>
   </main>
+
   <footer>
     <div class="container">© <span id="year"></span> Chris Goff. All rights reserved.</div>
   </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal-backdrop" id="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-title" aria-hidden="true">
+    <div class="modal" role="document">
+      <header>
+        <h3 id="contact-title">Let’s Connect</h3>
+        <button class="btn btn-outline close" data-close-modal="contact" aria-label="Close dialog">Close</button>
+      </header>
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required placeholder="Jane Doe" />
+            <div class="error" id="err-name"></div>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+            <div class="error" id="err-email"></div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell me about your AI ideas and use cases…"></textarea>
+          <div class="error" id="err-message"></div>
+        </div>
+        <div class="actions" style="display:flex;justify-content:flex-end;gap:10px;">
+          <button type="button" class="btn btn-outline" data-close-modal="contact">Cancel</button>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </form>
+      <noscript>
+        <p class="muted">JavaScript is required for the form. Email me instead:
+          <a href="mailto:chris@chrisgoff.com?subject=AI%20Conversation">chris@chrisgoff.com</a>.
+        </p>
+      </noscript>
+    </div>
+  </div>
+
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    const $=(s,r=document)=>r.querySelector(s);const $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
+    const EMAIL_TO="chris@chrisgoff.com";
+    $("#year").textContent=new Date().getFullYear();
+
+    // Modal + focus trap
+    const modalBackdrop=$("#contact-modal");const openers=$$("[data-open-modal='contact']");const closers=$$("[data-close-modal='contact']");let lastFocused=null;
+    function focusables(root){return $$("button,[href],input,textarea,select,[tabindex]:not([tabindex='-1'])",root).filter(el=>!el.hasAttribute("disabled")&&!el.getAttribute("aria-hidden"))}
+    function openModal(){lastFocused=document.activeElement;modalBackdrop.classList.add("open");modalBackdrop.removeAttribute("aria-hidden");const f=focusables(modalBackdrop);if(f.length)f[0].focus();document.addEventListener("keydown",onKey)}
+    function closeModal(){modalBackdrop.classList.remove("open");modalBackdrop.setAttribute("aria-hidden","true");document.removeEventListener("keydown",onKey);if(lastFocused)lastFocused.focus()}
+    function onKey(e){if(e.key==="Escape")closeModal();if(e.key==="Tab"){const f=focusables(modalBackdrop);if(!f.length)return;const i=f.indexOf(document.activeElement);if(e.shiftKey){if(i<=0){f[f.length-1].focus();e.preventDefault()}}else{if(i===f.length-1){f[0].focus();e.preventDefault()}}}}
+    openers.forEach(b=>b.addEventListener("click",openModal));closers.forEach(b=>b.addEventListener("click",closeModal));modalBackdrop.addEventListener("click",e=>{if(e.target===modalBackdrop)closeModal()});
+
+    // Form validation + mailto
+    $("#contact-form").addEventListener("submit",e=>{
+      e.preventDefault();["name","email","message"].forEach(id=>$("#err-"+id).textContent="");
+      const name=$("#name").value.trim(),email=$("#email").value.trim(),message=$("#message").value.trim();
+      let ok=true;
+      if(!name){$("#err-name").textContent="Please enter your name.";ok=false}
+      if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){ $("#err-email").textContent="Please enter a valid email.";ok=false }
+      if(!message){$("#err-message").textContent="Please enter a message.";ok=false}
+      if(!ok)return;
+      const subject=encodeURIComponent("AI Conversation — ChrisGoff.com");
+      const body=encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n\n— Sent from ChrisGoff.com`);
+      window.location.href=`mailto:${EMAIL_TO}?subject=${subject}&body=${body}`;
+      setTimeout(closeModal,300);
+    });
   </script>
 </body>
 </html>
