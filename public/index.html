@@ -53,8 +53,8 @@
     .hero h1{font-size:clamp(36px,5vw,62px);line-height:1.03;margin:0 0 10px;text-transform:uppercase;letter-spacing:1.1px; position:relative; z-index:1;}
     .hero p.sub{font-size:clamp(16px,2.1vw,21px);color:var(--muted);max-width:44ch;margin:0 0 var(--space-sm); position:relative; z-index:1;}
     .hero .actions{position:relative; z-index:1;}
-    /* Canvas layer */
-    #fx{position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; opacity:.9;}
+    /* Canvas layer (opacity set via JS var) */
+    #fx{position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; opacity:var(--fx-opacity,.6);}
 
     /* Sections */
     section{padding:var(--space-md) 0}
@@ -316,15 +316,46 @@
       }
     });
 
-    // ===== Hero Canvas Animation (denser & more active) =====
+    // ====== Animation presets (subtle by default) ======
+    const FX_PRESET = "subtle"; // "subtle" | "lively"
+    const FX_CONFIGS = {
+      subtle: {
+        canvasOpacity: 0.6,
+        pointArea: 26 * 26,
+        maxPoints: 200,
+        v: 0.35,
+        radiusMin: 0.5, radiusMax: 1.3,
+        connectDiv: 11,
+        lineAlphaBase: 0.12,
+        glowBase: 0.28, glowAmp: 0.18,
+        interactionBoost: { vMul: 1.6, radiusDiv: 0.85, durationMs: 3000 }
+      },
+      lively: {
+        canvasOpacity: 0.9,
+        pointArea: 22 * 22,
+        maxPoints: 220,
+        v: 0.8,
+        radiusMin: 0.6, radiusMax: 1.8,
+        connectDiv: 9,
+        lineAlphaBase: 0.20,
+        glowBase: 0.35, glowAmp: 0.25,
+        interactionBoost: { vMul: 1.9, radiusDiv: 0.8, durationMs: 3500 }
+      }
+    };
+
+    // ===== Hero Canvas Animation =====
     (function(){
       const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const canvas = document.getElementById('fx');
       if (!canvas || prefersReduced) return; // Respect reduced motion
+      const C = FX_CONFIGS[FX_PRESET];
+      canvas.style.setProperty('--fx-opacity', C.canvasOpacity);
 
       const ctx = canvas.getContext('2d');
       let dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
-      let w, h, points, linesThreshold, count;
+      let w, h, points, baseThreshold, count;
+      let boostUntil = 0;
+      let last = 0;
 
       function resize(){
         const rect = canvas.getBoundingClientRect();
@@ -334,44 +365,50 @@
         canvas.height = Math.floor(h * dpr);
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-        // Density: ~1 point per 22x22px, capped
-        const target = Math.min(220, Math.floor((w*h) / (22*22)));
+        const target = Math.min(C.maxPoints, Math.floor((w*h) / C.pointArea));
         count = target;
-        linesThreshold = Math.max(70, Math.min(160, Math.sqrt(w*w + h*h) / 9)); // connect distance
+        baseThreshold = Math.max(60, Math.min(160, Math.sqrt(w*w + h*h) / C.connectDiv));
         points = new Array(count).fill(0).map(() => ({
           x: Math.random()*w,
           y: Math.random()*h,
-          vx: (Math.random()*0.8 - 0.4),  // more active velocity
-          vy: (Math.random()*0.8 - 0.4),
-          r: Math.random()*1.8 + 0.6,
+          vx: (Math.random()*2*C.v - C.v),
+          vy: (Math.random()*2*C.v - C.v),
+          r: Math.random()*(C.radiusMax - C.radiusMin) + C.radiusMin,
           pulse: Math.random()*2000
         }));
       }
 
+      window.addEventListener('resize', resize);
+      window.addEventListener('mousemove', () => { boostUntil = performance.now() + C.interactionBoost.durationMs; });
+
       function step(t){
+        if (t - last < 22) { requestAnimationFrame(step); return; } // ~45fps throttle
+        last = t;
+
+        const boosted = t < boostUntil;
+        const vMul = boosted ? C.interactionBoost.vMul : 1;
+        const threshold = boosted ? baseThreshold / C.interactionBoost.radiusDiv : baseThreshold;
+
         ctx.clearRect(0,0,w,h);
 
-        // Draw connections
         for (let i=0;i<count;i++){
           const p = points[i];
-          p.x += p.vx; p.y += p.vy;
+          p.x += p.vx * vMul; p.y += p.vy * vMul;
           if (p.x < -20) p.x = w+20; if (p.x > w+20) p.x = -20;
           if (p.y < -20) p.y = h+20; if (p.y > h+20) p.y = -20;
 
-          // dot
-          const glow = 0.25 + 0.25*Math.sin((t + p.pulse)/500);
+          const glow = C.glowBase + C.glowAmp * Math.sin((t + p.pulse)/500);
           ctx.beginPath();
           ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
-          ctx.fillStyle = `rgba(15,240,252,${0.35+glow*0.3})`;
+          ctx.fillStyle = `rgba(15,240,252,${glow})`;
           ctx.fill();
 
-          // connections to nearby
           for (let j=i+1;j<count;j++){
             const q = points[j];
             const dx = p.x - q.x, dy = p.y - q.y;
             const dist = Math.hypot(dx, dy);
-            if (dist < linesThreshold){
-              const a = 0.2 * (1 - dist/linesThreshold);
+            if (dist < threshold){
+              const a = C.lineAlphaBase * (1 - dist/threshold);
               ctx.strokeStyle = `rgba(15,240,252,${a})`;
               ctx.lineWidth = 1;
               ctx.beginPath();
@@ -384,7 +421,6 @@
         requestAnimationFrame(step);
       }
 
-      window.addEventListener('resize', resize);
       resize();
       requestAnimationFrame(step);
     })();
