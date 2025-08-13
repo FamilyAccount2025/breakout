@@ -17,7 +17,7 @@
       --radius:16px; --shadow:0 10px 28px rgba(0,0,0,.35);
       --container:1040px;
       --space-lg:clamp(36px,6vw,64px);
-      --space-md:clamp(26px,4.5vw,42px); /* tighter feature spacing */
+      --space-md:clamp(26px,4.5vw,42px);
       --space-sm:clamp(16px,3vw,28px);
       --btn-pad-y:12px; --btn-pad-x:18px; --btn-font:16px;
     }
@@ -52,8 +52,6 @@
     .hero{padding:var(--space-lg) 0 var(--space-sm);}
     .hero h1{font-size:clamp(36px,5vw,62px);line-height:1.03;margin:0 0 10px;text-transform:uppercase;letter-spacing:1.1px}
     .hero p.sub{font-size:clamp(16px,2.1vw,21px);color:var(--muted);max-width:44ch;margin:0 0 var(--space-sm)}
-    .br-desktop{display:none}
-    @media (min-width: 1000px){ .br-desktop{display:block} }
 
     section{padding:var(--space-md) 0}
     .panel{
@@ -65,7 +63,6 @@
     h2{font-size:clamp(22px,3vw,30px);margin:0 0 8px}
     p{margin:0 0 10px}
 
-    /* Timeline */
     .timeline{display:grid;gap:14px;margin-top:8px;grid-template-columns:1fr}
     @media (min-width:720px){ .timeline{grid-template-columns:repeat(3,1fr)} }
     .step{padding:14px;border-radius:12px;border:1px dashed var(--border);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01))}
@@ -73,12 +70,10 @@
     .title{font-weight:800;margin-top:6px}
     .body{color:var(--muted);margin-top:6px}
 
-    /* Fact */
     .fact{border:1px solid var(--border);border-radius:var(--radius);padding:clamp(16px,2.6vw,24px);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));box-shadow:var(--shadow)}
 
     footer{padding:var(--space-md) 0 var(--space-lg); color:var(--muted-2); font-size:14px; text-align:center}
 
-    /* Modal */
     .modal-backdrop{position:fixed;inset:0;display:none;background:rgba(4,6,14,.6);backdrop-filter:blur(6px);z-index:20}
     .modal-backdrop.open{display:grid;place-items:center}
     .modal{width:min(92vw,700px);background:var(--card);color:var(--text);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);padding:clamp(18px,3vw,26px)}
@@ -112,8 +107,7 @@
       <div class="container">
         <h1>ARTIFICIAL INTELLIGENCE</h1>
         <p class="sub">
-          Unlock the transformative power of AI, generative technology,<br class="br-desktop">
-          and intelligent agents.
+          Unlock the transformative power of AI, generative technology, and intelligent agents.
         </p>
         <div class="actions">
           <button class="btn btn-primary" data-open-modal="contact" aria-haspopup="dialog" aria-controls="contact-modal">Let’s Connect</button>
@@ -128,12 +122,12 @@
         <div class="panel">
           <div class="kicker">Shared Vision</div>
           <h2>Connect. Explore. Build.</h2>
-          <p>Exploring practical AI use cases with like‑minded professionals</p>
+          <p>Exploring practical AI use cases with like‑minded hobbyists</p>
         </div>
       </div>
     </section>
 
-    <!-- AI VISION (and subsequent features use the same tighter spacing) -->
+    <!-- AI VISION -->
     <section>
       <div class="container">
         <div class="panel">
@@ -167,7 +161,7 @@
       <div class="container">
         <article class="fact" aria-labelledby="fact-title">
           <h3 id="fact-title">Did you know?</h3>
-          <p>Organizations that experiment broadly with AI — across multiple teams and workflows — tend to discover outsized gains in productivity, creativity, and speed to insight.</p>
+          <p>AI isn’t just the future—it’s today’s most powerful tool for creativity, connection, and turning bold ideas into reality.</p>
         </article>
       </div>
     </section>
@@ -180,7 +174,7 @@
           <div>
             <div class="kicker">Let’s Talk</div>
             <h2>Start the conversation</h2>
-            <p>Whether you’re experimenting, building, or just curious, I’d love to connect.</p>
+            <p>Whether you’re experimenting, building, or just tinkering, I’d love to connect.</p>
           </div>
           <div>
             <button class="btn btn-primary" data-open-modal="contact" aria-haspopup="dialog" aria-controls="contact-modal">Start the Conversation</button>
@@ -224,11 +218,6 @@
           <button type="submit" class="btn btn-primary">Send</button>
         </div>
       </form>
-      <noscript>
-        <p class="muted">JavaScript is required for the form. Email me instead:
-          <a href="mailto:chris@chrisgoff.com?subject=AI%20Conversation">chris@chrisgoff.com</a>.
-        </p>
-      </noscript>
     </div>
   </div>
 
@@ -237,7 +226,6 @@
     const EMAIL_TO="chris@chrisgoff.com";
     $("#year").textContent=new Date().getFullYear();
 
-    // Modal + focus trap
     const modalBackdrop=$("#contact-modal");const openers=$$("[data-open-modal='contact']");const closers=$$("[data-close-modal='contact']");let lastFocused=null;
     function focusables(root){return $$("button,[href],input,textarea,select,[tabindex]:not([tabindex='-1'])",root).filter(el=>!el.hasAttribute("disabled")&&!el.getAttribute("aria-hidden"))}
     function openModal(){lastFocused=document.activeElement;modalBackdrop.classList.add("open");modalBackdrop.removeAttribute("aria-hidden");const f=focusables(modalBackdrop);if(f.length)f[0].focus();document.addEventListener("keydown",onKey)}
@@ -245,7 +233,6 @@
     function onKey(e){if(e.key==="Escape")closeModal();if(e.key==="Tab"){const f=focusables(modalBackdrop);if(!f.length)return;const i=f.indexOf(document.activeElement);if(e.shiftKey){if(i<=0){f[f.length-1].focus();e.preventDefault()}}else{if(i===f.length-1){f[0].focus();e.preventDefault()}}}}
     openers.forEach(b=>b.addEventListener("click",openModal));closers.forEach(b=>b.addEventListener("click",closeModal));modalBackdrop.addEventListener("click",e=>{if(e.target===modalBackdrop)closeModal()});
 
-    // Form validation + mailto
     $("#contact-form").addEventListener("submit",e=>{
       e.preventDefault();["name","email","message"].forEach(id=>$("#err-"+id).textContent="");
       const name=$("#name").value.trim(),email=$("#email").value.trim(),message=$("#message").value.trim();
