@@ -18,8 +18,7 @@
       --radius:16px; --shadow:0 10px 28px rgba(0,0,0,.35);
       --container:1040px;
       --space-lg:clamp(36px,6vw,64px);
-      /* reduced ~30% from earlier rhythm */
-      --space-md:clamp(18px,3.2vw,29px);
+      --space-md:clamp(18px,3.2vw,29px);  /* ~30% tighter */
       --space-sm:clamp(12px,2.2vw,20px);
       --btn-pad-y:12px; --btn-pad-x:18px; --btn-font:16px;
     }
@@ -50,9 +49,12 @@
     .btn-primary:hover{filter:brightness(1.08);box-shadow:0 10px 26px rgba(255,154,60,.35)}
 
     /* Hero */
-    .hero{padding:var(--space-lg) 0 var(--space-sm);}
-    .hero h1{font-size:clamp(36px,5vw,62px);line-height:1.03;margin:0 0 10px;text-transform:uppercase;letter-spacing:1.1px}
-    .hero p.sub{font-size:clamp(16px,2.1vw,21px);color:var(--muted);max-width:44ch;margin:0 0 var(--space-sm)}
+    .hero{position:relative; padding:var(--space-lg) 0 var(--space-sm); overflow:hidden;}
+    .hero h1{font-size:clamp(36px,5vw,62px);line-height:1.03;margin:0 0 10px;text-transform:uppercase;letter-spacing:1.1px; position:relative; z-index:1;}
+    .hero p.sub{font-size:clamp(16px,2.1vw,21px);color:var(--muted);max-width:44ch;margin:0 0 var(--space-sm); position:relative; z-index:1;}
+    .hero .actions{position:relative; z-index:1;}
+    /* Canvas layer */
+    #fx{position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; opacity:.9;}
 
     /* Sections */
     section{padding:var(--space-md) 0}
@@ -106,6 +108,7 @@
   <main>
     <!-- HERO -->
     <section class="hero">
+      <canvas id="fx" aria-hidden="true"></canvas>
       <div class="container">
         <h1>ARTIFICIAL INTELLIGENCE</h1>
         <p class="sub">Unlock the transformative power of AI, generative technology, and intelligent agents.</p>
@@ -224,7 +227,6 @@
   <script>
     const FORM_ENDPOINT = "https://formspree.io/f/xpwlbkzw";
     const EMAIL_TO = "chris@chrisgoff.com";
-
     document.getElementById('year').textContent = new Date().getFullYear();
 
     // Modal open/close
@@ -233,29 +235,41 @@
     const modalBackdrop = document.getElementById("contact-modal");
     openers.forEach(btn => btn.addEventListener("click", () => modalBackdrop.classList.add("open")));
     closers.forEach(btn => btn.addEventListener("click", () => modalBackdrop.classList.remove("open")));
-    modalBackdrop.addEventListener("click", function(e){ if(e.target === modalBackdrop) modalBackdrop.classList.remove("open"); });
+    modalBackdrop.addEventListener("click", (e) => { if(e.target === modalBackdrop) modalBackdrop.classList.remove("open"); });
 
-    // Submit with fetch -> success message in-modal; fallback to mailto on failure
+    // Form submit via fetch with in-modal success; mailto fallback on error
     const form = document.getElementById("contact-form");
-    form.addEventListener("submit", async function(e){
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
       ["name","email","message"].forEach(id => document.getElementById("err-"+id).textContent = "");
-      const name = document.getElementById("name").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const message = document.getElementById("message").value.trim();
-      let ok = true;
-      if(!name){ document.getElementById("err-name").textContent = "Please enter your name."; ok = false; }
-      if(!email || !/^([^\\s@]+)@([^\\s@]+)\\.([^\\s@]+)$/.test(email)){ document.getElementById("err-email").textContent = "Please enter a valid email."; ok = false; }
-      if(!message){ document.getElementById("err-message").textContent = "Please enter a message."; ok = false; }
-      if(!ok){ return; }
 
-      try{
+      const nameEl = document.getElementById("name");
+      const emailEl = document.getElementById("email");
+      const msgEl = document.getElementById("message");
+
+      const name = nameEl.value.trim();
+      const email = emailEl.value.trim();
+      const message = msgEl.value.trim();
+
+      let ok = true;
+      if (!name) { document.getElementById("err-name").textContent = "Please enter your name."; ok = false; }
+
+      // Use native HTML5 email validation for robustness
+      if (!emailEl.checkValidity()) {
+        document.getElementById("err-email").textContent = "Please enter a valid email address.";
+        ok = false;
+      }
+
+      if (!message) { document.getElementById("err-message").textContent = "Please enter a message."; ok = false; }
+      if (!ok) return;
+
+      try {
         const res = await fetch(FORM_ENDPOINT, {
-          method:"POST",
-          headers:{ "Accept":"application/json", "Content-Type":"application/json" },
+          method: "POST",
+          headers: { "Accept": "application/json", "Content-Type": "application/json" },
           body: JSON.stringify({ name, email, message })
         });
-        if(res.ok){
+        if (res.ok) {
           const modal = document.querySelector(".modal");
           modal.innerHTML = `
             <header style="border-bottom:1px solid var(--border); padding-bottom:10px; margin-bottom:10px;">
@@ -267,16 +281,90 @@
             </div>`;
           document.getElementById("close-after-submit").addEventListener("click", () => modalBackdrop.classList.remove("open"));
         } else {
+          // Fallback: open a mailto compose so user can still reach you
           const subject = encodeURIComponent("AI Conversation — ChrisGoff.com");
-          const body = encodeURIComponent(`Name: ${name}\\nEmail: ${email}\\n\\nMessage:\\n${message}\\n\\n— Sent from ChrisGoff.com`);
+          const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n\n— Sent from ChrisGoff.com`);
           window.location.href = `mailto:${EMAIL_TO}?subject=${subject}&body=${body}`;
         }
-      } catch(err){
+      } catch (err) {
         const subject = encodeURIComponent("AI Conversation — ChrisGoff.com");
-        const body = encodeURIComponent(`Name: ${name}\\nEmail: ${email}\\n\\nMessage:\\n${message}\\n\\n— Sent from ChrisGoff.com`);
+        const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n\n— Sent from ChrisGoff.com`);
         window.location.href = `mailto:${EMAIL_TO}?subject=${subject}&body=${body}`;
       }
     });
+
+    // ===== Hero Canvas Animation (denser & more active) =====
+    (function(){
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const canvas = document.getElementById('fx');
+      if (!canvas || prefersReduced) return; // Respect reduced motion
+
+      const ctx = canvas.getContext('2d');
+      let dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+      let w, h, points, linesThreshold, count;
+
+      function resize(){
+        const rect = canvas.getBoundingClientRect();
+        w = Math.floor(rect.width);
+        h = Math.floor(rect.height);
+        canvas.width = Math.floor(w * dpr);
+        canvas.height = Math.floor(h * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        // Density: ~1 point per 22x22px, capped
+        const target = Math.min(220, Math.floor((w*h) / (22*22)));
+        count = target;
+        linesThreshold = Math.max(70, Math.min(160, Math.sqrt(w*w + h*h) / 9)); // connect distance
+        points = new Array(count).fill(0).map(() => ({
+          x: Math.random()*w,
+          y: Math.random()*h,
+          vx: (Math.random()*0.8 - 0.4),  // more active velocity
+          vy: (Math.random()*0.8 - 0.4),
+          r: Math.random()*1.8 + 0.6,
+          pulse: Math.random()*2000
+        }));
+      }
+
+      function step(t){
+        ctx.clearRect(0,0,w,h);
+
+        // Draw connections
+        for (let i=0;i<count;i++){
+          const p = points[i];
+          p.x += p.vx; p.y += p.vy;
+          if (p.x < -20) p.x = w+20; if (p.x > w+20) p.x = -20;
+          if (p.y < -20) p.y = h+20; if (p.y > h+20) p.y = -20;
+
+          // dot
+          const glow = 0.25 + 0.25*Math.sin((t + p.pulse)/500);
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+          ctx.fillStyle = `rgba(15,240,252,${0.35+glow*0.3})`;
+          ctx.fill();
+
+          // connections to nearby
+          for (let j=i+1;j<count;j++){
+            const q = points[j];
+            const dx = p.x - q.x, dy = p.y - q.y;
+            const dist = Math.hypot(dx, dy);
+            if (dist < linesThreshold){
+              const a = 0.2 * (1 - dist/linesThreshold);
+              ctx.strokeStyle = `rgba(15,240,252,${a})`;
+              ctx.lineWidth = 1;
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(q.x, q.y);
+              ctx.stroke();
+            }
+          }
+        }
+        requestAnimationFrame(step);
+      }
+
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(step);
+    })();
   </script>
 </body>
 </html>
