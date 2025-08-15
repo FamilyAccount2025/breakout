@@ -5,13 +5,15 @@
   <title>Chris Goff — Artificial Intelligence</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Unlock the transformative power of AI, generative technology, and intelligent agents. Connect with like-minded professionals to explore practical, real-world AI use cases." />
-  <meta name="color-scheme" content="dark" />
+  <meta name="color-scheme" content="dark light" />
   <meta name="theme-color" content="#0A0F1F" />
   <link rel="canonical" href="https://www.chrisgoff.com/" />
 
   <style>
+    /* ===== Base + Theme Variables ===== */
     :root{
-      --bg:#0A0F1F; --text:#F5F7FA; --muted:#B9C3D1; --muted-2:#93A0B2;
+      --bg:#0A0F1F; --bg-grad-1:rgba(15,240,252,.06); --bg-grad-2:rgba(255,154,60,.05);
+      --text:#F5F7FA; --muted:#B9C3D1; --muted-2:#93A0B2;
       --cyan:#0FF0FC; --border:#1A2542; --focus:#8EEBFF;
       --cta-1:#FF5E57; --cta-2:#FF9A3C;
       --card:#0E152B; --card-2:#0C1326;
@@ -21,80 +23,97 @@
       --space-md:clamp(18px,3.2vw,29px);  /* ~30% tighter */
       --space-sm:clamp(12px,2.2vw,20px);
       --btn-pad-y:12px; --btn-pad-x:18px; --btn-font:16px;
+      /* Canvas */
+      --fx-opacity:.6; --fx-mix:normal;
     }
+    /* Light theme overrides */
+    :root[data-theme="light"]{
+      --bg:#F7FAFF; --bg-grad-1:rgba(6,182,212,.10); --bg-grad-2:rgba(255,179,92,.10);
+      --text:#0B1220; --muted:#5A6573; --muted-2:#7A8698;
+      --cyan:#06B6D4; --border:#E2E8F0; --focus:#3DD9F0;
+      --cta-1:#FF6A5B; --cta-2:#FFB35C;
+      --card:#FFFFFF; --card-2:#FAFCFF;
+      --shadow:0 10px 28px rgba(15,23,42,.08);
+      --fx-opacity:.5; --fx-mix:multiply;
+    }
+
     *{box-sizing:border-box} html,body{height:100%}
     body{
       margin:0;
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
       background:
-        radial-gradient(1200px 800px at 70% -10%,rgba(15,240,252,.06),transparent 60%),
-        radial-gradient(800px 600px at 10% 10%,rgba(255,154,60,.05),transparent 60%),
+        radial-gradient(1200px 800px at 70% -10%,var(--bg-grad-1),transparent 60%),
+        radial-gradient(800px 600px at 10% 10%,var(--bg-grad-2),transparent 60%),
         var(--bg);
       color:var(--text); line-height:1.55;
       -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+      transition: background-color .25s ease, color .25s ease;
     }
     a{color:var(--cyan);text-decoration:none} a:hover{text-decoration:underline}
     .container{width:min(92vw,var(--container));margin:0 auto}
 
     /* Header */
     header{position:sticky;top:0;z-index:5;background:linear-gradient(to bottom,rgba(10,15,31,.85),rgba(10,15,31,.35),transparent);backdrop-filter:blur(6px)}
+    :root[data-theme="light"] header{background:linear-gradient(to bottom,rgba(247,250,255,.95),rgba(247,250,255,.65),transparent); border-bottom:1px solid rgba(226,232,240,.6)}
     .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
     .brand{display:inline-flex;gap:12px;align-items:center;font-weight:700;letter-spacing:.5px}
     .brand-badge{width:26px;height:26px;border-radius:50%;background:conic-gradient(from 120deg,var(--cta-1),var(--cta-2));box-shadow:0 0 16px rgba(255,154,60,.35), inset 0 0 18px rgba(255,255,255,.22)}
-
-    .btn{display:inline-flex;align-items:center;justify-content:center;padding:var(--btn-pad-y) var(--btn-pad-x);border-radius:999px;font-weight:700;font-size:var(--btn-font);line-height:1;cursor:pointer;user-select:none;text-decoration:none}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:var(--btn-pad-y) var(--btn-pad-x);border-radius:999px;font-weight:700;font-size:var(--btn-font);line-height:1;cursor:pointer;user-select:none;text-decoration:none;transition: box-shadow .2s ease, transform .15s ease}
     .btn-outline{border:1px solid var(--border);color:var(--text);background:transparent}
-    .btn-outline:hover{border-color:var(--cyan)}
+    :root[data-theme="light"] .btn-outline{background:#fff}
+    .btn-outline:hover{border-color:var(--cyan); box-shadow:0 8px 18px rgba(15,23,42,.08); transform:translateY(-1px)}
     .btn-primary{border:none;color:#0B0B0B;background:linear-gradient(90deg,var(--cta-1),var(--cta-2));box-shadow:0 8px 22px rgba(255,154,60,.25)}
     .btn-primary:hover{filter:brightness(1.08);box-shadow:0 10px 26px rgba(255,154,60,.35)}
 
     /* Hero */
     .hero{position:relative; padding:var(--space-lg) 0 var(--space-sm); overflow:hidden;}
     .hero h1{font-size:clamp(36px,5vw,62px);line-height:1.03;margin:0 0 10px;text-transform:uppercase;letter-spacing:1.1px; position:relative; z-index:1;}
-    .hero p.sub{font-size:clamp(16px,2.1vw,21px);color:var(--muted);max-width:44ch;margin:0 0 var(--space-sm); position:relative; z-index:1;}
+    .hero p.sub{font-size:clamp(16px,2.1vw,21px);color:var(--muted);max-width:48ch;margin:0 0 var(--space-sm); position:relative; z-index:1;}
     .hero .actions{position:relative; z-index:1;}
-    /* Canvas layer (opacity set via JS var) */
-    #fx{position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; opacity:var(--fx-opacity,.6);}
+    #fx{position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; opacity:var(--fx-opacity,.6); mix-blend-mode:var(--fx-mix,normal); transition:opacity .25s ease}
 
     /* Sections */
     section{padding:var(--space-md) 0}
     .panel{background:linear-gradient(180deg,rgba(255,255,255,.032),rgba(255,255,255,.012));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(16px,2.6vw,24px)}
+    :root[data-theme="light"] .panel{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.85))}
     .kicker{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--muted-2);margin-bottom:8px}
     h2{font-size:clamp(22px,3vw,30px);margin:0 0 8px}
     p{margin:0 0 10px}
 
-    /* Shared Vision layout with pills */
+    /* Shared Vision pills */
     .sv-grid{display:grid; gap:14px; grid-template-columns:1fr;}
     @media (min-width:880px){ .sv-grid{grid-template-columns:1.4fr auto; align-items:center;} }
     .pill-group{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-start;}
     @media (min-width:880px){ .pill-group{justify-content:flex-end;} }
-    .pill{
-      display:inline-flex; align-items:center; gap:10px;
-      padding:10px 16px; border-radius:999px;
-      border:1px solid var(--border); color:var(--text); text-decoration:none;
-      background:rgba(255,255,255,0.02);
-      box-shadow: inset 0 -1px 0 rgba(255,255,255,0.04);
-      transition: border-color .2s ease, box-shadow .2s ease, transform .15s ease, background .2s ease;
-    }
-    .pill:hover{ border-color:var(--cyan); box-shadow:0 6px 16px rgba(15,240,252,0.18), inset 0 -1px 0 rgba(255,255,255,0.06); background:rgba(255,255,255,0.04); transform: translateY(-1px); }
-    .pill .dot{ width:8px; height:8px; border-radius:50%; background:var(--cyan); box-shadow:0 0 8px rgba(15,240,252,.7); }
+    .pill{display:inline-flex; align-items:center; gap:10px; padding:10px 16px; border-radius:999px; border:1px solid var(--border); color:var(--text); text-decoration:none; background:rgba(255,255,255,0.02); box-shadow: inset 0 -1px 0 rgba(255,255,255,0.04); transition: border-color .2s ease, box-shadow .2s ease, transform .15s ease, background .2s ease}
+    :root[data-theme="light"] .pill{background:#fff; box-shadow: inset 0 -1px 0 rgba(15,23,42,0.04)}
+    .pill:hover{ border-color:var(--cyan); box-shadow:0 6px 16px rgba(15,240,252,0.18), inset 0 -1px 0 rgba(255,255,255,0.06); background:rgba(255,255,255,0.04); transform: translateY(-1px) }
+    :root[data-theme="light"] .pill:hover{ box-shadow:0 6px 16px rgba(2,132,199,0.15); background:#F0FBFF }
+    .pill .dot{ width:8px; height:8px; border-radius:50%; background:var(--cyan); box-shadow:0 0 8px color-mix(in srgb, var(--cyan) 60%, transparent) }
 
+    /* Timeline */
     .timeline{display:grid;gap:12px;margin-top:6px;grid-template-columns:1fr}
     @media (min-width:720px){ .timeline{grid-template-columns:repeat(3,1fr)} }
     .step{padding:14px;border-radius:12px;border:1px dashed var(--border);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01))}
+    :root[data-theme="light"] .step{background:linear-gradient(180deg,rgba(255,255,255,.88),rgba(255,255,255,.76))}
     .label{color:var(--muted-2);font-size:12px;text-transform:uppercase;letter-spacing:1.4px}
     .title{font-weight:800;margin-top:6px}
     .body{color:var(--muted);margin-top:6px}
 
+    /* Fact */
     .fact{border:1px solid var(--border);border-radius:var(--radius);padding:clamp(14px,2.2vw,20px);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));box-shadow:var(--shadow)}
+    :root[data-theme="light"] .fact{background:linear-gradient(180deg,#fff,rgba(255,255,255,.96))}
 
+    /* CTA grid */
     .cta-grid{display:grid;gap:12px;align-items:center;grid-template-columns:1fr}
     @media (min-width:880px){ .cta-grid{grid-template-columns:1.4fr auto} }
 
+    /* Footer */
     footer{padding:var(--space-md) 0 var(--space-lg); color:var(--muted-2); font-size:14px; text-align:center}
 
     /* Modal */
     .modal-backdrop{position:fixed;inset:0;display:none;background:rgba(4,6,14,.6);backdrop-filter:blur(6px);z-index:20}
+    :root[data-theme="light"] .modal-backdrop{background:rgba(9,12,18,.35)}
     .modal-backdrop.open{display:grid;place-items:center}
     .modal{width:min(92vw,700px);background:var(--card);color:var(--text);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);padding:clamp(18px,3vw,26px)}
     .modal header{position:relative;padding:0 0 10px;margin-bottom:10px;border-bottom:1px solid var(--border)}
@@ -103,7 +122,8 @@
     .field{display:grid;gap:8px;margin-bottom:12px}
     label{font-size:14px;color:var(--muted-2)}
     input,textarea{width:100%;border-radius:10px;border:1px solid var(--border);background:var(--card-2);color:var(--text);padding:12px 12px;font:inherit;outline:none}
-    input:focus,textarea:focus{border-color:var(--focus);box-shadow:0 0 0 3px rgba(142,235,255,.2)}
+    input:focus,textarea:focus{border-color:var(--focus);box-shadow:0 0 0 3px color-mix(in srgb, var(--focus) 35%, transparent)}
+    :root[data-theme="light"] input,:root[data-theme="light"] textarea{background:#fff}
     textarea{min-height:120px;resize:vertical}
     .form-row{display:grid;gap:12px;grid-template-columns:1fr}
     @media (min-width:680px){.form-row{grid-template-columns:1fr 1fr}}
@@ -117,7 +137,8 @@
         <span class="brand-badge" aria-hidden="true"></span>
         <span>Chris Goff</span>
       </div>
-      <button class="btn btn-outline" data-open-modal="contact">Let’s Connect</button>
+      <!-- Theme Toggle replaces header contact button -->
+      <button id="themeToggle" class="btn btn-outline" type="button" aria-pressed="false" title="Toggle theme">🌙 Dark</button>
     </div>
   </header>
 
@@ -259,6 +280,26 @@
     const EMAIL_TO = "chris@chrisgoff.com";
     document.getElementById('year').textContent = new Date().getFullYear();
 
+    /* ===== Theme bootstrapping ===== */
+    const root = document.documentElement;
+    const storedTheme = localStorage.getItem('cg-theme');
+    const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    let theme = storedTheme || (systemDark ? 'dark' : 'light');
+    function applyTheme(t){
+      theme = t;
+      root.setAttribute('data-theme', t);
+      localStorage.setItem('cg-theme', t);
+      const toggle = document.getElementById('themeToggle');
+      if(toggle){
+        if(t === 'dark'){ toggle.textContent = '🌙 Dark'; toggle.setAttribute('aria-pressed','true'); }
+        else { toggle.textContent = '☀️ Light'; toggle.setAttribute('aria-pressed','false'); }
+      }
+      // Update animation palette
+      if(window.fxSetTheme) window.fxSetTheme(t);
+    }
+    applyTheme(theme);
+    document.getElementById('themeToggle').addEventListener('click', ()=> applyTheme(theme === 'dark' ? 'light' : 'dark'));
+
     // Modal open/close
     const openers = document.querySelectorAll("[data-open-modal='contact']");
     const closers = document.querySelectorAll("[data-close-modal='contact']");
@@ -316,30 +357,21 @@
       }
     });
 
-    // ====== Animation presets (subtle by default) ======
-    const FX_PRESET = "subtle"; // "subtle" | "lively"
+    /* ====== Animation configs per theme (subtle, with interaction boost) ====== */
     const FX_CONFIGS = {
-      subtle: {
-        canvasOpacity: 0.6,
-        pointArea: 26 * 26,
-        maxPoints: 200,
-        v: 0.35,
-        radiusMin: 0.5, radiusMax: 1.3,
-        connectDiv: 11,
-        lineAlphaBase: 0.144,
-        glowBase: 0.336, glowAmp: 0.216,
-        interactionBoost: { vMul: 1.6, radiusDiv: 0.85, durationMs: 3000 }
+      dark: {
+        canvasOpacity: .6, color: [15,240,252],
+        pointArea: 26*26, maxPoints: 200, v: .35,
+        rMin: .5, rMax: 1.4, connectDiv: 11,
+        lineAlpha: .144, glowBase: .336, glowAmp: .216, // ~20% brightened
+        boost: { vMul: 1.6, radiusDiv: .85, ms: 3000 }
       },
-      lively: {
-        canvasOpacity: 0.9,
-        pointArea: 22 * 22,
-        maxPoints: 220,
-        v: 0.8,
-        radiusMin: 0.6, radiusMax: 1.8,
-        connectDiv: 9,
-        lineAlphaBase: 0.20,
-        glowBase: 0.35, glowAmp: 0.25,
-        interactionBoost: { vMul: 1.9, radiusDiv: 0.8, durationMs: 3500 }
+      light: {
+        canvasOpacity: .5, color: [6,182,212],
+        pointArea: 28*28, maxPoints: 180, v: .32,
+        rMin: .6, rMax: 1.4, connectDiv: 12,
+        lineAlpha: .15, glowBase: .22, glowAmp: .16,
+        boost: { vMul: 1.6, radiusDiv: .85, ms: 3000 }
       }
     };
 
@@ -347,15 +379,17 @@
     (function(){
       const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const canvas = document.getElementById('fx');
-      if (!canvas || prefersReduced) return; // Respect reduced motion
-      const C = FX_CONFIGS[FX_PRESET];
-      canvas.style.setProperty('--fx-opacity', C.canvasOpacity);
-
+      if (!canvas || prefersReduced) return;
       const ctx = canvas.getContext('2d');
       let dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
-      let w, h, points, baseThreshold, count;
-      let boostUntil = 0;
-      let last = 0;
+      let w, h, points = [], baseThreshold = 0, count = 0;
+      let boostUntil = 0, last = 0;
+      let C = FX_CONFIGS[theme] || FX_CONFIGS.dark;
+
+      function useTheme(t){
+        C = FX_CONFIGS[t] || FX_CONFIGS.dark;
+        canvas.style.setProperty('--fx-opacity', C.canvasOpacity);
+      }
 
       function resize(){
         const rect = canvas.getBoundingClientRect();
@@ -364,31 +398,27 @@
         canvas.width = Math.floor(w * dpr);
         canvas.height = Math.floor(h * dpr);
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-
-        const target = Math.min(C.maxPoints, Math.floor((w*h) / C.pointArea));
+        const target = Math.min(C.maxPoints, Math.floor((w*h)/C.pointArea));
         count = target;
         baseThreshold = Math.max(60, Math.min(160, Math.sqrt(w*w + h*h) / C.connectDiv));
         points = new Array(count).fill(0).map(() => ({
-          x: Math.random()*w,
-          y: Math.random()*h,
+          x: Math.random()*w, y: Math.random()*h,
           vx: (Math.random()*2*C.v - C.v),
           vy: (Math.random()*2*C.v - C.v),
-          r: Math.random()*(C.radiusMax - C.radiusMin) + C.radiusMin,
+          r: Math.random()*(C.rMax - C.rMin) + C.rMin,
           pulse: Math.random()*2000
         }));
       }
 
       window.addEventListener('resize', resize);
-      window.addEventListener('mousemove', () => { boostUntil = performance.now() + C.interactionBoost.durationMs; });
+      window.addEventListener('mousemove', ()=>{ boostUntil = performance.now() + C.boost.ms; });
 
       function step(t){
-        if (t - last < 22) { requestAnimationFrame(step); return; } // ~45fps throttle
+        if (t - last < 22) { requestAnimationFrame(step); return; }
         last = t;
-
         const boosted = t < boostUntil;
-        const vMul = boosted ? C.interactionBoost.vMul : 1;
-        const threshold = boosted ? baseThreshold / C.interactionBoost.radiusDiv : baseThreshold;
-
+        const vMul = boosted ? C.boost.vMul : 1;
+        const threshold = boosted ? baseThreshold / C.boost.radiusDiv : baseThreshold;
         ctx.clearRect(0,0,w,h);
 
         for (let i=0;i<count;i++){
@@ -400,7 +430,7 @@
           const glow = C.glowBase + C.glowAmp * Math.sin((t + p.pulse)/500);
           ctx.beginPath();
           ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
-          ctx.fillStyle = `rgba(15,240,252,${glow})`;
+          ctx.fillStyle = `rgba(${C.color[0]},${C.color[1]},${C.color[2]},${glow})`;
           ctx.fill();
 
           for (let j=i+1;j<count;j++){
@@ -408,8 +438,8 @@
             const dx = p.x - q.x, dy = p.y - q.y;
             const dist = Math.hypot(dx, dy);
             if (dist < threshold){
-              const a = C.lineAlphaBase * (1 - dist/threshold);
-              ctx.strokeStyle = `rgba(15,240,252,${a})`;
+              const a = C.lineAlpha * (1 - dist/threshold);
+              ctx.strokeStyle = `rgba(${C.color[0]},${C.color[1]},${C.color[2]},${a})`;
               ctx.lineWidth = 1;
               ctx.beginPath();
               ctx.moveTo(p.x, p.y);
@@ -421,6 +451,13 @@
         requestAnimationFrame(step);
       }
 
+      // Expose theme setter to outer scope
+      window.fxSetTheme = function(t){
+        useTheme(t);
+        resize();
+      };
+
+      useTheme(theme);
       resize();
       requestAnimationFrame(step);
     })();
