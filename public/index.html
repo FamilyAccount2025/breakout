@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Chris Goff — The Age of Intelligence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Unlock the transformative power of AI, generative technology, and intelligent agents. Connect with like-minded professionals to explore practical, real-world AI use cases." />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0A0F1F" />
+  <link rel="canonical" href="https://www.chrisgoff.com/" />
+
+  <style>
+    /* We'll keep this minimal here for demonstration, focusing on concept montage styling */
+    body { font-family: Arial, sans-serif; background: #0A0F1F; color: white; margin: 0; }
+    header, footer { padding: 1rem; text-align: center; }
+    .hero { padding: 4rem 1rem; text-align: center; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .hero p { font-size: 1.2rem; color: #B9C3D1; }
+
+    section { padding: 2rem 1rem; max-width: 1000px; margin: auto; }
+    .mod-grid { display: grid; gap: 1rem; }
+    @media(min-width: 768px) {
+      .mod-grid { grid-template-columns: 1fr 1fr; align-items: center; }
+    }
+    .media { border-radius: 12px; overflow: hidden; border: 1px solid #1A2542; position: relative; height: 300px; }
+    .concept-montage { position: relative; width: 100%; height: 100%; }
+    .concept-frame {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; font-weight: bold; color: white;
+      transition: opacity 1s ease-in-out;
+    }
+    .frame1 { background: linear-gradient(135deg, #0FF0FC, #0A0F1F); }
+    .frame2 { background: linear-gradient(135deg, #FF9A3C, #0A0F1F); }
+    .frame3 { background: linear-gradient(135deg, #FF5E57, #0A0F1F); }
+    .concept-frame.hidden { opacity: 0; pointer-events: none; }
+
+    footer { font-size: 0.9rem; color: #93A0B2; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Chris Goff</strong>
+  </header>
+
+  <section class="hero">
+    <h1>The Age of Intelligence</h1>
+    <p>Unlock the transformative power of AI, generative technology, and intelligent agents.</p>
+  </section>
+
+  <section>
+    <div class="mod-grid">
+      <div>
+        <h2>From idea to working demo</h2>
+        <p>Quick pilots that show value—copilots, automations, and agent workflows.</p>
+      </div>
+      <div class="media">
+        <div class="concept-montage">
+          <div class="concept-frame frame1">Study Guide App</div>
+          <div class="concept-frame frame2 hidden">AI Chatbot</div>
+          <div class="concept-frame frame3 hidden">Breakout</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Chris Goff. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const frames = document.querySelectorAll('.concept-frame');
+    let current = 0;
+    setInterval(() => {
+      frames[current].classList.add('hidden');
+      current = (current + 1) % frames.length;
+      frames[current].classList.remove('hidden');
+    }, 3000);
+  </script>
+</body>
+</html>
