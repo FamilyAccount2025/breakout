@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF5E87"/>
+      <stop offset="100%" stop-color="#FF9A3C"/>
+    </linearGradient>
+  </defs>
+  <!-- Gradient ring -->
+  <circle cx="50" cy="50" r="46" fill="url(#ring)"/>
+  <circle cx="50" cy="50" r="42" fill="#0A0F1F"/>
+  <!-- Monogram CG -->
+  <!-- C: bold arc on left -->
+  <path d="M67 28
+           A22 22 0 1 0 67 72" fill="none" stroke="#0FF0FC" stroke-width="8" stroke-linecap="round"/>
+  <!-- G: full circle arc with open notch + inner bar -->
+  <path d="M33 50
+           A17 17 0 1 0 67 50
+           M67 50 h-10" fill="none" stroke="#0FF0FC" stroke-width="6" stroke-linecap="round"/>
+  <!-- G vertical notch to make G unmistakable -->
+  <path d="M67 42 v16" stroke="#0FF0FC" stroke-width="4" stroke-linecap="round"/>
+</svg>
