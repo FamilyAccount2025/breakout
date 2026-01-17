@@ -1,64 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Temporary page: keep search engines from indexing it. Remove when going live. -->
-  <meta name="robots" content="noindex, nofollow" />
-  <title>The Age of Intelligence — Coming Soon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chris Goff</title>
+  <meta name="description" content="Chris Goff — Marketing Executive, Growth Strategist, AI Innovator" />
 
-  <!-- Preload the hero image for faster first paint -->
-  <link rel="preload" as="image" href="images/landing-pryamid.webp" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
-  <style>
-    /* --- Basic reset & layout --- */
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0;
-      background: #1b140c;       /* warm tone to match the image edges */
-      display: grid;
-      place-items: center;
-      overflow: hidden;           /* prevents stray scrollbars on mobile */
-    }
-
-    /* A full-viewport frame that centers its content */
-    main {
-      inline-size: 100vw;
-      block-size: 100vh;
-      block-size: 100svh;         /* mobile-safe viewport height */
-      display: grid;
-      place-items: center;
-    }
-
-    /* The image scales to fit while preserving aspect ratio */
-    img.hero {
-      display: block;
-      max-inline-size: 100%;
-      max-block-size: 100%;
-      width: auto;                /* let the browser preserve aspect ratio */
-      height: auto;
-      object-fit: contain;        /* keep entire image visible (no cropping) */
-      object-position: center;
-    }
-
-    /* If you want full-bleed cropping instead, use:
-       img.hero { object-fit: cover; width: 100%; height: 100%; }
-    */
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main>
-    <!-- Put your image at /images/landing.webp or update the path below. -->
-    <!-- Width/height keep the correct aspect ratio and reduce layout shift. -->
-    <img
-      class="hero"
-      src="images/landing-pryamid.webp"
-      width="1536" height="1024"
-      alt="A person stands at a sunset crossroads, with a city to the left and a winding path to the right."
-      fetchpriority="high"
-      decoding="async"
-    />
+  <main class="container">
+    <section class="content">
+      <h1>Chris Goff</h1>
+      <h2>Marketing Executive · Growth Strategist · AI Innovator</h2>
+
+      <p>
+        MBA, Marketing Management.<br />
+        20+ years of corporate experience leading marketing, growth, and strategic
+        initiatives, with a focus on applying emerging technologies — including AI —
+        to drive durable competitive advantage.
+      </p>
+
+      <div class="links">
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="mailto:chris@chrisgoff.com">chris@chrisgoff.com</a>
+      </div>
+    </section>
+
+    <section class="image">
+      <img src="chris-goff-sketch.png" alt="Chris Goff portrait sketch" />
+    </section>
   </main>
 </body>
 </html>
