@@ -32,7 +32,6 @@ body {
   justify-content: space-between;
   gap: 64px;
 
-  /* Subtle entrance motion */
   animation: fadeUp 0.8s ease-out both;
 }
 
@@ -57,7 +56,7 @@ h2 {
   margin: 0;
 }
 
-/* Editorial rule for structure */
+/* Editorial rule */
 .rule {
   width: 48px;
   height: 1px;
@@ -69,11 +68,20 @@ p {
   font-size: 1rem;
   line-height: 1.65;
   color: #374151;
-  margin: 0 0 32px 0;
+  margin: 0 0 20px 0;
+}
+
+/* Thought leadership pull-quote */
+.thought {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #4b5563;
+  max-width: 480px;
+  margin-bottom: 32px;
 }
 
 /* -----------------------------
-   Links (Micro-interactions)
+   Links
 ------------------------------ */
 
 .links {
@@ -124,7 +132,7 @@ p {
   filter: contrast(1.05);
 }
 
-/* Soft vignette lighting */
+/* Soft vignette */
 .image::after {
   content: "";
   position: absolute;
@@ -183,6 +191,11 @@ p {
     font-size: 0.95rem;
   }
 
+  .thought {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .rule {
     margin: 24px auto;
   }
@@ -195,3 +208,4 @@ p {
     max-width: 300px;
   }
 }
+
