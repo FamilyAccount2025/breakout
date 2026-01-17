@@ -1,13 +1,26 @@
+/* -----------------------------
+   Global Reset & Base Styles
+------------------------------ */
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Inter', system-ui, sans-serif;
-  background: #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   color: #1f2933;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f9fafb 100%
+  );
+  -webkit-font-smoothing: antialiased;
 }
+
+/* -----------------------------
+   Layout
+------------------------------ */
 
 .container {
   min-height: 100vh;
@@ -18,31 +31,50 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 64px;
+
+  /* Subtle entrance motion */
+  animation: fadeUp 0.8s ease-out both;
 }
 
 .content {
   max-width: 520px;
 }
 
+/* -----------------------------
+   Typography
+------------------------------ */
+
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 3rem;
-	 margin-bottom: 12px;
+  margin: 0 0 12px 0;
 }
 
 h2 {
   font-size: 1.125rem;
   font-weight: 400;
   color: #4b5563;
-  margin-bottom: 24px;
+  margin: 0;
+}
+
+/* Editorial rule for structure */
+.rule {
+  width: 48px;
+  height: 1px;
+  background: #d1d5db;
+  margin: 24px 0;
 }
 
 p {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.65;
   color: #374151;
-  margin-bottom: 32px;
+  margin: 0 0 32px 0;
 }
+
+/* -----------------------------
+   Links (Micro-interactions)
+------------------------------ */
 
 .links {
   display: flex;
@@ -52,21 +84,78 @@ p {
 .links a {
   font-size: 0.9rem;
   color: #111827;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  text-decoration: none;
+  position: relative;
+}
+
+.links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+.links a:hover::after {
+  transform: scaleX(1);
 }
 
 .links a:hover {
   color: #6b7280;
 }
 
+/* -----------------------------
+   Image Treatment
+------------------------------ */
+
+.image {
+  position: relative;
+}
+
 .image img {
   max-width: 420px;
   width: 100%;
   height: auto;
+  filter: contrast(1.05);
 }
 
-/* Mobile Optimization */
+/* Soft vignette lighting */
+.image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0,0,0,0.04),
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+/* -----------------------------
+   Motion
+------------------------------ */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* -----------------------------
+   Mobile Optimization
+------------------------------ */
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -92,6 +181,10 @@ p {
 
   p {
     font-size: 0.95rem;
+  }
+
+  .rule {
+    margin: 24px auto;
   }
 
   .links {
