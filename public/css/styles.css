@@ -77,6 +77,13 @@ p {
   font-style: italic;
   color: #4b5563;
   max-width: 480px;
+}
+
+/* Current focus signal */
+.focus {
+  font-size: 0.9rem;
+  color: #6b7280;
+  max-width: 480px;
   margin-bottom: 32px;
 }
 
@@ -191,7 +198,8 @@ p {
     font-size: 0.95rem;
   }
 
-  .thought {
+  .thought,
+  .focus {
     margin-left: auto;
     margin-right: auto;
   }
