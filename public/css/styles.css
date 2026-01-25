@@ -19,7 +19,7 @@ body {
 }
 
 /* -----------------------------
-   Layout
+   Layout (Homepage Default)
 ------------------------------ */
 
 .container {
@@ -125,7 +125,7 @@ p {
 }
 
 /* -----------------------------
-   Image Treatment
+   Image Treatment (Homepage)
 ------------------------------ */
 
 .image {
@@ -168,7 +168,7 @@ p {
 }
 
 /* -----------------------------
-   Mobile Optimization
+   Mobile Optimization (Global)
 ------------------------------ */
 
 @media (max-width: 768px) {
@@ -216,13 +216,19 @@ p {
     max-width: 300px;
   }
 }
-/* -----------------------------
+
+/* =========================================================
    Solution Pages (Page 2+)
------------------------------- */
+========================================================= */
 
 .solution {
   align-items: flex-start;
-  padding-top: 64px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.solution-content {
+  padding-top: 12px;
 }
 
 .solution-content h1 {
@@ -231,19 +237,29 @@ p {
 
 .solution-content p {
   max-width: 520px;
+  margin-bottom: 28px;
 }
 
-/* Right-side illustration tuned for concept art */
+/* De-emphasize illustration relative to text */
+.solution-image {
+  padding-top: 24px;
+}
+
 .solution-image img {
-  max-width: 460px;
+  max-width: 420px;
   width: 100%;
   height: auto;
+  opacity: 0.95;
 }
 
-/* Mobile refinement */
+/* -----------------------------
+   Mobile Refinement (Solution)
+------------------------------ */
+
 @media (max-width: 768px) {
   .solution {
     padding-top: 48px;
+    padding-bottom: 48px;
   }
 
   .solution-content h1 {
