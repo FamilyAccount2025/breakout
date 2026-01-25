@@ -1,6 +1,6 @@
-/* -----------------------------
+/* =========================================================
    Global Reset & Base Styles
------------------------------- */
+========================================================= */
 
 * {
   box-sizing: border-box;
@@ -18,9 +18,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* -----------------------------
-   Layout (Homepage Default)
------------------------------- */
+/* =========================================================
+   Core Layout (Homepage + Page 2)
+========================================================= */
 
 .container {
   min-height: 100vh;
@@ -39,9 +39,9 @@ body {
   max-width: 520px;
 }
 
-/* -----------------------------
+/* =========================================================
    Typography
------------------------------- */
+========================================================= */
 
 h1 {
   font-family: 'Libre Baskerville', serif;
@@ -56,7 +56,7 @@ h2 {
   margin: 0;
 }
 
-/* Editorial rule */
+/* Editorial divider */
 .rule {
   width: 48px;
   height: 1px;
@@ -71,7 +71,7 @@ p {
   margin: 0 0 20px 0;
 }
 
-/* Thought leadership pull-quote */
+/* Homepage-only emphasis blocks */
 .thought {
   font-size: 0.95rem;
   font-style: italic;
@@ -79,7 +79,6 @@ p {
   max-width: 480px;
 }
 
-/* Current focus signal */
 .focus {
   font-size: 0.9rem;
   color: #6b7280;
@@ -87,9 +86,9 @@ p {
   margin-bottom: 32px;
 }
 
-/* -----------------------------
+/* =========================================================
    Links
------------------------------- */
+========================================================= */
 
 .links {
   display: flex;
@@ -124,9 +123,9 @@ p {
   color: #6b7280;
 }
 
-/* -----------------------------
-   Image Treatment (Homepage)
------------------------------- */
+/* =========================================================
+   Image Treatment (Shared Role)
+========================================================= */
 
 .image {
   position: relative;
@@ -152,9 +151,9 @@ p {
   pointer-events: none;
 }
 
-/* -----------------------------
+/* =========================================================
    Motion
------------------------------- */
+========================================================= */
 
 @keyframes fadeUp {
   from {
@@ -167,9 +166,31 @@ p {
   }
 }
 
-/* -----------------------------
+/* =========================================================
+   Page 2 (Solution Snapshot)
+   Mirrors homepage layout exactly
+========================================================= */
+
+.page2 {
+  align-items: center;
+}
+
+/* Slightly tighter paragraph rhythm for snapshot reading */
+.page2-content p {
+  margin-bottom: 20px;
+}
+
+/* Concept image behaves like portrait */
+.page2-image img {
+  max-width: 440px; /* subtle emphasis over portrait */
+  width: 100%;
+  height: auto;
+  opacity: 0.95;
+}
+
+/* =========================================================
    Mobile Optimization (Global)
------------------------------- */
+========================================================= */
 
 @media (max-width: 768px) {
   .container {
@@ -215,58 +236,9 @@ p {
   .image img {
     max-width: 300px;
   }
-}
 
-/* =========================================================
-   Solution Pages (Page 2+)
-========================================================= */
-
-.solution {
-  align-items: flex-start;
-  padding-top: 72px;
-  padding-bottom: 72px;
-}
-
-.solution-content {
-  padding-top: 12px;
-}
-
-.solution-content h1 {
-  font-size: 2.4rem;
-}
-
-.solution-content p {
-  max-width: 520px;
-  margin-bottom: 28px;
-}
-
-/* De-emphasize illustration relative to text */
-.solution-image {
-  padding-top: 24px;
-}
-
-.solution-image img {
-  max-width: 420px;
-  width: 100%;
-  height: auto;
-  opacity: 0.95;
-}
-
-/* -----------------------------
-   Mobile Refinement (Solution)
------------------------------- */
-
-@media (max-width: 768px) {
-  .solution {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-
-  .solution-content h1 {
-    font-size: 2rem;
-  }
-
-  .solution-image img {
+  /* Page 2 image mirrors homepage on mobile */
+  .page2-image img {
     max-width: 320px;
   }
 }
