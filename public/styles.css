@@ -216,3 +216,41 @@ p {
     max-width: 300px;
   }
 }
+/* -----------------------------
+   Solution Pages (Page 2+)
+------------------------------ */
+
+.solution {
+  align-items: flex-start;
+  padding-top: 64px;
+}
+
+.solution-content h1 {
+  font-size: 2.4rem;
+}
+
+.solution-content p {
+  max-width: 520px;
+}
+
+/* Right-side illustration tuned for concept art */
+.solution-image img {
+  max-width: 460px;
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile refinement */
+@media (max-width: 768px) {
+  .solution {
+    padding-top: 48px;
+  }
+
+  .solution-content h1 {
+    font-size: 2rem;
+  }
+
+  .solution-image img {
+    max-width: 320px;
+  }
+}
